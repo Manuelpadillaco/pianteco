@@ -1,5 +1,5 @@
 {
-  // * Item Cuidado Pisos
+  // * Item Orquídeas
   "menu-item#1": {
     "props": {
       "blockClass": ["MenuItem", "MenuItem--1"],
@@ -11,13 +11,13 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Cuidado de Pisos",
-        "text": "Cuidado de Pisos"
+        "tagTitle": "Orquídeas",
+        "text": "Orquídeas"
       }
     }
   },
 
-  // * Item Cuidado Cocina
+  // * Item Anturios
   "menu-item#2": {
     "props": {
       "blockClass": ["MenuItem", "MenuItem--2"],
@@ -29,13 +29,13 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Cuidado de la Cocina",
-        "text": "Cuidado de la Cocina"
+        "tagTitle": "Anturios",
+        "text": "Anturios"
       }
     }
   },
 
-  // * Item Cuidado del Hogar
+  // * Item Purificadoras
   "menu-item#3": {
     "props": {
       "blockClass": ["MenuItem", "MenuItem--3"],
@@ -47,13 +47,13 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Cuidado del Hogar",
-        "text": "Cuidado del Hogar"
+        "tagTitle": "Purificadoras",
+        "text": "Purificadoras"
       }
     }
   },
 
-  // * Item Cuidado Ropa
+  // * Item Pachiras
   "menu-item#4": {
     "props": {
       "blockClass": ["MenuItem", "MenuItem--4"],
@@ -65,8 +65,8 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Cuidado de la Ropa",
-        "text": "Cuidado de la Ropa"
+        "tagTitle": "Pachiras",
+        "text": "Pachiras"
       }
     }
   },
@@ -83,18 +83,17 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Cuidado de Calzado",
-        "text": "Cuidado de Calzado"
+        "tagTitle": "Combos Fiori",
+        "text": "Combos Fiori"
       }
     }
   },
 
-  // * Item Marca
+  // * Item Combos
   "menu-item#6": {
     "props": {
       "blockClass": [
         "MenuItem",
-        "MenuItem__Tile",
         "MenuItem--6"
       ],
       "id": "menu-item-6",
@@ -105,18 +104,17 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Marca",
-        "text": "Productos"
+        "tagTitle": "Combos Verdi",
+        "text": "Combos Verdi"
       }
     }
   },
 
-  // * Item Infaltables
+  // * Item Suscripciones Fiori
   "menu-item#7": {
     "props": {
       "blockClass": [
         "MenuItem",
-        "MenuItem__Tile",
         "MenuItem--7"
       ],
       "id": "menu-item-7",
@@ -127,18 +125,17 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Infaltables",
-        "text": "Infaltables"
+        "tagTitle": "Suscripciones Fiori",
+        "text": "Suscripciones Fiori"
       }
     }
   },
 
-  // * Item Beisbol Profesional
+ // * Item Suscripciones Fiori
   "menu-item#8": {
     "props": {
       "blockClass": [
         "MenuItem",
-        "MenuItem__Tile",
         "MenuItem--8"
       ],
       "id": "menu-item-8",
@@ -149,19 +146,19 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Beisbol Profesional",
-        "text": "Beisbol Profesional"
+        "tagTitle": "Suscripciones Verdi",
+        "text": "Suscripciones Verdi"
       }
     }
   },
 
-  // * Item Ofertas
+  // * Item Combos
   "menu-item#9": {
     "props": {
       "blockClass": [
         "MenuItem",
-        "MenuItem__Tile",
-        "MenuItem--9"
+        "MenuItem--9",
+        "MenuItem__Tile"
       ],
       "id": "menu-item-9",
       "type": "custom",
@@ -171,8 +168,74 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
+        "tagTitle": "Combos",
+        "text": "Combos"
+      }
+    }
+  },
+
+  // * Item Suscripciones
+  "menu-item#10": {
+    "props": {
+      "blockClass": [
+        "MenuItem",
+        "MenuItem__Tile",
+        "MenuItem--10"
+      ],
+      "id": "menu-item-10",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Suscripciones",
+        "text": "Suscripciones"
+      }
+    }
+  },
+
+  // * Item Ofertas
+  "menu-item#11": {
+    "props": {
+      "blockClass": [
+        "MenuItem",
+        "MenuItem__Tile",
+        "MenuItem--11"
+      ],
+      "id": "menu-item-11",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
         "tagTitle": "Ofertas",
         "text": "Ofertas"
+      }
+    }
+  },
+
+  // * Item Ocaciones
+  "menu-item#12": {
+    "props": {
+      "blockClass": [
+        "MenuItem",
+        "MenuItem__Tile",
+        "MenuItem--12"
+      ],
+      "id": "menu-item-12",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Ocaciones",
+        "text": "Ocaciones"
       }
     }
   }

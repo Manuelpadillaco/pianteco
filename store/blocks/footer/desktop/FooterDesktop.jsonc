@@ -13,71 +13,79 @@
     "props": {
       "blockClass": ["Footer-Desktop__container"]
     },
+    "children": ["flex-layout.row#FooterDesktop-row-1"]
+  },
+  //row
+  "flex-layout.row#FooterDesktop-row-1": {
+    "props": {
+      "blockClass": ["Footer-Desktop__colum", "Footer-Desktop__colum--1"]
+    },
+    "children": [
+      "flex-layout.row#FooterDesktopLogo", // /footer.jsonc
+      "flex-layout.row#FooterDesktopColums" // /footer.jsonc
+    ]
+  },
+  "flex-layout.row#FooterDesktopColums": {
+    "props": {
+      "blockClass": ["Footer-Desktop_row", "Footer-Desktop_row--1"]
+    },
     "children": [
       "flex-layout.col#FooterDesktop-Column-1",
       "flex-layout.col#FooterDesktop-Column-2",
-      "flex-layout.col#FooterDesktop-Column-3",
-      "flex-layout.col#FooterDesktop-Column-4",
-      "flex-layout.col#FooterDesktop-Column-5"
+      "flex-layout.col#FooterDesktop-Column-5",
+      "flex-layout.col#FooterDesktop-Column-3"
     ]
   },
-
+  "flex-layout.row#FooterDesktopLogo": {
+    "props": {
+      "blockClass": ["Footer-Desktop_row", "Footer-Desktop_row--1"]
+    },
+    "children": [
+      "image#Logo", // /footer.jsonc
+      "flex-layout.col#FooterDesktop-Column-3"
+    ]
+  },
   // * Footer Column 1
   "flex-layout.col#FooterDesktop-Column-1": {
     "props": {
-      "blockClass": [
-        "Footer-Desktop__colum",
-        "Footer-Desktop__colum--1"
-      ]
+      "blockClass": ["Footer-Desktop__colum", "Footer-Desktop__colum--1"]
     },
     "children": [
-      // "rich-text#TitlePromotions", // /footer.jsonc
-      // "rich-text#Promotion1", // /footer.jsonc
-      // "rich-text#Promotion2" // /footer.jsonc
-      "image#Logo" // /footer.jsonc
+      "rich-text#Terms", // /footer.jsonc
+      "rich-text#Shipping", // /footer.jsonc
+      "rich-text#industriaCommerce" // /footer.jsonc
     ]
   },
 
   // * Footer Column 2
   "flex-layout.col#FooterDesktop-Column-2": {
     "props": {
-      "blockClass": [
-        "Footer-Desktop__colum",
-        "Footer-Desktop__colum--2"
-      ]
+      "blockClass": ["Footer-Desktop__colum", "Footer-Desktop__colum--2"]
     },
     "children": [
       "rich-text#TitlePolitics", // /footer.jsonc
-      "rich-text#Terms", // /footer.jsonc
       "rich-text#PrivacyPolitics", // /footer.jsonc
-      "rich-text#Cookies", // /footer.jsonc
-      "rich-text#Corruption" // /footer.jsonc
+      "rich-text#Devolutions", // /footer.jsonc
+      "rich-text#Terms", // /footer.jsonc
+      "rich-text#Shipping", // /footer.jsonc
+      "rich-text#industriaCommerce" // /footer.jsonc
     ]
   },
 
   // * Footer Column 3
   "flex-layout.col#FooterDesktop-Column-3": {
     "props": {
-      "blockClass": [
-        "Footer-Desktop__colum",
-        "Footer-Desktop__colum--3"
-      ]
+      "blockClass": ["Footer-Desktop__colum", "Footer-Desktop__colum--3"]
     },
     "children": [
-      "rich-text#TitleInstitutional", // /footer.jsonc
-      "rich-text#Company", // /footer.jsonc
-      "rich-text#History", // /footer.jsonc
-      "rich-text#Works" // /footer.jsonc
+      "flex-layout.col#FooterSocials" // /footer.jsonc
     ]
   },
 
   // * Footer Column 4
   "flex-layout.col#FooterDesktop-Column-4": {
     "props": {
-      "blockClass": [
-        "Footer-Desktop__colum",
-        "Footer-Desktop__colum--4"
-      ]
+      "blockClass": ["Footer-Desktop__colum", "Footer-Desktop__colum--4"]
     },
     "children": [
       "flex-layout.col#FooterDesktop-Column-4-top",
@@ -119,10 +127,7 @@
   // * Footer Column 5
   "flex-layout.col#FooterDesktop-Column-5": {
     "props": {
-      "blockClass": [
-        "Footer-Desktop__colum",
-        "Footer-Desktop__colum--5"
-      ]
+      "blockClass": ["Footer-Desktop__colum", "Footer-Desktop__colum--5"]
     },
     "children": [
       "flex-layout.col#FooterDesktop-Column-5-top",
@@ -140,8 +145,7 @@
       ]
     },
     "children": [
-      "rich-text#TitlePayments", // /footer.jsonc
-      "image#Payments" // /footer.jsonc
+      "rich-text#TitlePayments" // /footer.jsonc
     ]
   },
   // ! Footer Column 5 - Middle
@@ -154,8 +158,9 @@
       ]
     },
     "children": [
-      "rich-text#TitleSocials", // /footer.jsonc
-      "flex-layout.col#FooterSocials" // /footer.jsonc
+      "flex-layout.col#FooterPagos1",
+      "flex-layout.col#FooterPagos2" // /footer.jsonc
+      // /footer.jsonc
     ]
   },
   // ! Footer Column 5 - Bottom
@@ -221,11 +226,7 @@
   },
   "accepted-payment-methods": {
     "props": {
-      "paymentMethods": [
-        "MasterCard",
-        "Visa",
-        "Diners Club"
-      ]
+      "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
     }
   },
 
@@ -233,6 +234,18 @@
     "children": ["rich-text#footer"],
     "props": {
       "blockClass": "credits"
+    }
+  },
+  "rich-text#OtroEnlace": {
+    "props": {
+      "text": "Otros Enlaces",
+      "blockClass": "footer"
+    }
+  },
+  "rich-text#OtrosEnlaces": {
+    "props": {
+      "text": "Otro Enlace",
+      "blockClass": "footer"
     }
   },
   "rich-text#footer": {

@@ -11,8 +11,12 @@
   }
 }
 
+.headerRowContainer--Header__Container {
+  background-color: rgba(245, 245, 245, 0.8);
+}
+
 .headerRowBackground--Menu-Bottom {
-  background: #fafafa;
+  background: #fafafa00;
   padding-top: 10px;
   padding-bottom: 0;
 }
@@ -34,6 +38,7 @@
 :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
   transition: background 0.3s ease;
   will-change: padding, background;
+  background: rgba(245, 245, 245, 0.6);
 }
 
 /* main header desktop has a bigger padding when not stuck */
@@ -82,7 +87,7 @@
 
 /* stick wrapper with the same color as the desktop/mobile header */
 :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
-  background-color: #f0f0f0;
+  background-color: rgba(245, 245, 245, 0.8);
 }
 
 /* resize the logo for neat effect */

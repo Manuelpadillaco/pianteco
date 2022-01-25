@@ -10,15 +10,15 @@
 .logoImage {
   width: 185px;
 }
-.searchBarContainer
-  :global(.vtex-styleguide-9-x-input) {
-  font-family: 'Urbanist';
+.searchBarContainer :global(.vtex-styleguide-9-x-input) {
+  font-family: "Urbanist";
 }
 /* ------------------------------- */
 /* //* Footer */
 /* ------------------------------- */
 .imageElement--Footer__image {
   transition: 0.3s;
+  width: 50px;
 }
 .imageElement--Footer__image:hover {
   opacity: 1;
@@ -33,7 +33,7 @@
   width: 165px;
 }
 .imageElement--Footer__image--technology {
-  transform: translateY(60%);
+  width: 11rem;
 }
 .imageElementLink--Footer__image--company {
   display: flex;
@@ -100,8 +100,7 @@
 .infoCardCallActionContainer--TopSlide__Item {
   margin-bottom: 40px;
 }
-.infoCardCallActionContainer--TopSlide__Item
-  :global(.vtex-button) {
+.infoCardCallActionContainer--TopSlide__Item :global(.vtex-button) {
   font-family: Urbanist;
   font-size: 20px;
   font-style: normal;
@@ -112,8 +111,7 @@
   border-radius: 51px;
   transition: 0.3s;
 }
-.infoCardCallActionContainer--TopSlide__Item
-  :global(.vtex-button):hover {
+.infoCardCallActionContainer--TopSlide__Item :global(.vtex-button):hover {
   background-color: #000b45;
   border-color: #000b45;
 }
@@ -135,7 +133,7 @@
   width: 100%;
 }
 .infoCardImageContainer--CategorySlide__Item::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -151,20 +149,20 @@
   opacity: 0;
 }
 .infoCardImageContainer--CategorySlide__Item--1::after {
-  background-image: url('https://beisbol.vteximg.com.br/arquivos/cuidado-pisos-icono-home.png');
+  background-image: url("https://beisbol.vteximg.com.br/arquivos/cuidado-pisos-icono-home.png");
 }
 .infoCardImageContainer--CategorySlide__Item--2::after {
-  background-image: url('https://beisbol.vteximg.com.br/arquivos/cuidado-hogar-icono-home.png');
+  background-image: url("https://beisbol.vteximg.com.br/arquivos/cuidado-hogar-icono-home.png");
 }
 .infoCardImageContainer--CategorySlide__Item--3::after {
-  background-image: url('https://beisbol.vteximg.com.br/arquivos/cuidado-ropa-icono-home.png');
+  background-image: url("https://beisbol.vteximg.com.br/arquivos/cuidado-ropa-icono-home.png");
   background-size: contain;
 }
 .infoCardImageContainer--CategorySlide__Item--4::after {
-  background-image: url('https://beisbol.vteximg.com.br/arquivos/cuidado-calzado-icono-home.png');
+  background-image: url("https://beisbol.vteximg.com.br/arquivos/cuidado-calzado-icono-home.png");
 }
 .infoCardImageContainer--CategorySlide__Item--5::after {
-  background-image: url('https://beisbol.vteximg.com.br/arquivos/cuidado-cocina-icono-home.png');
+  background-image: url("https://beisbol.vteximg.com.br/arquivos/cuidado-cocina-icono-home.png");
 }
 .infoCardContainer--CategorySlide__Item:hover
   .infoCardImageContainer--CategorySlide__Item::after {
@@ -174,8 +172,7 @@
   padding: 0;
   width: 100%;
 }
-.infoCardCallActionContainer--CategorySlide__Item
-  :global(.vtex-button) {
+.infoCardCallActionContainer--CategorySlide__Item :global(.vtex-button) {
   display: flex;
   color: #0891d0;
   background-color: transparent;
@@ -193,8 +190,7 @@
   color: #28508c;
   font-weight: 700;
 }
-.infoCardCallActionContainer--CategorySlide__Item
-  :global(.vtex-button__label) {
+.infoCardCallActionContainer--CategorySlide__Item :global(.vtex-button__label) {
   padding: 0;
 }
 .infoCardImage--CategorySlide__Item {
@@ -227,8 +223,7 @@
   font-weight: 700;
   text-align: left;
 }
-.infoCardCallActionContainer--BannerTop__item--1
-  :global(.vtex-button) {
+.infoCardCallActionContainer--BannerTop__item--1 :global(.vtex-button) {
   background-color: transparent;
   border-width: 1px;
   border-radius: 100px;
@@ -239,8 +234,7 @@
   background-color: white;
   border-color: white;
 }*/
-.infoCardCallActionContainer--BannerTop__item--1
-  :global(.vtex-button__label) {
+.infoCardCallActionContainer--BannerTop__item--1 :global(.vtex-button__label) {
   padding: 10px 20px !important;
   color: #28508c;
   font-family: Urbanist;
@@ -264,8 +258,7 @@
   font-weight: 700;
   text-align: left;
 }
-.infoCardCallActionContainer--BannerTop__item--2
-  :global(.vtex-button) {
+.infoCardCallActionContainer--BannerTop__item--2 :global(.vtex-button) {
   background-color: white;
   border-color: white;
   border-width: 1px;
@@ -277,8 +270,7 @@
   background-color: #ededed;
   border-color: #ededed;
 }*/
-.infoCardCallActionContainer--BannerTop__item--2
-  :global(.vtex-button__label) {
+.infoCardCallActionContainer--BannerTop__item--2 :global(.vtex-button__label) {
   padding: 10px 20px !important;
   color: #28508c;
   font-family: Urbanist;
@@ -300,8 +292,7 @@
   align-items: center;
   padding: 15px 0;
 }
-.infoCardCallActionContainer--BannerBottom__item--1
-  :global(.vtex-button) {
+.infoCardCallActionContainer--BannerBottom__item--1 :global(.vtex-button) {
   background-color: #28508c;
   border-width: 1px;
   border-radius: 100px;
@@ -328,10 +319,10 @@
   width: 100%;
 }
 .infoCardContainer--BannerBottom__item--2::before {
-  content: '';
+  content: "";
   width: 40%;
   height: 210px;
-  background-image: url('https://beisbol.vteximg.com.br/arquivos/mobile-imagen-banner-nueva-presentacion.png');
+  background-image: url("https://beisbol.vteximg.com.br/arquivos/mobile-imagen-banner-nueva-presentacion.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -368,7 +359,7 @@
 /* ! Newsletter */
 .newsletter--Newsletter {
   margin-top: 40px;
-  background-image: url('https://beisbol.vteximg.com.br/arquivos/newsletter.png');
+  background-image: url("https://beisbol.vteximg.com.br/arquivos/newsletter.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto;
@@ -389,7 +380,7 @@
   text-align: center;
 }
 .label--Newsletter::before {
-  content: 'Recíbe';
+  content: "Recíbe";
   color: white;
   font-family: Roboto;
   font-size: 20px;
@@ -398,7 +389,7 @@
   text-transform: uppercase;
 }
 .label--Newsletter::after {
-  content: 'En tu primera compra';
+  content: "En tu primera compra";
   color: white;
   font-family: Roboto;
   font-size: 25px;
@@ -421,10 +412,10 @@
 .form--Newsletter .inputGroup {
   padding-top: 0;
   align-items: center;
-    margin-top: 30px;
+  margin-top: 30px;
 }
 .form--Newsletter .inputGroup::before {
-  content: 'Suscríbete a nuestro Newsletter';
+  content: "Suscríbete a nuestro Newsletter";
   margin-bottom: 16px;
   padding-top: 10px;
   font-weight: 400;
@@ -464,33 +455,27 @@
   font-size: 20px;
   font-weight: 100;
 }
-.inputGroup
-  .buttonContainer--Newsletter
-  :global(.vtex-button) {
+.inputGroup .buttonContainer--Newsletter :global(.vtex-button) {
   background-color: #28508c;
   border-width: 1px;
   border-color: #28508c;
   border-radius: 100px;
   transition: 0.3s;
 }
-.inputGroup
-  .buttonContainer--Newsletter
-  :global(.vtex-button):hover {
+.inputGroup .buttonContainer--Newsletter :global(.vtex-button):hover {
   background-color: #183054;
   border-color: #183054;
 }
-.inputGroup
-  .buttonContainer--Newsletter
-  :global(.vtex-button__label) {
-    padding: 8px 35px!important;
-    color: white;
-    font-family: Roboto;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 100;
-    text-align: center;
-    height: 50px;
-    padding: 0;
+.inputGroup .buttonContainer--Newsletter :global(.vtex-button__label) {
+  padding: 8px 35px !important;
+  color: white;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 100;
+  text-align: center;
+  height: 50px;
+  padding: 0;
 }
 .confirmationTitle--Newsletter {
   color: white;
@@ -524,10 +509,10 @@
   text-align: left;
 }
 .productDescriptionTitle {
-    font-size: 20px;
-    margin: 10px 0 10px;
-    font-weight: 100;
-    color: #5791d9;
+  font-size: 20px;
+  margin: 10px 0 10px;
+  font-weight: 100;
+  color: #5791d9;
 }
 .productDescriptionContainer {
   margin-top: 20px;
@@ -581,8 +566,7 @@
   border-radius: 5px;
   box-shadow: 0px 4px 15px 0px #0000001a;
 }
-.shippingContainer
-  :global(.vtex-dropdown__label) {
+.shippingContainer :global(.vtex-dropdown__label) {
   font-family: Urbanist;
   font-style: normal;
   font-weight: 400;
@@ -591,23 +575,19 @@
   text-transform: capitalize;
   color: #8f8f8f;
 }
-.shippingContainer
-  :global(.vtex-dropdown__container) {
+.shippingContainer :global(.vtex-dropdown__container) {
   background-color: white;
-  font-family: 'Urbanist';
+  font-family: "Urbanist";
   border-radius: 100px;
   border: 1px solid #8f8f8f;
 }
-.shippingContainer
-  :global(.vtex-address-form__state) {
+.shippingContainer :global(.vtex-address-form__state) {
   padding-bottom: 15px;
 }
-.shippingContainer
-  :global(.vtex-address-form__city) {
+.shippingContainer :global(.vtex-address-form__city) {
   padding-bottom: 12px;
 }
-.shippingContainer
-  :global(.vtex-dropdown__arrow) {
+.shippingContainer :global(.vtex-dropdown__arrow) {
   color: #8f8f8f;
 }
 .shippingContainer :global(.vtex-button) {
@@ -704,14 +684,14 @@
     margin-left: 0;
   }
   .infoCardHeadline--BannerTop__item--2::after {
-    content: '';
+    content: "";
     position: absolute;
     top: 50%;
     bottom: unset;
     right: -155px;
     width: 260px;
     height: 225px;
-    background-image: url('https://beisbol.vteximg.com.br/arquivos/image banner-mas-aroma-para-tu-economia-mobile.png');
+    background-image: url("https://beisbol.vteximg.com.br/arquivos/image banner-mas-aroma-para-tu-economia-mobile.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -729,39 +709,6 @@
   }
 }
 
-@media (min-width: 800px) {
-  /* ! Top Slider */
-  .infoCardTextContainer--TopSlide__Item::before {
-    width: 150px;
-    height: 225px;
-  }
-
-  /* ! Newsletter */
-  .newsletter--Newsletter {
-    background-size: cover;
-  }
-
-  /* !Footer */
-  .imageElement--Footer__image--company {
-    width: 35%;
-  }
-}
-
-@media (min-width: 900px) {
-  /* ! Top banners */
-  .infoCardContainer--BannerTop__item {
-    width: 100%;
-    height: 100%;
-    background-size: contain !important;
-  }
-  .infoCardTextContainer--BannerTop__item {
-    width: 70%;
-  }
-  .infoCardCallActionContainer--BannerTop__item--2 {
-    margin-bottom: 0;
-  }
-}
-
 @media (min-width: 1200px) {
   /* ! Header */
   .logoContainer--Header-Desktop__Logo {
@@ -774,8 +721,7 @@
     width: 60% !important;
     max-width: 65%;
   }
-  .autoCompleteOuterContainer
-    :global(.vtex-input-prefix__group) {
+  .autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
     color: black;
     font-family: Urbanist;
     font-size: 13px;
@@ -783,24 +729,21 @@
     font-weight: 400;
     text-align: left;
     border-color: #f2f2f2;
-    border-radius: 50px;
+    border-radius: 4px;
+    width: 26rem;
   }
-  .searchBarIcon--search {
-    color: #28508c;
-  }
-
   /* ! Footer */
   .imageElement--Footer__image--development {
     margin-top: 10px;
   }
   .imageElement--Footer__image--technology {
-    margin-top: 12px;
+    margin-top: 22px;
   }
   .imageElementLink--Footer__image--company {
     justify-content: flex-start;
   }
   .imageElement--Footer__image--company {
-    width: 80%;
+    width: 25%;
   }
   .imageElement--Footer__image--payments {
     width: 100%;
@@ -865,7 +808,7 @@
   }
   .infoCardContainer--BannerBottom__item--2::before {
     height: 280px;
-    background-image: url('https://beisbol.vteximg.com.br/arquivos/imagen-banner-nueva-presentacion-desktop.png');
+    background-image: url("https://beisbol.vteximg.com.br/arquivos/imagen-banner-nueva-presentacion-desktop.png");
   }
   .infoCardHeadline--BannerTop__item--2::after {
     right: -45%;
@@ -876,7 +819,7 @@
     padding: 100px 10px;
   }
   .newsletter--Newsletter {
-    background-image: url('https://beisbol.vteximg.com.br/arquivos/newsletter.png');
+    background-image: url("https://beisbol.vteximg.com.br/arquivos0/newsletter.png");
   }
   .inputGroup--Newsletter {
     flex-direction: row;
@@ -908,11 +851,11 @@
     width: 55%;
   }
   .label--Newsletter::after {
-    content: 'En tu primera compra suscríbete a nuestro Newsletter';
+    content: "En tu primera compra suscríbete a nuestro Newsletter";
     text-align: start;
   }
   .form--Newsletter .inputGroup::before {
-    content: '';
+    content: "";
   }
 
   /* ! Product page */
@@ -923,33 +866,6 @@
   /* ! About page */
   .imageElement--About__Image--Text {
     transform: translateX(25px);
-  }
-}
-
-@media (min-width: 1500px) {
-  /* ! Footer */
-  .imageElement--Footer__image--payments {
-    width: 100%;
-  }
-}
-
-@media (min-width: 1700px) {
-  /* ! Footer */
-  .imageElement--Footer__image--company {
-    width: 70%;
-    max-width: 75%;
-  }
-}
-
-@media (max-width: 1199px) {
-  /* ! Footer */
-  .imageElement--Footer__image--technology {
-    filter: none;
-    opacity: 1;
-  }
-  .imageElement--Footer__image--development {
-    filter: none;
-    opacity: 1;
   }
 }
 
@@ -989,15 +905,13 @@
   color: #fff;
 }
 
-.inputGroup
-  :global(.vtex-styleguide-9-x-hideDecorators) {
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
   background-color: transparent;
   color: #fff;
   border: none;
 }
 
-.inputGroup
-  :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
   color: #fff;
   font-size: 16px;
 }
@@ -1017,53 +931,6 @@
 .skuSelectorContainer {
   margin: 1rem 0;
 } */
-
-@media only screen and (min-width: 640px) {
-  .infoCardContainer--info-card-home
-    .infoCardTextContainer {
-    width: 30%;
-  }
-
-  .infoCardContainer--info-card-home
-    .infoCardImageContainer {
-    width: 70%;
-  }
-
-  .imageElement--storePrint {
-    margin-bottom: 0px;
-    max-height: 600px;
-  }
-}
-
-.productImagesContainer--quickview
-  .carouselContainer {
-  justify-content: flex-start;
-}
-
-.productImagesContainer--quickview
-  .productImageTag {
-  object-fit: cover !important;
-}
-
-.productImagesContainer--quickview
-  .carouselGaleryThumbs {
-  display: none;
-}
-
-.productImagesContainer--quickview
-  .carouselGaleryCursor {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-/*
-.productNameContainer {
-  color: #3f3f40;
-  font-weight: bold;
-  font-size: 30px;
-} */
-
-/* Estilos banner secundarios home*/
 
 .infoCardTextContainer--BannerTop__item--1 {
   position: relative;
@@ -1094,4 +961,55 @@
   border: none;
   background-color: transparent;
 }
+.searchBarContainer {
+  width: 3rem !important;
+  border: none;
+}
+.searchBarIcon--search {
+  color: #324545;
+}
 
+@media only screen and (min-width: 640px) {
+  .infoCardContainer--info-card-home .infoCardTextContainer {
+    width: 30%;
+  }
+
+  .infoCardContainer--info-card-home .infoCardImageContainer {
+    width: 70%;
+  }
+
+  .imageElement--storePrint {
+    margin-bottom: 0px;
+    max-height: 600px;
+  }
+
+  .searchBarContainer {
+    width: 27rem !important;
+  }
+}
+
+.productImagesContainer--quickview .carouselContainer {
+  justify-content: flex-start;
+}
+
+.productImagesContainer--quickview .productImageTag {
+  object-fit: cover !important;
+}
+
+.productImagesContainer--quickview .carouselGaleryThumbs {
+  display: none;
+}
+
+.productImagesContainer--quickview .carouselGaleryCursor {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+/*
+.productNameContainer {
+  color: #3f3f40;
+  font-weight: bold;
+  font-size: 30px;
+} */
+
+/* Estilos banner secundarios home*/

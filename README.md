@@ -1,3 +1,3 @@
-# beisbol-tienda
+# Piante tienda
 
-tienda de beisbol colombia
+tienda de piante colombia

@@ -16,7 +16,7 @@
   "rich-text#top-text": {
     "props": {
       "blockClass": ["Header-top-text"],
-      "text": "ENVIÓ GRATIS POR COMPRAS MAYORES DE $$$$. (APLICAN TÉRMINOS Y CONDICIONES)"
+      "text": "Envió gratis por compras superiores a $150.000 - AplicanTyC*"
     }
   }
 }

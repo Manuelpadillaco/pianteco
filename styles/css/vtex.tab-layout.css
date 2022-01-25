@@ -13,7 +13,7 @@
   justify-content: center;
   align-items: center;
   padding-bottom: 15px;
-  border-bottom: 1px solid #28508c80;
+  border-bottom: 1px solid #32454580;
 }
 .listItem--TabItem {
   margin: 0 0 15px;
@@ -35,7 +35,7 @@
 }
 .listItemActive--TabItem
   :global(.vtex-button__label) {
-  color: #28508c;
+  color: #324545;
 }
 .contentContainer--Politics__Content {
   margin: 30px 0 50px;
@@ -50,12 +50,12 @@
   width: 20px;
 }
 .contentContainer--Politics__Content::-webkit-scrollbar-track {
-  background: #28508c80;
+  background: #32454580;
   border-left: 9px solid white;
   border-right: 9px solid white;
 }
 .contentContainer--Politics__Content::-webkit-scrollbar-thumb {
-  background: #28508c;
+  background: #324545;
   border-left: 7px solid white;
   border-right: 7px solid white;
 }
@@ -79,7 +79,7 @@
     padding-right: 40px;
     padding-bottom: 0;
     width: 40%;
-    border-right: 1px solid #28508c80;
+    border-right: 1px solid #32454580;
     border-bottom: 0;
   }
   .contentContainer--Politics__Content {

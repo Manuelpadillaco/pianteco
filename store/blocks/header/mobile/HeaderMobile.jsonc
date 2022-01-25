@@ -16,11 +16,10 @@
       "drawer",
       "logo#mobile",
       "flex-layout.col#spacer",
-      // "locale-switcher",
-      // "login",
-      // TODO: Talk with design to modify the search bar
-      // "search-bar",
-      "minicart.v2"
+      "search-bar#mobile",
+      "minicart.v2",
+      "login"
+
     ],
     "props": {
       "blockClass": "main-header-mobile",
@@ -37,11 +36,10 @@
   "menu#drawer": {
     "children": [
       "disclosure-layout#Category", // ../menu/MenuMobile.jsonc
-      "menu-item#6", // ../menu/menu.jsonc
-      "menu-item#7", // ../menu/menu.jsonc
-      "menu-item#8", // ../menu/menu.jsonc
       "menu-item#9", // ../menu/menu.jsonc
-      "login"
+      "menu-item#10", // ../menu/menu.jsonc
+      "menu-item#12", // ../menu/menu.jsonc
+      "menu-item#11" // ../menu/menu.jsonc
     ],
     "props": {
       "orientation": "vertical"
@@ -53,7 +51,15 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://beisbol.vteximg.com.br/arquivos/logo-beisbol-header.png"
+      "url": "https://epartner.vtexcommercestable.com.br/arquivos/header-piante-logo-piante.png"
+    }
+  }, 
+
+  "search-bar#mobile":{
+    "props": {
+      "blockClass": "search-bar-mobile"
     }
   }
+
+
 }

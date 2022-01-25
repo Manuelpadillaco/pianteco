@@ -1,39 +1,48 @@
 {
   "footer": {
-    "blocks": [
-      "footer-layout.desktop",
-      "footer-layout.mobile"
-    ]
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
   },
 
   // * Promotions section
   // ! Title promotions
   "rich-text#TitlePromotions": {
     "props": {
-      "blockClass": [
-        "FooterTitle",
-        "FooterTitle--promotions"
-      ],
+      "blockClass": ["FooterTitle", "FooterTitle--promotions"],
       "text": "Fechas promocionales"
     }
   },
+
+  "rich-text#Devolutions": {
+    "props": {
+      "blockClass": ["Footer__Text", "Footer__Text--promotion"],
+      "text": "[Política de devoluciones y reembolsos](#)"
+    }
+  },
+
+  "rich-text#Shipping": {
+    "props": {
+      "blockClass": ["Footer__Text", "Footer__Text--promotion"],
+      "text": "[Envío y entrega](#)"
+    }
+  },
+  "rich-text#industriaCommerce": {
+    "props": {
+      "blockClass": ["Footer__Text", "Footer__Text--promotion"],
+      "text": "[Superintendencia de industria y comercio](#)"
+    }
+  },
+
   // ! Promotion text 1
   "rich-text#Promotion1": {
     "props": {
-      "blockClass": [
-        "Footer__Text",
-        "Footer__Text--promotion"
-      ],
+      "blockClass": ["Footer__Text", "Footer__Text--promotion"],
       "text": "[Cyber Days](#)"
     }
   },
   // ! Promotion text 2
   "rich-text#Promotion2": {
     "props": {
-      "blockClass": [
-        "Footer__Text",
-        "Footer__Text--promotion"
-      ],
+      "blockClass": ["Footer__Text", "Footer__Text--promotion"],
       "text": "[Black Friday](#)"
     }
   },
@@ -42,33 +51,64 @@
   // ! Title socials
   "rich-text#TitleSocials": {
     "props": {
-      "blockClass": [
-        "FooterTitle",
-        "FooterTitle--socials"
-      ],
+      "blockClass": ["FooterTitle", "FooterTitle--socials"],
       "text": "Redes sociales"
     }
   },
   // ! Socials images container
   "flex-layout.col#FooterSocials": {
     "props": {
-      "blockClass": ["Footer-Promotional__Images"]
+      "blockClass": ["Footer-social__Images"]
     },
     "children": [
       "image#Facebook",
+      "image#TikTok",
       "image#Instagram",
+      "image#Linkedin",
       "image#Youtube"
-      // "image#Twitter"
+    ]
+  },
+
+  // * Socials section
+  // ! Title socials
+  "rich-text#TitlePagos": {
+    "props": {
+      "blockClass": ["FooterTitle", "FooterTitle--Pagos"],
+      "text": "Redes sociales"
+    }
+  },
+  // ! Socials images container
+  "flex-layout.col#FooterPagos1": {
+    "props": {
+      "blockClass": ["Footer-Promotional__Images"]
+    },
+    "children": [
+      "image#PlayU",
+      "image#Visa",
+      "image#MasterCard",
+      "image#American",
+      "image#Pse",
+      "image#Baloto",
+      "image#MercadoPago"
+    ]
+  },
+  // ! Socials images container
+  "flex-layout.col#FooterPagos2": {
+    "props": {
+      "blockClass": ["Footer-Promotional__Images"]
+    },
+    "children": [
+      "image#Bancolombia",
+      "image#Davivienda",
+      "image#Chase",
+      "image#Paypal"
     ]
   },
   // ! Facebook Icon
   "image#Facebook": {
     "props": {
-      "blockClass": [
-        "Footer__image",
-        "Footer__image--facebook"
-      ],
-      "src": "https://beisbol.vteximg.com.br/arquivos/facebook-icono-footer.png",
+      "blockClass": ["Footer__image", "Footer__image--facebook"],
+      "src": "https://epartner.vtexcommercestable.com.br/arquivos/fb-icon.png",
       "link": {
         "url": "#",
         "label": "Facebook",
@@ -79,11 +119,8 @@
   // ! Instagram Icon
   "image#Instagram": {
     "props": {
-      "blockClass": [
-        "Footer__image",
-        "Footer__image--instagram"
-      ],
-      "src": "https://beisbol.vteximg.com.br/arquivos/instagram-icono-footer.png",
+      "blockClass": ["Footer__image", "Footer__image--instagram"],
+      "src": "https://epartner.vtexcommercestable.com.br/arquivos/ig-icon-piante.png",
       "link": {
         "url": "#",
         "label": "Instagram",
@@ -94,11 +131,8 @@
   // ! Twitter Icon
   "image#Twitter": {
     "props": {
-      "blockClass": [
-        "Footer__image",
-        "Footer__image--Twitter"
-      ],
-      "src": "https://beisbol.vteximg.com.br/arquivos/icon-twitter.png",
+      "blockClass": ["Footer__image", "Footer__image--Twitter"],
+      "src": "https://epartner.vtexcommercestable.com.br/arquivos/",
       "link": {
         "url": "#",
         "label": "Twitter",
@@ -109,11 +143,8 @@
   // ! Youtube Icon
   "image#Youtube": {
     "props": {
-      "blockClass": [
-        "Footer__image",
-        "Footer__image--Youtube"
-      ],
-      "src": "https://beisbol.vteximg.com.br/arquivos/youtube-icono-footer.png",
+      "blockClass": ["Footer__image", "Footer__image--Youtube"],
+      "src": "https://epartner.vtexcommercestable.com.br/arquivos/yt-icon-piante.png",
       "link": {
         "url": "#",
         "label": "Youtube",
@@ -121,47 +152,179 @@
       }
     }
   },
+// ! TikTok Icon
+"image#TikTok": {
+  "props": {
+    "blockClass": ["Footer__image", "Footer__image--facebook"],
+    "src": "https://epartner.vtexcommercestable.com.br/arquivos/tiktok-icon-piante.png",
+    "link": {
+      "url": "#",
+      "label": "Tiktok",
+      "newTab": true
+    }
+  }
+},
 
+// ! Linkedin Icon
+"image#Linkedin": {
+  "props": {
+    "blockClass": ["Footer__image", "Footer__image--facebook"],
+    "src": "https://epartner.vtexcommercestable.com.br/arquivos/linkedin-icon-piante.png",
+    "link": {
+      "url": "#",
+      "label": "Facebook",
+      "newTab": true
+    }
+  }
+},
   // * Payments Section
   // ! Title Payments
   "rich-text#TitlePayments": {
     "props": {
-      "blockClass": [
-        "FooterTitle",
-        "FooterTitle--payments"
-      ],
+      "blockClass": ["FooterTitle", "FooterTitle--payments"],
       "text": "Medios de pago"
     }
   },
   // ! Payments image
   "image#Payments": {
     "props": {
-      "blockClass": [
-        "Footer__image",
-        "Footer__image--payments"
-      ],
+      "blockClass": ["Footer__image", "Footer__image--payments"],
       "src": "https://beisbol.vteximg.com.br/arquivos/medios-pago-footer.png"
     }
   },
-
+  "image#PlayU": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--PayU"],
+      "src": "https://epartner.vtexcommercestable.com.br/arquivos/payuB-logo-piante.png",
+      "link": {
+        "url": "#",
+        "label": "PayU",
+        "newTab": true
+      }
+    }
+  },
+  "image#Visa": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--Visa"],
+      "src": "https://epartner.vtexcommercestable.com.br/arquivos/visaB-logo-piante.png",
+      "link": {
+        "url": "",
+        "label": "Visa",
+        "newTab": true
+      }
+    }
+  },
+  "image#MasterCard": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--MasterCard"],
+      "src": "https://epartner.vtexcommercestable.com.br/arquivos/mastercardB-logo-piante.png",
+      "link": {
+        "url": "#",
+        "label": "MasterCard",
+        "newTab": true
+      }
+    }
+  },
+  "image#American": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--American"],
+      "src": "https://epartner.vtexcommercestable.com.br/arquivos/americanexpressB-logo-piante.png",
+      "link": {
+        "url": "#",
+        "label": "American",
+        "newTab": true
+      }
+    }
+  },
+  "image#Pse": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--Pse"],
+      "src": "https://epartner.vtexcommercestable.com.br/arquivos/pseB-logo-piante.png",
+      "link": {
+        "url": "#",
+        "label": "Pse",
+        "newTab": true
+      }
+    }
+  },
+  "image#Baloto": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--Baloto"],
+      "src": "https://epartner.vtexcommercestable.com.br/arquivos/balotoB-logo.png",
+      "link": {
+        "url": "#",
+        "label": "Baloto",
+        "newTab": true
+      }
+    }
+  },
+  "image#MercadoPago": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--MercadoPago"],
+      "src": "https://epartner.vtexcommercestable.com.br/arquivos/mercadopagoB-logo-piante.png",
+      "link": {
+        "url": "#",
+        "label": "MercadoPago",
+        "newTab": true
+      }
+    }
+  },
+  "image#Bancolombia": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--Bancolombia"],
+      "src": "https://epartner.vtexcommercestable.com.br/arquivos/bancolombiaB-logo-piante.png",
+      "link": {
+        "url": "#",
+        "label": "Bancolombia",
+        "newTab": true
+      }
+    }
+  },
+  "image#Davivienda": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--Davivienda"],
+      "src": "https://epartner.vtexcommercestable.com.br/arquivos/daviviendaB-logo-piante.png",
+      "link": {
+        "url": "#",
+        "label": "Davivienda",
+        "newTab": true
+      }
+    }
+  },
+  "image#Chase": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--Chase"],
+      "src": "https://epartner.vtexcommercestable.com.br/arquivos/chaseB-logo.png",
+      "link": {
+        "url": "#",
+        "label": "Chase",
+        "newTab": true
+      }
+    }
+  },
+  "image#Paypal": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--Paypal"],
+      "src": "https://epartner.vtexcommercestable.com.br/arquivos/americanexpressB-logo-piante.png",
+      "link": {
+        "url": "#",
+        "label": "Paypal",
+        "newTab": true
+      }
+    }
+  },
   // * Development section
   // ! Title Development
   "rich-text#Development": {
     "props": {
-      "blockClass": [
-        "FooterTitle",
-        "FooterTitle--development"
-      ],
+      "blockClass": ["FooterTitle", "FooterTitle--development"],
       "text": "Desarrollado por"
     }
   },
   // ! Development image
   "image#Development": {
     "props": {
-      "blockClass": [
-        "Footer__image",
-        "Footer__image--development"
-      ],
+      "blockClass": ["Footer__image", "Footer__image--development"],
       "src": "https://beisbol.vteximg.com.br/arquivos/epartner-icono-footer.png",
       "link": {
         "url": "https://digitalepartner.com/",
@@ -174,10 +337,7 @@
   // ! Technology image
   "image#Technology": {
     "props": {
-      "blockClass": [
-        "Footer__image",
-        "Footer__image--technology"
-      ],
+      "blockClass": ["Footer__image", "Footer__image--technology"],
       "src": "https://beisbol.vteximg.com.br/arquivos/vtex-icono-footer.png",
       "link": {
         "url": "https://vtex.com/co-es",
@@ -199,50 +359,36 @@
   // ! Title Politics
   "rich-text#TitlePolitics": {
     "props": {
-      "blockClass": [
-        "FooterTitle",
-        "FooterTitle--politics"
-      ],
-      "text": "Políticas"
+      "blockClass": ["FooterTitle", "FooterTitle--politics"],
+      "text": "Nuestras políticas"
     }
   },
-  // ! Terms and conditions
+
+  // ! Devolution and refouns
   "rich-text#Terms": {
     "props": {
-      "blockClass": [
-        "Footer__Text",
-        "Footer__Text--terms"
-      ],
-      "text": "[Términos y condiciones](#)"
+      "blockClass": ["Footer__Text", "Footer__Text--terms"],
+      "text": "[Terminos y condiciones](#)"
     }
   },
   // ! Privacy politics
   "rich-text#PrivacyPolitics": {
     "props": {
-      "blockClass": [
-        "Footer__Text",
-        "Footer__Text--privacy-politics"
-      ],
-      "text": "[Política de Privacidad y \nProtección de Datos](#)"
+      "blockClass": ["Footer__Text", "Footer__Text--privacy-politics"],
+      "text": "[Política de Privacidad ](#)"
     }
   },
   // ! Cookies politics
   "rich-text#Cookies": {
     "props": {
-      "blockClass": [
-        "Footer__Text",
-        "Footer__Text--cookies"
-      ],
+      "blockClass": ["Footer__Text", "Footer__Text--cookies"],
       "text": "[Política de Cookies](#)"
     }
   },
   // ! Anti-Corruption politics
   "rich-text#Corruption": {
     "props": {
-      "blockClass": [
-        "Footer__Text",
-        "Footer__Text--corruption"
-      ],
+      "blockClass": ["Footer__Text", "Footer__Text--corruption"],
       "text": "[Política Anticorrupción](#)"
     }
   },
@@ -251,40 +397,28 @@
   // ! Title Institutional
   "rich-text#TitleInstitutional": {
     "props": {
-      "blockClass": [
-        "FooterTitle",
-        "FooterTitle--institutional"
-      ],
+      "blockClass": ["FooterTitle", "FooterTitle--institutional"],
       "text": "¿Quienes somos?"
     }
   },
   // ! Company
   "rich-text#Company": {
     "props": {
-      "blockClass": [
-        "Footer__Text",
-        "Footer__Text--company"
-      ],
+      "blockClass": ["Footer__Text", "Footer__Text--company"],
       "text": "[Sobre la empresa](#)"
     }
   },
   // ! History
   "rich-text#History": {
     "props": {
-      "blockClass": [
-        "Footer__Text",
-        "Footer__Text--history"
-      ],
+      "blockClass": ["Footer__Text", "Footer__Text--history"],
       "text": "[Historia](#)"
     }
   },
   // ! Works
   "rich-text#Works": {
     "props": {
-      "blockClass": [
-        "Footer__Text",
-        "Footer__Text--works"
-      ],
+      "blockClass": ["Footer__Text", "Footer__Text--works"],
       "text": "[Trabaja con nosotros](#)"
     }
   },
@@ -293,30 +427,21 @@
   // ! Title Client
   "rich-text#TitleClient": {
     "props": {
-      "blockClass": [
-        "FooterTitle",
-        "FooterTitle--client"
-      ],
+      "blockClass": ["FooterTitle", "FooterTitle--client"],
       "text": "Servicio al Cliente"
     }
   },
   // ! Number Client
   "rich-text#NumberClient": {
     "props": {
-      "blockClass": [
-        "Footer__Text",
-        "Footer__Text--number"
-      ],
+      "blockClass": ["Footer__Text", "Footer__Text--number"],
       "text": "[018000 180382](#)"
     }
   },
   // ! Attention Mail
   "rich-text#Mail": {
     "props": {
-      "blockClass": [
-        "Footer__Text",
-        "Footer__Text--mail"
-      ],
+      "blockClass": ["Footer__Text", "Footer__Text--mail"],
       "text": "[servicioalcliente@beisbol.com](mailto:servicioalcliente@beisbol.com)"
     }
   },
@@ -325,40 +450,28 @@
   // ! Title Client
   "rich-text#TitleSupport": {
     "props": {
-      "blockClass": [
-        "FooterTitle",
-        "FooterTitle--support"
-      ],
+      "blockClass": ["FooterTitle", "FooterTitle--support"],
       "text": "Soporte y Servicio"
     }
   },
   // ! Advice
   "rich-text#Advice": {
     "props": {
-      "blockClass": [
-        "Footer__Text",
-        "Footer__Text--advice"
-      ],
+      "blockClass": ["Footer__Text", "Footer__Text--advice"],
       "text": "[Asesoramiento](#)"
     }
   },
   // ! Contact
   "rich-text#Contact": {
     "props": {
-      "blockClass": [
-        "Footer__Text",
-        "Footer__Text--contact"
-      ],
+      "blockClass": ["Footer__Text", "Footer__Text--contact"],
       "text": "[Contáctanos](#)"
     }
   },
   // ! Warranty
   "rich-text#Warranty": {
     "props": {
-      "blockClass": [
-        "Footer__Text",
-        "Footer__Text--warranty"
-      ],
+      "blockClass": ["Footer__Text", "Footer__Text--warranty"],
       "text": "[Política de Garantía](#)"
     }
   },
@@ -367,20 +480,14 @@
   // ! Title Terms
   "rich-text#TitleTerms": {
     "props": {
-      "blockClass": [
-        "FooterTitle",
-        "FooterTitle--terms"
-      ],
+      "blockClass": ["FooterTitle", "FooterTitle--terms"],
       "text": "Términos y condiciones"
     }
   },
   // ! Terms Text
   "rich-text#TermsText": {
     "props": {
-      "blockClass": [
-        "Footer__Text",
-        "Footer__Text--terms-2"
-      ],
+      "blockClass": ["Footer__Text", "Footer__Text--terms-2"],
       "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
     }
   },
@@ -388,11 +495,8 @@
   // ! Company image
   "image#Logo": {
     "props": {
-      "blockClass": [
-        "Footer__image",
-        "Footer__image--company"
-      ],
-      "src": "https://beisbol.vteximg.com.br/arquivos/beisbol-logo-footer.png",
+      "blockClass": ["Footer__image", "Footer__image--company"],
+      "src": "https://epartner.vtexcommercestable.com.br/arquivos/footer-piante-logo-piante.png",
       "link": {
         "url": "/",
         "label": "Beisbol",

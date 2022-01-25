@@ -11,8 +11,7 @@
       "blockClass": "sticky-header"
     },
     "children": [
-      "header-row#Header-1",
-      "header-row#Header-2"
+      "header-row#Header-1"
     ]
   },
 
@@ -31,6 +30,7 @@
     },
     "children": [
       "logo#desktop",
+      "header-row#Header-2",
       "header-spacer",
       "search-bar",
       "login",
@@ -43,7 +43,7 @@
       "blockClass": ["Header-Desktop__Logo"],
       "title": "Logo Beisbol",
       "href": "/",
-      "url": "https://beisbol.vteximg.com.br/arquivos/logo-beisbol-header.png"
+      "url": "https://epartner.vtexcommercestable.com.br/arquivos/header-piante-logo-piante.png"
     }
   },
 
@@ -63,10 +63,10 @@
     },
     "children": [
       "menu-item#CategoryMenu", // ../menu/MenuDesktop.jsonc
-      "menu-item#6", // ../menu/Menu.jsonc
-      "menu-item#7", // ../menu/Menu.jsonc
       "menu-item#9", // ../menu/Menu.jsonc
-      "menu-item#8" // ../menu/Menu.jsonc
+      "menu-item#10", // ../menu/Menu.jsonc
+      "menu-item#12", // ../menu/Menu.jsonc
+      "menu-item#11" // ../menu/Menu.jsonc
     ]
   },
 

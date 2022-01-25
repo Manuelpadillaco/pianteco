@@ -1,8 +1,10 @@
 /* ------------------------------- */
 /* //* Header */
 /* ------------------------------- */
+
+
 .container--Header-top-text {
-  background-color: #28508c;
+  background-color: #324545;
 }
 .wrapper--Header-top-text {
   width: 100%;
@@ -16,7 +18,7 @@
   text-align: center;
 }
 .link--Header-top-text {
-  color: #28508c;
+  color: #324545;
   text-decoration: none;
 }
 .link--Header-top-text:hover {
@@ -28,7 +30,7 @@
 /* ------------------------------- */
 .paragraph--Category__Title {
   margin: 0;
-  color: #28508c;
+  color: #324545;
   font-family: Urbanist;
   font-size: 20px;
   font-weight: 700;
@@ -154,7 +156,7 @@
   align-items: center;
   margin: 25px 0;
   width: 100%;
-  color: #28508c;
+  color: #324545;
   font-family: Urbanist;
   font-size: 13px;
   font-style: normal;
@@ -191,7 +193,7 @@
   align-items: center;
   margin-left: 10px;
   margin-right: 10px;
-  color: #28508c;
+  color: #324545;
   font-family: Urbanist;
   font-size: 25px;
   font-style: normal;
@@ -299,7 +301,7 @@
 .paragraph--About__Title {
   margin: 17px auto 0;
   width: 90%;
-  color: #28508c;
+  color: #324545;
   font-family: Urbanist;
   font-size: 45px;
   font-weight: 700;
@@ -316,7 +318,7 @@
 }
 .headingLevel4--About__Text {
   margin: 17px 0px 0;
-  color: #28508c;
+  color: #324545;
   font-family: Urbanist;
   font-size: 22px;
   font-weight: 700;
@@ -339,7 +341,7 @@
   .container--About__Text--Text {
   padding: 40px;
   width: 85%;
-  background-color: #28508c;
+  background-color: #324545;
   border-radius: 10px;
   transform: translateY(-50px);
 }
@@ -361,7 +363,7 @@
   padding: 15px;
   width: 100%;
   color: white;
-  background-color: #28508c;
+  background-color: #324545;
   border-radius: 100px;
   text-decoration: none;
   font-family: Urbanist;

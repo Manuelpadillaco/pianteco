@@ -27,7 +27,7 @@
   "rich-text#Category": {
     "props": {
       "blockClass": ["Category__Title"],
-      "text": "Categoria"
+      "text": "Categorías"
     }
   },
 
@@ -44,7 +44,10 @@
       "menu-item#2", // ../menu.jsonc
       "menu-item#3", // ../menu.jsonc
       "menu-item#4", // ../menu.jsonc
-      "menu-item#5" // ../menu.jsonc
+      "menu-item#5", // ../menu.jsonc
+      "menu-item#6", // ../menu.jsonc
+      "menu-item#7",// ../menu.jsonc
+      "menu-item#8"// ../menu.jsonc
     ]
   }
 }

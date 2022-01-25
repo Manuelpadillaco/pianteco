@@ -12,13 +12,7 @@
   text-transform: capitalize;
   font-size: 0;
 }
-.label::after {
-  content: "Login";
-  font-size: 15px;
-  color: #0891D0;
-}
 .buttonLink :global(.vtex-button) {
-  border: 1px solid #28508c;
   border-radius: 100px;
 }
 .buttonLink :global(.vtex-button__label) {
@@ -58,14 +52,14 @@
   font-size: 19px;
   font-weight: 700;
   color: #28508c;
-  content: 'Escoge una opción para iniciar sesión';
+  content: "Escoge una opción para iniciar sesión";
 }
 .emailVerification .formTitle::before {
   font-family: Urbanist;
   font-size: 19px;
   font-weight: 700;
   color: #28508c;
-  content: 'Iniciar sesión con eMail y contraseña';
+  content: "Iniciar sesión con eMail y contraseña";
 }
 .eyeIcon--invisible {
   color: #28508c;
@@ -97,27 +91,23 @@
   border: 0;
   border-radius: 100px;
 }
-.accessCodeOptionBtn
-  :global(.vtex-button__label) {
+.accessCodeOptionBtn :global(.vtex-button__label) {
   font-size: 0;
 }
-.accessCodeOptionBtn
-  :global(.vtex-button__label)::before {
+.accessCodeOptionBtn :global(.vtex-button__label)::before {
   font-family: Urbanist;
   font-size: 15px;
   font-weight: 400;
   color: #28508c;
-  content: 'Recibir codigo de acceso por email';
+  content: "Recibir codigo de acceso por email";
   text-transform: none;
 }
-.inputContainer
-  :global(.vtex-input-prefix__group) {
+.inputContainer :global(.vtex-input-prefix__group) {
   border: 0;
   background-color: #f8f8f8;
   border-radius: 100px;
 }
-.inputContainer
-  :global(.vtex-styleguide-9-x-input) {
+.inputContainer :global(.vtex-styleguide-9-x-input) {
   font-family: Urbanist;
   font-size: 16px;
   font-weight: 400;
@@ -129,9 +119,7 @@
   border-radius: 100px;
   padding: 6px;
 }
-.sendButton
-  :global(.vtex-button__label)
-  :global(.t-small) {
+.sendButton :global(.vtex-button__label) :global(.t-small) {
   font-family: Urbanist;
   font-size: 18px;
   font-weight: 600;
@@ -143,14 +131,21 @@
   border: 0;
   border-radius: 100px;
 }
-.emailPasswordOptionBtn
-  :global(.vtex-button__label) {
+.emailPasswordOptionBtn :global(.vtex-button__label) {
   font-family: Urbanist;
   font-size: 17px;
   font-style: normal;
   color: #28508c;
 }
-
+.container :global(.vtex-button__label)::before {
+  content: "";
+  margin-right: 12px;
+  width: 25px;
+  height: 25px;
+  background-image: url("https://epartner.vtexcommercestable.com.br/arquivos/user-icon-piante.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
 /* //? Medias Query */
 /* ------------------------------- */
 @media (min-width: 1200px) {
@@ -160,18 +155,8 @@
     font-weight: 400;
     text-align: center;
   }
-  .container
-    :global(.vtex-button__label)::before {
-    content: '';
-    margin-right: 12px;
-    width: 25px;
-    height: 25px;
-    background-image: url('https://beisbol.vteximg.com.br/arquivos/icono-usuario-header.png');
-    background-size: 100%;
-    background-repeat: no-repeat;
-  }
+
   :global(.vtex-login-2-x-profile) {
-    color: #0891d0;
     font-weight: 500;
   }
   .content--emailAndPassword {
@@ -179,6 +164,9 @@
     align-items: flex-start;
     padding: 3rem 10px 10rem;
     max-width: 55rem;
+  }
+  .container::before {
+    content: "|";
   }
 }
 /* ------------------------------- */
