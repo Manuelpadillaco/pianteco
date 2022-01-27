@@ -51,6 +51,12 @@
   .sliderTrackContainer--CategorySlide__Container {
     margin: 0 100px;
   }
+  .sliderTrack--CategorySlide__Container
+    .slide--CategorySlide__Container:nth-child(odd) {
+      align-self: flex-end;
+      margin-top: 5rem;
+  }
+
   .sliderLeftArrow--CategorySlide__Container {
     left: 100px;
   }
@@ -67,7 +73,6 @@
   .sliderRightArrow--Shelf__Slider {
     right: 80px;
   }
-
 }
 
 /* ------------------------------- */
@@ -98,9 +103,6 @@
   padding-right: 0.5rem;
 }
 
-
-
-
 /*AJUSTE BANNERS SIN BOTON*/
 .sliderLayoutContainer--Mobile-Banner {
   display: none;
@@ -109,13 +111,13 @@
   display: block;
 }
 .sliderArrows--Desktop-Banner {
-  TOP: 45%;
+  top: 45%;
 }
 @media (max-width: 900px) {
   .sliderLayoutContainer--Mobile-Banner {
     display: block;
   }
-.sliderLayoutContainer--Desktop-Banner {
-  display: none;
-}
+  .sliderLayoutContainer--Desktop-Banner {
+    display: none;
+  }
 }

@@ -34,9 +34,7 @@
       "infinite": true
     },
     "children": [
-      "image#TopSlide-Mobile-item-1",
-      "image#TopSlide-Mobile-item-2",
-      "image#TopSlide-Mobile-item-3"
+      "image#TopSlide-Mobile-item-1"
     ]
   },
 
@@ -51,8 +49,8 @@
       "id": "TopSlide-item-1",
       "isFullModeStyle": true,
       "textPosition": "left",
-      "imageUrl": "https://beisbol.vteximg.com.br/arquivos/banner-home-deks-1.jpg",
-      "mobileImageUrl": "https://beisbol.vteximg.com.br/arquivos/banner-home-mobile-1.jpg",
+      "imageUrl": "https://pianteco.vtexassets.com/arquivos/orquideas-desk-piante.png",
+      "mobileImageUrl": "https://pianteco.vtexassets.com/arquivos/banner-mobile-v1-piante.png",
       "headline": "Nuevo producto",
       "subhead": "Suavidad y fragancia",
       "callToActionText": "Comprar Ya", 
@@ -71,7 +69,7 @@
       "id": "TopSlide-item-2",
       "isFullModeStyle": true,
       "textPosition": "left",
-      "imageUrl": "https://beisbol.vteximg.com.br/arquivos/banner-home-deks-2.jpg",
+      "imageUrl": "https://pianteco.vtexassets.com/arquivos/orquideas-desk-piante.png",
       "mobileImageUrl": "https://beisbol.vteximg.com.br/arquivos/banner-home-mobile-2.jpg",
       "headline": "Suavidad y fragancia",
       "subhead": "Nuevo producto",
@@ -89,7 +87,7 @@
       "id": "TopSlide-item-2",
       "isFullModeStyle": true,
       "textPosition": "left",
-      "imageUrl": "https://beisbol.vteximg.com.br/arquivos/banner-home-deks-3.jpg",
+      "imageUrl": "https://pianteco.vtexassets.com/arquivos/orquideas-desk-piante.png",
       "mobileImageUrl": "https://beisbol.vteximg.com.br/arquivos/banner-home-mobile-3.jpg",
       "callToActionUrl": "#",
       "callToActionMode": "link",
@@ -101,7 +99,7 @@
 //--------BANNERS SIN BOTON
   "image#TopSlide-Desk-item-1": {
     "props": {
-      "src": "https://beisbol.vteximg.com.br/arquivos/banner-home-deks-1.jpg",
+      "src": "https://pianteco.vtexassets.com/arquivos/banner-desk-v1-piante.png",
       "link": {"url":"/casa"},
       "blockClass": [
         "TopSlide__Item",
@@ -111,7 +109,7 @@
   },
   "image#TopSlide-Desk-item-2": {
     "props": {
-      "src": "https://beisbol.vteximg.com.br/arquivos/banner-home-deks-2.jpg",
+      "src": "https://pianteco.vtexassets.com/arquivos/banner-desk-v1-piante.png",
       "link": {"url":"/casa"},
       "blockClass": [
         "TopSlide__Item",
@@ -121,7 +119,7 @@
   },
   "image#TopSlide-Desk-item-3": {
     "props": {
-      "src": "https://beisbol.vteximg.com.br/arquivos/banner-home-deks-3.jpg",
+      "src": "https://pianteco.vtexassets.com/arquivos/banner-desk-v1-piante.png",
       "link": {"url":"/casa"},
       "blockClass": [
         "TopSlide__Item",
@@ -133,7 +131,7 @@
 
   "image#TopSlide-Mobile-item-1": {
     "props": {
-      "src": "https://beisbol.vteximg.com.br/arquivos/banner-home-mobile-1.jpg",
+      "src": "https://pianteco.vtexassets.com/arquivos/banner-desk-v1-piante.png",
       "link": {"url":"/"},
       "blockClass": [
         "TopSlide__Item",

@@ -17,7 +17,7 @@
 }
 .buttonLink :global(.vtex-button__label) {
   justify-content: flex-start;
-  padding: 15px 20px !important;
+  padding: 0;
 }
 .container :global(.relative) {
   width: 100%;
@@ -35,7 +35,6 @@
   font-size: 15px;
   font-weight: 700;
 }
-
 /* ------------------------------- */
 /* //* Login Page  */
 /* ------------------------------- */
@@ -140,8 +139,8 @@
 .container :global(.vtex-button__label)::before {
   content: "";
   margin-right: 12px;
-  width: 25px;
-  height: 25px;
+  width: 33px;
+  height: 34px;
   background-image: url("https://epartner.vtexcommercestable.com.br/arquivos/user-icon-piante.png");
   background-size: 100%;
   background-repeat: no-repeat;
@@ -167,6 +166,7 @@
   }
   .container::before {
     content: "|";
+    margin: 0 1rem;
   }
 }
 /* ------------------------------- */

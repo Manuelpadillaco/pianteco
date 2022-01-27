@@ -2,25 +2,34 @@
 /* //? Medias Query */
 /* ------------------------------- */
 @media (min-width: 1200px) {
+  .headerRow--Menu-Bottom {
+    max-width: 63%;
+  }
+  .headerRowContainer--Header__Container {
+    background-color: rgba(245, 245, 245, 0.8);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .headerStickyRow--Menu-Bottom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
   /* ! Header */
   .headerRowContainer--Header__Container {
-    padding: 0 100px;
-  }
-  .headerRowContainer--Header__Container {
-    padding-bottom: 10px;
+    padding: 0 1rem;
   }
 }
-
-.headerRowContainer--Header__Container {
-  background-color: rgba(245, 245, 245, 0.8);
-}
-
 .headerRowBackground--Menu-Bottom {
   background: #fafafa00;
-  padding-top: 10px;
-  padding-bottom: 0;
+  padding: 5px 0;
 }
-
+.headerRowContainer--Header__Container {
+  background-color: rgba(245, 245, 245, 0.8);
+  height: 5rem;
+}
 /* ------------------------------- */
 /* add transitions */
 :global(.vtex-sticky-layout-0-x-container)
@@ -61,8 +70,7 @@
  */
 :global(.vtex-sticky-layout-0-x-wrapper--stuck)
   :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
-  transition: padding 0.3s ease,
-    background 0.3s ease;
+  transition: padding 0.3s ease, background 0.3s ease;
   padding-top: 0;
   padding-bottom: 0;
 }

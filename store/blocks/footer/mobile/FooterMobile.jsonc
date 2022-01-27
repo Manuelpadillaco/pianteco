@@ -3,13 +3,11 @@
   "footer-layout.mobile": {
     "children": [
       "flex-layout.row#CompanyLogo",
-      "flex-layout.row#FooterPaymentMethods",
-      // "flex-layout.row#FooterPromotional",
       "flex-layout.row#FooterGroups",
+      "flex-layout.row#FooterContac",
       "flex-layout.row#FooterSocials",
-      "flex-layout.row#FooterInformation",
-      "flex-layout.row#FooterTerms"
-      // "rich-text#CopyRight" // /footer.jsonc
+      "flex-layout.row#FooterPaymentMethods",
+      "flex-layout.row#FooterInformation"
     ]
   },
 
@@ -35,13 +33,27 @@
     ]
   },
 
+  // ! Info Section
+  "flex-layout.row#FooterContac": {
+    "props": {
+      "blockClass": ["Footer-Contac"]
+    },
+    "children": [
+      "rich-text#TitleContact", // /footer.jsonc
+      "rich-text#TitleMail", // /footer.jsonc
+      "rich-text#Phone1", // /footer.jsonc
+      "rich-text#Phone2", // /footer.jsonc
+      "rich-text#Address" // /footer.jsonc
+    ]
+  },
+
+
   // ! Socials Section
   "flex-layout.row#FooterSocials": {
     "props": {
       "blockClass": ["Footer-Socials"]
     },
     "children": [
-      "rich-text#TitleSocials", // /footer.jsonc
       "flex-layout.col#FooterSocials" // /footer.jsonc
     ]
   },
@@ -65,11 +77,47 @@
   // ! Payments Section
   "flex-layout.row#FooterPaymentMethods": {
     "props": {
-      "blockClass": ["Footer-Payment"]
+      "blockClass": ["Footer-Payment-rows"]
     },
     "children": [
       "rich-text#TitlePayments", // /footer.jsonc
-      "image#Payments" // /footer.jsonc
+      "flex-layout.row#FooterPaymentMethods1",
+      "flex-layout.row#FooterPaymentMethods2",
+      "flex-layout.row#FooterPaymentMethods3"
+
+    ]
+  },
+  "flex-layout.row#FooterPaymentMethods1": {
+    "props": {
+      "blockClass": ["Footer-Payment-row", "Footer-Payment-row1"]
+    },
+    "children": [
+      "image#PlayU",
+      "image#Visa",
+      "image#MasterCard",
+      "image#American"
+    ]
+  },
+  "flex-layout.row#FooterPaymentMethods2": {
+    "props": {
+      "blockClass": ["Footer-Payment-row", "Footer-Payment-row2"]
+    },
+    "children": [
+      "image#Pse",
+      "image#Baloto",
+      "image#MercadoPago",
+      "image#Bancolombia"
+
+    ]
+  },
+  "flex-layout.row#FooterPaymentMethods3": {
+    "props": {
+      "blockClass": ["Footer-Payment-row", "Footer-Payment-row3"]
+    },
+    "children": [
+      "image#Davivienda",
+      "image#Chase",
+      "image#Paypal"
     ]
   },
 
@@ -79,8 +127,8 @@
       "blockClass": ["Footer-development"]
     },
     "children": [
-      "flex-layout.col#FooterInformation--left",
-      "flex-layout.col#FooterInformation--right"
+      "rich-text#Development", // /footer.jsonc
+      "flex-layout.col#FooterInformation--left"
     ]
   },
   // * Section left
@@ -92,8 +140,9 @@
       ]
     },
     "children": [
-      "rich-text#Development", // /footer.jsonc
-      "image#Development" // /footer.jsonc
+      "image#Development", // /footer.jsonc
+      "image#Technology" // /footer.jsonc
+
     ]
   },
   // * Section right

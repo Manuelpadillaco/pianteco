@@ -14,12 +14,12 @@
 }
 .element--ProductShelfHome:hover {
   background-color: white;
-  border-color: #28508c;
+  border-color: white;
   box-shadow: 0px 0px 15px 0px #00000026;
 }
 .element--ProductShelfHome .brandName {
   display: -webkit-box;
-  color: #28508c;
+  color: #363636;
   font-family: Urbanist;
   font-size: 15px;
   font-style: normal;
@@ -32,15 +32,15 @@
 }
 .element--ProductShelfHome :global(.vtex-button) {
   margin-top: 15px;
-  background-color: #28508c;
-  border-color: #28508c;
+  background-color: #324545;
+  border-color: #324545;
   border-radius: 100px;
   transition: 0.3s;
 }
 .element--ProductShelfHome
   :global(.vtex-button):hover {
-  background-color: #183054;
-  border-color: #183054;
+  background-color: #698D6F;
+  border-color: #698D6F;
 }
 .element--ProductShelfHome
   :global(.vtex-button__label) {

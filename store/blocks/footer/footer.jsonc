@@ -194,7 +194,7 @@
   },
   "image#PlayU": {
     "props": {
-      "blockClass": ["Footer__image", "Footer__image--PayU"],
+      "blockClass": ["Footer__imagePayment", "Footer__image--PayU"],
       "src": "https://epartner.vtexcommercestable.com.br/arquivos/payuB-logo-piante.png",
       "link": {
         "url": "#",
@@ -205,10 +205,10 @@
   },
   "image#Visa": {
     "props": {
-      "blockClass": ["Footer__image", "Footer__image--Visa"],
+      "blockClass": ["Footer__imagePayment", "Footer__image--Visa"],
       "src": "https://epartner.vtexcommercestable.com.br/arquivos/visaB-logo-piante.png",
       "link": {
-        "url": "",
+        "url": "#",
         "label": "Visa",
         "newTab": true
       }
@@ -216,7 +216,7 @@
   },
   "image#MasterCard": {
     "props": {
-      "blockClass": ["Footer__image", "Footer__image--MasterCard"],
+      "blockClass": ["Footer__imagePayment", "Footer__image--MasterCard"],
       "src": "https://epartner.vtexcommercestable.com.br/arquivos/mastercardB-logo-piante.png",
       "link": {
         "url": "#",
@@ -227,7 +227,7 @@
   },
   "image#American": {
     "props": {
-      "blockClass": ["Footer__image", "Footer__image--American"],
+      "blockClass": ["Footer__imagePayment", "Footer__image--American"],
       "src": "https://epartner.vtexcommercestable.com.br/arquivos/americanexpressB-logo-piante.png",
       "link": {
         "url": "#",
@@ -238,7 +238,7 @@
   },
   "image#Pse": {
     "props": {
-      "blockClass": ["Footer__image", "Footer__image--Pse"],
+      "blockClass": ["Footer__imagePayment", "Footer__image--Pse"],
       "src": "https://epartner.vtexcommercestable.com.br/arquivos/pseB-logo-piante.png",
       "link": {
         "url": "#",
@@ -249,7 +249,7 @@
   },
   "image#Baloto": {
     "props": {
-      "blockClass": ["Footer__image", "Footer__image--Baloto"],
+      "blockClass": ["Footer__imagePayment", "Footer__image--Baloto"],
       "src": "https://epartner.vtexcommercestable.com.br/arquivos/balotoB-logo.png",
       "link": {
         "url": "#",
@@ -260,7 +260,7 @@
   },
   "image#MercadoPago": {
     "props": {
-      "blockClass": ["Footer__image", "Footer__image--MercadoPago"],
+      "blockClass": ["Footer__imagePayment", "Footer__image--MercadoPago"],
       "src": "https://epartner.vtexcommercestable.com.br/arquivos/mercadopagoB-logo-piante.png",
       "link": {
         "url": "#",
@@ -271,7 +271,7 @@
   },
   "image#Bancolombia": {
     "props": {
-      "blockClass": ["Footer__image", "Footer__image--Bancolombia"],
+      "blockClass": ["Footer__imagePayment", "Footer__image--Bancolombia"],
       "src": "https://epartner.vtexcommercestable.com.br/arquivos/bancolombiaB-logo-piante.png",
       "link": {
         "url": "#",
@@ -282,7 +282,7 @@
   },
   "image#Davivienda": {
     "props": {
-      "blockClass": ["Footer__image", "Footer__image--Davivienda"],
+      "blockClass": ["Footer__imagePayment", "Footer__image--Davivienda"],
       "src": "https://epartner.vtexcommercestable.com.br/arquivos/daviviendaB-logo-piante.png",
       "link": {
         "url": "#",
@@ -293,7 +293,7 @@
   },
   "image#Chase": {
     "props": {
-      "blockClass": ["Footer__image", "Footer__image--Chase"],
+      "blockClass": ["Footer__imagePayment", "Footer__image--Chase"],
       "src": "https://epartner.vtexcommercestable.com.br/arquivos/chaseB-logo.png",
       "link": {
         "url": "#",
@@ -304,8 +304,8 @@
   },
   "image#Paypal": {
     "props": {
-      "blockClass": ["Footer__image", "Footer__image--Paypal"],
-      "src": "https://epartner.vtexcommercestable.com.br/arquivos/americanexpressB-logo-piante.png",
+      "blockClass": ["Footer__imagePayment", "Footer__image--Paypal"],
+      "src": "https://epartner.vtexcommercestable.com.br/arquivos/paypalB-logo-piante.png",
       "link": {
         "url": "#",
         "label": "Paypal",
@@ -338,7 +338,7 @@
   "image#Technology": {
     "props": {
       "blockClass": ["Footer__image", "Footer__image--technology"],
-      "src": "https://beisbol.vteximg.com.br/arquivos/vtex-icono-footer.png",
+      "src": "https://epartner.vtexcommercestable.com.br/arquivos/vtex-logo-piante.png",
       "link": {
         "url": "https://vtex.com/co-es",
         "label": "VTEX",
@@ -346,6 +346,40 @@
       }
     }
   },
+  "rich-text#TitleContact": {
+    "props": {
+      "blockClass": ["FooterTitle", "FooterTitle--contact"],
+      "text": "Contacto"
+    }
+  },
+
+  "rich-text#TitleMail": {
+    "props": {
+      "blockClass": ["Footer__Text", "Footer__Text--mail"],
+      "text": "info@piante.co"
+    }
+  },
+
+  "rich-text#Phone1": {
+    "props": {
+      "blockClass": ["Footer__Text", "Footer__Text--phone"],
+      "text": "+57(1) 346 0700"
+    }
+  },
+  "rich-text#Phone2": {
+    "props": {
+      "blockClass": ["Footer__Text", "Footer__Text--phone"],
+      "text": "+57 317 893 5494"
+    }
+  },
+
+  "rich-text#Address": {
+    "props": {
+      "blockClass": ["Footer__Text", "Footer__Text--phone"],
+      "text": "Cll. 169 # 67-85 Local 24 Conjunto residencial Ikebana, San José de Bavaria, Bogota"
+    }
+  },
+
 
   // * CopyRight Section
   "rich-text#CopyRight": {
@@ -488,14 +522,14 @@
   "rich-text#TermsText": {
     "props": {
       "blockClass": ["Footer__Text", "Footer__Text--terms-2"],
-      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      "text": "© Piante 2022 | Comparte todo lo que sientes"
     }
   },
 
   // ! Company image
   "image#Logo": {
     "props": {
-      "blockClass": ["Footer__image", "Footer__image--company"],
+      "blockClass": ["Footer__imageCO", "Footer__image--company"],
       "src": "https://epartner.vtexcommercestable.com.br/arquivos/footer-piante-logo-piante.png",
       "link": {
         "url": "/",

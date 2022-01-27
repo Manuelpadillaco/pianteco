@@ -2,7 +2,6 @@
 /* //* Header */
 /* ------------------------------- */
 
-
 .container--Header-top-text {
   background-color: #324545;
 }
@@ -40,11 +39,11 @@
   align-items: center;
 }
 .container--Category__Title::after {
-  content: '';
+  content: "";
   margin-left: 10px;
   width: 20px;
   height: 20px;
-  background-image: url('https://beisbol.vteximg.com.br/arquivos/flecha-icono-search.png');
+  background-image: url("https://beisbol.vteximg.com.br/arquivos/flecha-icono-search.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -86,11 +85,11 @@
 .paragraph--FooterTitle--support::after,
 .paragraph--FooterTitle--client::after,
 .paragraph--FooterTitle--terms::after {
-  content: '';
+  content: "";
   width: 20px;
   height: 20px;
   /* TODO: Change icons in footer with white label */
-  background-image: url('https://beisbol.vteximg.com.br/arquivos/flecha-abajo-footer.png');
+  background-image: url("https://beisbol.vteximg.com.br/arquivos/flecha-abajo-footer.png");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -100,16 +99,13 @@
 }
 .paragraph--Footer__Text {
   margin-top: 0;
-   margin-bottom: 6px;
+  margin-bottom: 6px;
   color: white;
   font-family: Urbanist;
   /* font-size: 17px; */
   font-style: normal;
   text-align: left;
   font-weight: 100;
-}
-.paragraph--Footer__Text--terms-2 {
-  font-size: 12px;
 }
 .link--Footer__Text {
   color: white;
@@ -166,7 +162,7 @@
   text-align: left;
 }
 .paragraph--Information__item::before {
-  content: '';
+  content: "";
   margin-right: 5px;
   width: 20px;
   height: 20px;
@@ -174,16 +170,16 @@
   background-repeat: no-repeat;
 }
 .paragraph--Information__item--1::before {
-  background-image: url('https://beisbol.vteximg.com.br/arquivos/icono-garantia de-marca.png');
+  background-image: url("https://beisbol.vteximg.com.br/arquivos/icono-garantia de-marca.png");
 }
 .paragraph--Information__item--2::before {
-  background-image: url('https://beisbol.vteximg.com.br/arquivos/icono-formas-de-pago.png');
+  background-image: url("https://beisbol.vteximg.com.br/arquivos/icono-formas-de-pago.png");
 }
 .paragraph--Information__item--3::before {
-  background-image: url('https://beisbol.vteximg.com.br/arquivos/icono-envios-nacionales.png');
+  background-image: url("https://beisbol.vteximg.com.br/arquivos/icono-envios-nacionales.png");
 }
 .paragraph--Information__item--4::before {
-  background-image: url('https://beisbol.vteximg.com.br/arquivos/icono-compra-garantizada.png');
+  background-image: url("https://beisbol.vteximg.com.br/arquivos/icono-compra-garantizada.png");
 }
 
 /* ! Vitrina 1 */
@@ -201,19 +197,31 @@
   text-align: center;
   text-transform: uppercase;
 }
-.container--Home__Title {
-  justify-content: center;
+.paragraph--Title--destacados-new {
+  margin: 0 7rem;
+  text-transform: uppercase;
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 42px;
+  text-align: center;
+  color: #324545;
 }
-/* .heading--Home__Title::before,
-.heading--Home__Title::after {
-  content: '';
-  background-image: url('https://beisbol.vteximg.com.br/arquivos/burbujas-titulos.png');
-  background-size: 100%;
-  width: 50px;
-  height: 50px;
-  background-repeat: no-repeat;
-  background-position: center;
-} */
+.paragraph--Home__description {
+  margin: 0 7rem;
+  text-transform: uppercase;
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #324545;
+}
+.container--Home__Title{
+  margin: 5rem 0 0 0;
+}
 .heading--Home__Title::before {
   margin-right: 10px;
   transform: rotate(180deg);
@@ -270,11 +278,11 @@
   color: white;
 }
 .wrapper--Politics__Group-Title::after {
-  content: '';
+  content: "";
   width: 25px;
   height: 25px;
   /* TODO: Change store URL resource */
-  background-image: url('https://epartner.vteximg.com.br/arquivos/arrow-icon-politics.png');
+  background-image: url("https://epartner.vteximg.com.br/arquivos/arrow-icon-politics.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -291,7 +299,7 @@
 }
 .container--Politics__Text {
   color: #0891d0;
-  font-family: 'Urbanist';
+  font-family: "Urbanist";
   font-size: 18px;
 }
 
@@ -311,7 +319,7 @@
 .paragraph--About__Text {
   margin-bottom: 0;
   color: #0891d0;
-  font-family: 'Urbanist';
+  font-family: "Urbanist";
   font-weight: 300;
   font-size: 15px;
   line-height: 20px;
@@ -374,20 +382,9 @@
 .paragraph--About__Text--GotToBuy {
   margin-top: 0;
 }
-
-/* ------------------------------- */
-/* //? Medias Query */
-/* ------------------------------- */
-@media (min-width: 640px) {
-  /* ! Home information  */
-  .paragraph--Information__item {
-    margin: 30px 0;
-  }
-
-  /* ! About page  */
-  .wrapper--About__Text--GotToBuy {
-    width: 60%;
-  }
+.paragraph--Footer__Text {
+  display: flex;
+  justify-content: center;
 }
 
 @media (min-width: 1200px) {
@@ -420,6 +417,7 @@
     color: white;
     font-size: 13px;
     text-align: center;
+    background-color: #3a4e4e;
   }
 
   /* ! Home information  */

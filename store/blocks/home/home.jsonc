@@ -5,17 +5,17 @@
     },
     "blocks": [
       "flex-layout.row#TopSlide",
-      // "flex-layout.row#Information",
-      "flex-layout.row#CategorySlide",
       "rich-text#Title-1",
+      "rich-text#Description1",
+      "flex-layout.row#CategorySlide",
+      "rich-text#Title2",
+      "rich-text#Description2",
       "flex-layout.row#Shelf-1",
       "__fold__.experimentalLazyAssets", // ! Lazy Loading /
       "flex-layout.row#Banners",
-      "rich-text#Title-2",
-      "flex-layout.row#Shelf-2",
-      // "flex-layout.row#Banners2",
-      // "rich-text#Title-3",
-      // "flex-layout.row#Shelf-3",
+      "rich-text#Title2",
+      "rich-text#Description2",
+      "flex-layout.row#Shelf-1",
       "newsletter" // ./newsletter.jsonc
     ]
   },
@@ -50,10 +50,39 @@
         "Home__Title",
         "Title--destacados-new"
       ],
-      "text": "## Lo más vendido"
+      "text": "CONOCE NUESTRAS CATEGORIAS"
+    }
+  },
+  "rich-text#Description1": {
+    "props": {
+      "blockClass": [
+        "Home__description",
+        "Description--categories-home"
+      ],
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500"
+    }
+  },
+  
+  // *  Title Destacados - 2
+  "rich-text#Title2": {
+    "props": {
+      "blockClass": [
+        "Home__Title",
+        "Title--destacados-new"
+      ],
+      "text": "departamento temporal"
     }
   },
 
+  "rich-text#Description2": {
+    "props": {
+      "blockClass": [
+        "Home__description",
+        "Description--categories-home"
+      ],
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500"
+    }
+  },
   // * Shelf Destacados - 1
   "flex-layout.row#Shelf-1": {
     "props": {
@@ -131,64 +160,6 @@
     "children": ["flex-layout.col#Shelf-3"]
   },
 
-  // "list-context.image-list#demo": {
-  //   "children": ["slider-layout#demo-images"],
-  //   "props": {
-  //     "height": 720,
-  //     "images": [
-  //       {
-  //         "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
-  //         "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-  //       },
-  //       {
-  //         "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
-  //         "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-  //       }
-  //     ]
-  //   }
-  // },
-  // "slider-layout#demo-images": {
-  //   "props": {
-  //     "itemsPerPage": {
-  //       "desktop": 1,
-  //       "tablet": 1,
-  //       "phone": 1
-  //     },
-  //     "infinite": true,
-  //     "showNavigationArrows": "desktopOnly",
-  //     "blockClass": "carousel"
-  //   }
-  // },
-  // "rich-text#shelf-title": {
-  //   "props": {
-  //     "text": "## Summer",
-  //     "blockClass": "shelfTitle"
-  //   }
-  // },
-  // "flex-layout.row#shelf": {
-  //   "children": [
-  //     "list-context.product-list#demo1"
-  //   ]
-  // },
-  // "list-context.product-list#demo1": {
-  //   "blocks": ["product-summary.shelf"],
-  //   "children": ["slider-layout#demo-products"],
-  //   "props": {
-  //     "orderBy": "OrderByTopSaleDESC"
-  //   }
-  // },
-  // "slider-layout#demo-products": {
-  //   "props": {
-  //     "itemsPerPage": {
-  //       "desktop": 5,
-  //       "tablet": 3,
-  //       "phone": 1
-  //     },
-  //     "infinite": true,
-  //     "fullWidth": false,
-  //     "blockClass": "shelf"
-  //   }
-  // },
 
   "info-card#home": {
     "props": {
@@ -204,17 +175,4 @@
     }
   }
 
-  // "rich-text#question": {
-  //   "props": {
-  //     "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
-  //     "blockClass": "question"
-  //   }
-  // },
-
-  // "rich-text#link": {
-  //   "props": {
-  //     "text": "\n**Reach us at**\nwww.vtex.com.br",
-  //     "blockClass": "link"
-  //   }
-  // }
 }

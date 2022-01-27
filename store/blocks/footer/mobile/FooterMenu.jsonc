@@ -5,88 +5,7 @@
     },
     "children": [
       "disclosure-layout#Politics",
-      "disclosure-layout#Institutional",
-      "disclosure-layout#Attention",
-      "disclosure-layout#Support"
-    ]
-  },
-
-  // * Attention Section
-  "disclosure-layout#Attention": {
-    "props": {
-      "blockClass": [
-        "Disclosure__group",
-        "Disclosure__group--Attention"
-      ]
-    },
-    "children": [
-      "disclosure-trigger#Attention",
-      "disclosure-content#Attention"
-    ]
-  },
-  // ! Attention Title Group
-  "disclosure-trigger#Attention": {
-    "props": {
-      "blockClass": [
-        "Disclosure__Trigger",
-        "Disclosure__Trigger--Attention"
-      ]
-    },
-    "children": [
-      "rich-text#TitleClient" // /footer.jsonc
-    ]
-  },
-  // ! Attention content
-  "disclosure-content#Attention": {
-    "props": {
-      "blockClass": [
-        "Disclosure__content",
-        "Disclosure__content--Attention"
-      ]
-    },
-    "children": [
-      "rich-text#NumberClient", // /footer.jsonc
-      "rich-text#Mail" // /footer.jsonc
-    ]
-  },
-
-  // * Support Section
-  "disclosure-layout#Support": {
-    "props": {
-      "blockClass": [
-        "Disclosure__group",
-        "Disclosure__group--Support"
-      ]
-    },
-    "children": [
-      "disclosure-trigger#Support",
-      "disclosure-content#Support"
-    ]
-  },
-  // ! Support Title Group
-  "disclosure-trigger#Support": {
-    "props": {
-      "blockClass": [
-        "Disclosure__Trigger",
-        "Disclosure__Trigger--Support"
-      ]
-    },
-    "children": [
-      "rich-text#TitleSupport" // /footer.jsonc
-    ]
-  },
-  // ! Support content
-  "disclosure-content#Support": {
-    "props": {
-      "blockClass": [
-        "Disclosure__content",
-        "Disclosure__content--Support"
-      ]
-    },
-    "children": [
-      "rich-text#Advice", // /footer.jsonc
-      "rich-text#Contact", // /footer.jsonc
-      "rich-text#Warranty" // /footer.jsonc
+      "disclosure-layout#otrosEnlaces"
     ]
   },
 
@@ -132,36 +51,36 @@
   },
 
   // * Politics Section
-  "disclosure-layout#Institutional": {
+  "disclosure-layout#otrosEnlaces": {
     "props": {
       "blockClass": [
         "Disclosure__group",
-        "Disclosure__group--Institutional"
+        "Disclosure__group--otrosEnlaces"
       ]
     },
     "children": [
-      "disclosure-trigger#Institutional",
-      "disclosure-content#Institutional"
+      "disclosure-trigger#otrosEnlaces",
+      "disclosure-content#otrosEnlaces"
     ]
   },
-  // ! Institutional Title Group
-  "disclosure-trigger#Institutional": {
+  // ! otrosEnlaces Title Group
+  "disclosure-trigger#otrosEnlaces": {
     "props": {
       "blockClass": [
         "Disclosure__Trigger",
-        "Disclosure__Trigger--Institutional"
+        "Disclosure__Trigger--otrosEnlaces"
       ]
     },
     "children": [
-      "rich-text#TitleInstitutional" // /footer.jsonc
+      "rich-text#OtrosEnlaces" // /footer.jsonc
     ]
   },
-  // ! Institutional content
-  "disclosure-content#Institutional": {
+  // ! otrosEnlaces content
+  "disclosure-content#otrosEnlaces": {
     "props": {
       "blockClass": [
         "Disclosure__content",
-        "Disclosure__content--Institutional"
+        "Disclosure__content--otrosEnlaces"
       ]
     },
     "children": [

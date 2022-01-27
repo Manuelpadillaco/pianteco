@@ -58,10 +58,10 @@
     "white-05": "rgba(255,255,255,.05)",
     "white-025": "rgba(255,255,255,.025)",
     "white-0125": "rgba(255,255,255,.0125)"
-  },
+},
   "semanticColors": {
     "background": {
-      "base": "#ffffff",
+      "base": "#F9FAF5",
       "base--inverted": "#03044e",
       "action-primary": "#0F3E99",
       "action-secondary": "#eef3f7",

@@ -46,6 +46,7 @@
   border-radius: 10px;
   display: flex;
   justify-content: center;
+  margin: 2rem 0 !important;
 }
 .styledLinkContent--MenuItem--11 {
   color: white;
@@ -124,7 +125,7 @@
     margin-right: 4px;
     width: 15px;
     height: 15px;
-    background-image: url(https://epartner.vtexcommercestable.com.br/arquivos/flecha-pabajo-painte.png);
+    background-image: url(https://epartner.vtexcommercestable.com.br/arquivos/flecha-verde2-painte.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -132,6 +133,7 @@
 
   .menuItem--MenuItem__Category--isOpen
     .styledLinkContent--MenuItem__Category::after {
+      background-image: url(https://epartner.vtexcommercestable.com.br/arquivos/flecha-pabajo-painte.png);
     transform: rotate(180deg);
   }
 }
@@ -248,6 +250,8 @@
 .menuContainer--Menu__Group .styledLinkContainer--MenuItem:hover {
   background-color: #324545;
 }
+
+
 .menuContainer--Menu__Group
   .styledLinkContainer--MenuItem:hover
   .styledLinkContent--MenuItem {
