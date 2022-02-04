@@ -9,7 +9,7 @@
   display: none;
 }
 .minicartContainer :global(.vtex-button) {
-  width: 34px;
+  width: 25px;
   height: 34px;
   background-image: url("https://epartner.vtexcommercestable.com.br/arquivos/cart-icon-piante.png");
   background-size: contain;
@@ -22,7 +22,7 @@
 .minicartQuantityBadge {
   top: 50%;
   left: 50%;
-  color: #0891d0;
+  color: #324545;
   background-color: transparent;
   font-family: "Urbanist";
   font-size: 15px;

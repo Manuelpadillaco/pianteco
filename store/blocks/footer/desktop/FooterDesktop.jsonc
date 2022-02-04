@@ -81,8 +81,7 @@
       "rich-text#TitleMail", // /footer.jsonc
       "rich-text#Phone1", // /footer.jsonc
       "rich-text#Phone2", // /footer.jsonc
-      "rich-text#Address", // /footer.jsonc
-      "rich-text#industriaCommerce" // /footer.jsonc
+      "rich-text#Address" // /footer.jsonc
     ]
   },
   // * Footer Column 3

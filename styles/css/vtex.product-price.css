@@ -11,12 +11,12 @@
   text-align: left;
 }
 .sellingPriceValue {
-  margin-top: 10px;
+  font-family: Alegreya;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 41px;
   color: #324545;
-  font-family: Urbanist;
-  font-size: 35px;
-  font-weight: 700;
-  text-align: left;
 }
 /* ------------------------------- */
 /* //* product page */
@@ -25,12 +25,14 @@
   padding: 0;
 }
 .listPriceValue {
-  color: #a7a7a7;
-  font-family: Urbanist;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 100;
   text-align: left;
+  font-family: Alegreya;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  text-decoration-line: line-through;
+  color: #808080;
 }
 .listPrice {
   margin-bottom: 0;
@@ -44,6 +46,7 @@
   width: auto !important;
   background-color: #9B3268;
   border-radius: 3px;
+  display: none;
 }
 .savingsPercentage {
   padding: 2px 5px;

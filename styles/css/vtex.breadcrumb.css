@@ -2,28 +2,50 @@
 /* //* Product page */
 /* ------------------------------- */
 .container :global(.vtex-breadcrumb-1-x-link) {
-  color: #0891d0;
-  font-family: 'Roboto';
-  font-weight: 100;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #808080;
 }
 .arrow {
-  color: #0891d0;
+
+  color: #808080;
 }
 .homeLink::before {
-  content: '';
+  content: 'Home';
   display: block;
-  width: 25px;
+  width: 43px;
   height: 25px;
-  color: #28508c;
-  background-image: url('https://beisbol.vteximg.com.br/arquivos/home-icon-product.png');
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  transform: translateY(-4px);
+  transform: translateY(2px);
+  text-align: center;
 }
 .term {
-  color: #28508c;
-  font-weight: 700;
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #324545;
+  margin-left: 2rem;
+}
+
+.term::before {
+  background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/migadepan-icon-painte.png)!important;
+  background-size: 100%!important;
+  background-repeat: no-repeat;
+  margin-top: 4px;
+  content: '';
+  height: 33px;
+  width: 23px;
+  position: absolute;
+  left: 21rem;
 }
 .homeIcon {
   display: none;

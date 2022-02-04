@@ -37,12 +37,7 @@
   filter: none;
   opacity: 1;
 }
-.imageElement--Footer__image--development {
-  width: 165px;
-}
-.imageElement--Footer__image--technology {
-  width: 11rem;
-}
+
 .imageElementLink--Footer__image--company {
   display: flex;
   justify-content: center;
@@ -139,25 +134,9 @@
 .infoCardImageContainer--CategorySlide__Item {
   position: relative;
   width: 100%;
-}
-.infoCardImageContainer--CategorySlide__Item::after {
-  content: "";
-  position: absolute;
-  inset: 0px 0px 4px;
-  width: 100%;
-  background-color: rgb(105 141 111 / 30%);
-  background-size: 35%;
-  background-position: center center;
-  background-repeat: no-repeat;
-  border-radius: 5px;
-  transition: all 0.3s ease 0s;
-  opacity: 0;
+  padding: 0.5rem;
 }
 
-.infoCardContainer--CategorySlide__Item:hover
-  .infoCardImageContainer--CategorySlide__Item::after {
-  opacity: 1;
-}
 .infoCardTextContainer--CategorySlide__Item {
   padding: 0;
   width: 100%;
@@ -181,11 +160,18 @@
   font-weight: 700;
 }
 .infoCardCallActionContainer--CategorySlide__Item :global(.vtex-button__label) {
-  padding: 0;
+  padding: 0px;
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  color: #324545;
 }
 .infoCardImage--CategorySlide__Item {
   width: 100%;
-  height: 100px;
+  height: auto;
   border-radius: 5px;
 }
 
@@ -193,7 +179,8 @@
 .infoCardContainer--BannerTop__item {
   border-radius: 5px;
   height: 100%;
-    width: 100%;
+  width: 100%;
+  background-size: 100% !important;
 }
 .infoCardHeadline--BannerTop__item--1 {
   color: white;
@@ -350,12 +337,12 @@
 
 /* ! Newsletter */
 .newsletter--Newsletter {
-  margin-top: 40px;
+  margin-top: 0;
   background-image: url(https://epartner.vtexcommercestable.com.br/arquivos/newsletterBG-mobile-piante.png);
+  background-size: 100%;
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: auto;
   object-fit: cover;
+  width: auto;
 }
 .container--Newsletter {
   padding: 40px 10px;
@@ -368,7 +355,7 @@
   flex-direction: row;
   color: white;
   font-family: Urbanist;
-  font-size: 55px;
+  font-size: clamp(29px, 2.5vw, 42rem);
   font-weight: 700;
   text-align: center;
   max-width: 47rem;
@@ -423,17 +410,17 @@
 .inputGroup--Newsletter
   :global(.vtex-input)
   :global(.vtex-styleguide-9-x-input) {
-    color: #c5c5c5;
-    background-color: white;
-    font-family: Roboto;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 100;
-    text-align: left;
-    border-radius: 9px;
-    padding: 20px;
-    height: 50px;
-    width: 30vw;
+  color: #c5c5c5;
+  background-color: white;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 100;
+  text-align: left;
+  border-radius: 9px;
+  padding: 20px;
+  height: 50px;
+  width: 100%;
 }
 .inputGroup--Newsletter
   :global(.vtex-input)
@@ -488,29 +475,33 @@
 /* ------------------------------- */
 .productNameContainer {
   margin-bottom: 10px;
-  color: #28508c;
-  font-family: Urbanist;
-  font-size: 35px;
-  font-style: normal;
-  font-weight: 700;
   text-align: left;
+  font-family: Alegreya;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 100%;
+  color: #324545;
 }
 .productDescriptionTitle {
+  font-family: Alegreya;
+  font-style: normal;
+  font-weight: normal;
   font-size: 20px;
-  margin: 10px 0 10px;
-  font-weight: 100;
-  color: #5791d9;
+  line-height: 27px;
+  color: #808080;
 }
 .productDescriptionContainer {
   margin-top: 20px;
 }
 .productDescriptionText {
-  color: #0891d0;
-  font-family: Urbanist;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   text-align: left;
+  font-family: Alegreya;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  color: #808080;
 }
 .skuSelectorTextContainer {
   font-family: Urbanist;
@@ -552,12 +543,13 @@
   background-color: white;
   border-radius: 5px;
   box-shadow: 0px 4px 15px 0px #0000001a;
+  height: 25rem !important;
 }
 
-.searchBarContainer :global(.vtex-input-prefix__group){
-  height: 38px;
+.searchBarContainer :global(.vtex-input-prefix__group) {
+  height: 33px;
   background: transparent;
-  border: none;  
+  border: none;
 }
 
 .shippingContainer :global(.vtex-dropdown__label) {
@@ -621,7 +613,14 @@
 .swiperCaret:hover {
   color: #28508c;
 }
-
+.content {
+  font-family: Alegreya;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  color: #808080;
+}
 /* ------------------------------- */
 /* //* Search Page */
 /* ------------------------------- */
@@ -665,51 +664,17 @@
   width: 50%;
 }
 .imageElement--Footer__image--technology {
-  width: 100px;
-  height: 2rem !important;
+  width: 92px;
+  height: 25px !important;
 }
 .imageElement--Footer__image--development {
   width: 114px;
-  height: 4rem !important;
-  margin: 0 4px 1rem 10px;
+  height: 3rem !important;
+  margin: 0;
 }
 /* ------------------------------- */
 /* //? Medias Query */
 /* ------------------------------- */
-@media (min-width: 640px) {
-  /* ! Banners bottom */
-  .infoCardTextContainer--BannerTop__item--1 {
-    margin-right: 0;
-    width: 50%;
-  }
-  .infoCardTextContainer--BannerBottom__item--2 {
-    margin-left: 0;
-  }
-  .infoCardHeadline--BannerTop__item--2::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    bottom: unset;
-    right: -155px;
-    width: 260px;
-    height: 225px;
-    background-image: url("https://beisbol.vteximg.com.br/arquivos/image banner-mas-aroma-para-tu-economia-mobile.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    transform: translateY(-50%);
-  }
-
-  .swiperCaret {
-    display: none;
-  }
-
-  /* ! About us page */
-  :global(.vtex-flex-layout-0-x-flexRowContent--About__Socials)
-    .imageElementLink--About__Image-Social {
-    width: 30%;
-  }
-}
 .imageElement--Footer__imagePayment {
   width: 100%;
   max-height: 22px;
@@ -723,8 +688,44 @@
   width: 100vw;
   height: 90vh;
 }
+
+.autoCompleteOuterContainer :global(.vtex-input__suffix) {
+  background: transparent;
+}
+
 @media (min-width: 1200px) {
+  .productNameContainer {
+    font-size: 35px;
+  }
   
+  .productImageTag--main {
+    height:auto;
+  }
+  .infoCardCallActionContainer--CategorySlide__Item
+    :global(.vtex-button__label) {
+    font-size: 20px;
+  }
+  .infoCardImageContainer--CategorySlide__Item::after {
+    content: "";
+    position: absolute;
+    inset: 0px 0px 4px;
+    width: 85%;
+    background-color: rgb(105 141 111 / 30%);
+    background-size: 35%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 33px 0 33px 0;
+    transition: all 0.3s ease 0s;
+    opacity: 0;
+    height: 25rem;
+    top: 8px;
+    left: 7px;
+  }
+
+  .infoCardContainer--CategorySlide__Item:hover
+    .infoCardImageContainer--CategorySlide__Item::after {
+    opacity: 1;
+  }
   /* ! Header */
   .logoImage {
     width: 120px;
@@ -737,7 +738,7 @@
     padding: 0px;
   }
   .searchBarContainer {
-    width: 24vw !important;
+    width: 30vw !important;
     max-width: 65%;
   }
   .autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
@@ -754,6 +755,16 @@
 
   .searchBarContainer :global(.vtex-styleguide-9-x-input) {
     display: block;
+    background-color: white;
+  }
+  .searchBarContainer :global(.vtex-input__suffix) {
+    background-color: white;
+  }
+
+  .inputGroup--Newsletter
+    :global(.vtex-input)
+    :global(.vtex-styleguide-9-x-input) {
+    width: 30vw;
   }
   /* ! Footer */
 
@@ -763,11 +774,12 @@
     height: 100% !important;
   }
   .imageElement--Footer__image--development {
-    margin-top: 10px;
+    margin: 0;
   }
   .imageElement--Footer__image--technology {
-    margin-top: 22px;
+    margin-top: 11px;
     width: 5rem;
+    height: 22px !important;
   }
   .imageElementLink--Footer__image--company {
     justify-content: flex-start;
@@ -806,7 +818,8 @@
     width: 100%;
   }
   .infoCardImage--CategorySlide__Item {
-    height: auto;
+    height: 25rem;
+    width: 90%;
   }
   .infoCardContainer--CategorySlide__Item
     .infoCardImageContainer--CategorySlide__Item--3::after {
@@ -847,7 +860,7 @@
 
   /* ! Newsletter */
   .container--Newsletter {
-    padding: 85px 10px;
+    padding: 30px 10px;
   }
   .newsletter--Newsletter {
     background-image: url(https://epartner.vtexcommercestable.com.br/arquivos/newsletterBG-desk-piante.png) !important;
@@ -868,7 +881,6 @@
   }
   .label--Newsletter {
     align-items: flex-start;
-    font-size: 90px;
   }
   .label--Newsletter::before {
     font-size: 35px;
@@ -994,7 +1006,7 @@
   background-color: transparent;
 }
 .searchBarContainer {
-  width: 3rem;
+  width: 30px;
   border: none;
 }
 .searchBarIcon--search {

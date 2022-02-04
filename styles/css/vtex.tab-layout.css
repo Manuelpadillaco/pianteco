@@ -63,12 +63,20 @@
   border-left: 5px solid white;
   border-right: 5px solid white;
 }
-
+.flexRow--Footer-Contac {
+  width: 72%;
+  margin: 0 auto;
+}
+.flexRow--Footer-Payment-rows {
+  width: 90%;
+  margin: 0 auto;
+}
 /* ------------------------------- */
 /* //? Media Queries*/
 /* ------------------------------- */
 @media (min-width: 1200px) {
   /* ! Politics page */
+  
   .container--Politics__Container {
     flex-direction: row;
     margin-bottom: 50px;

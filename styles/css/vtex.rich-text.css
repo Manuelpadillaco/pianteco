@@ -102,21 +102,26 @@
   margin-bottom: 6px;
   color: white;
   font-family: Urbanist;
-  /* font-size: 17px; */
+  font-size: 18px;
   font-style: normal;
   text-align: left;
   font-weight: 100;
+  text-align: center;
+  padding: 5px 0px;
 }
 .link--Footer__Text {
   color: white;
   text-decoration: none;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 18px;
   text-align: left;
   font-weight: 100;
 }
 .link--Footer__Text:hover {
   color: white;
+}
+.link--Footer__Text--mail{
+  color: #EAB68C;
 }
 .paragraph--FooterTitle--development {
   margin-bottom: 0;
@@ -203,21 +208,24 @@
   font-family: Alegreya Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 35px;
+  font-size: clamp(21px, 2.5vw, 2rem);
   line-height: 42px;
-  text-align: center;
   color: #324545;
+  width: 100%;
+  margin: 0;
+  padding: 0 0 0 2rem
 }
 .paragraph--Home__description {
-  margin: 0 7rem;
   text-transform: uppercase;
   font-family: Alegreya Sans;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   line-height: 18px;
-  text-align: center;
   color: #324545;
+  width: 100%;
+  margin: 0;
+  padding: 0 0 0 2rem;
 }
 .container--Home__Title{
   margin: 5rem 0 0 0;
@@ -386,9 +394,23 @@
   display: flex;
   justify-content: center;
 }
-
+.paragraph--Footer__Text--terms-2 {
+  padding: 9px 100px;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  background-color: #3a4e4e;
+  margin: 0;
+}
 @media (min-width: 1200px) {
   /* ! Header */
+  .paragraph--Footer__Text {
+    font-size: 12px;
+    text-align: start;
+  }
+  .link--Footer__Text{
+    font-size: 12px;
+  }
   .paragraph--Header-top-text {
     margin: 5px;
   }
@@ -398,8 +420,17 @@
   .logoImage--Header-Desktop__Logo {
     width: 100%;
   }
-
+  /* ! HOME */
+  .container--Home__Title{
+    margin: 5rem 5rem 10px;
+  }
+  .paragraph--Home__description {
+    margin: 0 5rem;
+  }
   /* ! Footer */
+  .paragraph--Footer__Text--terms-2 {
+    font-size: 16px;
+  }
   .paragraph--FooterTitle--development {
     text-align: left;
   }
@@ -412,13 +443,7 @@
   .paragraph--FooterTitle--client::after {
     display: none;
   }
-  .paragraph--Footer__Text--terms-2 {
-    padding: 20px 100px;
-    color: white;
-    font-size: 13px;
-    text-align: center;
-    background-color: #3a4e4e;
-  }
+
 
   /* ! Home information  */
   .paragraph--Information__item {

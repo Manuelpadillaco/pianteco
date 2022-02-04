@@ -309,6 +309,12 @@ background-image: url(https://epartner.vtexcommercestable.com.br/arquivos/suscri
 .styledLinkContent--MenuItem {
   display: flex;
   align-items: center;
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+
 }
 .menuContainer--Menu__Group
   .menuItem--MenuItem:last-child

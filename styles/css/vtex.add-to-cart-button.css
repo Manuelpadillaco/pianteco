@@ -18,15 +18,39 @@
 /* ------------------------------- */
 .buttonText {
   font-family: 'Urbanist';
-  font-size: 18px;
+  font-size: 15px;
+  text-transform: initial;
+}
+.buttonText::before{
+  background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/cart-icon-piante2.png)!important;
+  background-size: 100%!important;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  content: '';
+  height: 33px;
+  width: 23px;
+  position: absolute;
+  left: 9.3rem;
+  top: -1px;
 }
 /* ------------------------------- */
 /* //? Medias Query */
 /* ------------------------------- */
 @media (min-width: 1200px) {
   /* ! Vitrina */
+
   .buttonText--summary {
     font-size: 15px;
+  }
+  .buttonText::before{
+    margin-top: 15px;
+    height: 33px;
+    width: 23px;
+    left: 13rem;
+    top: -6px;
+    }
+  .buttonText {
+    font-size: 20px;
   }
 }
 /* ------------------------------- */

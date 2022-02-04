@@ -2,10 +2,12 @@
 /* //* Product page */
 /* ------------------------------- */
 .product-identifier {
-  color: #0891D0;
-  font-family: Urbanist;
-  font-size: 18px;
-  font-weight: 400;
   text-align: left;
+  font-family: Alegreya;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  color: #808080;
 }
 /* ------------------------------- */

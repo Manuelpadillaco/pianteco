@@ -7,7 +7,9 @@
       "flex-layout.row#FooterContac",
       "flex-layout.row#FooterSocials",
       "flex-layout.row#FooterPaymentMethods",
-      "flex-layout.row#FooterInformation"
+      "flex-layout.row#FooterInformation",
+      "rich-text#TermsText" // /footer.jsonc
+
     ]
   },
 

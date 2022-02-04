@@ -24,6 +24,12 @@
 /* ------------------------------- */
 /* //* Footer */
 /* ------------------------------- */
+.flexRow--Footer-Payment-row1 {padding: 0 1rem ;}
+.flexRow--Footer-Payment-row2 {padding: 0 1rem ;}
+.flexRow--Footer-Payment-row3 {padding: 0 1rem ;}
+.flexRowContent--Footer-Contac{
+  padding:0 1rem ;
+}
 .flexCol--Footer-Promotional__Images {
   display: flex;
   justify-content: space-around;
@@ -38,28 +44,32 @@
 .flexCol--Footer-development__container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  width: 62% !important;
 }
 .flexColChild--Footer-development__container {
   text-align: center;
 }
 .flexRowContent--Footer-Desktop__container {
-  padding: 5rem 5rem 0 5rem;
+  padding: 5rem 1rem 0 1rem;
 }
 .flexCol--Footer-Desktop__colum {
   height: fit-content;
 }
 .flexCol--Footer-Desktop__subColum-5--3 {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
   flex-direction: row;
 }
 .flexColChild--Footer-Desktop__subColum-5--3 {
   width: 28%;
+  display: flex;
   margin: 0.2px 7px;
+  justify-content: flex-start;
+  height: 3rem!important;
+  align-items: center;
 }
 .flexColChild--Footer-Desktop__subColum-5--3:first-child {
   width: 100%;
@@ -185,8 +195,8 @@
   transition: 0.3s;
 }
 .flexRowContent--Product__BuyButton :global(.vtex-button):hover {
-  background-color: #183054;
-  border-color: #183054;
+  background-color: #698D6F;
+  border-color: #698D6F;
 }
 .flexRowContent--Product__BuyButton :global(.vtex-button__label) {
   padding: 15px 0 !important;
@@ -300,9 +310,8 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  padding: 0 2rem;
+  width: 33%;
 }
-
 .flexRowContent--Footer-development {
   display: flex;
   justify-content: center;
@@ -316,6 +325,13 @@
 /* ------------------------------- */
 /* //? Medias Query */
 /* ------------------------------- */
+.flexRowContent--Product__Container{
+  flex-direction: column;
+}
+.flexRowContent--Product__BuyButton {
+  display: flex;
+  align-items: center;
+}
 
 @media (min-width: 1200px) {
   /* ! Header */
@@ -330,11 +346,21 @@
   .sliderTrack--CategorySlide__Container .slide--CategorySlide__Container--hidden:nth-child(1n){
     display: none;
   }
-
+  .flexRowContent--Product::after {
+    content: "";
+    position: absolute;
+    top: 51rem;
+    width: 94vw;
+    border-top: 3px solid #D3D3D3;
+    height: 2rem;
+  }
+  .flexRowContent--Product__BuyButton :global(.vtex-button__label) {
+    padding: 15px 0 !important;
+    font-size: 15px;
+  }
   /* ! Footer */
   .flexCol--Footer-social__Images {
-    width: 28%;
-    margin-right: 3rem;
+    margin-right: 4px;
   }
   .flexRow--Footer-Desktop_row--2 .stretchChildrenWidth:nth-child(0n + 1) {
     width: 15% !important;
@@ -342,15 +368,15 @@
   }
   .flexRow--Footer-Desktop_row--2 .stretchChildrenWidth:nth-child(0n + 2) {
     width: 22% !important;
-    padding: 0 3rem;
+    padding: 0 1rem;
   }
   .flexRow--Footer-Desktop_row--2 .stretchChildrenWidth:nth-child(0n + 3) {
     width: 30% !important;
-    padding: 0 3rem;
+    padding: 0 1rem;
   }
   .flexRow--Footer-Desktop_row--2 .stretchChildrenWidth:last-child {
     width: 22% !important;
-    padding: 0 3rem;
+    padding: 0 1rem;
   }
   .Footer-Desktop_row--1 .stretchChildrenWidth:nth-child(1n) {
     width: 50% !important;
@@ -367,8 +393,9 @@
     justify-content: flex-end;
   }
   .flexColChild--Footer-social__Images {
-    width: 27px;
-    height: 26px !important;
+    width: 18px;
+    height: 22px!important;
+    margin: 0;
   }
 
   .stretchChildrenWidth {
@@ -437,6 +464,7 @@
   .flexRowContent--Product {
     flex-direction: row;
     margin-bottom: 0;
+    padding: 1rem 3rem 3rem;
   }
   .flexRowContent--Product__BuyButton .stretchChildrenWidth:last-child {
     align-items: flex-end;
@@ -446,7 +474,7 @@
   }
   .flexRowContent--Breadcrumb {
     border-top: 0;
-    margin: 45px 15px 10px;
+    margin: 2rem 4rem 0;
   }
 
   /* ! Search page */
