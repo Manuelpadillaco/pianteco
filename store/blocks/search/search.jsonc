@@ -50,6 +50,7 @@
   "store.search#subcategory": {
     "blocks": ["search-result-layout"],
     "props": {
+      "blockClass": "search-category",
       "context": {
         "skusFilter": "ALL",
         "simulationBehavior": "default",
@@ -140,10 +141,9 @@
           "name": "grid",
           "component": "GridSummary",
           "itemsPerRow": {
-            "(min-width:1300px)": 4,
-            "desktop": 3,
+            "desktop": 4,
             "tablet": 2,
-            "phone": 1
+            "mobile": 2
           }
         },
         {

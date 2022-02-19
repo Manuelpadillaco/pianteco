@@ -10,10 +10,9 @@
 }
 .paragraph--Header-top-text {
   color: white;
-  font-family: Urbanist;
+  font-family: "Alegreya Sans";
   font-size: 12px;
   font-style: normal;
-  font-weight: 600;
   text-align: center;
 }
 .link--Header-top-text {
@@ -30,7 +29,7 @@
 .paragraph--Category__Title {
   margin: 0;
   color: #324545;
-  font-family: Urbanist;
+  font-family: "Alegreya Sans";
   font-size: 20px;
   font-weight: 700;
 }
@@ -61,7 +60,7 @@
 }
 .paragraph--FooterTitle {
   color: white;
-  font-family: Urbanist;
+  font-family: "Alegreya Sans";
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -101,7 +100,7 @@
   margin-top: 0;
   margin-bottom: 6px;
   color: white;
-  font-family: Urbanist;
+  font-family: "Alegreya Sans";
   font-size: 18px;
   font-style: normal;
   text-align: left;
@@ -116,12 +115,13 @@
   font-size: 18px;
   text-align: left;
   font-weight: 100;
+  font-size: "Alegreya Sans";
 }
 .link--Footer__Text:hover {
   color: white;
 }
-.link--Footer__Text--mail{
-  color: #EAB68C;
+.link--Footer__Text--mail {
+  color: #eab68c;
 }
 .paragraph--FooterTitle--development {
   margin-bottom: 0;
@@ -138,7 +138,7 @@
 .paragraph--CopyRight {
   color: black;
   margin: 10px;
-  font-family: Urbanist;
+  font-family: "Alegreya Sans";
   font-size: 15px;
   font-style: normal;
   font-weight: 300;
@@ -158,7 +158,7 @@
   margin: 25px 0;
   width: 100%;
   color: #324545;
-  font-family: Urbanist;
+  font-family: "Alegreya Sans";
   font-size: 13px;
   font-style: normal;
   font-weight: 500;
@@ -195,7 +195,7 @@
   margin-left: 10px;
   margin-right: 10px;
   color: #324545;
-  font-family: Urbanist;
+  font-family: "Alegreya Sans";
   font-size: 25px;
   font-style: normal;
   font-weight: 700;
@@ -205,7 +205,7 @@
 .paragraph--Title--destacados-new {
   margin: 0 7rem;
   text-transform: uppercase;
-  font-family: Alegreya Sans;
+  font-family: "Alegreya Sans";
   font-style: normal;
   font-weight: bold;
   font-size: clamp(21px, 2.5vw, 2rem);
@@ -213,22 +213,19 @@
   color: #324545;
   width: 100%;
   margin: 0;
-  padding: 0 0 0 2rem
 }
 .paragraph--Home__description {
-  text-transform: uppercase;
-  font-family: Alegreya Sans;
+  font-family: "Alegreya Sans";
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   line-height: 18px;
   color: #324545;
-  width: 100%;
-  margin: 0;
-  padding: 0 0 0 2rem;
+  width: 90%;
+  margin: 0 0 0 2rem;
 }
-.container--Home__Title{
-  margin: 5rem 0 0 0;
+.container--Home__Title {
+  margin: 2rem 0 0 2rem;
 }
 .heading--Home__Title::before {
   margin-right: 10px;
@@ -266,7 +263,7 @@
 /* //* Politics page*/
 /* ------------------------------- */
 .headingLevel1--Politics__Title {
-  font-family: Urbanist;
+  font-family: "Alegreya Sans";
   font-size: 52px;
   font-weight: 700;
   color: #001689;
@@ -297,7 +294,7 @@
 }
 .paragraph--Politics__Group-Title {
   margin: 12px 0;
-  font-family: Urbanist;
+  font-family: "Alegreya Sans";
   font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
@@ -306,8 +303,8 @@
   margin: 0;
 }
 .container--Politics__Text {
-  color: #0891d0;
-  font-family: "Urbanist";
+  color: #808080;
+  font-family: "'Alegreya Sans'";
   font-size: 18px;
 }
 
@@ -318,7 +315,7 @@
   margin: 17px auto 0;
   width: 90%;
   color: #324545;
-  font-family: Urbanist;
+  font-family: "Alegreya Sans";
   font-size: 45px;
   font-weight: 700;
   line-height: 49px;
@@ -326,8 +323,8 @@
 }
 .paragraph--About__Text {
   margin-bottom: 0;
-  color: #0891d0;
-  font-family: "Urbanist";
+  color: #808080;
+  font-family: "'Alegreya Sans'";
   font-weight: 300;
   font-size: 15px;
   line-height: 20px;
@@ -335,7 +332,7 @@
 .headingLevel4--About__Text {
   margin: 17px 0px 0;
   color: #324545;
-  font-family: Urbanist;
+  font-family: "Alegreya Sans";
   font-size: 22px;
   font-weight: 700;
 }
@@ -382,7 +379,7 @@
   background-color: #324545;
   border-radius: 100px;
   text-decoration: none;
-  font-family: Urbanist;
+  font-family: "Alegreya Sans";
   font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
@@ -403,12 +400,35 @@
   margin: 0;
 }
 @media (min-width: 1200px) {
+  .paragraph--Home__description {
+    margin: 0;
+    width: 100%;
+  }
+  .container--Title--destacados-new {
+    max-width: 86% !important;
+    padding: 2rem 0 10px;
+  }
+  .container--Description--categories-home {
+    max-width: 86% !important;
+    padding: 0rem 0 10px;
+  }
+  .container--Header-top-text {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .container {
+    max-width: 104rem;
+    margin: 0 auto;
+    margin: 0 auto !important;
+  }
+
   /* ! Header */
   .paragraph--Footer__Text {
     font-size: 12px;
     text-align: start;
   }
-  .link--Footer__Text{
+  .link--Footer__Text {
     font-size: 12px;
   }
   .paragraph--Header-top-text {
@@ -421,11 +441,8 @@
     width: 100%;
   }
   /* ! HOME */
-  .container--Home__Title{
-    margin: 5rem 5rem 10px;
-  }
-  .paragraph--Home__description {
-    margin: 0 5rem;
+  .container--Home__Title {
+    margin: 2rem 5rem 10px;
   }
   /* ! Footer */
   .paragraph--Footer__Text--terms-2 {
@@ -443,7 +460,6 @@
   .paragraph--FooterTitle--client::after {
     display: none;
   }
-
 
   /* ! Home information  */
   .paragraph--Information__item {

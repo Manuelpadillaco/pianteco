@@ -2,12 +2,10 @@
   // * Search layout Mobile
   "search-result-layout.mobile": {
     "children": [
-      "info-card#Search", // ../search.jsonc
       "flex-layout.row#SearchBreadcrumb", // ../search.jsonc
       "flex-layout.row#SearchTitle", // ../search.jsonc
       "flex-layout.row#SearchInfoMobile",
       "flex-layout.row#ProductCountMobile",
-      "flex-layout.row#FetchPrevious", // ../search.jsonc
       "flex-layout.row#ContentMobile",
       "flex-layout.row#FetchMore", // ../search.jsonc
       "newsletter" // ../../newsletter.jsonc

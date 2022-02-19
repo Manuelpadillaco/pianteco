@@ -4,8 +4,8 @@
 .label {
   display: block;
   padding: 0;
-  color: #0891d0;
-  font-family: Urbanist;
+  color: #808080;
+  font-family: Alegreya Sans;
   font-style: normal;
   font-size: 20px;
   font-weight: 700;
@@ -30,17 +30,18 @@
   padding: 0;
   width: 100% !important;
   max-width: 200px;
-  color: #28508c;
-  font-family: Urbanist;
+  color: #324545;
+  font-family: Alegreya Sans;
   font-size: 15px;
   font-weight: 700;
 }
-:global(.vtex-button__label){
+:global(.vtex-button__label) {
   padding: 0;
 }
 /* ------------------------------- */
 /* //* Login Page  */
 /* ------------------------------- */
+
 .content--emailAndPassword {
   flex-direction: column;
   align-items: center;
@@ -50,27 +51,27 @@
   margin-bottom: 18px;
 }
 .loginOptionsContainer .formTitle::before {
-  font-family: Urbanist;
+  font-family: Alegreya Sans;
   font-size: 19px;
   font-weight: 700;
-  color: #28508c;
+  color: #324545;
   content: "Escoge una opción para iniciar sesión";
 }
 .emailVerification .formTitle::before {
-  font-family: Urbanist;
+  font-family: Alegreya Sans;
   font-size: 19px;
   font-weight: 700;
-  color: #28508c;
+  color: #324545;
   content: "Iniciar sesión con eMail y contraseña";
 }
 .eyeIcon--invisible {
-  color: #28508c;
+  color: #324545;
 }
 .forgotPasswordLink {
-  font-family: Urbanist;
+  font-family: Alegreya Sans;
   font-size: 15px;
   font-weight: 400;
-  color: #28508c;
+  color: #324545;
 }
 .forgotPasswordLink:hover {
   text-decoration: underline;
@@ -80,27 +81,28 @@
 }
 .dontHaveAccount {
   margin: 15px;
-  font-family: Urbanist;
+  font-family: Alegreya Sans;
   font-size: 16px;
   font-weight: 400;
-  color: #0891d0;
+  color: #808080;
 }
 .dontHaveAccount:hover {
   text-decoration: underline;
 }
 .accessCodeOptionBtn :global(.vtex-button) {
-  background-color: #f8f8f8;
   border: 0;
-  border-radius: 100px;
+  background: #d3d3d3;
+  border-radius: 5px;
+  width: 100%;
 }
 .accessCodeOptionBtn :global(.vtex-button__label) {
   font-size: 0;
 }
 .accessCodeOptionBtn :global(.vtex-button__label)::before {
-  font-family: Urbanist;
+  font-family: Alegreya Sans;
   font-size: 15px;
   font-weight: 400;
-  color: #28508c;
+  color: #324545;
   content: "Recibir codigo de acceso por email";
   text-transform: none;
 }
@@ -108,21 +110,27 @@
   border: 0;
   background-color: #f8f8f8;
   border-radius: 100px;
+  background: #f9faf5;
+  border: 1px solid #324545;
+  border-radius: 5px;
+  padding: 0;
+  margin: 1rem;
+  width: 100%;
 }
 .inputContainer :global(.vtex-styleguide-9-x-input) {
-  font-family: Urbanist;
+  font-family: Alegreya Sans;
   font-size: 16px;
   font-weight: 400;
   color: #dcdcdc;
 }
 .sendButton :global(.vtex-button) {
-  background-color: #28508c;
-  border-color: #28508c;
+  background-color: #324545;
+  border-color: #324545;
   border-radius: 100px;
   padding: 6px;
 }
 .sendButton :global(.vtex-button__label) :global(.t-small) {
-  font-family: Urbanist;
+  font-family: Alegreya Sans;
   font-size: 18px;
   font-weight: 600;
 }
@@ -134,10 +142,10 @@
   border-radius: 100px;
 }
 .emailPasswordOptionBtn :global(.vtex-button__label) {
-  font-family: Urbanist;
+  font-family: Alegreya Sans;
   font-size: 17px;
   font-style: normal;
-  color: #28508c;
+  color: #324545;
 }
 .container :global(.vtex-button__label)::before {
   content: "";
@@ -148,9 +156,21 @@
   background-repeat: no-repeat;
   margin-top: 7px;
 }
+.contentForm {
+  width: 86%;
+  display: flex;
+  align-items: center;
+}
 /* //? Medias Query */
 /* ------------------------------- */
 @media (min-width: 1200px) {
+  .accessCodeOptionBtn :global(.vtex-button) {
+    width: 24rem;
+  }
+  .inputContainer :global(.vtex-input-prefix__group) {
+    width: 24rem;
+    margin: 1rem auto;
+  }
   /* ! Header */
   .label {
     font-size: 0px;

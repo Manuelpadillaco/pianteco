@@ -2,7 +2,6 @@
   // * Search layout Desktop
   "search-result-layout.desktop": {
     "children": [
-      "info-card#Search", // ../search.jsonc
       "flex-layout.row#SearchBreadcrumb", // ../search.jsonc
       "flex-layout.row#SearchTitle", // ../search.jsonc
       "flex-layout.row#result",

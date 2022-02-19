@@ -119,8 +119,8 @@
   },
   "product-price-savings#summary": {
     "props": {
-      "blockClass": "summaryJORGE",
-      "percentageStyle":["locale"]
+      "blockClass": "summary",
+      "percentageStyle":["compact"]
     }
   },
 

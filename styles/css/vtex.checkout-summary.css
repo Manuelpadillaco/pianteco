@@ -2,8 +2,8 @@
 /* //* MiniCart V2 Component */
 /* ------------------------------- */
 .summarySmallContent {
-  color: #28508c;
-  font-family: Urbanist;
+  color: #324545;
+  font-family: Alegreya;
   font-size: 16px;
   font-weight: 700;
   text-align: left;
@@ -13,14 +13,14 @@
 }
 .summarySmallDisclaimer::before {
   content: 'Envío e impuestos calculados en el carrito';
-  color: #0891d0;
-  font-family: Urbanist;
+  color: #808080;
+  font-family: Alegreya;
   font-size: 14px;
   font-weight: 300;
   text-align: left;
 }
 .summaryItemContainer {
-  color: #28508c;
+  color: #324545;
 }
 .summaryItemLabel {
   font-weight: bold;

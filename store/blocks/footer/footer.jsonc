@@ -92,6 +92,12 @@
       "image#MercadoPago"
     ]
   },
+  "flex-layout.col#FooterPagos1-2": {
+    "props": {
+      "blockClass": ["Footer-Promotional__Images"]
+    },
+    "children": ["image#LogoAllPaymentDesk"]
+  },
   // ! Socials images container
   "flex-layout.col#FooterPagos2": {
     "props": {
@@ -108,7 +114,7 @@
   "image#Facebook": {
     "props": {
       "blockClass": ["Footer__image", "Footer__image--facebook"],
-      "src": "https://epartner.vtexcommercestable.com.br/arquivos/fb-icon.png",
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/fb-icon.png",
       "link": {
         "url": "#",
         "label": "Facebook",
@@ -120,7 +126,7 @@
   "image#Instagram": {
     "props": {
       "blockClass": ["Footer__image", "Footer__image--instagram"],
-      "src": "https://epartner.vtexcommercestable.com.br/arquivos/ig-icon-piante.png",
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/ig-icon-piante.png",
       "link": {
         "url": "#",
         "label": "Instagram",
@@ -132,7 +138,7 @@
   "image#Twitter": {
     "props": {
       "blockClass": ["Footer__image", "Footer__image--Twitter"],
-      "src": "https://epartner.vtexcommercestable.com.br/arquivos/",
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/",
       "link": {
         "url": "#",
         "label": "Twitter",
@@ -144,7 +150,7 @@
   "image#Youtube": {
     "props": {
       "blockClass": ["Footer__image", "Footer__image--Youtube"],
-      "src": "https://epartner.vtexcommercestable.com.br/arquivos/yt-icon-piante.png",
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/yt-icon-piante.png",
       "link": {
         "url": "#",
         "label": "Youtube",
@@ -152,31 +158,31 @@
       }
     }
   },
-// ! TikTok Icon
-"image#TikTok": {
-  "props": {
-    "blockClass": ["Footer__image", "Footer__image--facebook"],
-    "src": "https://epartner.vtexcommercestable.com.br/arquivos/tiktok-icon-piante.png",
-    "link": {
-      "url": "#",
-      "label": "Tiktok",
-      "newTab": true
+  // ! TikTok Icon
+  "image#TikTok": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--tiktok"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/tiktok-icon-piante.png",
+      "link": {
+        "url": "#",
+        "label": "Tiktok",
+        "newTab": true
+      }
     }
-  }
-},
+  },
 
-// ! Linkedin Icon
-"image#Linkedin": {
-  "props": {
-    "blockClass": ["Footer__image", "Footer__image--facebook"],
-    "src": "https://epartner.vtexcommercestable.com.br/arquivos/linkedin-icon-piante.png",
-    "link": {
-      "url": "#",
-      "label": "Facebook",
-      "newTab": true
+  // ! Linkedin Icon
+  "image#Linkedin": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--linkedin"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/linkedin-icon-piante.png",
+      "link": {
+        "url": "#",
+        "label": "Facebook",
+        "newTab": true
+      }
     }
-  }
-},
+  },
   // * Payments Section
   // ! Title Payments
   "rich-text#TitlePayments": {
@@ -195,7 +201,7 @@
   "image#PlayU": {
     "props": {
       "blockClass": ["Footer__imagePayment", "Footer__image--PayU"],
-      "src": "https://epartner.vtexcommercestable.com.br/arquivos/payuB-logo-piante.png",
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/payuB-logo-piante.png",
       "link": {
         "url": "#",
         "label": "PayU",
@@ -206,7 +212,7 @@
   "image#Visa": {
     "props": {
       "blockClass": ["Footer__imagePayment", "Footer__image--Visa"],
-      "src": "https://epartner.vtexcommercestable.com.br/arquivos/visaB-logo-piante.png",
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/visaB-logo-piante.png",
       "link": {
         "url": "#",
         "label": "Visa",
@@ -217,7 +223,7 @@
   "image#MasterCard": {
     "props": {
       "blockClass": ["Footer__imagePayment", "Footer__image--MasterCard"],
-      "src": "https://epartner.vtexcommercestable.com.br/arquivos/mastercardB-logo-piante.png",
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/mastercardB-logo-piante.png",
       "link": {
         "url": "#",
         "label": "MasterCard",
@@ -228,7 +234,7 @@
   "image#American": {
     "props": {
       "blockClass": ["Footer__imagePayment", "Footer__image--American"],
-      "src": "https://epartner.vtexcommercestable.com.br/arquivos/americanexpressB-logo-piante.png",
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/americanexpressB-logo-piante.png",
       "link": {
         "url": "#",
         "label": "American",
@@ -239,7 +245,7 @@
   "image#Pse": {
     "props": {
       "blockClass": ["Footer__imagePayment", "Footer__image--Pse"],
-      "src": "https://epartner.vtexcommercestable.com.br/arquivos/pseB-logo-piante.png",
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/pseB-logo-piante.png",
       "link": {
         "url": "#",
         "label": "Pse",
@@ -250,7 +256,7 @@
   "image#Baloto": {
     "props": {
       "blockClass": ["Footer__imagePayment", "Footer__image--Baloto"],
-      "src": "https://epartner.vtexcommercestable.com.br/arquivos/balotoB-logo.png",
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/balotoB-logo.png",
       "link": {
         "url": "#",
         "label": "Baloto",
@@ -261,7 +267,7 @@
   "image#MercadoPago": {
     "props": {
       "blockClass": ["Footer__imagePayment", "Footer__image--MercadoPago"],
-      "src": "https://epartner.vtexcommercestable.com.br/arquivos/mercadopagoB-logo-piante.png",
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/mercadopagoB-logo-piante.png",
       "link": {
         "url": "#",
         "label": "MercadoPago",
@@ -272,7 +278,7 @@
   "image#Bancolombia": {
     "props": {
       "blockClass": ["Footer__imagePayment", "Footer__image--Bancolombia"],
-      "src": "https://epartner.vtexcommercestable.com.br/arquivos/bancolombiaB-logo-piante.png",
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/bancolombiaB-logo-piante.png",
       "link": {
         "url": "#",
         "label": "Bancolombia",
@@ -283,7 +289,7 @@
   "image#Davivienda": {
     "props": {
       "blockClass": ["Footer__imagePayment", "Footer__image--Davivienda"],
-      "src": "https://epartner.vtexcommercestable.com.br/arquivos/daviviendaB-logo-piante.png",
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/daviviendaB-logo-piante.png",
       "link": {
         "url": "#",
         "label": "Davivienda",
@@ -294,7 +300,7 @@
   "image#Chase": {
     "props": {
       "blockClass": ["Footer__imagePayment", "Footer__image--Chase"],
-      "src": "https://epartner.vtexcommercestable.com.br/arquivos/chaseB-logo.png",
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/chaseB-logo.png",
       "link": {
         "url": "#",
         "label": "Chase",
@@ -305,7 +311,7 @@
   "image#Paypal": {
     "props": {
       "blockClass": ["Footer__imagePayment", "Footer__image--Paypal"],
-      "src": "https://epartner.vtexcommercestable.com.br/arquivos/paypalB-logo-piante.png",
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/paypalB-logo-piante.png",
       "link": {
         "url": "#",
         "label": "Paypal",
@@ -338,7 +344,7 @@
   "image#Technology": {
     "props": {
       "blockClass": ["Footer__image", "Footer__image--technology"],
-      "src": "https://epartner.vtexcommercestable.com.br/arquivos/vtex-logo-piante.png",
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/vtex-logo-piante.png",
       "link": {
         "url": "https://vtex.com/co-es",
         "label": "VTEX",
@@ -380,12 +386,11 @@
     }
   },
 
-
   // * CopyRight Section
   "rich-text#CopyRight": {
     "props": {
       "blockClass": ["CopyRight"],
-      "text": "Copyright Beisbol 2021"
+      "text": "Copyright Piante 2021"
     }
   },
 
@@ -509,7 +514,18 @@
       "text": "[Política de Garantía](#)"
     }
   },
-
+  "rich-text#OtroEnlaces": {
+    "props": {
+      "text": "Otros Enlaces",
+      "blockClass": "Footer__Text"
+    }
+  },
+  "rich-text#OtroEnlace": {
+    "props": {
+      "text": "Otro Enlace",
+      "blockClass": ["FooterTitle--politics", "FooterTitle"]
+    }
+  },
   // * Terms  Section
   // ! Title Terms
   "rich-text#TitleTerms": {
@@ -530,10 +546,35 @@
   "image#Logo": {
     "props": {
       "blockClass": ["Footer__imageCO", "Footer__image--company"],
-      "src": "https://epartner.vtexcommercestable.com.br/arquivos/footer-piante-logo-piante.png",
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/footer-piante-logo-piante.png",
       "link": {
         "url": "/",
-        "label": "Beisbol",
+        "label": "Piante",
+        "newTab": false
+      }
+    }
+  },
+
+  // ! Company image
+  "image#LogoAllPaymentMobile": {
+    "props": {
+      "blockClass": ["Footer__imageCO", "Footer__image--allpaymentsMobile"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/pagos-mobile-pianteco.png",
+      "link": {
+        "url": "/",
+        "label": "Piante",
+        "newTab": false
+      }
+    }
+  },
+  // ! Company image
+  "image#LogoAllPaymentDesk": {
+    "props": {
+      "blockClass": ["Footer__imageCO", "Footer__image--allpaymentsMobile"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/pagos-desk-pianteco.png",
+      "link": {
+        "url": "/",
+        "label": "Piante",
         "newTab": false
       }
     }

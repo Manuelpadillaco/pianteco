@@ -1,0 +1,8 @@
+.profileSummary {
+  max-width: 24rem;
+  padding: 1rem;
+  background: #f2f2f0;
+  height: auto;
+  border-radius: 12px;
+  border: none !important;
+}

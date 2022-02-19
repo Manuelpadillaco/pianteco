@@ -18,9 +18,7 @@
       "infinite": true
     },
     "children": [
-      "image#TopSlide-Desk-item-1",
-      "image#TopSlide-Desk-item-2",
-      "image#TopSlide-Desk-item-3"
+      "image#TopSlide-Desk-item-1"
     ]
   },
   "slider-layout#TopSlide-M": {
@@ -131,7 +129,7 @@
 
   "image#TopSlide-Mobile-item-1": {
     "props": {
-      "src": "https://pianteco.vtexassets.com/arquivos/banner-desk-v1-piante.png",
+      "src": "https://pianteco.vtexassets.com/arquivos/banner-mobile-v1-piante.png",
       "link": {"url":"/"},
       "blockClass": [
         "TopSlide__Item",

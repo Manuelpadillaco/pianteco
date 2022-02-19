@@ -18,7 +18,7 @@
   border-bottom: none;
 }
 .styledLinkContent--MenuItem {
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 16px;
   font-weight: 500;
   color: #324545;
@@ -35,7 +35,7 @@
 
 .styledLinkContainer:first-child {
   margin: 0;
-  padding: 2px 7px;
+  padding: 0px 7px;
 }
 .styledLinkContent--MenuItem.styledLinkContent--MenuItem__Category {
   display: flex;
@@ -133,7 +133,7 @@
 
   .menuItem--MenuItem__Category--isOpen
     .styledLinkContent--MenuItem__Category::after {
-      background-image: url(https://epartner.vtexcommercestable.com.br/arquivos/flecha-pabajo-painte.png);
+    background-image: url(https://epartner.vtexcommercestable.com.br/arquivos/flecha-pabajo-painte.png);
     transform: rotate(180deg);
   }
 }
@@ -251,70 +251,70 @@
   background-color: #324545;
 }
 
-
 .menuContainer--Menu__Group
   .styledLinkContainer--MenuItem:hover
   .styledLinkContent--MenuItem {
   color: white;
+  font-weight: 900;
 }
 
 .menuContainer--Menu__Group
   .styledLinkContainer--MenuItem:hover
   .styledLinkContent--MenuItem {
   color: white;
+  font-weight: 900;
 }
 
 .menuContainer--Menu__Group
   .styledLinkContainer--MenuItem:hover
-.styledLinkContent--MenuItem--1::before {
+  .styledLinkContent--MenuItem--1::before {
   background-image: url(https://epartner.vtexcommercestable.com.br/arquivos/orquideas-icon2-painte.png) !important;
 }
 
 .menuContainer--Menu__Group
   .styledLinkContainer--MenuItem:hover
-.styledLinkContent--MenuItem--2::before {
+  .styledLinkContent--MenuItem--2::before {
   background-image: url(https://epartner.vtexcommercestable.com.br/arquivos/anturios-icon2-painte.png) !important;
 }
 .menuContainer--Menu__Group
   .styledLinkContainer--MenuItem:hover
-.styledLinkContent--MenuItem--3::before {
+  .styledLinkContent--MenuItem--3::before {
   background-image: url(https://epartner.vtexcommercestable.com.br/arquivos/purificadoras-icon2-painte.png) !important;
 }
 .menuContainer--Menu__Group
   .styledLinkContainer--MenuItem:hover
-.styledLinkContent--MenuItem--4::before {
+  .styledLinkContent--MenuItem--4::before {
   background-image: url(https://epartner.vtexcommercestable.com.br/arquivos/pachiras-icon2-painte.png) !important;
 }
 .menuContainer--Menu__Group
   .styledLinkContainer--MenuItem:hover
-.styledLinkContent--MenuItem--5::before {
+  .styledLinkContent--MenuItem--5::before {
   background-image: url(https://epartner.vtexcommercestable.com.br/arquivos/combo-icon2-painte.png) !important;
 }
 .menuContainer--Menu__Group
   .styledLinkContainer--MenuItem:hover
-.styledLinkContent--MenuItem--6::before {
+  .styledLinkContent--MenuItem--6::before {
   background-image: url(https://epartner.vtexcommercestable.com.br/arquivos/combo-icon2-painte.png) !important;
 }
 .menuContainer--Menu__Group
   .styledLinkContainer--MenuItem:hover
-.styledLinkContent--MenuItem--7::before {
+  .styledLinkContent--MenuItem--7::before {
   background-image: url(https://epartner.vtexcommercestable.com.br/arquivos/suscripcion-icon2-painte.png) !important;
-}.menuContainer--Menu__Group
-.styledLinkContainer--MenuItem:hover
-.styledLinkContent--MenuItem--8::before {
-background-image: url(https://epartner.vtexcommercestable.com.br/arquivos/suscripcion-icon2-painte.png) !important;
 }
-
+.menuContainer--Menu__Group
+  .styledLinkContainer--MenuItem:hover
+  .styledLinkContent--MenuItem--8::before {
+  background-image: url(https://epartner.vtexcommercestable.com.br/arquivos/suscripcion-icon2-painte.png) !important;
+}
 
 .styledLinkContent--MenuItem {
   display: flex;
   align-items: center;
-  font-family: Alegreya Sans;
+  font-family: "Alegreya Sans";
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   line-height: 18px;
-
 }
 .menuContainer--Menu__Group
   .menuItem--MenuItem:last-child

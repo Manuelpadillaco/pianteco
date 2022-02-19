@@ -82,11 +82,8 @@
       "blockClass": ["Footer-Payment-rows"]
     },
     "children": [
-      "rich-text#TitlePayments", // /footer.jsonc
-      "flex-layout.row#FooterPaymentMethods1",
-      "flex-layout.row#FooterPaymentMethods2",
-      "flex-layout.row#FooterPaymentMethods3"
-
+      "rich-text#TitlePayments", // /footer.jsoncimage#LogoAllPayment
+      "image#LogoAllPaymentMobile"
     ]
   },
   "flex-layout.row#FooterPaymentMethods1": {

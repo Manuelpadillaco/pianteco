@@ -11,12 +11,19 @@
   text-align: left;
 }
 .sellingPriceValue {
-  font-family: Alegreya;
+  font-family: 'Alegreya';
   font-style: normal;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 27px;
   line-height: 41px;
   color: #324545;
+}
+.currencyDecimal{
+  display: none;
+}
+
+.currencyFraction{
+  display: none;
 }
 /* ------------------------------- */
 /* //* product page */
@@ -26,7 +33,7 @@
 }
 .listPriceValue {
   text-align: left;
-  font-family: Alegreya;
+  font-family: 'Alegreya';
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -46,17 +53,15 @@
   width: auto !important;
   background-color: #9B3268;
   border-radius: 3px;
-  display: none;
 }
 .savingsPercentage {
   padding: 2px 5px;
   color: white;
-  font-family: Roboto;
+  font-family: "Alegreya Sans";
   font-size: 16px;
   font-weight: 400;
   text-align: left;
 }
-
 /* ------------------------------- */
 /* //? Medias Query */
 /* ------------------------------- */

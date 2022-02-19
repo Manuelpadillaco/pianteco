@@ -1,25 +1,49 @@
 /* ------------------------------- */
 /* //* Order placed */
 /* ------------------------------- */
-.section--confirmation::before {
-  content: 'Pedido confirmado';
-  font-family: Urbanist;
-  font-size: 24px;
-  font-weight: 700;
-  color: #28508c;
-  text-transform: uppercase;
+.packageDeliveryTitle::before {
+  content: "Datos del usuario";
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #324545;
+  margin-left: 2rem;
+  text-transform: inherit;
 }
-.orderPlacedWrapper {
-  padding: 10px 20px 50px;
+
+.packageDeliveryTitle::after {
+  content: "";
+  width: 22px;
+  height: 20px;
+  background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/house-icon.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 1rem;
+}
+.section--confirmation::before {
+  content: "Finalizar Compra";
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  color: #324545;
 }
 .confirmationIconWrapper {
   display: none;
 }
 .confirmationTitle::after {
-  content: '';
+  content: "";
   width: 20px;
   height: 20px;
-  background-image: url('https://beisbol.vteximg.com.br/arquivos/pedido-confirmado-icono-checkout.png');
+  background-image: url("https://beisbol.vteximg.com.br/arquivos/pedido-confirmado-icono-checkout.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -29,36 +53,115 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px 20px;
-  border: 1px solid #67e206;
+  border: 1px solid #3bb44b;
   border-radius: 10px;
-  font-family: Urbanist;
-  font-size: 19px;
+  font-family: Alegreya;
+  font-size: 0;
   font-weight: 400;
-  color: #67e206;
+  color: #3bb44b;
+}
+.orderPlacedWrapper--order-placed {
+  padding: 4rem;
+}
+.confirmationMessage::after {
+  content: "Estamos gestionando tu pedido para enviarlo lo más pronto posible. Te notificaremos una vez se haya enviado y te daremos la guía de envío para que puedas hacer el rastreo";
+  font-family: Alegreya Sans !important;
+  font-style: normal !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #324545;
+  max-width: 34rem;
 }
 .confirmationMessage::before {
-  content: '¡Gracias por tu compra!';
-  font-family: Urbanist;
-  font-size: 22px;
-  font-weight: 700;
-  color: #28508c;
-  margin-bottom: 10px;
+  content: "¡Gracias por tu compra!";
+  font-family: Alegreya Sans !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 40px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #324545;
+  justify-content: center;
+  padding-bottom: 1rem;
 }
 .confirmationMessage {
   display: flex;
   flex-direction: column;
-  font-family: Urbanist;
-  font-size: 15px;
+  font-family: Alegreya;
+  font-size: 0;
   font-weight: 400;
-  color: #0891d0;
+  color: #000000;
+  background: #f2f0eb;
+  margin-top: 4rem;
+  background: #f2f0eb;
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+.section--notices {
+  display: none;
+}
+.customerInfoListEmail {
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #324545;
+  order: 1;
+}
+
+.customerInfoListDocument {
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #324545;
+  order: 2;
+}
+
+.customerInfoListName {
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #324545;
+  order: 3;
+}
+
+.customerInfoListPhone {
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #324545;
+  order: 4;
 }
 .noticesList {
-  background-color: #f8f8f8;
+  background-color: #f2f0eb;
   border-radius: 10px;
 }
 .noticeListItem {
-  color: #0891d0;
-  font-family: Urbanist;
+  color: #324545;
+  font-family: Alegreya;
   font-size: 16px;
   font-weight: 400;
   border-bottom: 1px solid #ededed;
@@ -67,171 +170,233 @@
   border-bottom: 0;
 }
 .orderNumber {
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 25px;
   font-weight: 700;
-  color: #28508c;
+  color: #324545;
 }
 .orderPlacedMainWrapper {
   margin: 0;
   width: 100%;
 }
 .orderDatetime {
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 15px;
   font-weight: 400;
-  color: #0891d0;
+  color: #324545;
 }
+
 .customerInfoListContainer {
   display: flex;
   flex-direction: column;
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 15px;
   font-weight: 400;
   margin-bottom: 30px;
   padding: 10px;
-  background-color: #f8f8f8;
+  background-color: #f2f0eb;
   border-radius: 10px;
 }
 .customerInfoListContainer::before {
-  font-family: Urbanist;
+  content: "Datos del usuario";
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-weight: 550;
   font-size: 20px;
-  font-weight: 700;
-  color: #28508c;
-  content: 'Resumen';
-  text-transform: uppercase;
-  margin-bottom: 10px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #324545;
+  margin-left: 2rem;
+  text-transform: inherit;
 }
-.customerInfoListName {
-  color: #0891d0;
+.customerInfoListContainer::after {
+  content: "";
+  width: 22px;
+  height: 20px;
+  background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/user-icon.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 2px;
+  position: absolute;
 }
-.customerInfoListEmail {
-  color: #0891d0;
+.packageHeaderColumn {
+  max-width: 24rem;
+  padding: 1rem 1rem 0 1rem;
+  background: #f2f2f0;
+  height: 14.2rem;
+  border-radius: 12px;
+  border: none;
+  position: absolute;
+  top: 78%;
+  left: 30rem;
 }
-.customerInfoListDocument {
-  color: #0891d0;
+.productList {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.customerInfoListPhone {
-  color: #0891d0;
+.confirmationTitle::before {
+  content: "Su pedido ha sido aprobado";
+  font-size: 1rem;
+}
+.orderOptionsWrapper {
+  display: none;
+}
+.productListItem {
+  margin: 1rem;
+  background: #f2f2f0;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 43rem;
+}
+.totalListWrapper {
+  display: none;
 }
 .orderPaymentItem {
   display: none;
 }
 .cancelOrderButton :global(.vtex-button__label) {
-  font-family: 'Urbanist';
+  font-family: "Alegreya";
 }
 :global(.vtex-flex-layout-0-x-flexRowContent--confirmationButtons)
   :global(.vtex-button) {
-  border: 1px solid #28508c;
+  border: 1px solid #324545;
   border-radius: 100px;
-  background-color: #28508c;
+  background-color: #324545;
   color: white;
-  font-family: 'Urbanist';
+  font-family: "Alegreya";
 }
 .myOrdersButton :global(.vtex-button) {
-  border: 1px solid #28508c;
+  border: 1px solid #324545;
   border-radius: 100px;
-  background-color: #28508c;
+  background-color: #324545;
   color: white;
-  font-family: 'Urbanist';
+  font-family: "Alegreya";
 }
 .updateOrderButton :global(.vtex-button) {
-  border: 1px solid #28508c;
+  border: 1px solid #324545;
   border-radius: 100px;
-  background-color: #28508c;
+  background-color: #324545;
   color: white;
-  font-family: 'Urbanist';
+  font-family: "Alegreya";
 }
 .packageDeliveryTitle {
-  font-family: Urbanist;
-  font-size: 20px;
+  font-family: Alegreya;
+  font-size: 0;
   font-weight: 700;
-  color: #28508c;
-  content: 'Resumen';
+  color: #324545;
+  content: "Resumen";
   text-transform: uppercase;
 }
 .packageShippingEstimate {
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 16px;
   font-weight: 500;
-  color: #0891d0;
+  color: #324545;
 }
 .packageSLA {
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 16px;
   font-weight: 500;
-  color: #0891d0;
+  color: #324545;
 }
 .addressContainer {
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 16px;
   font-weight: 500;
-  color: #0891d0;
+  color: #324545;
 }
 .productWrapper {
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 16px;
   font-weight: 400;
-  color: #0891d0;
+  color: #324545;
   text-align: start;
 }
 .productQuantity {
   display: none;
 }
 .productName {
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 17px;
   font-weight: 400;
-  color: #0891d0;
+  color: #324545;
   text-align: start;
 }
 .productImageWrapper {
-  box-shadow: 0px 4px 15px 0px #28508c33;
+  box-shadow: 0px 4px 15px 0px #32454533;
   border-radius: 10px;
 }
 .section--deliveryPackages {
   border: 0;
 }
 .totalListItem--Items {
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 16px;
   font-weight: 400;
-  color: #28508c;
+  color: #324545;
 }
 .totalListItemValue {
-  color: #28508c;
+  color: #324545;
 }
 .totalListItem--Shipping {
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-weight: 400;
-  color: #28508c;
+  color: #324545;
 }
 .totalListItem {
-  color: #28508c;
+  color: #324545;
 }
 .totalListItemLabel {
-  font-family: 'Urbanist';
+  font-family: "Alegreya";
 }
 .totalListItemValue {
-  font-family: 'Urbanist';
+  font-family: "Alegreya";
+}
+.orderPlacedHeader {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.orderPlacedMainWrapper {
+  max-width: 60rem;
+  margin: 0 auto;
 }
 
 /* ------------------------------- */
 /* //? Media Queries */
 /* ------------------------------- */
-@media (min-width: 1200px) {
-  .orderPlacedWrapper {
-    padding: 40px 100px;
+@media (max-width: 600px) {
+  .orderSoldBy {
+    display: none;
   }
-  .totalList {
-    width: 40%;
+  .packageHeaderColumn {
+    left: 0;
+    position: static;
+    top: 0;
   }
-}
-@media (min-width: 1500px) {
-  .orderPlacedWrapper {
-    margin: 0 auto;
-    max-width: 1200px;
+  .customerInfoListContainer {
+    width: 100%;
+    max-width: inherit;
+    padding: 1rem;
   }
-}
 
+  .orderListItem--order-placed {
+    width: 100%;
+  }
+
+  .orderPlacedWrapper--order-placed {
+    padding: 27px;
+  }
+
+  .package--delivery {
+    margin: 0;
+  }
+
+  .productListItem {
+    width: 100%;
+  }
+}
 /* ------------------------------- */

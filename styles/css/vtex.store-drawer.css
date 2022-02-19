@@ -9,10 +9,11 @@
 }
 .drawerContent {
   height: 90vh;
-  background: #f5f5f59c;
+  background: #f5f5f542;
+  backdrop-filter: blur(4px);
 }
 .closeIconButton {
-  color: #28508c;
+  color: #324545;
 }
 .drawer {
   margin-top: 7.4rem;

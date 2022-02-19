@@ -4,7 +4,7 @@
 .quantitySelectorTitle {
   text-align: left;
   text-transform: capitalize;
-  font-family: Alegreya Sans;
+  font-family: "Alegreya Sans";
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -14,47 +14,41 @@
   color: #324545;
 }
 
-
 .quantitySelectorContainer {
   flex-direction: column;
   align-items: flex-start;
 }
-.quantitySelectorStepper
-  :global(.vtex-numeric-stepper__input) {
-    width: 45px!important;
-    height: 45px;
-    color: #324545;
-    background-color: transparent;
-    border: 1px solid #c8c8c8;
-    font-family: Urbanist;
-    font-size: 25px;
-    font-weight: 400;
-    border-left: none;
-    border-right: none;
+.quantitySelectorStepper :global(.vtex-numeric-stepper__input) {
+  height: 45px;
+  color: #324545;
+  background-color: transparent;
+  border: 1px solid #c8c8c8;
+  font-family: Alegreya;
+  font-size: 25px;
+  font-weight: 400;
+  border-left: none;
+  border-right: none;
+  width: 1rem;
 }
-.quantitySelectorStepper
-  :global(.vtex-numeric-stepper__plus-button){
-    border-radius: 1px 20px 20px;
-    width: 45px!important;
-    height: 45px;
-    border: 1px solid #c8c8c8;
-    background-color: transparent;
-    border-left: none;
-  }
-.quantitySelectorStepper
-  :global(.vtex-numeric-stepper__minus-button) {
-    border-radius: 20px 1px 1px 20px;
-    width: 45px!important;
-    height: 45px;
-    border: 1px solid #c8c8c8;
-    background-color: transparent;
-    border-right: none;
+.quantitySelectorStepper :global(.vtex-numeric-stepper__plus-button) {
+  border-radius: 1px 20px 20px;
+  width: 45px !important;
+  height: 45px;
+  border: 1px solid #c8c8c8;
+  background-color: transparent;
+  border-left: none;
 }
-.quantitySelectorStepper
-  :global(.vtex-numeric-stepper__plus-button__text),
-.quantitySelectorStepper
-  :global(.vtex-numeric-stepper__minus-button__text) {
-  font-family: Urbanist;
+.quantitySelectorStepper :global(.vtex-numeric-stepper__minus-button) {
+  border-radius: 20px 1px 1px 20px;
+  width: 45px !important;
+  height: 45px;
+  border: 1px solid #c8c8c8;
+  background-color: transparent;
+  border-right: none;
+}
+.quantitySelectorStepper :global(.vtex-numeric-stepper__plus-button__text),
+.quantitySelectorStepper :global(.vtex-numeric-stepper__minus-button__text) {
+  font-family: Alegreya;
   font-size: 25px;
   font-weight: 400;
   color: #324545;
@@ -62,12 +56,13 @@
 
 
 @media (min-width: 1200px) {
-
   /* ! Product page */
-
+  .quantitySelectorContainer {
+    margin: 0;
+  }
   .quantitySelectorContainer {
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
   }
   .quantitySelectorTitle {
     margin-bottom: 10px;

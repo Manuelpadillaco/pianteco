@@ -2,7 +2,7 @@
   "newsletter": {
     "props": {
       "blockClass": ["Newsletter"],
-      "label": "RECIBE 20% DCTO",
+      "label": "20% DCTO",
       "placeholder": "Correo electrónico",
       "submit": "Suscribirme"
     }

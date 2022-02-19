@@ -27,8 +27,8 @@
 .listItem--TabItem :global(.vtex-button__label) {
   justify-content: flex-start;
   padding: 0 !important;
-  color: #0891d0;
-  font-family: Urbanist;
+  color: #808080;
+  font-family: Alegreya;
   font-size: 20px;
   font-weight: 400;
   text-transform: capitalize;

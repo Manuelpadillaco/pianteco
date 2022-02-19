@@ -11,7 +11,7 @@
   width: 120px;
 }
 .searchBarContainer :global(.vtex-styleguide-9-x-input) {
-  font-family: "Urbanist";
+  font-family: "Alegreya sans";
   display: none;
 }
 .headerStickyRow--Menu-Bottom {
@@ -25,8 +25,8 @@
 /* ------------------------------- */
 .imageElement--Footer__image {
   transition: 0.3s;
-  width: 28px;
-  height: 33px !important;
+  width: 36px;
+  max-height: 39px !important;
 }
 .imageElement--Footer__image:hover {
   opacity: 1;
@@ -37,7 +37,16 @@
   filter: none;
   opacity: 1;
 }
-
+.imageElementLink--Footer__image {
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.imageElement--Footer__image--facebook {
+  max-width: 22px;
+}
 .imageElementLink--Footer__image--company {
   display: flex;
   justify-content: center;
@@ -68,7 +77,7 @@
 .infoCardSubhead--TopSlide__Item {
   margin-top: 0;
   color: #df209d;
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 35px;
   font-style: normal;
   font-weight: 300;
@@ -81,7 +90,7 @@
   flex-direction: column;
   margin-top: 0;
   color: #000000;
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 15px;
   font-style: normal;
   font-weight: 300;
@@ -96,7 +105,7 @@
   margin-bottom: 20px;
   width: 100px;
   height: 150px;
-  background-image: url('https://beisbol.vteximg.com.br/arquivos/mobile-imagen-banner-principal.png');
+  background-image: url('https://pianteco.vteximg.com.br/arquivos/mobile-imagen-banner-principal.png');
   background-size: 100%;
   background-repeat: no-repeat;
 }*/
@@ -104,13 +113,13 @@
   margin-bottom: 40px;
 }
 .infoCardCallActionContainer--TopSlide__Item :global(.vtex-button) {
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   text-transform: initial;
-  background-color: #28508c;
-  border-color: #28508c;
+  background-color: #324545;
+  border-color: #324545;
   border-radius: 51px;
   transition: 0.3s;
 }
@@ -143,10 +152,83 @@
 }
 .infoCardCallActionContainer--CategorySlide__Item :global(.vtex-button) {
   display: flex;
+  color: #808080;
+  background-color: transparent;
+  border-color: transparent;
+  font-family: Alegreya;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: left;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+.infoCardContainer--CategorySlide__Item:hover
+  .infoCardCallActionContainer--CategorySlide__Item
+  :global(.vtex-button) {
+  color: #324545;
+  font-weight: 700;
+}
+.infoCardCallActionContainer--CategorySlide__Item :global(.vtex-button__label) {
+  padding: 0px;
+  font-family: "Alegreya Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  color: #324545;
+}
+.infoCardImage--CategorySlide__Item {
+  width: 100%;
+  height: auto;
+  border-radius: 3rem 0 27px ;
+}
+
+/* ! Category slide */
+.infoCardCallActionContainer--CategorySlide__Item {
+  width: 100%;
+}
+.infoCardContainer--CategorySlide__Item {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+}
+.infoCardCallActionContainer--CategorySlide__Item {
+  margin: 0;
+  text-decoration: none;
+}
+.infoCardImageContainer--CategorySlide__Item {
+  position: relative;
+  width: 100%;
+}
+.infoCardImageContainer--CategorySlide__Item::after {
+  content: "";
+  position: absolute;
+  inset: 0px 0px 4px;
+  width: 86%;
+  background-color: rgb(105 141 111 / 30%);
+  border-radius: 3rem 0 ;
+  transition: all 0.3s ease 0s;
+  opacity: 0;
+  height: 21rem;
+  top: 8px;
+  left: 7px;
+  background-size: 10rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 16rem;
+}
+
+.infoCardTextContainer--CategorySlide__Item {
+  padding: 0;
+  width: 100%;
+}
+.infoCardCallActionContainer--CategorySlide__Item :global(.vtex-button) {
+  display: flex;
   color: #0891d0;
   background-color: transparent;
   border-color: transparent;
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 15px;
   font-weight: 500;
   text-align: left;
@@ -160,19 +242,7 @@
   font-weight: 700;
 }
 .infoCardCallActionContainer--CategorySlide__Item :global(.vtex-button__label) {
-  padding: 0px;
-  font-family: Alegreya Sans;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 17px;
-  line-height: 24px;
-  text-align: center;
-  color: #324545;
-}
-.infoCardImage--CategorySlide__Item {
-  width: 100%;
-  height: auto;
-  border-radius: 5px;
+  padding: 0;
 }
 
 /* ! Top Banners */
@@ -181,10 +251,11 @@
   height: 100%;
   width: 100%;
   background-size: 100% !important;
+  border: none;
 }
 .infoCardHeadline--BannerTop__item--1 {
   color: white;
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 38px;
   font-style: normal;
   font-weight: 700;
@@ -195,8 +266,8 @@
   margin-top: 0;
   padding: 0 9px;
   color: white;
-  background-color: #28508c;
-  font-family: Urbanist;
+  background-color: #324545;
+  font-family: Alegreya;
   font-size: 38px;
   font-style: normal;
   font-weight: 700;
@@ -215,8 +286,8 @@
 }*/
 .infoCardCallActionContainer--BannerTop__item--1 :global(.vtex-button__label) {
   padding: 10px 20px !important;
-  color: #28508c;
-  font-family: Urbanist;
+  color: #324545;
+  font-family: Alegreya;
   font-size: 15px;
   font-style: normal;
   font-weight: 700;
@@ -231,7 +302,7 @@
 }
 .infoCardHeadline--BannerTop__item--2 {
   color: white;
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -251,8 +322,8 @@
 }*/
 .infoCardCallActionContainer--BannerTop__item--2 :global(.vtex-button__label) {
   padding: 10px 20px !important;
-  color: #28508c;
-  font-family: Urbanist;
+  color: #324545;
+  font-family: Alegreya;
   font-size: 13px;
   font-style: normal;
   font-weight: 700;
@@ -272,7 +343,7 @@
   padding: 15px 0;
 }
 .infoCardCallActionContainer--BannerBottom__item--1 :global(.vtex-button) {
-  background-color: #28508c;
+  background-color: #324545;
   border-width: 1px;
   border-radius: 100px;
   transition: 0.3s;
@@ -285,7 +356,7 @@
   :global(.vtex-button__label) {
   padding: 15px 20px !important;
   color: white;
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 15px;
   font-style: normal;
   font-weight: 700;
@@ -301,7 +372,7 @@
   content: "";
   width: 40%;
   height: 210px;
-  background-image: url("https://beisbol.vteximg.com.br/arquivos/mobile-imagen-banner-nueva-presentacion.png");
+  background-image: url("https://pianteco.vteximg.com.br/arquivos/mobile-imagen-banner-nueva-presentacion.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -313,9 +384,9 @@
 .infoCardHeadline--BannerBottom__item--2 {
   margin-top: 0;
   padding: 5px 10px;
-  color: #28508c;
+  color: #324545;
   background-color: white;
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -325,9 +396,9 @@
 .infoCardSubhead--BannerBottom__item--2 {
   margin-top: 5px;
   padding: 5px 10px;
-  color: #28508c;
+  color: #324545;
   background-color: white;
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -338,14 +409,21 @@
 /* ! Newsletter */
 .newsletter--Newsletter {
   margin-top: 0;
-  background-image: url(https://epartner.vtexcommercestable.com.br/arquivos/newsletterBG-mobile-piante.png);
+  background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/newsletterBG-mobile-piante.png);
   background-size: 100%;
   background-repeat: no-repeat;
   object-fit: cover;
   width: auto;
+  height: 11.5rem;
 }
+.infoCardContainer--BannerTop__item--1 {
+  background-image: url(https://pianteco.vtexassets.com/arquivos/banner-secundario-mobile-piante.png) !important;
+  width: 93%;
+  height: 134vw;
+}
+
 .container--Newsletter {
-  padding: 40px 10px;
+  padding: 0;
 }
 .inputGroup--Newsletter {
   flex-direction: column;
@@ -353,22 +431,46 @@
 .label--Newsletter {
   display: flex;
   flex-direction: row;
-  color: white;
-  font-family: Urbanist;
-  font-size: clamp(29px, 2.5vw, 42rem);
+  font-family: "Alegreya Sans";
+  font-style: normal;
+  color: #ffffff;
+  font-size: 37px;
   font-weight: 700;
   text-align: center;
   max-width: 47rem;
+  padding-top: 4rem;
+  position: relative;
+  margin-left: 0;
+  padding: 0 19px;
+  top: 46px;
+  left: -66px;
 }
 
 .label--Newsletter::after {
-  content: "En tu primera compra";
-  color: white;
-  font-family: Roboto;
-  font-size: 25px;
+  content: "EN TU PRIMERA COMPRA SUSBRÍBETE A NUESTRO NEWSLETTER";
+  font-family: "Alegreya Sans";
   font-style: normal;
-  font-weight: 700;
-  text-transform: uppercase;
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  left: 106%;
+  top: -49%;
+  text-align: start;
+  width: 7rem;
+}
+.label--Newsletter::before {
+  content: "RECÍBE";
+  text-align: start;
+  position: absolute;
+  font-family: "Alegreya Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+  top: -18px;
+  left: 16px;
 }
 .label--Newsletter .inputGroup {
   padding: 0 25px;
@@ -386,15 +488,10 @@
   padding-top: 0;
   align-items: center;
   margin-top: 30px;
+  position: relative;
+  margin-right: 5rem;
 }
-.form--Newsletter .inputGroup::before {
-  content: "Suscríbete a nuestro Newsletter";
-  margin-bottom: 16px;
-  padding-top: 10px;
-  font-weight: 400;
-  text-transform: uppercase;
-  font-size: 15px;
-}
+
 .label--Newsletter .inputGroup::placeholder {
   color: #c5c5c5;
 }
@@ -404,24 +501,26 @@
   border: none;
   height: 60px;
 }
-.buttonContainer--Newsletter {
-  padding-top: 20px;
-}
 .inputGroup--Newsletter
   :global(.vtex-input)
   :global(.vtex-styleguide-9-x-input) {
   color: #c5c5c5;
   background-color: white;
   font-family: Roboto;
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 100;
   text-align: left;
   border-radius: 9px;
   padding: 20px;
   height: 50px;
-  width: 100%;
+  width: 90vw;
+  margin: 10px;
+  position: absolute;
+  top: 2rem;
+  left: -38vw;
 }
+
 .inputGroup--Newsletter
   :global(.vtex-input)
   :global(.vtex-styleguide-9-x-input)::placeholder {
@@ -435,10 +534,11 @@
   border-color: #324545;
   border-radius: 9px;
   transition: 0.3s;
+  width: 50px;
 }
 .inputGroup .buttonContainer--Newsletter :global(.vtex-button):hover {
-  background-color: #183054;
-  border-color: #183054;
+  background-color: #698d6f;
+  border-color: #698d6f;
 }
 .inputGroup .buttonContainer--Newsletter :global(.vtex-button__label) {
   padding: 8px 26px !important;
@@ -451,9 +551,24 @@
   height: 40px;
   padding: 0;
 }
+.inputGroup .buttonContainer--Newsletter :global(.vtex-button__label)::before {
+  box-sizing: border-box;
+  position: absolute;
+  left: 18px;
+  top: 6px;
+  content: "";
+  color: white;
+  content: "";
+  width: 15px;
+  height: 26px;
+  background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/arrow.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
 .confirmationTitle--Newsletter {
   color: white;
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 45px;
   font-style: normal;
   font-weight: 700;
@@ -462,7 +577,7 @@
 }
 .confirmationText--Newsletter {
   color: white;
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
@@ -476,7 +591,7 @@
 .productNameContainer {
   margin-bottom: 10px;
   text-align: left;
-  font-family: Alegreya;
+  font-family: "Alegreya";
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -484,19 +599,20 @@
   color: #324545;
 }
 .productDescriptionTitle {
-  font-family: Alegreya;
+  font-family: "Alegreya";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 27px;
   color: #808080;
+  margin-top:2rem ;
 }
 .productDescriptionContainer {
   margin-top: 20px;
 }
 .productDescriptionText {
   text-align: left;
-  font-family: Alegreya;
+  font-family: "Alegreya";
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -504,15 +620,15 @@
   color: #808080;
 }
 .skuSelectorTextContainer {
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 25px;
   font-style: normal;
   font-weight: 400;
   text-align: left;
 }
 .skuSelectorName {
-  color: #0891d0;
-  font-family: Urbanist;
+  color: #808080;
+  font-family: Alegreya;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -536,14 +652,14 @@
   left: -0.1rem;
   right: -0.1rem;
   bottom: -0.1rem;
-  border: 1.9px solid #28508c;
+  border: 1.9px solid #324545;
   border-radius: 5px;
 }
 .productImageTag--main {
   background-color: white;
   border-radius: 5px;
-  box-shadow: 0px 4px 15px 0px #0000001a;
   height: 25rem !important;
+  max-height: 20rem !important;
 }
 
 .searchBarContainer :global(.vtex-input-prefix__group) {
@@ -553,7 +669,7 @@
 }
 
 .shippingContainer :global(.vtex-dropdown__label) {
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-style: normal;
   font-weight: 400;
   text-align: left;
@@ -563,7 +679,7 @@
 }
 .shippingContainer :global(.vtex-dropdown__container) {
   background-color: white;
-  font-family: "Urbanist";
+  font-family: "Alegreya";
   border-radius: 100px;
   border: 1px solid #8f8f8f;
 }
@@ -584,18 +700,18 @@
 }
 .shippingContainer :global(.vtex-button__label) {
   color: white;
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-weight: 700;
   font-size: 15px;
   text-align: center;
 }
 .productImage {
   margin: 10px 25px;
-  box-shadow: 0px 4px 15px 0px #0000001a;
   border-radius: 5px;
 }
 .swiper-pagination {
   bottom: 5px;
+  display: none;
 }
 .swiperCaret {
   display: flex;
@@ -607,14 +723,22 @@
   color: #ededed;
   background-color: #ffffff !important;
   border-radius: 50%;
-  box-shadow: 0px 0px 13px 0px #00000026;
+  box-shadow: 0px 0px 3px 0px #00000026;
   transition: 0.3s;
 }
 .swiperCaret:hover {
-  color: #28508c;
+  color: #324545;
+}
+
+.swiperCaretPrev {
+  transform: translate(31px, -35px);
+}
+
+.swiperCaretNext {
+  transform: translate(-31px, -35px);
 }
 .content {
-  font-family: Alegreya;
+  font-family: "Alegreya";
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -686,20 +810,102 @@
 }
 .imageElement--TopSlide__Item {
   width: 100vw;
-  height: 90vh;
+  max-height: 800px;
+  margin-top: -7rem;
 }
 
 .autoCompleteOuterContainer :global(.vtex-input__suffix) {
   background: transparent;
 }
-
+.form--Newsletter {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  max-width: 100%;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+}
+.buttonContainer--Newsletter {
+  padding-top: 20px;
+  position: absolute;
+  top: 25px;
+  left: 40.6vw;
+}
+.imageElement--Footer__image--allpaymentsMobile {
+  width: 100%;
+}
+.imageElementLink--Footer__image--allpaymentsMobile {
+  padding: 0 1.9rem;
+}
 @media (min-width: 1200px) {
+  .imageElement--TopSlide__Item {
+    margin-top: 0;
+  }
+  .imageElement--Footer__image--facebook {
+    max-width: 28px !important;
+    height: 29px;
+  }
+  .imageElementLink--Footer__image--allpaymentsMobile {
+    padding: 0;
+  }
+  .infoCardImageContainer--CategorySlide__Item--1::after {
+    background-image: url("https://pianteco.vteximg.com.br/arquivos/anturios-pianteco.png");
+  }
+  .infoCardImageContainer--CategorySlide__Item--2::after {
+    background-image: url("https://pianteco.vteximg.com.br/arquivos/combos-pianteco.png");
+    background-size: 10rem !important;
+  }
+  .infoCardImageContainer--CategorySlide__Item--3::after {
+    background-image: url("https://pianteco.vteximg.com.br/arquivos/orquideas-pianteco.png");
+    background-size: contain;
+  }
+  .infoCardImageContainer--CategorySlide__Item--4::after {
+    background-image: url("https://pianteco.vteximg.com.br/arquivos/pachiras-pianteco.png");
+  }
+  .infoCardImageContainer--CategorySlide__Item--5::after {
+    background-image: url("https://pianteco.vteximg.com.br/arquivos/suscripciones-pianteco.png");
+  }
+  .infoCardContainer--CategorySlide__Item:hover
+    .infoCardImageContainer--CategorySlide__Item::after {
+    opacity: 1;
+  }
+  .infoCardContainer--BannerTop__item--1 {
+    background-image: url(https://pianteco.vtexassets.com/arquivos/banner-secundario-desk-piante.png) !important;
+    width: 93%;
+    height: 25vw;
+  }
+  .inputGroup--Newsletter
+    :global(.vtex-input)
+    :global(.vtex-styleguide-9-x-input) {
+    color: #c5c5c5;
+    background-color: white;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    text-align: left;
+    border-radius: 9px;
+    padding: 20px;
+    height: 50px;
+    width: 100%;
+  }
+  .form--Newsletter {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    max-width: 100%;
+    height: auto;
+    flex-direction: row;
+    min-height: 13.7vw;
+  }
   .productNameContainer {
     font-size: 35px;
   }
-  
+
   .productImageTag--main {
-    height:auto;
+    height: auto !important;
+    max-height: 27rem !important;
   }
   .infoCardCallActionContainer--CategorySlide__Item
     :global(.vtex-button__label) {
@@ -710,14 +916,14 @@
     position: absolute;
     inset: 0px 0px 4px;
     width: 85%;
-    background-color: rgb(105 141 111 / 30%);
+    background-color: rgba(0, 0, 0, 0.3);
     background-size: 35%;
     background-position: center center;
     background-repeat: no-repeat;
-    border-radius: 33px 0 33px 0;
+    border-radius: 3rem 0 27px;
     transition: all 0.3s ease 0s;
     opacity: 0;
-    height: 25rem;
+    height: 21rem;
     top: 8px;
     left: 7px;
   }
@@ -728,8 +934,9 @@
   }
   /* ! Header */
   .logoImage {
-    width: 120px;
+    width: 9rem;
     margin: 0 3rem;
+    max-width: 100%;
   }
   .logoContainer--Header-Desktop__Logo {
     padding: 0;
@@ -743,7 +950,7 @@
   }
   .autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
     color: black;
-    font-family: Urbanist;
+    font-family: Alegreya;
     font-size: 13px;
     font-style: normal;
     font-weight: 400;
@@ -765,19 +972,25 @@
     :global(.vtex-input)
     :global(.vtex-styleguide-9-x-input) {
     width: 30vw;
+    padding: 20px;
+    height: 50px;
+    top: 0;
+    position: static;
+    left: -48vw;
   }
   /* ! Footer */
 
   .imageElement--Footer__image {
     transition: 0.3s;
-    width: 100%;
-    height: 100% !important;
+    width: 25px;
+    max-height: 100% !important;
+    max-width: fit-content;
   }
   .imageElement--Footer__image--development {
     margin: 0;
+    width: 87%;
   }
   .imageElement--Footer__image--technology {
-    margin-top: 11px;
     width: 5rem;
     height: 22px !important;
   }
@@ -818,12 +1031,12 @@
     width: 100%;
   }
   .infoCardImage--CategorySlide__Item {
-    height: 25rem;
+    height: auto;
+    max-height: 100rem !important;
     width: 90%;
-  }
-  .infoCardContainer--CategorySlide__Item
-    .infoCardImageContainer--CategorySlide__Item--3::after {
-    background-size: 20%;
+    max-height: 21rem;
+    object-fit: initial!important;
+    max-width: 16rem;
   }
 
   /* ! Top Banners */
@@ -852,7 +1065,7 @@
   }
   .infoCardContainer--BannerBottom__item--2::before {
     height: 280px;
-    background-image: url("https://beisbol.vteximg.com.br/arquivos/imagen-banner-nueva-presentacion-desktop.png");
+    background-image: url("https://pianteco.vteximg.com.br/arquivos/imagen-banner-nueva-presentacion-desktop.png");
   }
   .infoCardHeadline--BannerTop__item--2::after {
     right: -45%;
@@ -860,43 +1073,49 @@
 
   /* ! Newsletter */
   .container--Newsletter {
-    padding: 30px 10px;
+    padding: 0;
   }
   .newsletter--Newsletter {
-    background-image: url(https://epartner.vtexcommercestable.com.br/arquivos/newsletterBG-desk-piante.png) !important;
+    background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/newsletterBG-desk-piante.png) !important;
+    height: auto;
   }
   .inputGroup--Newsletter {
     flex-direction: row;
   }
   .buttonContainer--Newsletter {
     position: relative;
-    top: -76px;
-    left: 12vw;
+    left: 11.9vw;
+    top: -67px;
   }
-  .form--Newsletter {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 100px;
-    max-width: 100%;
-  }
+
   .label--Newsletter {
-    align-items: flex-start;
+    max-width: 47rem;
+    padding-top: 0;
+    position: relative;
+    margin-left: 10%;
+    font-size: 4rem;
+    top: 0;
+  }
+
+  .label--Newsletter::after {
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    top: 1px;
+    width: 172px;
+    text-align: start;
+    left: 3rem;
   }
   .label--Newsletter::before {
-    font-size: 35px;
-  }
-  .label--Newsletter::after {
-    width: 60%;
-    font-size: 25px;
-    font-weight: 300;
+    font-size: 2rem;
+    text-align: center;
+    color: #ffffff;
+    top: -25px;
   }
   .inputGroup--Newsletter {
     flex-direction: column;
     width: auto;
-  }
-  .label--Newsletter::after {
-    content: "En tu primera compra suscríbete a nuestro Newsletter";
-    text-align: start;
   }
   .form--Newsletter .inputGroup::before {
     content: "";

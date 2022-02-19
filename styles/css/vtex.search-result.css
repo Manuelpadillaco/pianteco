@@ -1,26 +1,23 @@
 /* ------------------------------- */
 /* //* Search Page */
 /* ------------------------------- */
-.filterItem--Search__Filter--selected
-  :global(.vtex-checkbox__label) {
+.filterItem--Search__Filter--selected :global(.vtex-checkbox__label) {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.filterItem--Search__Filter--selected
-  :global(.vtex-checkbox__label)::after {
-  content: '\00d7';
-  font-family: 'Urbanist';
+.filterItem--Search__Filter--selected :global(.vtex-checkbox__label)::after {
+  content: "\00d7";
+  font-family: "Alegreya";
   font-size: 20px;
 }
 .galleryTitle--layout {
-  margin: 0;
-  color: #28508c;
-  font-family: Urbanist;
-  font-size: 40px;
-  font-weight: 700;
-  text-align: left;
-  text-transform: uppercase;
+  font-family: "Alegreya";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 100%;
+  color: #324545;
 }
 .orderByText {
   display: none;
@@ -32,11 +29,11 @@
   border: 0;
 }
 .orderByButton::after {
-  content: '';
+  content: "";
   margin-left: 10px;
   width: 20px;
   height: 20px;
-  background-image: url('https://beisbol.vteximg.com.br/arquivos/flecha-icono-search.png');
+  background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/flecha-verde2-painte.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -56,57 +53,69 @@
   border: 0;
 }
 .filterPopupButton::after {
-  content: '';
+  content: "";
   margin-left: 10px;
   width: 20px;
   height: 20px;
-  background-image: url('https://beisbol.vteximg.com.br/arquivos/filtro-icono-search.png');
+  background-image: url("https://pianteco.vteximg.com.br/arquivos/filtros-icon-piante.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 .filterPopupTitle {
-  color: #28508c;
-  font-family: Urbanist;
-  font-size: 20px;
-  font-weight: 600;
+  padding: 5px;
+  text-transform: capitalize;
+  font-size: 18px !important;
+  font-family: "Alegreya Sans";
+  font-style: normal;
+  line-height: 20px;
+  text-align: center;
+  color: #324545;
 }
 .totalProducts--layout {
-  color: #28508c;
-  font-family: Roboto;
-  font-size: 15px;
-  font-weight: 700;
+  font-family: "Alegreya";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 23px;
+  color: #808080;
+  border-bottom: 1px solid #d3d3d3;
+  width: 87% !important;
 }
 .totalProductsMessage {
-  color: #28508c;
-  font-weight: 400;
+  font-family: "Alegreya";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 23px;
+  color: #808080;
 }
 .buttonShowMore--layout {
   padding: 0 0 29px;
 }
 .buttonShowMore :global(.vtex-button) {
-  background-color: #28508c;
-  border: 1px solid #28508c;
+  background-color: #324545;
+  border: 1px solid #324545;
   border-radius: 100px;
   transition: 0.3s;
 }
 .buttonShowMore :global(.vtex-button):hover {
-  background-color: #183054;
-  border-color: #183054;
+  background-color: #698d6f;
+  border-color: #698d6f;
 }
 .buttonShowMore :global(.vtex-button__label) {
   font-size: 0;
 }
-.buttonShowMore
-  :global(.vtex-button__label)::before {
-  content: 'Ver más';
+.buttonShowMore :global(.vtex-button__label)::before {
+  content: "Ver más";
   padding: 12px 25px !important;
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 15px;
   font-weight: 600;
 }
-.filterButtonsBox {
-  flex-direction: row-reverse;
+.sidebar {
+  top: 6rem;
+  height: 88vh;
 }
 .filterClearButtonWrapper {
   padding-left: 5px;
@@ -118,29 +127,51 @@
 }
 .filterApplyButtonWrapper :global(.vtex-button) {
   color: white;
-  background-color: #28508c;
-  font-family: 'Urbanist';
-  border: 1px solid #28508c;
+  background-color: #324545;
+  border: 1px solid #324545;
   border-radius: 100px;
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  text-transform: capitalize;
 }
 .filterClearButtonWrapper :global(.vtex-button) {
-  color: white;
-  background-color: #8f8f8f;
-  font-family: 'Urbanist';
-  border: 1px solid #8f8f8f;
-  border-radius: 100px;
+  color: #324545;
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0;
+  text-decoration: underline;
 }
+.filterClearButtonWrapper :global(.vtex-button)::before {
+  content: "Limpiar Filtros";
+  color: #324545;
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  text-decoration: underline;
+  text-transform: initial;
+}
+
 .filterAccordionBreadcrumbs {
   margin: 0 20px;
   padding: 0px;
   width: auto;
-  border-bottom: 1px solid #28508c;
+  border: none;
 }
 .filterBreadcrumbsText--Search__Filter {
-  color: #28508c;
-  font-family: Urbanist;
-  font-size: 23px;
-  font-weight: 700;
+  color: #324545;
+  font-family: Alegreya;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 100%;
+}
+.accordionFilterContainer {
+  width: 100%;
 }
 .accordionFilterContainer--Search__Filter {
   padding: 0 20px;
@@ -150,27 +181,35 @@
   justify-content: space-between;
   align-items: center;
   padding: 0;
-  border-bottom: 1px solid #00168980;
+  border: none;
+  background: #f2f2f0;
+  border-radius: 5px;
+  width: 90%;
+  padding: 1rem;
 }
 .filterAccordionItemBox--Search__Filter::after {
-  content: '';
+  content: "";
   margin-right: 10px;
   width: 20px;
   height: 20px;
-  background-image: url('https://beisbol.vteximg.com.br/arquivos/flecha-icono-search.png');
+  background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/flecha-verde2-painte.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  background-repeat: no-repeat;
+  transform: rotate(270deg);
 }
 .accordionFilterContent--Search__Filter {
   padding: 5px;
 }
 .accordionFilterItemTitle--Search__Filter {
-  color: #28508c;
-  font-family: Urbanist;
-  font-size: 20px;
-  font-weight: 700;
   text-transform: capitalize;
+  color: #324545;
+  font-family: Alegreya;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 100%;
 }
 .accordionFilterItemIcon--Search__Filter {
   display: none;
@@ -178,51 +217,50 @@
 .accordionFilter .ReactCollapse--collapse .pl8 {
   padding: 0 20px;
 }
-.accordionFilterOpen--Search__Filter {
-  padding: 0;
+.accordionFilter .ReactCollapse--collapse:last-child .pl8 {
+  padding: 0 11px;
 }
-.accordionFilterOpen--Search__Filter
-  .filterAccordionItemBox {
+.accordionFilter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.accordionFilterOpen--Search__Filter {
+  padding: 1rem 0;
+}
+.accordionFilterOpen--Search__Filter .filterAccordionItemBox {
   padding: 20px 0 0;
   min-height: 0;
   border-bottom: 0;
 }
-.filterAccordionItemBox
-  :global(.vtex-checkbox__label) {
+.filterAccordionItemBox :global(.vtex-checkbox__label) {
   margin-left: 10px;
-  color: #0891d0;
-  font-family: Urbanist;
+  color: #808080;
   font-size: 16px;
-  font-weight: 400;
+  font-family: Alegreya;
+  font-style: normal;
+  font-weight: normal;
 }
 .accordionFilterItemTag--Search__Filter {
   margin-left: 35px;
 }
-.accordionFilterItemTag--Search__Filter
-  :global(.vtex-tag) {
+.accordionFilterItemTag--Search__Filter :global(.vtex-tag) {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 6px;
   min-width: 28px;
   min-height: 25px;
-  background-color: #28508c;
+  background-color: #324545;
   border-radius: 100%;
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 14px;
   line-height: normal;
 }
-.galleryItem--normal.galleryItem--grid {
-  max-width: 25% !important;
+
+.orderByText {
+  display: none;
 }
-.orderByDropdown::before {
-  content: "Ordenar por: ";
-  width: 200px;
-  font-size: 18px;
-  color: #28508c;
-  font-weight: 600;
-}
-.orderByText {display: none;}
 
 .orderByDropdown {
   display: flex;
@@ -232,73 +270,97 @@
   display: flex;
   justify-content: center;
 }
+.filter__container--priceRange {
+  background: #f2f2f0;
+  border-radius: 5px;
+  width: 19rem;
+  position: absolute;
+  left: 1.2rem;
+  margin: 1rem 0;
+  padding: 0 12px;
+}
+
+.filterTemplateOverflow--Search__Filter {
+  padding: 7px 1rem;
+}
+.orderByButton {
+  margin: 7px 0;
+  border: 1px solid #324545;
+  border-radius: 25px;
+}
+.orderBy--layout {
+  width: 100%;
+}
+
 /* ------------------------------- */
 /* //? Media queries */
 /* ------------------------------- */
-@media (min-width: 640px) {
-  .sidebar {
-    width: 18rem;
-  }
-  .orderByButton .filterPopupTitle {
-    display: flex;
-    align-items: center;
-    font-size: 15px;
-    font-weight: 300;
-  }
-  .orderByText {
-    display: block;
-    color: #28508c;
-    font-family: Urbanist;
-    font-size: 0px;
-    font-weight: 700;
-    margin-right: 10px;
-  }
-  .orderByText::after {
-    content: ':';
-  }
-}
-
 @media (min-width: 1200px) {
+  .filter__container--priceRange {
+    width: 100%;
+  }
+  .galleryItem--normal.galleryItem--grid {
+    max-width: 25% !important;
+    padding: 0;
+  }
+  .orderByDropdown::before {
+    content: "Ordenar por: ";
+    width: 200px;
+    font-family: "Alegreya";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 23px;
+    color: #808080;
+  }
+  .orderByOptionsContainer {
+    margin-top: 3.5rem;
+  }
   .gallery {
     padding: 0;
   }
   .totalProducts--layout {
     padding: 0 15px;
     text-align: start;
+    width: auto !important;
+    border: none;
   }
   .totalProductsMessage {
     text-transform: lowercase;
   }
   .filterIcon--Search__Filter {
-    color: #28508c;
+    color: #324545;
   }
   .orderByText {
-    color: #0891d0;
+    color: #808080;
     font-family: Roboto;
     font-size: 0px;
     font-weight: 400;
     text-transform: capitalize;
   }
-  .orderByButton {
-    margin: 7px 0;
-    border: 1px solid #28508c;
-    border-radius: 5px;
-  }
+
   .filterPopupTitle {
     padding: 5px;
     text-transform: capitalize;
     font-size: 18px !important;
     font-weight: 400;
+    font-family: Alegreya Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #324545;
   }
   .filterMessage--Search__Filter {
-    padding-left: 10px;
-    color: #28508c;
-    font-family: Urbanist;
-    font-size: 20px;
-    font-weight: 900;
+    font-family: "Alegreya";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 100%;
+    color: #324545;
   }
-  .filterSelected--Search__Filter
-    .filterTitle--Search__Filter {
+  .filterSelected--Search__Filter .filterTitle--Search__Filter {
     display: none;
   }
   .filterSelected--Search__Filter {
@@ -310,59 +372,58 @@
   .filter__container--Search__Filter {
     margin-bottom: 10px;
     border: 0;
+    position: static;
   }
   .filter__container--Search__Filter--title {
-    border-bottom: 1px solid #28508c;
+    border-bottom: 2px solid #d3d3d3;
   }
   .filterTitle--Search__Filter {
-    color: #28508c;
-    font-family: Urbanist;
-    font-size: 18px;
+    font-family: "Alegreya";
+    font-style: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: #324545;
     font-weight: 700;
   }
   .filterAvailable--Search__Filter {
     padding: 12px 10px;
-    background-color: #f4f4f4;
+    background-color: #f2f2f0;
   }
-  .filterItem--Search__Filter
-    :global(.vtex-checkbox__label) {
+  .filterItem--Search__Filter :global(.vtex-checkbox__label) {
     padding-left: 10px;
   }
-  .filterItem--Search__Filter--selected
-    :global(.vtex-checkbox__label) {
-    color: #0891d0;
-    font-family: Urbanist;
+  .filterItem--Search__Filter--selected :global(.vtex-checkbox__label) {
+    color: #808080;
+    font-family: Alegreya;
     font-size: 15px;
     font-weight: 400;
     cursor: pointer;
   }
-  .filterItem--Search__Filter--selected
-    :global(.vtex-checkbox__container) {
+  .filterItem--Search__Filter--selected :global(.vtex-checkbox__container) {
     display: none;
   }
   .filterContent--Search__Filter {
     padding-top: 10px;
   }
   .filterItem--Search__Filter {
-    font-family: Urbanist;
+    font-family: Alegreya;
     font-size: 16px;
     font-weight: 400;
   }
   .filterContent--Search__Filter
     .filterItem--Search__Filter
     :global(.vtex-checkbox__label) {
-    color: #0891d0;
+    color: #808080;
   }
-  .filterContent--Search__Filter
-    .filterItem--Search__Filter--selected {
-    font-family: Urbanist;
+  .filterContent--Search__Filter .filterItem--Search__Filter--selected {
+    font-family: Alegreya;
     font-size: 16px;
     font-weight: 700;
   }
   .filterContent--Search__Filter
     .filterItem--Search__Filter--selected
     :global(.vtex-checkbox__label) {
-    color: #28508c;
+    color: #324545;
     font-weight: 700;
   }
   .filterContent--Search__Filter

@@ -32,10 +32,16 @@
       "logo#desktop",
       "header-row#Header-2",
       "header-spacer",
-      "search-bar",
+      "search-bar#desktop",
       "login",
       "minicart.v2"
     ]
+  },
+  "search-bar#desktop":{
+    "props": {
+    "placeholder": "Buscar,  Tienda ..."
+    }
+
   },
   // ! Logo
   "logo#desktop": {

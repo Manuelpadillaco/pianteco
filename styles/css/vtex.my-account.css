@@ -9,16 +9,16 @@
 }
 .menuLinks :global(.vtex-account_menu-link) {
   padding-left: 0;
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 22px;
   font-weight: 700;
   padding-top: 0;
   border-bottom: 1px solid #0016894d;
-  color: #0891d0;
+  color: #808080;
 }
 .menuLinks
   :global(.vtex-account_menu-link)[href='#/profile'] {
-  color: #28508c;
+  color: #324545;
 }
 .menu {
   padding: 20px;
@@ -30,11 +30,11 @@
 }
 .menuLink::before {
   padding-left: 0;
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 22px;
   font-weight: 700;
   padding-top: 0;
-  color: #0891d0;
+  color: #808080;
   content: 'Cerrar sesion';
 }
 .boxContainer {
@@ -42,39 +42,39 @@
   border: 0;
 }
 .dataEntryLabel {
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 17px;
   font-weight: 700;
-  color: #28508c;
+  color: #324545;
 }
 .firstNameSubContainer {
   margin-bottom: 20px;
 }
 .dataEntryChildren {
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 16px;
   font-weight: 400;
-  color: #0891d0;
+  color: #808080;
 }
 .newsletterContainerTitle {
   font-size: 0;
   margin-bottom: 10px;
 }
 .newsletterContainerTitle::before {
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 20px;
   font-weight: 700;
   content: 'Newsletter';
-  color: #28508c;
+  color: #324545;
 }
 .newsletterContainerMessage {
   font-size: 0;
 }
 .newsletterContainerMessage::before {
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 16px;
   font-weight: 400;
-  color: #0891d0;
+  color: #808080;
   content: '¿Desea recibir emails promocionales?';
 }
 .passwordBox :global(.vtex-checkbox__label) {
@@ -82,15 +82,15 @@
 }
 .passwordBox
   :global(.vtex-checkbox__label)::before {
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 16px;
   font-weight: 400;
-  color: #0891d0;
+  color: #808080;
   content: 'Deseo recibir newsletter';
 }
 .boxContainerFooter :global(.vtex-button__label) {
-  color: #28508c;
-  font-family: Urbanist;
+  color: #324545;
+  font-family: Alegreya;
   font-size: 18px;
   font-weight: 700;
   text-transform: capitalize;
@@ -109,17 +109,17 @@
 :global(.vtex-account__page)
   :global(.vtex-button)
   :global(.ml3.ttu.t-action--small) {
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 15px;
   font-style: normal;
   font-weight: 700;
 }
 :global(.vtex-account__page)
   :global(.vtex-pageHeader__title) {
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 50px;
   font-weight: 700;
-  color: #28508c;
+  color: #324545;
 }
 :global(.vtex-account__orders-list),
 :global(.vtex-account__orders-list),
@@ -132,10 +132,10 @@
 :global(.vtex-account__orders-list)
   :global(.t-heading-4),
 .addressList :global(.t-heading-4) {
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 25px;
   font-weight: 400;
-  color: #0891d0;
+  color: #808080;
 }
 :global(.vtex-account__cards-list)
   :global(.t-heading-4)
@@ -143,7 +143,7 @@
 :global(.vtex-account__orders-list)
   :global(.t-heading-4)
   :global(.c-on-base) {
-  color: #0891d0;
+  color: #808080;
 }
 :global(.vtex-pageHeader__container)
   :global(.vtex-pageHeader__children) {
@@ -152,15 +152,15 @@
 :global(.vtex-pageHeader__container)
   :global(.vtex-pageHeader__children)
   :global(.vtex-button) {
-  background-color: #28508c;
-  border-color: #28508c;
+  background-color: #324545;
+  border-color: #324545;
   border-radius: 100px;
   padding: 5px 23px;
 }
 :global(.vtex-pageHeader__container)
   :global(.vtex-pageHeader__children)
   :global(.vtex-button__label) {
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 15px;
   font-weight: 400;
   color: white;
@@ -170,38 +170,38 @@
   border: 0;
 }
 :global(.vtex-my-authentication-1-x-maskedPassword_title) {
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 20px;
   font-weight: 700;
-  color: #28508c;
+  color: #324545;
 }
 :global(.vtex-my-authentication-1-x-loginSessionsBox_title) {
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 20px;
   font-weight: 700;
-  color: #28508c;
+  color: #324545;
 }
 :global(.vtex-my-authentication-1-x-box_footer) {
   text-align: end;
 }
 :global(.vtex-my-authentication-1-x-maskedPassword_content) {
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 15px;
   font-weight: 300;
-  color: #0891d0;
+  color: #808080;
 }
 :global(.vtex-my-authentication-1-x-loginSessionsBox_content) {
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 15px;
   font-weight: 300;
-  color: #0891d0;
+  color: #808080;
 }
 :global(.vtex-my-authentication-1-x-box_footer)
   :global(.vtex-button__label),
 :global(.vtex-my-authentication-1-x-maskedPassword_content)
   :global(.vtex-button__label) {
-  color: #28508c;
-  font-family: Urbanist;
+  color: #324545;
+  font-family: Alegreya;
   font-size: 16px;
   font-weight: 700;
   text-transform: capitalize;
@@ -222,28 +222,28 @@
 :global(.vtex-modal__confirmation)
   :global(.mr4)
   :global(.vtex-button) {
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 16px;
   font-weight: 700;
-  color: #0891d0;
+  color: #808080;
 }
 :global(.vtex-modal__confirmation)
   > :global(.vtex-button) {
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 16px;
   font-weight: 700;
-  background-color: #28508c;
-  border-color: #28508c;
+  background-color: #324545;
+  border-color: #324545;
 }
 :global(.vtex-modal__overlay)
   :global(.t-heading-5) {
-  font-family: Urbanist;
+  font-family: Alegreya;
   font-size: 20px;
   font-weight: 700;
-  color: #28508c;
+  color: #324545;
 }
 :global(.vtex__icon-close) {
-  color: #28508c;
+  color: #324545;
 }
 
 /* ------------------------------- */
@@ -255,11 +255,11 @@
   }
   .menuLinks
     :global(.vtex-account_menu-link)[href='#/profile'] {
-    color: #0891d0;
+    color: #808080;
   }
   .menuLinks
     :global(.vtex-account_menu-link.b--action-primary) {
-    color: #28508c;
+    color: #324545;
   }
   :global(.vtex-account__page)
     :global(.vtex-pageHeader__title) {

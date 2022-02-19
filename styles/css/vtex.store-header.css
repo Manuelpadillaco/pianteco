@@ -2,6 +2,12 @@
 /* //? Medias Query */
 /* ------------------------------- */
 @media (min-width: 1200px) {
+  .headerRowBackground--Header__Container {
+    background: transparent;
+  }
+  .headerRowContainer--Menu-Bottom {
+    background-color: transparent !important;
+  }
   .headerRow--Menu-Bottom {
     max-width: 63%;
   }
@@ -27,9 +33,10 @@
   padding: 5px 0;
 }
 .headerRowContainer--Header__Container {
-  background-color: rgba(245, 245, 245, 0.8);
+  background-color: rgb(245 245 245 / 96%);
   height: 5rem;
 }
+
 /* ------------------------------- */
 /* add transitions */
 :global(.vtex-sticky-layout-0-x-container)

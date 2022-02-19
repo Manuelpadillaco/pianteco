@@ -3,7 +3,7 @@
     "props": {
       "maxVisibleItems": {
         "desktop": 1,
-        "mobile": 1
+        "mobile": 2
       }
     },
     "children": ["flex-layout.row#product-gifts-text", "product-gift-list"]

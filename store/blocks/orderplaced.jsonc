@@ -1,6 +1,9 @@
 {
   "order-placed": {
-    "blocks": ["op-header", "op-order"]
+    "blocks": ["op-header", "op-order"],
+    "props": {
+      "blockClass": "order-placed"
+    }
   },
   "op-header": {
     "children": [
@@ -14,7 +17,8 @@
     "props": {
       "name": "confirmation",
       "marginBottom": 9,
-      "borderless": true
+      "borderless": true,
+      "blockClass": "op-section-notices"
     },
     "children": [
       "op-confirmation-icon",
@@ -31,6 +35,7 @@
       "horizontalAlign": "center",
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true
+
     },
     "children": ["flex-layout.col#confirmation-buttons"]
   },
@@ -41,7 +46,9 @@
     "props": {
       "name": "notices",
       "marginBottom": 9,
-      "borderless": true
+      "borderless": true,
+      "blockClass": "section--notices"
+
     },
     "children": ["op-notices"]
   },
@@ -64,7 +71,8 @@
       "fullWidth": true,
       "colSizing": "auto",
       "colGap": 5,
-      "marginBottom": 5
+      "marginBottom": 5,
+      "blockClass": "row-order-header"
     },
     "children": [
       "flex-layout.col#order-header-info",
@@ -72,18 +80,28 @@
     ]
   },
   "flex-layout.col#order-header-info": {
+    "props":{
+      "blockClass": "col-order-header-info"
+    },
     "children": ["op-order-number", "op-order-datetime", "op-order-seller"]
   },
   "flex-layout.col#order-header-options": {
+    "props":{
+      "blockClass": "col-order-header-options"
+    },
     "children": ["responsive-layout.desktop#order-options-desktop"]
   },
   "responsive-layout.desktop#order-options-desktop": {
+    "props":{
+      "blockClass": "col-order-options-desktop"
+    },
     "children": ["op-order-options"]
   },
   // payment section
   "op-section#payments": {
     "props": {
-      "name": "paymentMethods"
+      "name": "paymentMethods",
+      "blockClass": "paymentMethods"
     },
     "children": [
       "op-order-payment",
@@ -102,13 +120,15 @@
   },
   "op-section#pickup-packages": {
     "props": {
-      "name": "pickupPackages"
+      "name": "pickupPackages",
+      "blockClass": "pickupPackages"
     },
     "children": ["op-order-pickup-packages"]
   },
   "op-section#delivery-packages": {
     "props": {
-      "name": "deliveryPackages"
+      "name": "deliveryPackages",
+      "blockClass": "deliveryPackages"
     },
     "children": ["op-order-delivery-packages"]
   }

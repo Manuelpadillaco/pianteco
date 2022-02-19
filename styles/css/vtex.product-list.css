@@ -1,20 +1,20 @@
 .productListUnavailableItemsMessage {
-  color: #28508c;
-  font-family: Urbanist;
+  color: #324545;
+  font-family: Alegreya;
   font-size: 17px;
   font-weight: 700;
-  border-bottom: 1px solid #28508c;
+  border-bottom: 1px solid #324545;
 }
 .productListAvailableItemsMessage {
-  color: #28508c;
-  font-family: Urbanist;
+  color: #324545;
+  font-family: Alegreya;
   font-size: 17px;
   font-weight: 700;
-  border-bottom: 1px solid #28508c;
+  border-bottom: 1px solid #324545;
 }
 .unitPriceMeasurementUnit,
 .unitPricePerUnitCurrency {
-  font-family: 'Urbanist';
+  font-family: 'Alegreya';
   font-size: 13px;
   font-weight: 700;
 }
