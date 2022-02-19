@@ -923,9 +923,10 @@
     border-radius: 3rem 0 27px;
     transition: all 0.3s ease 0s;
     opacity: 0;
-    height: 21rem;
+    height: auto;
     top: 8px;
     left: 7px;
+    max-height: 24.2rem;
   }
 
   .infoCardContainer--CategorySlide__Item:hover
