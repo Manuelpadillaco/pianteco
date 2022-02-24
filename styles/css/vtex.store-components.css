@@ -12,7 +12,9 @@
 }
 .searchBarContainer :global(.vtex-styleguide-9-x-input) {
   font-family: "Alegreya sans";
-  display: none;
+  display: block;
+  width: 100%;
+  background: white;
 }
 .headerStickyRow--Menu-Bottom {
   width: 100%;
@@ -181,7 +183,7 @@
 .infoCardImage--CategorySlide__Item {
   width: 100%;
   height: auto;
-  border-radius: 3rem 0 27px ;
+  border-radius: 3rem 0 27px;
 }
 
 /* ! Category slide */
@@ -207,7 +209,7 @@
   inset: 0px 0px 4px;
   width: 86%;
   background-color: rgb(105 141 111 / 30%);
-  border-radius: 3rem 0 ;
+  border-radius: 3rem 0;
   transition: all 0.3s ease 0s;
   opacity: 0;
   height: 21rem;
@@ -605,7 +607,7 @@
   font-size: 20px;
   line-height: 27px;
   color: #808080;
-  margin-top:2rem ;
+  margin-top: 2rem;
 }
 .productDescriptionContainer {
   margin-top: 20px;
@@ -663,11 +665,20 @@
 }
 
 .searchBarContainer :global(.vtex-input-prefix__group) {
-  height: 33px;
-  background: transparent;
+  height: 37px;
+  background: white;
   border: none;
+  width: 90%;
+  margin: 0 auto;
 }
-
+.searchBarContainer {
+  position: absolute;
+  top: 4rem;
+  width: 100%;
+  left: 0;
+  height: auto;
+  width: 100% !important;
+}
 .shippingContainer :global(.vtex-dropdown__label) {
   font-family: Alegreya;
   font-style: normal;
@@ -838,7 +849,24 @@
 .imageElementLink--Footer__image--allpaymentsMobile {
   padding: 0 1.9rem;
 }
+.imageElement--About__Image {
+  border-radius: 40px 0px;
+}
+.imageElement--Search__Image {
+  width: 1.5rem;
+}
+
 @media (min-width: 1200px) {
+  .imageElement--About__Image--ImageWhoCultivos {
+    height: 103%;
+    max-height: 21rem;
+  }
+  .infoCardContainer--About__Image {
+    min-height: 0;
+    width: 100%;
+    background-size: 100% !important;
+    height: 62rem !important;
+  }
   .imageElement--TopSlide__Item {
     margin-top: 0;
   }
@@ -871,9 +899,9 @@
     opacity: 1;
   }
   .infoCardContainer--BannerTop__item--1 {
-    background-image: url(https://pianteco.vtexassets.com/arquivos/banner-secundario-desk-piante.png) !important;
+    background-image: url(https://pianteco.vtexassets.com/arquivos/banner-secundario-desk-piantev2.png.png)!important;
     width: 93%;
-    height: 25vw;
+    height: 27vw;
   }
   .inputGroup--Newsletter
     :global(.vtex-input)
@@ -905,7 +933,7 @@
 
   .productImageTag--main {
     height: auto !important;
-    max-height: 27rem !important;
+    max-height: 30rem!important
   }
   .infoCardCallActionContainer--CategorySlide__Item
     :global(.vtex-button__label) {
@@ -926,7 +954,7 @@
     height: auto;
     top: 8px;
     left: 7px;
-    max-height: 24.2rem;
+    max-height: 18.9rem;
   }
 
   .infoCardContainer--CategorySlide__Item:hover
@@ -948,6 +976,7 @@
   .searchBarContainer {
     width: 30vw !important;
     max-width: 65%;
+    position: static;
   }
   .autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
     color: black;
@@ -989,11 +1018,12 @@
   }
   .imageElement--Footer__image--development {
     margin: 0;
-    width: 87%;
+    width: 108%;
   }
   .imageElement--Footer__image--technology {
     width: 5rem;
-    height: 22px !important;
+    height: 24px !important;
+    margin-left: 11px;
   }
   .imageElementLink--Footer__image--company {
     justify-content: flex-start;
@@ -1036,7 +1066,7 @@
     max-height: 100rem !important;
     width: 90%;
     max-height: 21rem;
-    object-fit: initial!important;
+    object-fit: initial !important;
     max-width: 16rem;
   }
 

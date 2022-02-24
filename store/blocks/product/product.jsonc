@@ -184,6 +184,8 @@
         "desktop": "auto",
         "phone": "16:9"
       },
+      "zoomMode": "in-place-click",
+      "zoomFactor": 2,
       "displayThumbnailsArrows": true
     }
   },

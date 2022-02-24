@@ -16,7 +16,7 @@
   font-style: normal;
   font-weight: bold;
   font-size: 35px;
-  line-height: 100%;
+  line-height: 0%;
   color: #324545;
 }
 .orderByText {
@@ -114,8 +114,8 @@
   font-weight: 600;
 }
 .sidebar {
-  top: 6rem;
-  height: 88vh;
+  top: 0rem;
+  height: 100vh;
 }
 .filterClearButtonWrapper {
   padding-left: 5px;
@@ -252,10 +252,11 @@
   min-width: 28px;
   min-height: 25px;
   background-color: #324545;
-  border-radius: 100%;
+  border-radius: 10px;
   font-family: Alegreya;
   font-size: 14px;
   line-height: normal;
+  font-weight: 900;
 }
 
 .orderByText {
@@ -279,9 +280,12 @@
   margin: 1rem 0;
   padding: 0 12px;
 }
-
+.filter__container--selectedFilters {
+  background: transparent;
+}
 .filterTemplateOverflow--Search__Filter {
   padding: 7px 1rem;
+  background: #f2f2f0;
 }
 .orderByButton {
   margin: 7px 0;

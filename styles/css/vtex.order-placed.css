@@ -356,12 +356,12 @@
   font-family: "Alegreya";
 }
 .orderPlacedHeader {
-  max-width: 60rem;
-  margin: 0 auto;
+  max-width: 90%;
+  margin: 1rem auto;
 }
 
 .orderPlacedMainWrapper {
-  max-width: 60rem;
+  max-width: 90%;
   margin: 0 auto;
 }
 
@@ -369,6 +369,12 @@
 /* //? Media Queries */
 /* ------------------------------- */
 @media (max-width: 600px) {
+
+  .orderPlacedHeader {
+    max-width: 60rem;
+    margin: 1rem auto;
+  }
+  
   .orderSoldBy {
     display: none;
   }

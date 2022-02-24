@@ -16,8 +16,8 @@
       "id": "Info-card-about",
       "blockClass": ["About__Image"],
       "isFullModeStyle": true,
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "mobileImageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png"
+      "imageUrl": "https://pianteco.vteximg.com.br/arquivos/banner-desk-completo-piante.png",
+      "mobileImageUrl": "https://pianteco.vteximg.com.br/arquivos/banner-mobile-completo-piante.png"
     }
   },
 
@@ -27,9 +27,8 @@
       "blockClass": ["About__Container"]
     },
     "children": [
-      "flex-layout.row#WhoWeAre",
       "flex-layout.row#Purpose",
-      "flex-layout.row#Text",
+      "flex-layout.row#WhoWeAre",
       "flex-layout.row#Contact"
     ]
   },
@@ -37,75 +36,130 @@
   // * Who we are Section
   "flex-layout.row#WhoWeAre": {
     "props": {
-      "blockClass": [
-        "About__Section",
-        "About__Section--WhoWeAre"
-      ]
+      "blockClass": ["About__Section", "About__Section--WhoWeAre"]
+    },
+    "children": ["flex-layout.col#subWhoWeAre1", "flex-layout.col#subWhoWeAre"]
+  },
+  "flex-layout.col#subWhoWeAre": {
+    "props": {
+      "blockClass": ["About__Section", "About__Section--subWhoWeAre"]
+    },
+    "children": ["rich-text#EmpaqueTitle","rich-text#EmpaqueText"]
+  },
+  "flex-layout.col#subWhoWeAre1": {
+    "props": {
+      "blockClass": ["About__Subsection", "About__Section--subWhoWeAre1"]
     },
     "children": [
-      "rich-text#WhoWeAreTitle",
-      "rich-text#WhoWeAreText"
+      "flex-layout.row#subWhoWeAre1-row",
+      "flex-layout.row#subWhoWeAre2-row"
     ]
   },
-  // ! Title
-  "rich-text#WhoWeAreTitle": {
+  "flex-layout.row#subWhoWeAre1-row": {
     "props": {
-      "blockClass": [
-        "About__Title",
-        "About__Title--WhoWeAre"
-      ],
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "Quienes somos"
+      "blockClass": ["About__Subsection", "About__Section--subWhoWeAre"]
+    },
+    "children": ["image#ImageWhoCultivos"]
+  },
+  "flex-layout.row#subWhoWeAre2-row": {
+    "props": {
+      "blockClass": ["About__Subsection", "About__Section--subWhoWeAre"]
+    },
+    "children": ["flex-layout.col#subWhoWeAre2"]
+  },
+  "flex-layout.col#subWhoWeAre2": {
+    "props": {
+      "blockClass": ["About__Subsection", "About__Subsection--subWhoWeAre"]
+    },
+    "children": [
+      "image#ImageWhoCultivos1",
+      "image#ImageWhoCultivos2",
+      "image#ImageWhoCultivos3",
+      "image#ImageWhoCultivos4"
+    ]
+  },
+  // ? Mision Image
+  "image#ImageWhoCultivos": {
+    "props": {
+      "blockClass": ["About__Image", "About__Image--ImageWhoCultivos"],
+      "src": "https://pianteco.vteximg.com.br/arquivos/cultivos-desk-piante.png"
     }
   },
-  // ! Text
-  "rich-text#WhoWeAreText": {
+  // ? ImageWhoCultivos4 Image
+  "image#ImageWhoCultivos1": {
     "props": {
-      "blockClass": [
-        "About__Text",
-        "About__Text--WhoWeAre"
-      ],
+      "blockClass": ["About__ImageWho", "About__Image--ImageWhoCultivos1"],
+      "src": "https://pianteco.vteximg.com.br/arquivos/cultivos1-desk-piante.png"
+    }
+  },
+  // ? ImageWhoCultivos4 Image
+  "image#ImageWhoCultivos2": {
+    "props": {
+      "blockClass": ["About__ImageWho", "About__Image--ImageWhoCultivos2"],
+      "src": "https://pianteco.vteximg.com.br/arquivos/cultivos2-desk-piante.png"
+    }
+  },
+  // ? ImageWhoCultivos4 Image
+  "image#ImageWhoCultivos3": {
+    "props": {
+      "blockClass": ["About__ImageWho", "About__Image--ImageWhoCultivos3"],
+      "src": "https://pianteco.vteximg.com.br/arquivos/cultivos3-desk-piante.png"
+    }
+  },
+  // ? ImageWhoCultivos4 Image
+  "image#ImageWhoCultivos4": {
+    "props": {
+      "blockClass": ["About__ImageWho", "About__Image--ImageWhoCultivos4"],
+      "src": "https://pianteco.vteximg.com.br/arquivos/cultivos4-desk-piante.png"
+    }
+  },
+
+  // ! Title
+  "rich-text#EmpaqueTitle": {
+    "props": {
+      "blockClass": ["About__Title", "About__Title--WhoWeAre"],
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Beisbol entrega a las personas productos y soluciones de limpieza y cuidado, para contribuir a una vida llena de salud, bienestar y alegría.\n#### Nuestro compromiso\nCrear y entregar productos y soluciones para acabar con la suciedad, contaminación, e infección en todos los espacios y superficies de una manera más fácil, rápida, económica y placentera."
+      "text": "CULTIVOS"
+    }
+  },
+
+  // ! Text
+  "rich-text#EmpaqueText": {
+    "props": {
+      "blockClass": ["About__Text", "About__Text--WhoWeAre"],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "¡Nuestro empaque ha ganado el premio nacional a la innovación al viverismo! \n  Hemos diseñado un empaque que garantiza la protección de las plantas en todos los puntos de la cadena de distribución, así llegarán perfectas hasta su destino       "
     }
   },
 
   // * Purpose Section
   "flex-layout.row#Purpose": {
     "props": {
-      "blockClass": [
-        "About__Section",
-        "About__Section--Purpose"
-      ]
+      "blockClass": ["About__Section", "About__Section--Purpose"]
     },
     "children": [
       "flex-layout.col#PurposeMision",
-      "flex-layout.col#PurposeVision"
+      "flex-layout.col#Purposesolucion",
+      "flex-layout.col#PurposeInnovacion"
     ]
   },
   // ! Mision Section
   "flex-layout.col#PurposeMision": {
     "props": {
-      "blockClass": [
-        "About__Purpose",
-        "About__Purpose--Mision"
-      ]
+      "blockClass": ["About__Purpose", "About__Purpose--Mision"]
     },
     "children": [
       "rich-text#PurposeMisionTitle",
-      "image#PurposeMisionImage",
-      "rich-text#PurposeMisionText"
+      "rich-text#PurposeMisionText",
+      "image#PurposeMisionImage"
     ]
   },
   // ? Mision title
   "rich-text#PurposeMisionTitle": {
     "props": {
-      "blockClass": [
-        "About__Title",
-        "About__Title--Mision"
-      ],
+      "blockClass": ["About__Title", "About__Title--Mision"],
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "Misión"
@@ -114,68 +168,87 @@
   // ? Mision Image
   "image#PurposeMisionImage": {
     "props": {
-      "blockClass": [
-        "About__Image",
-        "About__Image--Mision"
-      ],
-      "src": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png"
+      "blockClass": ["About__Image", "About__Image--Mision"],
+      "src": "https://pianteco.vteximg.com.br/arquivos/calidad-dsk-piante.png"
     }
   },
   // ? Mision text
   "rich-text#PurposeMisionText": {
     "props": {
-      "blockClass": [
-        "About__Text",
-        "About__Text--Mision"
-      ],
+      "blockClass": ["About__Text", "About__Text--Mision"],
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
     }
   },
-  // ! Vision Section
-  "flex-layout.col#PurposeVision": {
+
+  // ! PurposeInnovacion Section
+  "flex-layout.col#PurposeInnovacion": {
     "props": {
-      "blockClass": [
-        "About__Purpose",
-        "About__Purpose--Vision"
-      ]
+      "blockClass": ["About__Purpose", "About__Purpose--Innovacion"]
     },
     "children": [
-      "rich-text#PurposeVisionTitle",
-      "image#PurposeVisionImage",
-      "rich-text#PurposeVisionText"
+      "rich-text#PurposeInnovacionTitle",
+      "rich-text#PurposeInnovacionText",
+      "image#PurposeInnovacionImage"
     ]
   },
-  // ? Vision title
-  "rich-text#PurposeVisionTitle": {
+  // ? Mision title
+  "rich-text#PurposeInnovacionTitle": {
     "props": {
-      "blockClass": [
-        "About__Title",
-        "About__Title--Vision"
-      ],
+      "blockClass": ["About__Title", "About__Title--Innovacion"],
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Visión"
+      "text": "INNOVACIÓN"
     }
   },
-  // ? Vision Image
-  "image#PurposeVisionImage": {
+  // ? Mision Image
+  "image#PurposeInnovacionImage": {
     "props": {
-      "blockClass": [
-        "About__Image",
-        "About__Image--Vision"
-      ],
-      "src": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png"
+      "blockClass": ["About__Image", "About__Image--Innovacion"],
+      "src": "https://pianteco.vteximg.com.br/arquivos/innovacion-desk-piante.png"
     }
   },
-  // ? Vision text
-  "rich-text#PurposeVisionText": {
+  // ? Mision text
+  "rich-text#PurposeInnovacionText": {
     "props": {
-      "blockClass": [
-        "About__Text",
-        "About__Text--Vision"
-      ],
+      "blockClass": ["About__Text", "About__Text--Innovacion"],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+    }
+  },
+  // ! solucion Section
+  "flex-layout.col#Purposesolucion": {
+    "props": {
+      "blockClass": ["About__Purpose", "About__Purpose--solucion"]
+    },
+    "children": [
+      "rich-text#PurposesolucionTitle",
+      "rich-text#PurposesolucionText",
+      "image#PurposesolucionImage"
+    ]
+  },
+  // ? solucion title
+  "rich-text#PurposesolucionTitle": {
+    "props": {
+      "blockClass": ["About__Title", "About__Title--solucion"],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "SOLUCIÓN"
+    }
+  },
+  // ? solucion Image
+  "image#PurposesolucionImage": {
+    "props": {
+      "blockClass": ["About__Image", "About__Image--solucion"],
+      "src": "https://pianteco.vteximg.com.br/arquivos/solucion-desk-piante.png"
+    }
+  },
+  // ? solucion text
+  "rich-text#PurposesolucionText": {
+    "props": {
+      "blockClass": ["About__Text", "About__Text--solucion"],
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
@@ -185,33 +258,21 @@
   // * Text Section
   "flex-layout.row#Text": {
     "props": {
-      "blockClass": [
-        "About__Section",
-        "About__Section--Text"
-      ]
+      "blockClass": ["About__Section", "About__Section--Text"]
     },
-    "children": [
-      "image#TextImage",
-      "rich-text#TextText"
-    ]
+    "children": ["image#TextImage", "rich-text#TextText"]
   },
   // ! Image
   "image#TextImage": {
     "props": {
-      "blockClass": [
-        "About__Image",
-        "About__Image--Text"
-      ],
-      "src": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png"
+      "blockClass": ["About__Image", "About__Image--Text"],
+      "src": "https://pianteco.vteximg.com.br/arquivos/banner-desk-completo-piante.png"
     }
   },
   // ! Text
   "rich-text#TextText": {
     "props": {
-      "blockClass": [
-        "About__Text",
-        "About__Text--Text"
-      ],
+      "blockClass": ["About__Text", "About__Text--Text"],
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "#### Ejemplo titulo\nLorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500."
@@ -221,15 +282,9 @@
   // * Contact Section
   "flex-layout.row#Contact": {
     "props": {
-      "blockClass": [
-        "About__Section",
-        "About__Section--Contact"
-      ]
+      "blockClass": ["About__Section", "About__Section--Contact"]
     },
-    "children": [
-      "flex-layout.row#Socials",
-      "rich-text#GotToBuy"
-    ]
+    "children": ["flex-layout.row#Socials", "rich-text#GotToBuy"]
   },
   // ! Socials container
   "flex-layout.row#Socials": {
@@ -245,11 +300,8 @@
   // ? Facebook Icon
   "image#AboutFacebook": {
     "props": {
-      "blockClass": [
-        "About__Image-Social",
-        "About__Image-Social--Facebook"
-      ],
-      "src": "https://beisbol.vteximg.com.br/arquivos/facebook-icon-about.png",
+      "blockClass": ["About__Image-Social", "About__Image-Social--Facebook"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/fb-icon.png",
       "link": {
         "url": "#",
         "label": "Facebook",
@@ -260,10 +312,7 @@
   // ? Instagram Icon
   "image#AboutInstagram": {
     "props": {
-      "blockClass": [
-        "About__Image-Social",
-        "About__Image-Social--Instagram"
-      ],
+      "blockClass": ["About__Image-Social", "About__Image-Social--Instagram"],
       "src": "https://beisbol.vteximg.com.br/arquivos/instagram-icon-about.png",
       "link": {
         "url": "#",
@@ -275,10 +324,7 @@
   // ? Youtube Icon
   "image#AboutYoutube": {
     "props": {
-      "blockClass": [
-        "About__Image-Social",
-        "About__Image-Social--Youtube"
-      ],
+      "blockClass": ["About__Image-Social", "About__Image-Social--Youtube"],
       "src": "https://beisbol.vteximg.com.br/arquivos/youtube-icon-about.png",
       "link": {
         "url": "#",
@@ -290,10 +336,7 @@
   // ! Text
   "rich-text#GotToBuy": {
     "props": {
-      "blockClass": [
-        "About__Text",
-        "About__Text--GotToBuy"
-      ],
+      "blockClass": ["About__Text", "About__Text--GotToBuy"],
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "[Ir a comprar](#)"

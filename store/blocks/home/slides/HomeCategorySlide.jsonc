@@ -23,7 +23,8 @@
       "info-card#CategorySlide-item-2",
       "info-card#CategorySlide-item-3",
       "info-card#CategorySlide-item-4",
-      "info-card#CategorySlide-item-5"
+      "info-card#CategorySlide-item-5",
+      "info-card#CategorySlide-item-6"
     ]
   },
 
@@ -37,7 +38,7 @@
       "id": "CategorySlide-item-1",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "https://pianteco.vtexassets.com/arquivos/orquideas-desk-piante.png",
+      "imageUrl": "https://pianteco.vtexassets.com/arquivos/pachiras-desk-piantecov2.png",
       "callToActionText": "Cuidado de los pisos",
       "callToActionUrl": "#"
     }
@@ -53,7 +54,7 @@
       "id": "CategorySlide-item-2",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "https://pianteco.vtexassets.com/arquivos/purificadoras-desk-piante.png",
+      "imageUrl": "https://pianteco.vtexassets.com/arquivos/anturios-desk-piantecov2.png",
       "callToActionText": "Cuidado del hogar",
       "callToActionUrl": "#"
     }
@@ -69,7 +70,7 @@
       "id": "CategorySlide-item-3",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "https://pianteco.vtexassets.com/arquivos/combos-desk-piante.png",
+      "imageUrl": "https://pianteco.vtexassets.com/arquivos/suscripciones-desk-piantecov2.png",
       "callToActionText": "Cuidado de la ropa",
       "callToActionUrl": "#"
     }
@@ -85,7 +86,7 @@
       "id": "CategorySlide-item-4",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "https://pianteco.vtexassets.com/arquivos/anturios-desk-piante.png",
+      "imageUrl": "https://pianteco.vtexassets.com/arquivos/combos-desk-piantecov2.png",
       "callToActionText": "Cuidado de calzado",
       "callToActionUrl": "#"
     }
@@ -101,7 +102,22 @@
       "id": "CategorySlide-item-5",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "https://pianteco.vtexassets.com/arquivos/purificadoras-desk-piante.png",
+      "imageUrl": "https://pianteco.vtexassets.com/arquivos/orquideas-desk-piantecov2.png",
+      "callToActionText": "Cuidado de la cocina",
+      "callToActionUrl": "#"
+    }
+  },
+  // * Category Slide Item 6
+  "info-card#CategorySlide-item-6": {
+    "props": {
+      "blockClass": [
+        "CategorySlide__Item",
+        "CategorySlide__Item--5"
+      ],
+      "id": "CategorySlide-item-5",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://pianteco.vtexassets.com/arquivos/purificadoras-desk-piantecov2.png",
       "callToActionText": "Cuidado de la cocina",
       "callToActionUrl": "#"
     }

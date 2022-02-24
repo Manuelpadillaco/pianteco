@@ -29,10 +29,15 @@
 .trigger--Disclosure__Trigger-Politics {
   margin-bottom: 15px;
   width: 100%;
-  background-color: #28508c;
-  border: 1px solid #28508c;
-  border-radius: 80px;
+  border: none;
   cursor: pointer;
+  background: #F2F2F0;
+  border-radius: 5px;
+}
+.trigger--disclosure-icon-search-mobile {
+  background: transparent;
+  border: none;
+  outline: none;
 }
 .trigger--Disclosure__Trigger-Politics--visible
   :global(.vtex-rich-text-0-x-wrapper--Politics__Group-Title)::after {

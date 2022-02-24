@@ -110,7 +110,12 @@
 @media (min-width: 1200px) {
   /* ! Category Slide */
   .slide--CategorySlide__Container {
-
+    height: auto;
+    max-height: 100rem !important;
+    width: 90%;
+    max-height: 21rem;
+    object-fit: initial!important;
+    max-width: 16rem;
   }
   .sliderTrack--Shelf__Slider .slide--Shelf__Slider--visible {
     padding: 0 !important;

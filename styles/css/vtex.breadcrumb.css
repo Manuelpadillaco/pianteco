@@ -58,4 +58,8 @@
   font-size: 15px;
   font-weight: 700;
 }
+
+.link:hover {
+  font-weight: 550 !important;
+}
 /* ------------------------------- */

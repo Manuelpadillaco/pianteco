@@ -42,7 +42,7 @@
   margin-left: 10px;
   width: 20px;
   height: 20px;
-  background-image: url("https://beisbol.vteximg.com.br/arquivos/flecha-icono-search.png");
+  background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/flecha-verde2-painte.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -119,9 +119,6 @@
 }
 .link--Footer__Text:hover {
   color: white;
-}
-.link--Footer__Text--mail {
-  color: #eab68c;
 }
 .paragraph--FooterTitle--development {
   margin-bottom: 0;
@@ -287,7 +284,7 @@
   width: 25px;
   height: 25px;
   /* TODO: Change store URL resource */
-  background-image: url("https://epartner.vteximg.com.br/arquivos/arrow-icon-politics.png");
+  background-image: url("https://pianteco.vteximg.com.br/arquivos/arrow-icon-politics.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -328,6 +325,7 @@
   font-weight: 300;
   font-size: 15px;
   line-height: 20px;
+  margin: 2rem 0;
 }
 .headingLevel4--About__Text {
   margin: 17px 0px 0;
@@ -399,7 +397,56 @@
   background-color: #3a4e4e;
   margin: 0;
 }
+.paragraph--Politics__Group-Title {
+  margin: 12px 0;
+  text-transform: uppercase;
+  font-family: Alegreya;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  color: #324545;
+}
+
+.headingLevel1--Politics__Title {
+  margin: 20px 0 50px;
+  text-transform: uppercase;
+  font-family: Alegreya;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 100%;
+  color: #324545;
+  width: auto !important;
+}
+
+.container {
+  max-width: 100% !important;
+  margin: 0;
+}
+.headingLevel2--Politics__Text {
+  font-family: Alegreya;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 27px;
+  color: #324545;
+}
 @media (min-width: 1200px) {
+  .container--Title--destacados-new {
+    max-width: 86% !important;
+    padding: 1rem 0 10px;
+  }
+  .container--FooterTitle--development {
+    margin: 0 !important;
+  }
+  .link--Footer__Text:hover {
+    color: #eab68c;
+  }
+  .paragraph--Footer__Text:hover {
+    color: #eab68c;
+  }
+
   .paragraph--Home__description {
     margin: 0;
     width: 100%;
@@ -425,11 +472,11 @@
 
   /* ! Header */
   .paragraph--Footer__Text {
-    font-size: 12px;
+    font-size: 14px;
     text-align: start;
   }
   .link--Footer__Text {
-    font-size: 12px;
+    font-size: 14px;
   }
   .paragraph--Header-top-text {
     margin: 5px;
@@ -497,11 +544,15 @@
   .container--Politics__Title {
     padding: 0 100px;
   }
+  .paragraph--About__Text--WhoWeAre {
+    color: #ffffff;
+  }
 
   /* ! About page */
   .paragraph--About__Title--WhoWeAre {
     margin: 17px 0 0;
     width: 100%;
+    color: white;
   }
   :global(.vtex-flex-layout-0-x-flexRowContent--About__Section--Text)
     .container--About__Text--Text {
