@@ -75,7 +75,6 @@
   font-weight: 400;
   color: #324545;
   text-decoration: underline;
-
 }
 .formFooter {
   padding-top: 30px;
@@ -200,9 +199,14 @@
   .formTitle {
     margin-bottom: 3rem;
   }
-
   .box {
-    display: none;
+    width: 12rem !important;
+    min-width: 8rem;
+    margin-right: 0.8rem;
+  }
+  .accountOptions {
+    display: flex;
+    flex-direction: column;
   }
   .accessCodeOptionBtn :global(.vtex-button) {
     width: 24rem;

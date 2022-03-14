@@ -14,7 +14,7 @@
   font-weight: 600;
   padding-top: 0;
   border-bottom: 1px solid #0016894d;
-  color: #808080;
+  color: #324545;
 }
 .menuLinks :global(.vtex-account_menu-link)[href="#/profile"] {
   color: #324545;
@@ -34,7 +34,7 @@
   font-family: "Encode Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: #808080;
+  color: #324545;
   margin: 0;
   content: "Cerrar sesion";
 }
@@ -115,9 +115,9 @@
 }
 :global(.vtex-account__page) :global(.vtex-pageHeader__title) {
   font-family: "Encode Sans", sans-serif;
-  font-size: 50px;
   font-weight: 600;
   color: #324545;
+  font-size: 2rem;
 }
 :global(.vtex-account__orders-list),
 :global(.vtex-account__orders-list),
@@ -245,8 +245,45 @@
   color: #808080;
   margin: 0;
 }
+:global(.vtex-account_menu-link)::before {
+  content: "";
+  position: absolute;
+  background: #d3d3d3;
+  height: 2px;
+  width: 90%;
+  margin-top: 3.5rem;
+}
 
 @media (min-width: 1200px) {
+  :global(.vtex-account__page) :global(.vtex-pageHeader__title) {
+    font-size: 50px;
+  }
+  :global(.vtex-account_menu-link)::before {
+    display: none;
+  }
+
+  :global(.vtex_my-authentication_box_container) {
+    border: 0;
+    background: #f2f2f0;
+    border-radius: 5px;
+  }
+  .addressList {
+    margin-top: 6rem;
+  }
+  :global(.vtex-account__orders-list) {
+    margin-top: 6rem;
+  }
+
+  :global(.vtex-account__cards-list) {
+    margin-top: 6rem;
+  }
+  :global(.vtex-my-authentication-1-x-authenticationScreen_container) {
+    margin-top: 5rem;
+    max-width: 45rem;
+  }
+  :gobal(.vtex-account__create-card) {
+    padding-top: 7rem;
+  }
   .profileEdit {
     padding: 0;
     margin-top: 6rem;
@@ -276,8 +313,8 @@
     width: 39% !important;
     position: absolute;
     left: 0;
-    top: 6.8rem;
-    height: 8.7rem;
+    top: 6.7rem;
+    height: 8.8rem;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -324,12 +361,13 @@
     justify-content: space-around;
     float: right;
     min-height: 23rem;
+    flex-direction: column;
   }
   .menuLinks :global(.vtex-account_menu-link) {
     border: 0;
   }
   .menuLinks :global(.vtex-account_menu-link)[href="#/profile"] {
-    color: #808080;
+    color: #324545;
   }
   .menuLinks :global(.vtex-account_menu-link.b--action-primary) {
     font-family: "Encode Sans", sans-serif;
