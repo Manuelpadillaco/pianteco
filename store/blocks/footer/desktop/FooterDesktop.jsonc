@@ -52,7 +52,6 @@
     },
     "children": [
       "rich-text#OtroEnlace", // /footer.jsonc
-      "rich-text#OtroEnlaces", // /footer.jsonc
       "rich-text#OtroEnlaces" // /footer.jsonc
     ]
   },

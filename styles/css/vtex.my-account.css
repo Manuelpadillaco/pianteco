@@ -9,15 +9,14 @@
 }
 .menuLinks :global(.vtex-account_menu-link) {
   padding-left: 0;
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 600;
   padding-top: 0;
   border-bottom: 1px solid #0016894d;
   color: #808080;
 }
-.menuLinks
-  :global(.vtex-account_menu-link)[href='#/profile'] {
+.menuLinks :global(.vtex-account_menu-link)[href="#/profile"] {
   color: #324545;
 }
 .menu {
@@ -30,28 +29,30 @@
 }
 .menuLink::before {
   padding-left: 0;
-  font-family: Alegreya;
-  font-size: 22px;
-  font-weight: 700;
-  padding-top: 0;
+  font-style: normal;
+  line-height: 44px;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
   color: #808080;
-  content: 'Cerrar sesion';
+  margin: 0;
+  content: "Cerrar sesion";
 }
 .boxContainer {
   background-color: #f8f8f8;
   border: 0;
 }
 .dataEntryLabel {
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-size: 17px;
-  font-weight: 700;
+  font-weight: 600;
   color: #324545;
 }
 .firstNameSubContainer {
   margin-bottom: 20px;
 }
 .dataEntryChildren {
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #808080;
@@ -61,47 +62,45 @@
   margin-bottom: 10px;
 }
 .newsletterContainerTitle::before {
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-size: 20px;
-  font-weight: 700;
-  content: 'Newsletter';
+  font-weight: 600;
+  content: "Newsletter";
   color: #324545;
 }
 .newsletterContainerMessage {
   font-size: 0;
 }
 .newsletterContainerMessage::before {
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #808080;
-  content: '¿Desea recibir emails promocionales?';
+  content: "¿Desea recibir emails promocionales?";
 }
 .passwordBox :global(.vtex-checkbox__label) {
   font-size: 0;
 }
-.passwordBox
-  :global(.vtex-checkbox__label)::before {
-  font-family: Alegreya;
+.passwordBox :global(.vtex-checkbox__label)::before {
+  font-family: "Encode Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #808080;
-  content: 'Deseo recibir newsletter';
+  content: "Deseo recibir newsletter";
 }
 .boxContainerFooter :global(.vtex-button__label) {
   color: #324545;
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 600;
   text-transform: capitalize;
 }
-.boxContainerFooter
-  :global(.vtex-button__label)::before {
-  content: '';
+.boxContainerFooter :global(.vtex-button__label)::before {
+  content: "";
   margin-right: 10px;
   width: 20px;
   height: 20px;
-  background-image: url('https://beisbol.vteximg.com.br/arquivos/icon-edit-account.png');
+  background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/edit-icon.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -109,16 +108,15 @@
 :global(.vtex-account__page)
   :global(.vtex-button)
   :global(.ml3.ttu.t-action--small) {
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-size: 15px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
 }
-:global(.vtex-account__page)
-  :global(.vtex-pageHeader__title) {
-  font-family: Alegreya;
+:global(.vtex-account__page) :global(.vtex-pageHeader__title) {
+  font-family: "Encode Sans", sans-serif;
   font-size: 50px;
-  font-weight: 700;
+  font-weight: 600;
   color: #324545;
 }
 :global(.vtex-account__orders-list),
@@ -127,26 +125,19 @@
 .addressList {
   padding: 50px 20px;
 }
-:global(.vtex-account__cards-list)
-  :global(.t-heading-4),
-:global(.vtex-account__orders-list)
-  :global(.t-heading-4),
+:global(.vtex-account__cards-list) :global(.t-heading-4),
+:global(.vtex-account__orders-list) :global(.t-heading-4),
 .addressList :global(.t-heading-4) {
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-size: 25px;
   font-weight: 400;
   color: #808080;
 }
-:global(.vtex-account__cards-list)
-  :global(.t-heading-4)
-  :global(.c-on-base),
-:global(.vtex-account__orders-list)
-  :global(.t-heading-4)
-  :global(.c-on-base) {
+:global(.vtex-account__cards-list) :global(.t-heading-4) :global(.c-on-base),
+:global(.vtex-account__orders-list) :global(.t-heading-4) :global(.c-on-base) {
   color: #808080;
 }
-:global(.vtex-pageHeader__container)
-  :global(.vtex-pageHeader__children) {
+:global(.vtex-pageHeader__container) :global(.vtex-pageHeader__children) {
   margin-top: 20px;
 }
 :global(.vtex-pageHeader__container)
@@ -160,7 +151,7 @@
 :global(.vtex-pageHeader__container)
   :global(.vtex-pageHeader__children)
   :global(.vtex-button__label) {
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-size: 15px;
   font-weight: 400;
   color: white;
@@ -170,76 +161,71 @@
   border: 0;
 }
 :global(.vtex-my-authentication-1-x-maskedPassword_title) {
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   color: #324545;
 }
 :global(.vtex-my-authentication-1-x-loginSessionsBox_title) {
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   color: #324545;
 }
 :global(.vtex-my-authentication-1-x-box_footer) {
   text-align: end;
 }
 :global(.vtex-my-authentication-1-x-maskedPassword_content) {
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-size: 15px;
   font-weight: 300;
   color: #808080;
 }
 :global(.vtex-my-authentication-1-x-loginSessionsBox_content) {
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-size: 15px;
   font-weight: 300;
   color: #808080;
 }
-:global(.vtex-my-authentication-1-x-box_footer)
-  :global(.vtex-button__label),
+:global(.vtex-my-authentication-1-x-box_footer) :global(.vtex-button__label),
 :global(.vtex-my-authentication-1-x-maskedPassword_content)
   :global(.vtex-button__label) {
   color: #324545;
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   text-transform: capitalize;
 }
 :global(.vtex-my-authentication-1-x-box_footer)
   :global(.vtex-button__label)::before,
 :global(.vtex-my-authentication-1-x-maskedPassword_content)
   :global(.vtex-button__label)::before {
-  content: '';
+  content: "";
   margin-right: 10px;
   width: 20px;
   height: 20px;
-  background-image: url('https://beisbol.vteximg.com.br/arquivos/icon-edit-account.png');
+  background-image: url("https://beisbol.vteximg.com.br/arquivos/icon-edit-account.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
-:global(.vtex-modal__confirmation)
-  :global(.mr4)
-  :global(.vtex-button) {
-  font-family: Alegreya;
+:global(.vtex-modal__confirmation) :global(.mr4) :global(.vtex-button) {
+  font-family: "Encode Sans", sans-serif;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   color: #808080;
 }
-:global(.vtex-modal__confirmation)
-  > :global(.vtex-button) {
-  font-family: Alegreya;
+:global(.vtex-modal__confirmation) > :global(.vtex-button) {
+  font-family: "Encode Sans", sans-serif;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   background-color: #324545;
   border-color: #324545;
 }
-:global(.vtex-modal__overlay)
-  :global(.t-heading-5) {
-  font-family: Alegreya;
+:global(.vtex-modal__overlay) :global(.t-heading-5) {
+  font-family: "Encode Sans", sans-serif;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   color: #324545;
 }
 :global(.vtex__icon-close) {
@@ -249,30 +235,129 @@
 /* ------------------------------- */
 /* //? Media Queries */
 /* ------------------------------- */
+.menuLinks :global(.vtex-account_menu-link) {
+  border: 0;
+  font-style: normal;
+  line-height: 44px;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #808080;
+  margin: 0;
+}
+
 @media (min-width: 1200px) {
+  .profileEdit {
+    padding: 0;
+    margin-top: 6rem;
+  }
+  :global(.vtex-account__page) {
+    width: 100%;
+  }
+  :global(.vtex-account__page) :global(.vtex-pageHeader-link__container) {
+    top: 11rem;
+    position: relative;
+    left: -1rem;
+  }
+  :global(.vtex-account__page) :global(.vtex-pageHeader__title) {
+    margin-left: -9rem;
+  }
+  .menu {
+    padding: 20px;
+    width: 50%;
+  }
+  .userImage {
+    margin-right: 15rem;
+  }
+  .userInfo {
+    margin: 0;
+    background: #f6f3ee;
+    backdrop-filter: blur(10px);
+    width: 39% !important;
+    position: absolute;
+    left: 0;
+    top: 6.8rem;
+    height: 8.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .vtex-account {
+    width: 100%;
+  }
+
+  :global(.vtex-account) :global(.flex) {
+    width: 100%;
+    max-width: 100%;
+  }
+  .newsletterBoxContainer {
+    max-width: 20rem;
+    margin: 0 1rem;
+  }
+
+  .profile {
+    display: flex;
+    justify-content: center;
+    max-width: 57rem;
+    margin: 0 auto 0 0;
+    margin-top: 2rem;
+  }
+
+  .boxContainerBody {
+    background: #f2f2f0;
+  }
+
+  .boxContainerFooter {
+    background: #f2f2f0;
+    position: relative;
+    top: -4rem;
+  }
+
+  .menuLinks {
+    background: #f2f2f0;
+    padding: 1rem;
+    min-width: 17rem;
+    position: relative;
+    top: 11rem;
+    max-width: 17rem;
+    display: flex;
+    justify-content: space-around;
+    float: right;
+    min-height: 23rem;
+  }
   .menuLinks :global(.vtex-account_menu-link) {
     border: 0;
   }
-  .menuLinks
-    :global(.vtex-account_menu-link)[href='#/profile'] {
+  .menuLinks :global(.vtex-account_menu-link)[href="#/profile"] {
     color: #808080;
   }
-  .menuLinks
-    :global(.vtex-account_menu-link.b--action-primary) {
+  .menuLinks :global(.vtex-account_menu-link.b--action-primary) {
+    font-family: "Encode Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
     color: #324545;
   }
-  :global(.vtex-account__page)
-    :global(.vtex-pageHeader__title) {
-    text-align: end;
+  :global(.vtex-account__page) :global(.vtex-pageHeader__title) {
+    text-align: start;
   }
   :global(.vtex-pageHeader__container)
     :global(.c-on-base.flex.flex-wrap.flex-row.justify-between.mt0) {
     align-items: center;
   }
-  :global(.vtex-pageHeader__container)
-    :global(.vtex-pageHeader__children) {
+  :global(.vtex-pageHeader__container) :global(.vtex-pageHeader__children) {
     margin-top: 0;
     margin-left: 15px;
+  }
+  :global(.vtex-account__page) :global(.vtex-pageHeader__container) {
+    background: #f6f3ee;
+    backdrop-filter: blur(10px);
+    min-height: 9.8rem;
+  }
+  :global(.vtex-account):first-child {
+    min-height: 46rem;
+  }
+  .addressCreate {
+    padding: 7rem 0;
   }
 }
 /* ------------------------------- */

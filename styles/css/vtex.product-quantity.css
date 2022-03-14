@@ -4,9 +4,9 @@
 .quantitySelectorTitle {
   text-align: left;
   text-transform: capitalize;
-  font-family: "Alegreya Sans";
+  font-family: "Encode Sans", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 20px;
   line-height: 24px;
   display: flex;
@@ -23,7 +23,7 @@
   color: #324545;
   background-color: transparent;
   border: 1px solid #c8c8c8;
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-size: 25px;
   font-weight: 400;
   border-left: none;
@@ -48,12 +48,14 @@
 }
 .quantitySelectorStepper :global(.vtex-numeric-stepper__plus-button__text),
 .quantitySelectorStepper :global(.vtex-numeric-stepper__minus-button__text) {
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-size: 25px;
   font-weight: 400;
   color: #324545;
 }
-
+.quantitySelectorStepper {
+  z-index: 0;
+}
 
 @media (min-width: 1200px) {
   /* ! Product page */

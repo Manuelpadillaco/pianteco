@@ -38,6 +38,7 @@
   background: transparent;
   border: none;
   outline: none;
+  padding-top: 9px;
 }
 .trigger--Disclosure__Trigger-Politics--visible
   :global(.vtex-rich-text-0-x-wrapper--Politics__Group-Title)::after {
@@ -77,12 +78,12 @@
 }
 
 .trigger--question :global(.vtex-rich-text-0-x-paragraph) {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .trigger--question:focus,
 .trigger--question:focus :global(.vtex-rich-text-0-x-paragraph) {
-  color: #0f3e99;
+  color: #324545;
 }
 
 .trigger :global(.vtex-store-icons-0-x-caretIcon) {

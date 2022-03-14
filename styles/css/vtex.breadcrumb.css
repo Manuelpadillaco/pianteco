@@ -26,7 +26,7 @@
   text-align: center;
 }
 .term {
-  font-family: 'Alegreya Sans';
+  font-family:  'Encode Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -41,11 +41,13 @@
   background-size: 100%!important;
   background-repeat: no-repeat;
   margin-top: 4px;
-  content: '';
-  height: 33px;
-  width: 23px;
-  position: absolute;
-  left: 21rem;
+  content: " ";
+  height: auto;
+  width: auto;
+  position: relative;
+  padding: 13px;
+  left: -1rem;
+  top: 7px;
 }
 .homeIcon {
   display: none;
@@ -54,9 +56,9 @@
 /* //* Search page */
 /* ------------------------------- */
 .arrow--Breadcrumb--Search {
-  font-family: Urbanist;
+  font-family: 'Encode Sans', sans-serif;
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .link:hover {

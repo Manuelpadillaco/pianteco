@@ -6,23 +6,23 @@
   padding-bottom: 20px;
   padding-top: 10px;
   color: #324545;
-  font-family: Roboto;
-  font-weight: 700;
+  font-family: "Encode Sans", sans-serif;
+  font-weight: 600;
   text-align: left;
 }
 .sellingPriceValue {
-  font-family: 'Alegreya';
+  font-family: "Encode Sans", sans-serif;
   font-style: normal;
-  font-weight: bold;
-  font-size: 27px;
+  font-weight: 600;
+  font-size: 21px;
   line-height: 41px;
   color: #324545;
 }
-.currencyDecimal{
+.currencyDecimal {
   display: none;
 }
 
-.currencyFraction{
+.currencyFraction {
   display: none;
 }
 /* ------------------------------- */
@@ -33,7 +33,7 @@
 }
 .listPriceValue {
   text-align: left;
-  font-family: 'Alegreya';
+  font-family: "Encode Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -51,13 +51,13 @@
   justify-content: center;
   align-items: center;
   width: auto !important;
-  background-color: #9B3268;
+  background-color: #9b3268;
   border-radius: 3px;
 }
 .savingsPercentage {
   padding: 2px 5px;
   color: white;
-  font-family: "Alegreya Sans";
+  font-family: "Encode Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   text-align: left;
@@ -72,7 +72,7 @@
   }
   .currencyContainer--Producto {
     font-size: 35px;
-}
+  }
 }
 
 /* ------------------------------- */
@@ -89,7 +89,7 @@
 
 /* .sellingPriceValue {
   font-size: 2.25rem;
-  font-weight: 700;
+  font-weight: 600;
 } */
 
 .installments {
@@ -99,7 +99,8 @@
 
 .savings {
   font-weight: 500;
-  color: #79b03a;
+  color: #ffffff;
+  padding: 0 1rem;
 }
 
 .sellingPriceValue--summary {
@@ -142,7 +143,7 @@
 }
 
 .savings--summaryPercentage {
-  background: #0f3e99;
+  background: #324545;
   border-radius: 1000px;
   align-items: center;
   display: flex;

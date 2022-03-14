@@ -48,7 +48,7 @@
       "isFullModeStyle": true,
       "textPosition": "left",
       "imageUrl": "https://pianteco.vtexassets.com/arquivos/orquideas-desk-piante.png",
-      "mobileImageUrl": "https://pianteco.vtexassets.com/arquivos/banner-mobile-v1-piante.png",
+      "mobileImageUrl": "https://pianteco.vtexassets.com/arquivos/banner-principal-mobile-piantecoV2.jpg",
       "headline": "Nuevo producto",
       "subhead": "Suavidad y fragancia",
       "callToActionText": "Comprar Ya", 
@@ -97,7 +97,7 @@
 //--------BANNERS SIN BOTON
   "image#TopSlide-Desk-item-1": {
     "props": {
-      "src": "https://pianteco.vtexassets.com/arquivos/banner-desk-v1-piante.png",
+      "src": "https://pianteco.vtexassets.com/arquivos/banner-desk-1920-piantecoV2.jpg",
       "link": {"url":"/casa"},
       "blockClass": [
         "TopSlide__Item",
@@ -107,7 +107,7 @@
   },
   "image#TopSlide-Desk-item-2": {
     "props": {
-      "src": "https://pianteco.vtexassets.com/arquivos/banner-desk-v1-piante.png",
+      "src": "https://pianteco.vtexassets.com/arquivos/banner-desk-2000-piantecoV2.jpg",
       "link": {"url":"/casa"},
       "blockClass": [
         "TopSlide__Item",
@@ -117,7 +117,7 @@
   },
   "image#TopSlide-Desk-item-3": {
     "props": {
-      "src": "https://pianteco.vtexassets.com/arquivos/banner-desk-v1-piante.png",
+      "src": "https://pianteco.vtexassets.com/arquivos/banner-desk-2000-piantecoV2.jpg",
       "link": {"url":"/casa"},
       "blockClass": [
         "TopSlide__Item",
@@ -129,7 +129,7 @@
 
   "image#TopSlide-Mobile-item-1": {
     "props": {
-      "src": "https://pianteco.vtexassets.com/arquivos/banner-mobile-v1-piante.png",
+      "src": "https://pianteco.vtexassets.com/arquivos/banner-principal-mobile-piantecoV2.jpg",
       "link": {"url":"/"},
       "blockClass": [
         "TopSlide__Item",

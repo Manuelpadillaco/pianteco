@@ -5,10 +5,10 @@
   display: block;
   padding: 0;
   color: #808080;
-  font-family: Alegreya Sans;
+  font-family: "Encode Sans", sans-serif;
   font-style: normal;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   text-transform: capitalize;
   font-size: 0;
 }
@@ -17,7 +17,8 @@
 }
 .buttonLink :global(.vtex-button__label) {
   justify-content: flex-start;
-  padding: 0 1rem 0 0;
+  padding: 0;
+  margin: 0 1rem;
 }
 .container :global(.relative) {
   width: 100%;
@@ -31,9 +32,10 @@
   width: 100% !important;
   max-width: 200px;
   color: #324545;
-  font-family: Alegreya Sans;
+  font-family: "Encode Sans", sans-serif;
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 600;
+  display: none;
 }
 :global(.vtex-button__label) {
   padding: 0;
@@ -51,16 +53,16 @@
   margin-bottom: 18px;
 }
 .loginOptionsContainer .formTitle::before {
-  font-family: Alegreya Sans;
+  font-family: "Encode Sans", sans-serif;
   font-size: 19px;
-  font-weight: 700;
+  font-weight: 600;
   color: #324545;
   content: "Escoge una opción para iniciar sesión";
 }
 .emailVerification .formTitle::before {
-  font-family: Alegreya Sans;
-  font-size: 19px;
-  font-weight: 700;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
   color: #324545;
   content: "Iniciar sesión con eMail y contraseña";
 }
@@ -68,23 +70,34 @@
   color: #324545;
 }
 .forgotPasswordLink {
-  font-family: Alegreya Sans;
+  font-family: "Encode Sans", sans-serif;
   font-size: 15px;
   font-weight: 400;
   color: #324545;
-}
-.forgotPasswordLink:hover {
   text-decoration: underline;
+
 }
 .formFooter {
   padding-top: 30px;
 }
 .dontHaveAccount {
   margin: 15px;
-  font-family: Alegreya Sans;
-  font-size: 16px;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 13px;
   font-weight: 400;
   color: #808080;
+}
+.formTitle {
+  margin-bottom: 1rem;
+}
+.dontHaveAccount {
+  text-decoration-line: underline;
+  color: #324545;
+}
+.button :global(.vtex-button) {
+  min-height: 3rem;
+  margin: 0.5rem 0px;
+  border: 1px solid #324545;
 }
 .dontHaveAccount:hover {
   text-decoration: underline;
@@ -99,7 +112,7 @@
   font-size: 0;
 }
 .accessCodeOptionBtn :global(.vtex-button__label)::before {
-  font-family: Alegreya Sans;
+  font-family: "Encode Sans", sans-serif;
   font-size: 15px;
   font-weight: 400;
   color: #324545;
@@ -107,19 +120,19 @@
   text-transform: none;
 }
 .inputContainer :global(.vtex-input-prefix__group) {
-  border: 0;
   background-color: #f8f8f8;
   border-radius: 100px;
   background: #f9faf5;
   border: 1px solid #324545;
   border-radius: 5px;
   padding: 0;
-  margin: 1rem;
+  margin: 0.5rem 0rem;
   width: 100%;
+  height: 3rem;
 }
 .inputContainer :global(.vtex-styleguide-9-x-input) {
-  font-family: Alegreya Sans;
-  font-size: 16px;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 13px;
   font-weight: 400;
   color: #dcdcdc;
 }
@@ -130,7 +143,7 @@
   padding: 6px;
 }
 .sendButton :global(.vtex-button__label) :global(.t-small) {
-  font-family: Alegreya Sans;
+  font-family: "Encode Sans", sans-serif;
   font-size: 18px;
   font-weight: 600;
 }
@@ -142,7 +155,7 @@
   border-radius: 100px;
 }
 .emailPasswordOptionBtn :global(.vtex-button__label) {
-  font-family: Alegreya Sans;
+  font-family: "Encode Sans", sans-serif;
   font-size: 17px;
   font-style: normal;
   color: #324545;
@@ -151,7 +164,7 @@
   content: "";
   width: 25px;
   height: 34px;
-  background-image: url("https://epartner.vtexcommercestable.com.br/arquivos/user-icon-piante.png");
+  background-image: url("https://pianteco.vtexcommercestable.com.br/arquivos/user-icon-piante.png");
   background-size: 100%;
   background-repeat: no-repeat;
   margin-top: 7px;
@@ -160,10 +173,37 @@
   width: 86%;
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+.loginOptionsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.oauthProvider {
+  color: #324545;
+  font-family: "Encode Sans", sans-serif;
+}
+.oauthLabel {
+  color: #324545;
+  font-family: "Encode Sans", sans-serif;
+}
+.content--emailAndPassword {
+  margin-top: 3rem;
 }
 /* //? Medias Query */
 /* ------------------------------- */
 @media (min-width: 1200px) {
+  .emailVerification .formTitle::before {
+    font-size: 19px;
+  }
+  .formTitle {
+    margin-bottom: 3rem;
+  }
+
+  .box {
+    display: none;
+  }
   .accessCodeOptionBtn :global(.vtex-button) {
     width: 24rem;
   }
@@ -185,7 +225,8 @@
     flex-direction: row;
     align-items: flex-start;
     padding: 3rem 10px 10rem;
-    max-width: 55rem;
+    max-width: 63rem;
+    margin-top: 7rem;
   }
   .container::before {
     content: "|";

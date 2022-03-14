@@ -3,9 +3,9 @@
 /* ------------------------------- */
 .summarySmallContent {
   color: #324545;
-  font-family: Alegreya;
+  font-family:  'Encode Sans', sans-serif;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   text-align: left;
 }
 .summarySmallDisclaimer {
@@ -14,7 +14,7 @@
 .summarySmallDisclaimer::before {
   content: 'Envío e impuestos calculados en el carrito';
   color: #808080;
-  font-family: Alegreya;
+  font-family:  'Encode Sans', sans-serif;
   font-size: 14px;
   font-weight: 300;
   text-align: left;
@@ -23,9 +23,9 @@
   color: #324545;
 }
 .summaryItemLabel {
-  font-weight: bold;
+  font-weight: 600;
 }
 .summaryItemPrice {
-  font-weight: bold;
+  font-weight: 600;
 }
 /* ------------------------------- */

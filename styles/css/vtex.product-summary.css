@@ -19,9 +19,9 @@
   text-overflow: ellipsis;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
-  font-family: Alegreya Sans;
+  font-family:  'Encode Sans', sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 14px;
   line-height: 20px;
   color: #363636;

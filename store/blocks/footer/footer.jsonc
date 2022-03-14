@@ -22,13 +22,13 @@
   "rich-text#Shipping": {
     "props": {
       "blockClass": ["Footer__Text", "Footer__Text--promotion"],
-      "text": "[Envío y entrega](#)"
+      "text": "[Envío y entrega](https://devpiante--pianteco.myvtex.com/politicas)"
     }
   },
   "rich-text#industriaCommerce": {
     "props": {
       "blockClass": ["Footer__Text", "Footer__Text--promotion"],
-      "text": "[Superintendencia de industria y comercio](#)"
+      "text": "[Superintendencia de industria y comercio](https://devpiante--pianteco.myvtex.com/politicas)"
     }
   },
 
@@ -64,7 +64,6 @@
       "image#Facebook",
       "image#TikTok",
       "image#Instagram",
-      "image#Linkedin",
       "image#Youtube"
     ]
   },
@@ -116,7 +115,7 @@
       "blockClass": ["Footer__image", "Footer__image--facebook"],
       "src": "https://pianteco.vtexcommercestable.com.br/arquivos/fb-icon.png",
       "link": {
-        "url": "#",
+        "url": "https://www.facebook.com/piantecol",
         "label": "Facebook",
         "newTab": true
       }
@@ -128,7 +127,7 @@
       "blockClass": ["Footer__image", "Footer__image--instagram"],
       "src": "https://pianteco.vtexcommercestable.com.br/arquivos/ig-icon-piante.png",
       "link": {
-        "url": "#",
+        "url": "https://www.instagram.com/piantecol/",
         "label": "Instagram",
         "newTab": true
       }
@@ -152,7 +151,7 @@
       "blockClass": ["Footer__image", "Footer__image--Youtube"],
       "src": "https://pianteco.vtexcommercestable.com.br/arquivos/yt-icon-piante.png",
       "link": {
-        "url": "#",
+        "url": "https://www.youtube.com/channel/UCJY7NH_F64ZZVWHSE_dxYIw",
         "label": "Youtube",
         "newTab": true
       }
@@ -164,7 +163,7 @@
       "blockClass": ["Footer__image", "Footer__image--tiktok"],
       "src": "https://pianteco.vtexcommercestable.com.br/arquivos/tiktok-icon-piante.png",
       "link": {
-        "url": "#",
+        "url": "https://www.tiktok.com/@piantecol",
         "label": "Tiktok",
         "newTab": true
       }
@@ -195,7 +194,7 @@
   "image#Payments": {
     "props": {
       "blockClass": ["Footer__image", "Footer__image--payments"],
-      "src": "https://beisbol.vteximg.com.br/arquivos/medios-pago-footer.png"
+      "src": "https://pianteco.vteximg.com.br/arquivos/medios-pago-footer.png"
     }
   },
   "image#PlayU": {
@@ -331,7 +330,7 @@
   "image#Development": {
     "props": {
       "blockClass": ["Footer__image", "Footer__image--development"],
-      "src": "https://beisbol.vteximg.com.br/arquivos/epartner-icono-footer.png",
+      "src": "https://pianteco.vteximg.com.br/arquivos/epartner-icono-footer.png",
       "link": {
         "url": "https://digitalepartner.com/",
         "label": "ePartner",
@@ -407,28 +406,28 @@
   "rich-text#Terms": {
     "props": {
       "blockClass": ["Footer__Text", "Footer__Text--terms"],
-      "text": "[Terminos y condiciones](#)"
+      "text": "[Terminos y condiciones](https://devpiante--pianteco.myvtex.com/politicas)"
     }
   },
   // ! Privacy politics
   "rich-text#PrivacyPolitics": {
     "props": {
       "blockClass": ["Footer__Text", "Footer__Text--privacy-politics"],
-      "text": "[Política de Privacidad ](#)"
+      "text": "[Política de Privacidad ](https://devpiante--pianteco.myvtex.com/politicas)"
     }
   },
   // ! Cookies politics
   "rich-text#Cookies": {
     "props": {
       "blockClass": ["Footer__Text", "Footer__Text--cookies"],
-      "text": "[Política de Cookies](#)"
+      "text": "[Política de Cookies](https://devpiante--pianteco.myvtex.com/politicas)"
     }
   },
   // ! Anti-Corruption politics
   "rich-text#Corruption": {
     "props": {
       "blockClass": ["Footer__Text", "Footer__Text--corruption"],
-      "text": "[Política Anticorrupción](#)"
+      "text": "[Política Anticorrupción](https://devpiante--pianteco.myvtex.com/politicas)"
     }
   },
 
@@ -481,7 +480,7 @@
   "rich-text#Mail": {
     "props": {
       "blockClass": ["Footer__Text", "Footer__Text--mail"],
-      "text": "[servicioalcliente@beisbol.com](mailto:servicioalcliente@beisbol.com)"
+      "text": "[servicioalcliente@pianteco.com](mailto:servicioalcliente@pianteco.com)"
     }
   },
 
@@ -516,13 +515,13 @@
   },
   "rich-text#OtroEnlaces": {
     "props": {
-      "text": "Otros Enlaces",
+      "text": "[¿Quienes somos?](https://devpiante--pianteco.myvtex.com/sobre-nosotros)",
       "blockClass": "Footer__Text"
     }
   },
   "rich-text#OtroEnlace": {
     "props": {
-      "text": "Otro Enlace",
+      "text": "Nosotros",
       "blockClass": ["FooterTitle--politics", "FooterTitle"]
     }
   },
@@ -559,7 +558,7 @@
   "image#LogoAllPaymentMobile": {
     "props": {
       "blockClass": ["Footer__imageCO", "Footer__image--allpaymentsMobile"],
-      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/pagos-mobile-pianteco.png",
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/medios-pago-mobile.png",
       "link": {
         "url": "/",
         "label": "Piante",

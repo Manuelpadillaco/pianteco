@@ -8,13 +8,13 @@
 }
 .filterItem--Search__Filter--selected :global(.vtex-checkbox__label)::after {
   content: "\00d7";
-  font-family: "Alegreya";
+  font-family: "Encode Sans", sans-serif;
   font-size: 20px;
 }
 .galleryTitle--layout {
-  font-family: "Alegreya";
+  font-family: "Encode Sans", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 35px;
   line-height: 0%;
   color: #324545;
@@ -65,15 +65,15 @@
 .filterPopupTitle {
   padding: 5px;
   text-transform: capitalize;
-  font-size: 18px !important;
-  font-family: "Alegreya Sans";
+  font-size: 11px !important;
+  font-family: "Encode Sans", sans-serif;
   font-style: normal;
   line-height: 20px;
   text-align: center;
   color: #324545;
 }
 .totalProducts--layout {
-  font-family: "Alegreya";
+  font-family: "Encode Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 17px;
@@ -83,7 +83,7 @@
   width: 87% !important;
 }
 .totalProductsMessage {
-  font-family: "Alegreya";
+  font-family: "Encode Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 17px;
@@ -109,7 +109,7 @@
 .buttonShowMore :global(.vtex-button__label)::before {
   content: "Ver más";
   padding: 12px 25px !important;
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-size: 15px;
   font-weight: 600;
 }
@@ -130,27 +130,27 @@
   background-color: #324545;
   border: 1px solid #324545;
   border-radius: 100px;
-  font-family: Alegreya Sans;
+  font-family: "Encode Sans", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 16px;
   text-align: center;
   text-transform: capitalize;
 }
 .filterClearButtonWrapper :global(.vtex-button) {
   color: #324545;
-  font-family: Alegreya Sans;
+  font-family: "Encode Sans", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 0;
   text-decoration: underline;
 }
 .filterClearButtonWrapper :global(.vtex-button)::before {
   content: "Limpiar Filtros";
   color: #324545;
-  font-family: Alegreya Sans;
+  font-family: "Encode Sans", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 17px;
   text-decoration: underline;
   text-transform: initial;
@@ -164,9 +164,9 @@
 }
 .filterBreadcrumbsText--Search__Filter {
   color: #324545;
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 26px;
   line-height: 100%;
 }
@@ -185,7 +185,7 @@
   background: #f2f2f0;
   border-radius: 5px;
   width: 90%;
-  padding: 1rem;
+  padding: 0 1rem;
 }
 .filterAccordionItemBox--Search__Filter::after {
   content: "";
@@ -205,9 +205,9 @@
 .accordionFilterItemTitle--Search__Filter {
   text-transform: capitalize;
   color: #324545;
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 20px;
   line-height: 100%;
 }
@@ -237,7 +237,7 @@
   margin-left: 10px;
   color: #808080;
   font-size: 16px;
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
 }
@@ -253,7 +253,7 @@
   min-height: 25px;
   background-color: #324545;
   border-radius: 10px;
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-size: 14px;
   line-height: normal;
   font-weight: 900;
@@ -274,7 +274,7 @@
 .filter__container--priceRange {
   background: #f2f2f0;
   border-radius: 5px;
-  width: 19rem;
+  width: 85%;
   position: absolute;
   left: 1.2rem;
   margin: 1rem 0;
@@ -284,8 +284,7 @@
   background: transparent;
 }
 .filterTemplateOverflow--Search__Filter {
-  padding: 7px 1rem;
-  background: #f2f2f0;
+  padding: 0;
 }
 .orderByButton {
   margin: 7px 0;
@@ -300,6 +299,20 @@
 /* //? Media queries */
 /* ------------------------------- */
 @media (min-width: 1200px) {
+  .buttonShowMore--layout {
+    margin: 2rem 0;
+  }
+  .filter__container--priceRange {
+    padding: 0 17px 1rem;
+  }
+  .gallery--grid
+    :global(.vtex-add-to-cart-button-0-x-buttonText--summary)::before {
+    font-size: 1rem;
+    left: 82%;
+  }
+  .gallery--grid :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    font-size: 1rem;
+  }
   .filter__container--priceRange {
     width: 100%;
   }
@@ -310,7 +323,7 @@
   .orderByDropdown::before {
     content: "Ordenar por: ";
     width: 200px;
-    font-family: "Alegreya";
+    font-family: "Encode Sans", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 17px;
@@ -337,7 +350,7 @@
   }
   .orderByText {
     color: #808080;
-    font-family: Roboto;
+    font-family: "Encode Sans", sans-serif;
     font-size: 0px;
     font-weight: 400;
     text-transform: capitalize;
@@ -348,18 +361,19 @@
     text-transform: capitalize;
     font-size: 18px !important;
     font-weight: 400;
-    font-family: Alegreya Sans;
+    font-family: "Encode Sans", sans-serif;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 17px;
     line-height: 20px;
     text-align: center;
     color: #324545;
+    font-size: 89% !important;
   }
   .filterMessage--Search__Filter {
-    font-family: "Alegreya";
+    font-family: "Encode Sans", sans-serif;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 25px;
     line-height: 100%;
     color: #324545;
@@ -382,12 +396,12 @@
     border-bottom: 2px solid #d3d3d3;
   }
   .filterTitle--Search__Filter {
-    font-family: "Alegreya";
+    font-family: "Encode Sans", sans-serif;
     font-style: normal;
     font-size: 20px;
     line-height: 27px;
     color: #324545;
-    font-weight: 700;
+    font-weight: 600;
   }
   .filterAvailable--Search__Filter {
     padding: 12px 10px;
@@ -398,10 +412,12 @@
   }
   .filterItem--Search__Filter--selected :global(.vtex-checkbox__label) {
     color: #808080;
-    font-family: Alegreya;
+    font-family: "Encode Sans", sans-serif;
     font-size: 15px;
     font-weight: 400;
     cursor: pointer;
+    background: #f2f2f0;
+    padding: 1rem;
   }
   .filterItem--Search__Filter--selected :global(.vtex-checkbox__container) {
     display: none;
@@ -410,7 +426,7 @@
     padding-top: 10px;
   }
   .filterItem--Search__Filter {
-    font-family: Alegreya;
+    font-family: "Encode Sans", sans-serif;
     font-size: 16px;
     font-weight: 400;
   }
@@ -420,15 +436,15 @@
     color: #808080;
   }
   .filterContent--Search__Filter .filterItem--Search__Filter--selected {
-    font-family: Alegreya;
+    font-family: "Encode Sans", sans-serif;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 600;
   }
   .filterContent--Search__Filter
     .filterItem--Search__Filter--selected
     :global(.vtex-checkbox__label) {
     color: #324545;
-    font-weight: 700;
+    font-weight: 600;
   }
   .filterContent--Search__Filter
     .filterItem--Search__Filter

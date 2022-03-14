@@ -11,7 +11,7 @@
   width: 120px;
 }
 .searchBarContainer :global(.vtex-styleguide-9-x-input) {
-  font-family: "Alegreya sans";
+  font-family: "Encode Sans", sans-serif;
   display: block;
   width: 100%;
   background: white;
@@ -79,7 +79,7 @@
 .infoCardSubhead--TopSlide__Item {
   margin-top: 0;
   color: #df209d;
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-size: 35px;
   font-style: normal;
   font-weight: 300;
@@ -92,7 +92,7 @@
   flex-direction: column;
   margin-top: 0;
   color: #000000;
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 300;
@@ -115,7 +115,7 @@
   margin-bottom: 40px;
 }
 .infoCardCallActionContainer--TopSlide__Item :global(.vtex-button) {
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -157,7 +157,7 @@
   color: #808080;
   background-color: transparent;
   border-color: transparent;
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-size: 15px;
   font-weight: 500;
   text-align: left;
@@ -168,13 +168,13 @@
   .infoCardCallActionContainer--CategorySlide__Item
   :global(.vtex-button) {
   color: #324545;
-  font-weight: 700;
+  font-weight: 600;
 }
 .infoCardCallActionContainer--CategorySlide__Item :global(.vtex-button__label) {
   padding: 0px;
-  font-family: "Alegreya Sans";
+  font-family: "Encode Sans", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 17px;
   line-height: 24px;
   text-align: center;
@@ -230,7 +230,7 @@
   color: #0891d0;
   background-color: transparent;
   border-color: transparent;
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-size: 15px;
   font-weight: 500;
   text-align: left;
@@ -241,7 +241,7 @@
   .infoCardCallActionContainer--CategorySlide__Item
   :global(.vtex-button) {
   color: #28508c;
-  font-weight: 700;
+  font-weight: 600;
 }
 .infoCardCallActionContainer--CategorySlide__Item :global(.vtex-button__label) {
   padding: 0;
@@ -257,10 +257,10 @@
 }
 .infoCardHeadline--BannerTop__item--1 {
   color: white;
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-size: 38px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   text-align: left;
   text-transform: uppercase;
 }
@@ -269,10 +269,10 @@
   padding: 0 9px;
   color: white;
   background-color: #324545;
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-size: 38px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   text-align: left;
 }
 .infoCardCallActionContainer--BannerTop__item--1 :global(.vtex-button) {
@@ -289,10 +289,10 @@
 .infoCardCallActionContainer--BannerTop__item--1 :global(.vtex-button__label) {
   padding: 10px 20px !important;
   color: #324545;
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-size: 15px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   text-align: center;
   text-transform: none;
 }
@@ -304,10 +304,10 @@
 }
 .infoCardHeadline--BannerTop__item--2 {
   color: white;
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-size: 40px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   text-align: left;
 }
 .infoCardCallActionContainer--BannerTop__item--2 :global(.vtex-button) {
@@ -325,10 +325,10 @@
 .infoCardCallActionContainer--BannerTop__item--2 :global(.vtex-button__label) {
   padding: 10px 20px !important;
   color: #324545;
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-size: 13px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   text-align: center;
 }
 
@@ -358,10 +358,10 @@
   :global(.vtex-button__label) {
   padding: 15px 20px !important;
   color: white;
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-size: 15px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   text-align: center;
 }
 .infoCardContainer--BannerBottom__item--2 {
@@ -388,10 +388,10 @@
   padding: 5px 10px;
   color: #324545;
   background-color: white;
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-size: 20px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   text-align: left;
   text-transform: uppercase;
 }
@@ -400,10 +400,10 @@
   padding: 5px 10px;
   color: #324545;
   background-color: white;
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-size: 20px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   text-align: left;
   text-transform: uppercase;
 }
@@ -433,11 +433,11 @@
 .label--Newsletter {
   display: flex;
   flex-direction: row;
-  font-family: "Alegreya Sans";
+  font-family: "Encode Sans", sans-serif;
   font-style: normal;
   color: #ffffff;
   font-size: 37px;
-  font-weight: 700;
+  font-weight: 600;
   text-align: center;
   max-width: 47rem;
   padding-top: 4rem;
@@ -450,7 +450,7 @@
 
 .label--Newsletter::after {
   content: "EN TU PRIMERA COMPRA SUSBRÍBETE A NUESTRO NEWSLETTER";
-  font-family: "Alegreya Sans";
+  font-family: "Encode Sans", sans-serif;
   font-style: normal;
   font-size: 12px;
   text-align: center;
@@ -465,9 +465,9 @@
   content: "RECÍBE";
   text-align: start;
   position: absolute;
-  font-family: "Alegreya Sans";
+  font-family: "Encode Sans", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 20px;
   text-align: center;
   color: #ffffff;
@@ -479,7 +479,7 @@
   color: #c5c5c5;
   background-color: white;
   border-radius: 100px;
-  font-family: Roboto;
+  font-family: "Encode Sans", sans-serif;
   font-size: 25px;
   font-style: normal;
   font-weight: 300;
@@ -508,7 +508,7 @@
   :global(.vtex-styleguide-9-x-input) {
   color: #c5c5c5;
   background-color: white;
-  font-family: Roboto;
+  font-family: "Encode Sans", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 100;
@@ -545,7 +545,7 @@
 .inputGroup .buttonContainer--Newsletter :global(.vtex-button__label) {
   padding: 8px 26px !important;
   color: white;
-  font-family: Roboto;
+  font-family: "Encode Sans", sans-serif;
   font-size: 0;
   font-style: normal;
   font-weight: 100;
@@ -556,12 +556,12 @@
 .inputGroup .buttonContainer--Newsletter :global(.vtex-button__label)::before {
   box-sizing: border-box;
   position: absolute;
-  left: 18px;
-  top: 6px;
+  left: 19px;
+  top: 9px;
   content: "";
   color: white;
   content: "";
-  width: 15px;
+  width: 12px;
   height: 26px;
   background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/arrow.png);
   background-size: 100%;
@@ -570,21 +570,23 @@
 
 .confirmationTitle--Newsletter {
   color: white;
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-size: 45px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   text-align: center;
   text-transform: capitalize;
+  padding-top: 2rem;
 }
 .confirmationText--Newsletter {
   color: white;
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-size: 22px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   text-align: center;
   text-transform: capitalize;
+  padding-bottom: 2rem;
 }
 
 /* ------------------------------- */
@@ -593,15 +595,15 @@
 .productNameContainer {
   margin-bottom: 10px;
   text-align: left;
-  font-family: "Alegreya";
+  font-family: "Encode Sans", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 20px;
   line-height: 100%;
   color: #324545;
 }
 .productDescriptionTitle {
-  font-family: "Alegreya";
+  font-family: "Encode Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -614,7 +616,7 @@
 }
 .productDescriptionText {
   text-align: left;
-  font-family: "Alegreya";
+  font-family: "Encode Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -622,7 +624,7 @@
   color: #808080;
 }
 .skuSelectorTextContainer {
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-size: 25px;
   font-style: normal;
   font-weight: 400;
@@ -630,7 +632,7 @@
 }
 .skuSelectorName {
   color: #808080;
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -669,7 +671,7 @@
   background: white;
   border: none;
   width: 90%;
-  margin: 0 auto;
+  margin: 7px auto;
 }
 .searchBarContainer {
   position: absolute;
@@ -680,7 +682,7 @@
   width: 100% !important;
 }
 .shippingContainer :global(.vtex-dropdown__label) {
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   text-align: left;
@@ -690,7 +692,7 @@
 }
 .shippingContainer :global(.vtex-dropdown__container) {
   background-color: white;
-  font-family: "Alegreya";
+  font-family: "Encode Sans", sans-serif;
   border-radius: 100px;
   border: 1px solid #8f8f8f;
 }
@@ -711,8 +713,8 @@
 }
 .shippingContainer :global(.vtex-button__label) {
   color: white;
-  font-family: Alegreya;
-  font-weight: 700;
+  font-family: "Encode Sans", sans-serif;
+  font-weight: 600;
   font-size: 15px;
   text-align: center;
 }
@@ -749,7 +751,7 @@
   transform: translate(-31px, -35px);
 }
 .content {
-  font-family: "Alegreya";
+  font-family: "Encode Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -857,6 +859,43 @@
 }
 
 @media (min-width: 1200px) {
+  .imageElement--Footer__image--Youtube {
+    width: 28px !important;
+  }
+
+  .imageElement--Footer__image--instagram {
+    width: 22px !important;
+  }
+
+  .imageElement--Footer__image--tiktok {
+    width: 23px !important;
+  }
+  .imageElement--Footer__image--facebook {
+    width: 17px !important;
+    height: 26px !important;
+  }
+
+  .imageElementLink--About__Image--ImageUserDeskLogin {
+    height: auto;
+    width: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 0 0.5rem 0 1rem;
+  }
+  .imageElement--About__Image--ImageUserDeskLogin {
+    width: auto;
+    height: 3.2rem;
+    background-size: 100%;
+    object-fit: contain;
+  }
+  .infoCardContainer--About__Image {
+    background-image: url(https://pianteco.vteximg.com.br/arquivos/banner-desk1sobre-nosotros.png) !important;
+  }
+  .productImagesThumbActive {
+    border: solid 2px lightgray;
+  }
   .imageElement--About__Image--ImageWhoCultivos {
     height: 103%;
     max-height: 21rem;
@@ -865,7 +904,7 @@
     min-height: 0;
     width: 100%;
     background-size: 100% !important;
-    height: 62rem !important;
+    height: 52vw !important;
   }
   .imageElement--TopSlide__Item {
     margin-top: 0;
@@ -878,28 +917,36 @@
     padding: 0;
   }
   .infoCardImageContainer--CategorySlide__Item--1::after {
+    background-image: url("https://pianteco.vteximg.com.br/arquivos/pachiras-pianteco.png");
+    background-size: 50% !important;
+  }
+
+  .infoCardImageContainer--CategorySlide__Item--2::after {
     background-image: url("https://pianteco.vteximg.com.br/arquivos/anturios-pianteco.png");
   }
-  .infoCardImageContainer--CategorySlide__Item--2::after {
+
+  .infoCardImageContainer--CategorySlide__Item--3::after {
+    background-image: url("https://pianteco.vteximg.com.br/arquivos/suscripciones-pianteco.png");
+    background-size: 50% !important;
+  }
+  .infoCardImageContainer--CategorySlide__Item--4::after {
     background-image: url("https://pianteco.vteximg.com.br/arquivos/combos-pianteco.png");
     background-size: 10rem !important;
   }
-  .infoCardImageContainer--CategorySlide__Item--3::after {
-    background-image: url("https://pianteco.vteximg.com.br/arquivos/orquideas-pianteco.png");
-    background-size: contain;
-  }
-  .infoCardImageContainer--CategorySlide__Item--4::after {
-    background-image: url("https://pianteco.vteximg.com.br/arquivos/pachiras-pianteco.png");
-  }
   .infoCardImageContainer--CategorySlide__Item--5::after {
-    background-image: url("https://pianteco.vteximg.com.br/arquivos/suscripciones-pianteco.png");
+    background-image: url("https://pianteco.vteximg.com.br/arquivos/orquideas-pianteco.png");
+    background-size: 54% !important;
+  }
+  .infoCardImageContainer--CategorySlide__Item--6::after {
+    background-image: url("https://pianteco.vteximg.com.br/arquivos/purificadoras-pianteco.png");
+    background-size: 54% !important;
   }
   .infoCardContainer--CategorySlide__Item:hover
     .infoCardImageContainer--CategorySlide__Item::after {
     opacity: 1;
   }
   .infoCardContainer--BannerTop__item--1 {
-    background-image: url(https://pianteco.vtexassets.com/arquivos/banner-secundario-desk-piantev2.png.png)!important;
+    background-image: url(https://pianteco.vtexassets.com/arquivos/banner-secundario-desk-piantev2.png.png) !important;
     width: 93%;
     height: 27vw;
   }
@@ -908,7 +955,7 @@
     :global(.vtex-styleguide-9-x-input) {
     color: #c5c5c5;
     background-color: white;
-    font-family: Roboto;
+    font-family: "Encode Sans", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 100;
@@ -933,7 +980,7 @@
 
   .productImageTag--main {
     height: auto !important;
-    max-height: 30rem!important
+    max-height: 40rem !important;
   }
   .infoCardCallActionContainer--CategorySlide__Item
     :global(.vtex-button__label) {
@@ -943,7 +990,7 @@
     content: "";
     position: absolute;
     inset: 0px 0px 4px;
-    width: 85%;
+    width: 84%;
     background-color: rgba(0, 0, 0, 0.3);
     background-size: 35%;
     background-position: center center;
@@ -980,7 +1027,7 @@
   }
   .autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
     color: black;
-    font-family: Alegreya;
+    font-family: "Encode Sans", sans-serif;
     font-size: 13px;
     font-style: normal;
     font-weight: 400;
@@ -1124,7 +1171,7 @@
     padding-top: 0;
     position: relative;
     margin-left: 10%;
-    font-size: 4rem;
+    font-size: 3rem;
     top: 0;
   }
 
@@ -1167,7 +1214,7 @@
 .notificationBarContainer {
   background-color: #e6f1e6;
   color: #03034e;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 12px;
   text-decoration: underline;
 }

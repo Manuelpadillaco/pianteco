@@ -4,6 +4,7 @@
 .menuContainer {
   width: 100%;
   padding: 0 20px;
+  min-width: 17rem;
 }
 .menuContainerNav {
   width: 100%;
@@ -18,7 +19,7 @@
   border-bottom: none;
 }
 .styledLinkContent--MenuItem {
-  font-family: Alegreya;
+  font-family: "Encode Sans", sans-serif;
   font-size: 16px;
   font-weight: 500;
   color: #324545;
@@ -84,7 +85,7 @@
     margin-left: 9px;
     width: 15px;
     height: 15px;
-    background-image: url("https://epartner.vtexcommercestable.com.br/arquivos/categorias-icon-piante.png");
+    background-image: url("https://pianteco.vtexcommercestable.com.br/arquivos/categorias-icon-piante.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -95,7 +96,7 @@
   .menuItem--MenuItem__Category--isOpen
     .styledLinkContent--MenuItem__Category::before {
     transform: rotate(180deg);
-    background-image: url("https://epartner.vtexcommercestable.com.br/arquivos/categorias-icon-hover-piante.png");
+    background-image: url("https://pianteco.vtexcommercestable.com.br/arquivos/categorias-icon-hover-piante.png");
   }
   .menuItem--MenuItem__Category--isOpen:first-child {
     background-color: #324545;
@@ -109,7 +110,7 @@
     margin: 1px 10px;
   }
   .styledLinkContent--MenuItem__Tile::before {
-    content: url(https://epartner.vtexcommercestable.com.br/arquivos/divisor-llamados-desk-piante.png);
+    content: url(https://pianteco.vtexcommercestable.com.br/arquivos/divisor-llamados-desk-piante.png);
     margin: 0rem -32px;
     transform: scale(0.5);
     position: absolute;
@@ -121,7 +122,7 @@
     margin-right: 4px;
     width: 15px;
     height: 15px;
-    background-image: url(https://epartner.vtexcommercestable.com.br/arquivos/flecha-verde2-painte.png);
+    background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/flecha-verde2-painte.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -129,7 +130,7 @@
 
   .menuItem--MenuItem__Category--isOpen
     .styledLinkContent--MenuItem__Category::after {
-    background-image: url(https://epartner.vtexcommercestable.com.br/arquivos/flecha-pabajo-painte.png);
+    background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/flecha-pabajo-painte.png);
     transform: rotate(180deg);
   }
 }
@@ -141,7 +142,7 @@
   height: 25px;
   margin-right: 15px;
   margin-left: 7px;
-  background-image: url(https://epartner.vtexcommercestable.com.br/arquivos/orquidea-icon-piante.png);
+  background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/orquidea-icon-piante.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -153,7 +154,7 @@
   height: 25px;
   margin-right: 15px;
   margin-left: 7px;
-  background-image: url(https://epartner.vtexcommercestable.com.br/arquivos/anturio-icon-piante.png);
+  background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/anturio-icon-piante.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -165,7 +166,7 @@
   height: 25px;
   margin-right: 15px;
   margin-left: 7px;
-  background-image: url(https://epartner.vtexcommercestable.com.br/arquivos/purificadora-icon-piante.png);
+  background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/purificadora-icon-piante.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -177,7 +178,7 @@
   height: 25px;
   margin-right: 15px;
   margin-left: 7px;
-  background-image: url(https://epartner.vtexcommercestable.com.br/arquivos/pachira-icon-piante.png);
+  background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/pachira-icon-piante.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -189,9 +190,11 @@
   height: 25px;
   margin-right: 15px;
   margin-left: 7px;
-  background-image: url(https://epartner.vtexcommercestable.com.br/arquivos/combo-icon-piante.png);
+  background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/combo-icon-piante.png);
   background-size: 100%;
   background-repeat: no-repeat;
+  width: 39px;
+  margin: 0px 6px 0px -4px;
 }
 
 .styledLinkContent--MenuItem--6::before {
@@ -201,9 +204,11 @@
   height: 25px;
   margin-right: 15px;
   margin-left: 7px;
-  background-image: url(https://epartner.vtexcommercestable.com.br/arquivos/combo-icon-piante.png);
+  background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/combo-icon-piante.png);
   background-size: 100%;
   background-repeat: no-repeat;
+  width: 39px;
+  margin: 0px 6px 0px -4px;
 }
 .styledLinkContent--MenuItem--7::before {
   content: "";
@@ -212,7 +217,7 @@
   height: 25px;
   margin-right: 15px;
   margin-left: 7px;
-  background-image: url(https://epartner.vtexcommercestable.com.br/arquivos/suscripcion-icon-piante.png);
+  background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/suscripcion-icon-piante.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -223,7 +228,7 @@
   height: 25px;
   margin-right: 15px;
   margin-left: 7px;
-  background-image: url(https://epartner.vtexcommercestable.com.br/arquivos/suscripcion-icon-piante.png);
+  background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/suscripcion-icon-piante.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -266,49 +271,53 @@
 .menuContainer--Menu__Group
   .styledLinkContainer--MenuItem:hover
   .styledLinkContent--MenuItem--1::before {
-  background-image: url(https://epartner.vtexcommercestable.com.br/arquivos/orquideas-icon2-painte.png) !important;
+  background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/orquideas-icon2-painte.png) !important;
 }
 
 .menuContainer--Menu__Group
   .styledLinkContainer--MenuItem:hover
   .styledLinkContent--MenuItem--2::before {
-  background-image: url(https://epartner.vtexcommercestable.com.br/arquivos/anturios-icon2-painte.png) !important;
+  background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/anturios-icon2-painte.png) !important;
 }
 .menuContainer--Menu__Group
   .styledLinkContainer--MenuItem:hover
   .styledLinkContent--MenuItem--3::before {
-  background-image: url(https://epartner.vtexcommercestable.com.br/arquivos/purificadoras-icon2-painte.png) !important;
+  background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/purificadoras-icon2-painte.png) !important;
 }
 .menuContainer--Menu__Group
   .styledLinkContainer--MenuItem:hover
   .styledLinkContent--MenuItem--4::before {
-  background-image: url(https://epartner.vtexcommercestable.com.br/arquivos/pachiras-icon2-painte.png) !important;
+  background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/pachiras-icon2-painte.png) !important;
 }
 .menuContainer--Menu__Group
   .styledLinkContainer--MenuItem:hover
   .styledLinkContent--MenuItem--5::before {
-  background-image: url(https://epartner.vtexcommercestable.com.br/arquivos/combo-icon2-painte.png) !important;
+  background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/combo-icon2-painte.png) !important;
+  width: 39px;
+  margin: 0px 6px 0px -4px;
 }
 .menuContainer--Menu__Group
   .styledLinkContainer--MenuItem:hover
   .styledLinkContent--MenuItem--6::before {
-  background-image: url(https://epartner.vtexcommercestable.com.br/arquivos/combo-icon2-painte.png) !important;
+  background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/combo-icon2-painte.png) !important;
+  width: 39px;
+  margin: 0px 6px 0px -4px;
 }
 .menuContainer--Menu__Group
   .styledLinkContainer--MenuItem:hover
   .styledLinkContent--MenuItem--7::before {
-  background-image: url(https://epartner.vtexcommercestable.com.br/arquivos/suscripcion-icon2-painte.png) !important;
+  background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/suscripcion-icon2-painte.png) !important;
 }
 .menuContainer--Menu__Group
   .styledLinkContainer--MenuItem:hover
   .styledLinkContent--MenuItem--8::before {
-  background-image: url(https://epartner.vtexcommercestable.com.br/arquivos/suscripcion-icon2-painte.png) !important;
+  background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/suscripcion-icon2-painte.png) !important;
 }
 
 .styledLinkContent--MenuItem {
   display: flex;
   align-items: center;
-  font-family: "Alegreya Sans";
+  font-family: "Encode Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;

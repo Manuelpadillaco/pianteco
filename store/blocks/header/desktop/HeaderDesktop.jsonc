@@ -1,27 +1,19 @@
 {
   // * Header Desktop
   "header-layout.desktop": {
-    "children": [
-      "rich-text#top-text",
-      "sticky-layout#4-desktop"
-    ]
+    "children": ["rich-text#top-text", "sticky-layout#4-desktop"]
   },
   "sticky-layout#4-desktop": {
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": [
-      "header-row#Header-1"
-    ]
+    "children": ["header-row#Header-1"]
   },
 
   // * Header Row 1
   "header-row#Header-1": {
     "props": {
-      "blockClass": [
-        "main-header",
-        "Header__Container"
-      ],
+      "blockClass": ["main-header", "Header__Container"],
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
@@ -33,34 +25,55 @@
       "header-row#Header-2",
       "header-spacer",
       "search-bar#desktop",
-      "login",
+      "image#login",
       "minicart.v2"
     ]
   },
-  "search-bar#desktop":{
+  "login#desktop": {
     "props": {
-    "placeholder": "Buscar,  Tienda ..."
+      "accountOptionLinks": "/account"
     }
-
+  },
+  "image#Facebook": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--facebook"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/fb-icon.png",
+      "link": {
+        "url": "https://www.facebook.com/piantecol",
+        "label": "Facebook",
+        "newTab": true
+      }
+    }
+  },
+  "image#login": {
+    "props": {
+      "blockClass": ["About__Image", "About__Image--ImageUserDeskLogin"],
+      "src": "https://pianteco.vtexassets.com/arquivos/user-icon-piante.png",
+      "link": {
+        "url": "/login",
+        "label": "login"
+      }
+    }
+  },
+  "search-bar#desktop": {
+    "props": {
+      "placeholder": "Buscar,  Tienda ..."
+    }
   },
   // ! Logo
   "logo#desktop": {
     "props": {
       "blockClass": ["Header-Desktop__Logo"],
-      "title": "Logo Beisbol",
+      "title": "Logo Piante",
       "href": "/",
-      "url": "https://epartner.vtexcommercestable.com.br/arquivos/header-piante-logo-piante.png"
+      "url": "https://pianteco.vtexcommercestable.com.br/arquivos/header-piante-logo-piante.png"
     }
   },
 
   // * Header Row 2
   "header-row#Header-2": {
     "props": {
-      "blockClass": [
-        "main-header",
-        "Header__Container",
-        "Menu-Bottom"
-      ],
+      "blockClass": ["main-header", "Header__Container", "Menu-Bottom"],
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
@@ -116,5 +129,4 @@
       "width": "grow"
     }
   }
-
 }

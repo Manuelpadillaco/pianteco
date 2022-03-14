@@ -17,7 +17,7 @@
       "blockClass": ["About__Image"],
       "isFullModeStyle": true,
       "imageUrl": "https://pianteco.vteximg.com.br/arquivos/banner-desk-completo-piante.png",
-      "mobileImageUrl": "https://pianteco.vteximg.com.br/arquivos/banner-mobile-completo-piante.png"
+      "mobileImageUrl": "https://pianteco.vteximg.com.br/arquivos/banner-mobile1sobre-nosotros.png"
     }
   },
 
@@ -44,7 +44,7 @@
     "props": {
       "blockClass": ["About__Section", "About__Section--subWhoWeAre"]
     },
-    "children": ["rich-text#EmpaqueTitle","rich-text#EmpaqueText"]
+    "children": ["rich-text#EmpaqueTitle", "rich-text#EmpaqueText"]
   },
   "flex-layout.col#subWhoWeAre1": {
     "props": {
@@ -78,7 +78,7 @@
       "image#ImageWhoCultivos4"
     ]
   },
-  // ? Mision Image
+  // ? Calidad Image
   "image#ImageWhoCultivos": {
     "props": {
       "blockClass": ["About__Image", "About__Image--ImageWhoCultivos"],
@@ -120,7 +120,7 @@
       "blockClass": ["About__Title", "About__Title--WhoWeAre"],
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "CULTIVOS"
+      "text": "Nuestro empaque"
     }
   },
 
@@ -140,45 +140,45 @@
       "blockClass": ["About__Section", "About__Section--Purpose"]
     },
     "children": [
-      "flex-layout.col#PurposeMision",
+      "flex-layout.col#PurposeCalidad",
       "flex-layout.col#Purposesolucion",
       "flex-layout.col#PurposeInnovacion"
     ]
   },
-  // ! Mision Section
-  "flex-layout.col#PurposeMision": {
+  // ! Calidad Section
+  "flex-layout.col#PurposeCalidad": {
     "props": {
-      "blockClass": ["About__Purpose", "About__Purpose--Mision"]
+      "blockClass": ["About__Purpose", "About__Purpose--Calidad"]
     },
     "children": [
-      "rich-text#PurposeMisionTitle",
-      "rich-text#PurposeMisionText",
-      "image#PurposeMisionImage"
+      "rich-text#PurposeCalidadTitle",
+      "rich-text#PurposeCalidadText",
+      "image#PurposeCalidadImage"
     ]
   },
-  // ? Mision title
-  "rich-text#PurposeMisionTitle": {
+  // ? Calidad title
+  "rich-text#PurposeCalidadTitle": {
     "props": {
-      "blockClass": ["About__Title", "About__Title--Mision"],
+      "blockClass": ["About__Title", "About__Title--Calidad"],
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Misión"
+      "text": "CALIDAD"
     }
   },
-  // ? Mision Image
-  "image#PurposeMisionImage": {
+  // ? Calidad Image
+  "image#PurposeCalidadImage": {
     "props": {
-      "blockClass": ["About__Image", "About__Image--Mision"],
+      "blockClass": ["About__Image", "About__Image--Calidad"],
       "src": "https://pianteco.vteximg.com.br/arquivos/calidad-dsk-piante.png"
     }
   },
-  // ? Mision text
-  "rich-text#PurposeMisionText": {
+  // ? Calidad text
+  "rich-text#PurposeCalidadText": {
     "props": {
-      "blockClass": ["About__Text", "About__Text--Mision"],
+      "blockClass": ["About__Text", "About__Text--Calidad"],
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      "text": "Nuestros productos se caracterizan por contar con la mejor selección genética, cultivados con estrictos protocolos de producción que garantizan plantas de alta calidad y durabilidad"
     }
   },
 
@@ -193,29 +193,29 @@
       "image#PurposeInnovacionImage"
     ]
   },
-  // ? Mision title
+  // ? Calidad title
   "rich-text#PurposeInnovacionTitle": {
     "props": {
       "blockClass": ["About__Title", "About__Title--Innovacion"],
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "INNOVACIÓN"
+      "text": "SERIVICIO"
     }
   },
-  // ? Mision Image
+  // ? Calidad Image
   "image#PurposeInnovacionImage": {
     "props": {
       "blockClass": ["About__Image", "About__Image--Innovacion"],
       "src": "https://pianteco.vteximg.com.br/arquivos/innovacion-desk-piante.png"
     }
   },
-  // ? Mision text
+  // ? Calidad text
   "rich-text#PurposeInnovacionText": {
     "props": {
       "blockClass": ["About__Text", "About__Text--Innovacion"],
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      "text": "Todo un departamento dedicado a la atención de nuestros clientes, dando respuestas que contribuyan al mejoramiento de la experiencia de venta y post-venta."
     }
   },
   // ! solucion Section
@@ -235,7 +235,7 @@
       "blockClass": ["About__Title", "About__Title--solucion"],
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "SOLUCIÓN"
+      "text": "INNOVACIÓN"
     }
   },
   // ? solucion Image
@@ -251,7 +251,7 @@
       "blockClass": ["About__Text", "About__Text--solucion"],
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      "text": "Nuestros procesos están enfocados en el mejoramiento de la industria. Constantemente incluimos nuevas soluciones en nuestro portafolio respondiendo oportunamente a las necesidades de nuestros clientes."
     }
   },
 
@@ -292,16 +292,17 @@
       "blockClass": ["About__Socials"]
     },
     "children": [
-      "image#AboutFacebook",
-      "image#AboutInstagram",
-      "image#AboutYoutube"
+      "image#FacebookGreen",
+      "image#TikTokGreen",
+      "image#InstagramGreen",
+      "image#YoutubeGreen"
     ]
   },
   // ? Facebook Icon
   "image#AboutFacebook": {
     "props": {
       "blockClass": ["About__Image-Social", "About__Image-Social--Facebook"],
-      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/fb-icon.png",
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/iconsSocial-Piante-Green1.png",
       "link": {
         "url": "#",
         "label": "Facebook",
@@ -313,7 +314,7 @@
   "image#AboutInstagram": {
     "props": {
       "blockClass": ["About__Image-Social", "About__Image-Social--Instagram"],
-      "src": "https://beisbol.vteximg.com.br/arquivos/instagram-icon-about.png",
+      "src": "https://beisbol.vteximg.com.br/arquivos/iconsSocial-Piante-Green2.png",
       "link": {
         "url": "#",
         "label": "Instagram",
@@ -329,6 +330,79 @@
       "link": {
         "url": "#",
         "label": "Youtube",
+        "newTab": true
+      }
+    }
+  },
+  // ! Facebook Icon
+  "image#FacebookGreen": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--facebook"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/iconsSocial-Piante-Green.png",
+      "link": {
+        "url": "https://www.facebook.com/piantecol",
+        "label": "Facebook",
+        "newTab": true
+      }
+    }
+  },
+  // ! Instagram Icon
+  "image#InstagramGreen": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--instagram"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/iconsSocial-Piante-Green.png",
+      "link": {
+        "url": "https://www.instagram.com/piantecol/",
+        "label": "Instagram",
+        "newTab": true
+      }
+    }
+  },
+  // ! Twitter Icon
+  "image#Twitter": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--Twitter"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/",
+      "link": {
+        "url": "#",
+        "label": "Twitter",
+        "newTab": true
+      }
+    }
+  },
+  // ! Youtube Icon
+  "image#YoutubeGreen": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--Youtube"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/iconsSocial-Piante-Green5.png",
+      "link": {
+        "url": "https://www.youtube.com/channel/UCJY7NH_F64ZZVWHSE_dxYIw",
+        "label": "Youtube",
+        "newTab": true
+      }
+    }
+  },
+  // ! TikTok Icon
+  "image#TikTokGreen": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--tiktok"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/iconsSocial-Piante-Green3.png",
+      "link": {
+        "url": "https://www.tiktok.com/@piantecol",
+        "label": "Tiktok",
+        "newTab": true
+      }
+    }
+  },
+
+  // ! Linkedin Icon
+  "image#Linkedin": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--linkedin"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/linkedin-icon-piante.png",
+      "link": {
+        "url": "#",
+        "label": "Facebook",
         "newTab": true
       }
     }

@@ -7,4 +7,11 @@
   border: none !important;
 }
 
+@media (min-width: 1200px) {
+
+  .profileSummary {
+    min-width: 37rem;
+  }
+}
+
 

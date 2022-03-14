@@ -3,7 +3,7 @@
 /* ------------------------------- */
 /* ! Vitrina */
 .buttonDataContainer--summary {
-  font-family: Alegreya;
+  font-family:  'Encode Sans', sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 600;
@@ -16,9 +16,9 @@
 /* //* Product Page */
 /* ------------------------------- */
 .buttonText {
-  font-family: Alegreya Sans;
+  font-family:  'Encode Sans', sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 600;
   line-height: 24px;
   text-align: center;
   font-size: 18px;
@@ -34,7 +34,7 @@
   height: 33px;
   width: 23px;
   position: absolute;
-  left: 76.5%;
+  left: 82.5%;
   top: 0px;
 }
 
@@ -61,11 +61,11 @@
   }
   .buttonText--summary::before {
     /* top: -9px; */
-    left: 73%;
+    left: 79%;
   }
 }
 /* ------------------------------- */
-@media (max-width: 370px) {
+@media (max-width: 425px) {
   .buttonText {
     width: 78px;
     line-height: 1;
@@ -81,7 +81,7 @@
   .buttonText--summary {
     padding: 0;
     font-size: 15px;
-    max-width: 53px;
+    max-width: 70px;
     line-height: 1;
   }
 

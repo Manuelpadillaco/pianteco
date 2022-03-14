@@ -39,8 +39,8 @@
       "isFullModeStyle": false,
       "textPosition": "left",
       "imageUrl": "https://pianteco.vtexassets.com/arquivos/pachiras-desk-piantecov2.png",
-      "callToActionText": "Cuidado de los pisos",
-      "callToActionUrl": "#"
+      "callToActionText": "Pachiras",
+      "callToActionUrl": "/Pachiras"
     }
   },
 
@@ -55,8 +55,8 @@
       "isFullModeStyle": false,
       "textPosition": "left",
       "imageUrl": "https://pianteco.vtexassets.com/arquivos/anturios-desk-piantecov2.png",
-      "callToActionText": "Cuidado del hogar",
-      "callToActionUrl": "#"
+      "callToActionText": "Anturios",
+      "callToActionUrl": "/Linea-Fiori/Anturios"
     }
   },
 
@@ -71,8 +71,8 @@
       "isFullModeStyle": false,
       "textPosition": "left",
       "imageUrl": "https://pianteco.vtexassets.com/arquivos/suscripciones-desk-piantecov2.png",
-      "callToActionText": "Cuidado de la ropa",
-      "callToActionUrl": "#"
+      "callToActionText": "Suscripciones",
+      "callToActionUrl": "/Suscripciones"
     }
   },
 
@@ -87,8 +87,8 @@
       "isFullModeStyle": false,
       "textPosition": "left",
       "imageUrl": "https://pianteco.vtexassets.com/arquivos/combos-desk-piantecov2.png",
-      "callToActionText": "Cuidado de calzado",
-      "callToActionUrl": "#"
+      "callToActionText": "Combos",
+      "callToActionUrl": "/Combos"
     }
   },
 
@@ -103,8 +103,8 @@
       "isFullModeStyle": false,
       "textPosition": "left",
       "imageUrl": "https://pianteco.vtexassets.com/arquivos/orquideas-desk-piantecov2.png",
-      "callToActionText": "Cuidado de la cocina",
-      "callToActionUrl": "#"
+      "callToActionText": "Orquídeas",
+      "callToActionUrl": "/Linea-Fiori/Orquideas"
     }
   },
   // * Category Slide Item 6
@@ -112,14 +112,14 @@
     "props": {
       "blockClass": [
         "CategorySlide__Item",
-        "CategorySlide__Item--5"
+        "CategorySlide__Item--6"
       ],
-      "id": "CategorySlide-item-5",
+      "id": "CategorySlide-item-6",
       "isFullModeStyle": false,
       "textPosition": "left",
       "imageUrl": "https://pianteco.vtexassets.com/arquivos/purificadoras-desk-piantecov2.png",
-      "callToActionText": "Cuidado de la cocina",
-      "callToActionUrl": "#"
+      "callToActionText": "Purificadoras",
+      "callToActionUrl": "/Linea-Verdi/purificadoras"
     }
   }
 }
