@@ -1,0 +1,1542 @@
+/* ------------------------------- */
+/* //* Header */
+/* ------------------------------- */
+.logoContainer.sizeMobile {
+  display: block;
+  padding: 0 10px;
+  padding-right: 0;
+  max-width: 130px;
+}
+
+.logoImage {
+  width: 120px;
+}
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input) {
+  font-family: "Encode Sans", sans-serif;
+  display: block;
+  width: 100%;
+  background: white;
+}
+
+.headerStickyRow--Menu-Bottom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ------------------------------- */
+/* //* Footer */
+/* ------------------------------- */
+.imageElement--Footer__image {
+  transition: 0.3s;
+  width: 36px;
+  max-height: 39px !important;
+}
+
+.imageElement--Footer__image:hover {
+  opacity: 1;
+}
+
+.imageElement--Footer__image--payments {
+  width: 90%;
+  border-radius: 8px;
+  filter: none;
+  opacity: 1;
+}
+
+.imageElementLink--Footer__image {
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.imageElement--Footer__image--facebook {
+  max-width: 22px;
+}
+
+.imageElementLink--Footer__image--company {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageElement--Footer__image--company {
+  width: 40%;
+  filter: none;
+  opacity: 1;
+}
+
+/* ------------------------------- */
+/* //* Home */
+/* ------------------------------- */
+.container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+.discountInsideContainer {
+  display: none;
+}
+
+/* ! Top Slide */
+.infoCardContainer--TopSlide__Item {
+  width: 100%;
+  height: 100%;
+}
+
+.infoCardSubhead--TopSlide__Item {
+  margin-top: 0;
+  color: #df209d;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.infoCardHeadline--TopSlide__Item {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  color: #000000;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+/*
+.infoCardTextContainer--TopSlide__Item::before {
+  content: '';
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 100px;
+  height: 150px;
+  background-image: url('https://pianteco.vteximg.com.br/arquivos/mobile-imagen-banner-principal.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}*/
+.infoCardCallActionContainer--TopSlide__Item {
+  margin-bottom: 40px;
+}
+
+.infoCardCallActionContainer--TopSlide__Item :global(.vtex-button) {
+  font-family: "Encode Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: initial;
+  background-color: #324545;
+  border-color: #324545;
+  border-radius: 51px;
+  transition: 0.3s;
+}
+
+.infoCardCallActionContainer--TopSlide__Item :global(.vtex-button):hover {
+  background-color: #000b45;
+  border-color: #000b45;
+}
+
+/* ! Category slide */
+.infoCardCallActionContainer--CategorySlide__Item {
+  width: 100%;
+}
+
+.infoCardContainer--CategorySlide__Item {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.infoCardCallActionContainer--CategorySlide__Item {
+  margin: 0;
+  text-decoration: none;
+}
+
+.infoCardImageContainer--CategorySlide__Item {
+  position: relative;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.infoCardTextContainer--CategorySlide__Item {
+  padding: 0;
+  width: 100%;
+}
+
+.infoCardCallActionContainer--CategorySlide__Item :global(.vtex-button) {
+  display: flex;
+  color: #808080;
+  background-color: transparent;
+  border-color: transparent;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: left;
+  text-transform: inherit;
+  transition: 0.3s;
+}
+
+.infoCardContainer--CategorySlide__Item:hover
+  .infoCardCallActionContainer--CategorySlide__Item
+  :global(.vtex-button) {
+  color: #324545;
+  font-weight: 600;
+}
+
+.infoCardCallActionContainer--CategorySlide__Item :global(.vtex-button__label) {
+  padding: 0px;
+  font-family: "Encode Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  color: #324545;
+}
+
+.infoCardImage--CategorySlide__Item {
+  width: 100%;
+  height: auto;
+  border-radius: 3rem 0 27px;
+}
+
+/* ! Category slide */
+.infoCardContainer--CategorySlide__Item {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+}
+
+.infoCardCallActionContainer--CategorySlide__Item {
+  margin: 0;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.infoCardImageContainer--CategorySlide__Item {
+  position: relative;
+  width: 100%;
+}
+
+.infoCardImageContainer--CategorySlide__Item::after {
+  content: "";
+  position: absolute;
+  inset: 0px 0px 4px;
+  width: 86%;
+  background-color: rgb(105 141 111 / 30%);
+  border-radius: 3rem 0;
+  transition: all 0.3s ease 0s;
+  opacity: 0;
+  height: 21rem;
+  top: 8px;
+  left: 7px;
+  background-size: 10rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 16rem;
+}
+
+.infoCardTextContainer--CategorySlide__Item {
+  padding: 0;
+  width: 100%;
+}
+
+.infoCardCallActionContainer--CategorySlide__Item :global(.vtex-button) {
+  display: flex;
+  color: #0891d0;
+  background-color: transparent;
+  border-color: transparent;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: left;
+  text-transform: inherit;
+  transition: 0.3s;
+}
+
+.infoCardContainer--CategorySlide__Item:hover
+  .infoCardCallActionContainer--CategorySlide__Item
+  :global(.vtex-button) {
+  color: #28508c;
+  font-weight: 600;
+}
+
+.infoCardCallActionContainer--CategorySlide__Item :global(.vtex-button__label) {
+  padding: 0;
+}
+
+/* ! Top Banners */
+.infoCardContainer--BannerTop__item {
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+  background-size: 100% !important;
+  border: none;
+}
+
+.infoCardHeadline--BannerTop__item--1 {
+  color: white;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.infoCardSubhead--BannerTop__item--1 {
+  margin-top: 0;
+  padding: 0 9px;
+  color: white;
+  background-color: #324545;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  text-align: left;
+}
+
+.infoCardCallActionContainer--BannerTop__item--1 :global(.vtex-button) {
+  background-color: transparent;
+  border-width: 1px;
+  border-radius: 100px;
+  transition: 0.3s;
+}
+
+/*.infoCardCallActionContainer--BannerTop__item--1
+  :global(.vtex-button):hover {
+  background-color: white;
+  border-color: white;
+}*/
+.infoCardCallActionContainer--BannerTop__item--1 :global(.vtex-button__label) {
+  padding: 10px 20px !important;
+  color: #324545;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  text-transform: none;
+}
+
+.infoCardTextContainer--BannerTop__item--2 {
+  margin-right: 170px;
+}
+
+.infoCardHeadline--BannerTop__item--2 {
+  position: relative;
+}
+
+.infoCardHeadline--BannerTop__item--2 {
+  color: white;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  text-align: left;
+}
+
+.infoCardCallActionContainer--BannerTop__item--2 :global(.vtex-button) {
+  background-color: white;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 100px;
+  transition: 0.3s;
+}
+
+/*.infoCardCallActionContainer--BannerTop__item--2
+  :global(.vtex-button):hover {
+  background-color: #ededed;
+  border-color: #ededed;
+}*/
+.infoCardCallActionContainer--BannerTop__item--2 :global(.vtex-button__label) {
+  padding: 10px 20px !important;
+  color: #324545;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* ! Bottom banners */
+.infoCardTextContainer--BannerBottom__item--1 {
+  justify-content: center;
+  align-items: center;
+}
+
+.infoCardContainer--BannerBottom__item--1 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.infoCardCallActionContainer--BannerBottom__item--1 :global(.vtex-button) {
+  background-color: #324545;
+  border-width: 1px;
+  border-radius: 100px;
+  transition: 0.3s;
+}
+
+.infoCardCallActionContainer--BannerBottom__item--1
+  :global(.vtex-button):hover {
+  background-color: #000b45;
+}
+
+.infoCardCallActionContainer--BannerBottom__item--1
+  :global(.vtex-button__label) {
+  padding: 15px 20px !important;
+  color: white;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+}
+
+.infoCardContainer--BannerBottom__item--2 {
+  display: flex;
+  align-items: flex-end;
+  padding: 30px 10px;
+  width: 100%;
+}
+
+.infoCardContainer--BannerBottom__item--2::before {
+  content: "";
+  width: 40%;
+  height: 210px;
+  background-image: url("https://pianteco.vteximg.com.br/arquivos/mobile-imagen-banner-nueva-presentacion.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.infoCardTextContainer--BannerBottom__item--2 {
+  margin-right: 0;
+  width: 60%;
+}
+
+.infoCardHeadline--BannerBottom__item--2 {
+  margin-top: 0;
+  padding: 5px 10px;
+  color: #324545;
+  background-color: white;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.infoCardSubhead--BannerBottom__item--2 {
+  margin-top: 5px;
+  padding: 5px 10px;
+  color: #324545;
+  background-color: white;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+/* ! Newsletter */
+.newsletter--Newsletter {
+  margin-top: 0;
+  background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/BANNER-PIANTE_-SUSCRIPCIÓN-ABAJO.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: auto;
+  height: 83vw;
+  margin: inherit !important;
+  background-color: #5c6f5e !important;
+}
+
+.infoCardContainer--BannerTop__item--1 {
+  background-image: url(https://pianteco.vtexassets.com/arquivos/BANNER-SECUNDARIO-_-MEDIDAS-1118-X-1582.jpg) !important;
+  width: 93%;
+  height: 134vw;
+}
+
+.container--Newsletter {
+  padding: 0;
+  min-height: 13.7vw;
+}
+
+.inputGroup--Newsletter {
+  flex-direction: column;
+}
+
+.label--Newsletter {
+  display: flex;
+  flex-direction: row;
+  font-family: "Encode Sans", sans-serif;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 37px;
+  font-weight: 600;
+  text-align: center;
+  max-width: 47rem;
+  padding-top: 4rem;
+  position: relative;
+  margin-left: 0;
+  padding: 0 19px;
+  top: 46px;
+  left: -66px;
+  opacity: 0;
+}
+
+.label--Newsletter::after {
+  content: "EN TU PRIMERA COMPRA SUSBRÍBETE A NUESTRO NEWSLETTER";
+  font-family: "Encode Sans", sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  left: 106%;
+  top: -49%;
+  text-align: start;
+  width: 7rem;
+}
+
+.label--Newsletter::before {
+  content: "RECÍBE";
+  text-align: start;
+  position: absolute;
+  font-family: "Encode Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+  top: -18px;
+  left: 16px;
+}
+
+.label--Newsletter .inputGroup {
+  padding: 0 25px;
+  color: #c5c5c5;
+  background-color: white;
+  border-radius: 100px;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 300;
+  text-align: left;
+  outline: none;
+}
+
+.form--Newsletter .inputGroup {
+  padding-top: 0;
+  align-items: center;
+  margin-top: 4.5rem;
+  position: relative;
+  margin-right: 2rem;
+  padding: 0;
+  height: 6rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.label--Newsletter .inputGroup::placeholder {
+  color: #c5c5c5;
+}
+
+.inputGroup--Newsletter
+  :global(.vtex-input)
+  :global(.vtex-input-prefix__group) {
+  border: none;
+  height: 60px;
+  margin-top: 3rem;
+}
+
+.inputGroup--Newsletter
+  :global(.vtex-input)
+  :global(.vtex-styleguide-9-x-input) {
+  color: #c5c5c5;
+  background-color: white;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 100;
+  text-align: left;
+  border-radius: 9px;
+  padding: 20px;
+  height: 50px;
+  width: 90vw;
+  margin: 10px;
+  position: absolute;
+  top: 34vw;
+  margin: 0 auto;
+}
+
+.inputGroup--Newsletter
+  :global(.vtex-input)
+  :global(.vtex-styleguide-9-x-input)::placeholder {
+  color: #c5c5c5;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.inputGroup .buttonContainer--Newsletter :global(.vtex-button) {
+  background-color: #324545;
+  border-width: 1px;
+  border-color: #324545;
+  border-radius: 9px;
+  transition: 0.3s;
+  width: 50px;
+}
+
+.inputGroup .buttonContainer--Newsletter :global(.vtex-button):hover {
+  background-color: #698d6f;
+  border-color: #698d6f;
+}
+
+.inputGroup .buttonContainer--Newsletter :global(.vtex-button__label) {
+  padding: 8px 26px !important;
+  color: white;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 0;
+  font-style: normal;
+  font-weight: 100;
+  text-align: center;
+  height: 40px;
+  padding: 0;
+}
+
+.inputGroup .buttonContainer--Newsletter :global(.vtex-button__label)::before {
+  box-sizing: border-box;
+  position: absolute;
+  left: 19px;
+  top: 9px;
+  content: "";
+  color: white;
+  content: "";
+  width: 12px;
+  height: 26px;
+  background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/arrow.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.confirmationTitle--Newsletter {
+  color: white;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  text-transform: inherit;
+  display: flex;
+  justify-content: center;
+  padding: 11rem 0 0 0;
+}
+
+.confirmationText--Newsletter {
+  color: white;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  text-transform: inherit;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* ------------------------------- */
+/* //* Product page */
+/* ------------------------------- */
+.productNameContainer {
+  margin-bottom: 10px;
+  text-align: left;
+  font-family: "Encode Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  color: #324545;
+}
+
+.productDescriptionTitle {
+  font-family: "Encode Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  color: #808080;
+  margin-top: 2rem;
+}
+
+.productDescriptionContainer {
+  margin-top: 20px;
+}
+
+.productDescriptionText {
+  text-align: left;
+  font-family: "Encode Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  color: #808080;
+}
+
+.skuSelectorTextContainer {
+  font-family: "Encode Sans", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+}
+
+.skuSelectorName {
+  color: #808080;
+  font-family: "Encode Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: left;
+  text-transform: inherit;
+}
+
+.skuSelectorContainer {
+  margin: 0 0 1rem;
+}
+
+.skuSelectorOptionsList {
+  margin: 0;
+}
+
+.skuSelectorItem {
+  margin: 0.25rem 0.5rem 0.25rem 0;
+  background-color: white;
+  box-shadow: 0px 4px 10px 0px #00000026;
+  border-radius: 5px;
+}
+
+.skuSelectorItem--selected .frameAround {
+  top: -0.1rem;
+  left: -0.1rem;
+  right: -0.1rem;
+  bottom: -0.1rem;
+  border: 1.9px solid #324545;
+  border-radius: 5px;
+}
+
+.productImageTag--main {
+  background-color: white;
+  border-radius: 5px;
+  height: 25rem !important;
+  max-height: 20rem !important;
+}
+
+.searchBarContainer :global(.vtex-input-prefix__group) {
+  height: 37px;
+  background: white;
+  border: none;
+  width: 90%;
+  margin: 7px auto;
+}
+
+.searchBarContainer {
+  position: absolute;
+  top: 4rem;
+  width: 100%;
+  left: 0;
+  height: auto;
+  width: 100% !important;
+}
+
+.shippingContainer :global(.vtex-dropdown__label) {
+  font-family: "Encode Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+  font-size: 20px;
+  text-transform: inherit;
+  color: #8f8f8f;
+}
+
+.shippingContainer :global(.vtex-dropdown__container) {
+  background-color: white;
+  font-family: "Encode Sans", sans-serif;
+  border-radius: 100px;
+  border: 1px solid #8f8f8f;
+}
+
+.shippingContainer :global(.vtex-address-form__state) {
+  padding-bottom: 15px;
+}
+
+.shippingContainer :global(.vtex-address-form__city) {
+  padding-bottom: 12px;
+}
+
+.shippingContainer :global(.vtex-dropdown__arrow) {
+  color: #8f8f8f;
+}
+
+.shippingContainer :global(.vtex-button) {
+  padding: 10px;
+  background-color: #8f8f8f;
+  border-radius: 100px;
+  border-width: 0;
+}
+
+.shippingContainer :global(.vtex-button__label) {
+  color: white;
+  font-family: "Encode Sans", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+}
+
+.productImage {
+  margin: 10px 25px;
+  border-radius: 5px;
+}
+
+.swiper-pagination {
+  bottom: 5px;
+  display: none;
+}
+
+.swiperCaret {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  color: #ededed;
+  background-color: #ffffff !important;
+  border-radius: 50%;
+  box-shadow: 0px 0px 3px 0px #00000026;
+  transition: 0.3s;
+}
+
+.swiperCaret:hover {
+  color: #324545;
+}
+
+.swiperCaretPrev {
+  transform: translate(31px, -35px);
+}
+
+.swiperCaretNext {
+  transform: translate(-31px, -35px);
+}
+
+.content {
+  font-family: "Encode Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  color: #808080;
+}
+
+/* ------------------------------- */
+/* //* Search Page */
+/* ------------------------------- */
+.infoCardCallActionContainer--Search__Image {
+  display: none;
+}
+
+.infoCardContainer--Search__Image {
+  height: 240px;
+}
+
+/* ------------------------------- */
+/* //* Politics Page */
+/* ------------------------------- */
+.infoCardContainer--Politics__Image {
+  height: 202px;
+}
+
+.infoCardCallActionContainer--Politics__Image {
+  display: none;
+}
+
+/* ------------------------------- */
+/* //* About us Page */
+/* ------------------------------- */
+.infoCardCallActionContainer--About__Image {
+  display: none;
+}
+
+.infoCardContainer--About__Image {
+  height: 500px;
+}
+
+.imageElement--About__Image {
+  width: 100%;
+  height: 205px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.imageElement--About__Image--Text {
+  height: 345px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--About__Socials)
+  .imageElementLink--About__Image-Social {
+  width: 50%;
+}
+
+.imageElement--Footer__image--technology {
+  width: 92px;
+  height: 25px !important;
+}
+
+.imageElement--Footer__image--development {
+  width: 114px;
+  height: 3rem !important;
+  margin: 0;
+}
+
+/* ------------------------------- */
+/* //? Medias Query */
+/* ------------------------------- */
+.imageElement--Footer__imagePayment {
+  width: 100%;
+  max-height: 22px;
+}
+
+.imageElementLink--Footer__imagePayment {
+  width: auto !important;
+  padding: 8px 6px;
+}
+
+.imageElement--TopSlide__Item {
+  width: 100vw;
+  max-height: 800px;
+  margin-top: -4rem;
+}
+
+.autoCompleteOuterContainer :global(.vtex-input__suffix) {
+  background: transparent;
+}
+
+.form--Newsletter {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  max-width: 100%;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttonContainer--Newsletter {
+  padding-top: 20px !important;
+  position: static;
+  margin-top: 1.1rem;
+  margin-left: 64vw;
+}
+
+.imageElement--Footer__image--allpaymentsMobile {
+  width: 100%;
+}
+
+.imageElementLink--Footer__image--allpaymentsMobile {
+  padding: 0 1.9rem;
+}
+
+.imageElement--About__Image {
+  border-radius: 40px 0px;
+}
+
+.imageElement--Search__Image {
+  width: 1.5rem;
+}
+.imageElementLink--ButtonWhatsapp {
+  position: fixed;
+  top: 91vh;
+  max-width: 4.5rem;
+  left: 83vw;
+}
+.infoCardTextContainer--CategorySlide__Item {
+  padding: 0;
+  width: 91%;
+  z-index: 1;
+  height: 19.3rem;
+  position: absolute;
+  top: 0rem;
+  display: flex;
+}
+@media (max-width: 375px) {
+  .buttonContainer--Newsletter {
+    margin-top: 0.2rem;
+  }
+}
+@media (min-width: 1200px) {
+  .infoCardTextContainer--CategorySlide__Item {
+    height: 21rem;
+    top: 1rem;
+  }
+  .confirmationTitle--Newsletter {
+    padding: 3rem 10rem 0;
+    justify-content: flex-end;
+  }
+  .confirmationText--Newsletter {
+    padding: 0 4rem;
+    justify-content: flex-end;
+  }
+  .buttonContainer--Newsletter {
+    padding-top: 20px !important;
+    position: absolute;
+    top: 3.7rem;
+    left: 36.6vw;
+    margin: 0;
+  }
+  .imageElement--Footer__image--Youtube {
+    width: 28px !important;
+  }
+
+  .imageElement--Footer__image--instagram {
+    width: 22px !important;
+  }
+
+  .imageElement--Footer__image--tiktok {
+    width: 23px !important;
+  }
+
+  .imageElement--Footer__image--facebook {
+    width: 17px !important;
+    height: 26px !important;
+  }
+
+  .imageElementLink--About__Image--ImageUserDeskLogin {
+    height: auto;
+    width: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 0 0.5rem 0 1rem;
+  }
+
+  .imageElement--About__Image--ImageUserDeskLogin {
+    width: auto;
+    height: 3.2rem;
+    background-size: 100%;
+    object-fit: contain;
+  }
+
+  .infoCardContainer--About__Image {
+    background-image: url(https://pianteco.vteximg.com.br/arquivos/banner-desk1sobre-nosotros.png) !important;
+  }
+
+  .productImagesThumbActive {
+    border: solid 2px lightgray;
+  }
+
+  .imageElement--About__Image--ImageWhoCultivos {
+    height: 103%;
+    max-height: 21rem;
+  }
+
+  .infoCardContainer--About__Image {
+    min-height: 0;
+    width: 100%;
+    background-size: 100% !important;
+    height: 52vw !important;
+  }
+
+  .imageElement--TopSlide__Item {
+    margin-top: 5rem;
+  }
+
+  .imageElement--Footer__image--facebook {
+    max-width: 28px !important;
+    height: 29px;
+  }
+
+  .imageElementLink--Footer__image--allpaymentsMobile {
+    padding: 0;
+  }
+
+  .infoCardImageContainer--CategorySlide__Item--1::after {
+    background-image: url("https://pianteco.vteximg.com.br/arquivos/pachiras-pianteco.png");
+    background-size: 50% !important;
+  }
+
+  .infoCardImageContainer--CategorySlide__Item--2::after {
+    background-image: url("https://pianteco.vteximg.com.br/arquivos/anturios-pianteco.png");
+  }
+
+  .infoCardImageContainer--CategorySlide__Item--3::after {
+    background-image: url("https://pianteco.vteximg.com.br/arquivos/suscripciones-pianteco.png");
+    background-size: 50% !important;
+  }
+
+  .infoCardImageContainer--CategorySlide__Item--4::after {
+    background-image: url("https://pianteco.vteximg.com.br/arquivos/combos-pianteco.png");
+    background-size: 10rem !important;
+  }
+
+  .infoCardImageContainer--CategorySlide__Item--5::after {
+    background-image: url("https://pianteco.vteximg.com.br/arquivos/orquideas-pianteco.png");
+    background-size: 54% !important;
+  }
+
+  .infoCardImageContainer--CategorySlide__Item--6::after {
+    background-image: url("https://pianteco.vteximg.com.br/arquivos/purificadoras-pianteco.png");
+    background-size: 54% !important;
+  }
+
+  .infoCardContainer--CategorySlide__Item:hover
+    .infoCardImageContainer--CategorySlide__Item::after {
+    opacity: 1;
+  }
+
+  .infoCardContainer--BannerTop__item--1 {
+    background-image: url(https://pianteco.vtexassets.com/arquivos/BANNERS-PIANTE-RECOMENDADO.jpg) !important;
+    width: 93%;
+    height: 27vw;
+  }
+
+  .inputGroup--Newsletter
+    :global(.vtex-input)
+    :global(.vtex-styleguide-9-x-input) {
+    color: #c5c5c5;
+    background-color: white;
+    font-family: "Encode Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    text-align: left;
+    border-radius: 9px;
+    padding: 20px;
+    height: 50px;
+    width: 100%;
+  }
+
+  .form--Newsletter {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    max-width: 100%;
+    height: auto;
+    flex-direction: row;
+    min-height: 13.7vw;
+  }
+
+  .productNameContainer {
+    font-size: 35px;
+  }
+
+  .productImageTag--main {
+    height: auto !important;
+    max-height: 40rem !important;
+  }
+
+  .infoCardCallActionContainer--CategorySlide__Item
+    :global(.vtex-button__label) {
+    font-size: 20px;
+  }
+
+  .infoCardCallActionContainer--CategorySlide__Item
+    :global(.vtex-button__label):hover {
+    color: #698d6f;
+  }
+
+  .infoCardImageContainer--CategorySlide__Item::after {
+    content: "";
+    position: absolute;
+    inset: 0px 0px 4px;
+    width: 84%;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 35%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 3rem 0 27px;
+    transition: all 0.3s ease 0s;
+    opacity: 0;
+    height: auto;
+    top: 8px;
+    left: 7px;
+    max-height: 18.9rem;
+  }
+
+  .infoCardContainer--CategorySlide__Item:hover
+    .infoCardImageContainer--CategorySlide__Item::after {
+    opacity: 1;
+  }
+
+  /* ! Header */
+  .logoImage {
+    width: 9rem;
+    margin: 0 3rem;
+    max-width: 100%;
+  }
+
+  .logoContainer--Header-Desktop__Logo {
+    padding: 0;
+  }
+
+  .headerRowContainer--Header__Container {
+    padding: 0px;
+  }
+
+  .searchBarContainer {
+    width: 30vw !important;
+    max-width: 65%;
+    position: static;
+  }
+
+  .autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
+    color: black;
+    font-family: "Encode Sans", sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+    border-color: #f2f2f2;
+    border-radius: 4px;
+    width: auto;
+  }
+
+  .autoCompleteOuterContainer {
+    width: 100% !important;
+  }
+
+  .searchBarContainer :global(.vtex-styleguide-9-x-input) {
+    display: block;
+    background-color: white;
+  }
+
+  .searchBarContainer :global(.vtex-input__suffix) {
+    background-color: white;
+  }
+
+  .inputGroup--Newsletter
+    :global(.vtex-input)
+    :global(.vtex-styleguide-9-x-input) {
+    width: 30vw;
+    padding: 20px;
+    height: 50px;
+    top: 0;
+    position: static;
+    left: -48vw;
+    margin-top: 0;
+  }
+
+  /* ! Footer */
+
+  .imageElement--Footer__image {
+    transition: 0.3s;
+    width: 25px;
+    max-height: 100% !important;
+    max-width: fit-content;
+  }
+
+  .imageElement--Footer__image--development {
+    margin: 0;
+    width: 108%;
+  }
+
+  .imageElement--Footer__image--technology {
+    width: 5rem;
+    height: 24px !important;
+    margin-left: 11px;
+  }
+
+  .imageElementLink--Footer__image--company {
+    justify-content: flex-start;
+    margin-left: 3rem;
+  }
+
+  .imageElement--Footer__image--company {
+    width: 25%;
+  }
+
+  .imageElement--Footer__image--payments {
+    width: 100%;
+    max-width: 150%;
+  }
+
+  /* ! Top Slide */
+  .infoCardTextContainer--TopSlide__Item {
+    position: relative;
+    margin-top: 115px;
+    margin-bottom: 60px;
+    margin-left: 252px;
+  }
+
+  .infoCardTextContainer--TopSlide__Item::before {
+    position: absolute;
+    left: -180px;
+    top: -20px;
+  }
+
+  .infoCardSubhead--TopSlide__Item {
+    font-size: 85px;
+    line-height: 77.26px;
+  }
+
+  .infoCardTextContainer--TopSlide__Item--2 {
+    width: 35%;
+  }
+
+  /* ! Category Slide */
+  .infoCardContainer--CategorySlide__Item {
+    width: 100%;
+  }
+
+  .infoCardImage--CategorySlide__Item {
+    height: auto;
+    max-height: 100rem !important;
+    width: 90%;
+    max-height: 21rem;
+    object-fit: initial !important;
+    max-width: 16rem;
+  }
+
+  /* ! Top Banners */
+  .infoCardTextContainer--BannerTop__item {
+    margin: 50px 40px;
+  }
+
+  /* ! Bottom Banners */
+  .infoCardContainer--BannerBottom__item--1 {
+    flex-direction: column-reverse;
+  }
+
+  .infoCardImageContainer--BannerBottom__item--1 {
+    width: 70%;
+  }
+
+  .infoCardContainer--BannerBottom__item--2 {
+    height: 100%;
+  }
+
+  .infoCardContainer--BannerBottom__item--2 {
+    background-position-y: -40px;
+  }
+
+  .infoCardHeadline--BannerBottom__item--2 {
+    font-size: 40px;
+  }
+
+  .infoCardSubhead--BannerBottom__item--2 {
+    font-size: 40px;
+  }
+
+  .infoCardContainer--BannerBottom__item--2::before {
+    height: 280px;
+    background-image: url("https://pianteco.vteximg.com.br/arquivos/imagen-banner-nueva-presentacion-desktop.png");
+  }
+
+  .infoCardHeadline--BannerTop__item--2::after {
+    right: -45%;
+  }
+
+  /* ! Newsletter */
+  .container--Newsletter {
+    padding: 0 !important;
+  }
+
+  .imageElementLink--ButtonWhatsapp--desktop {
+    max-width: 4rem;
+    top: 91vh;
+    left: 94vw;
+  }
+  .newsletter--Newsletter {
+    background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/BANNERS-PIANTE-_-SUSCRIPCIONES.jpg) !important;
+    height: auto;
+    max-width: 100% !important;
+    width: 100%;
+  }
+
+  .inputGroup--Newsletter {
+    flex-direction: row;
+  }
+
+  .buttonContainer--Newsletter {
+    position: relative;
+    left: 11.6vw;
+    top: -4.7rem;
+  }
+
+  .label--Newsletter {
+    max-width: 47rem;
+    padding-top: 0;
+    position: relative;
+    margin-left: 10%;
+    font-size: 3rem;
+    top: 0;
+  }
+
+  .label--Newsletter::after {
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    top: 1px;
+    width: 172px;
+    text-align: start;
+    left: 3rem;
+  }
+
+  .label--Newsletter::before {
+    font-size: 2rem;
+    text-align: center;
+    color: #ffffff;
+    top: -25px;
+  }
+
+  .inputGroup--Newsletter {
+    flex-direction: column;
+    width: initial !important;
+    margin: unset !important;
+  }
+
+  .form--Newsletter .inputGroup::before {
+    content: "";
+  }
+
+  /* ! Product page */
+  .productImagesGallerySlide {
+    width: 100% !important;
+  }
+
+  /* ! About page */
+  .imageElement--About__Image--Text {
+    transform: translateX(25px);
+  }
+}
+
+/* ------------------------------- */
+.notificationBarContainer {
+  background-color: #e6f1e6;
+  color: #03034e;
+  font-weight: 600;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.infoCardContainer--info-card-home {
+  max-width: 1520px;
+  margin: 0 auto;
+  background-color: #e6f1e6;
+  padding: 0px;
+}
+
+/* .newsletter {
+  background-color: #5C6F5E;
+  max-width: 1528px;
+  margin: 0 auto;
+} */
+/*
+.newsletter .container {
+  padding: 60px 10px;
+} */
+
+/* .label {
+  color: #fff;
+  font-size: 26px;
+} */
+
+.inputGroup {
+  display: flex;
+  color: #fff;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
+  color: #fff;
+  font-size: 16px;
+}
+
+/* .inputGroup :global(.vtex-button) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  margin-right: -24px;
+} */
+
+.imageElement--storePrint {
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+/*
+.skuSelectorContainer {
+  margin: 1rem 0;
+} */
+
+.infoCardTextContainer--BannerTop__item--1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.infoCardCallActionContainer--BannerTop__item--1 :global(.vtex-button) {
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  top: 0;
+  height: 100%;
+  border: none;
+}
+
+.infoCardTextContainer--BannerTop__item--2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.infoCardCallActionContainer--BannerTop__item--2 :global(.vtex-button) {
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  top: 0;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+}
+
+.searchBarContainer {
+  width: 30px;
+  border: none;
+}
+
+.searchBarIcon--search {
+  color: #324545;
+}
+
+/* Estilos banner secundarios home*/

@@ -1,0 +1,200 @@
+{
+  // * Terminos Section
+  "disclosure-layout#terminosycondiciones": {
+    "props": {
+      "blockClass": [
+        "Disclosure__group",
+        "Disclosure__group--Terminos"
+      ]
+    },
+    "children": [
+      "disclosure-trigger#Terminos",
+      "disclosure-content#Terminos"
+    ]
+  },
+  // ! Terminos Title Group
+  "disclosure-trigger#Terminos": {
+    "props": {
+      "blockClass": [
+        "Disclosure__Trigger-Politics",
+        "Disclosure__Trigger-Politics--Terminos"
+      ]
+    },
+    "children": ["rich-text#TerminosTitle"]
+  },
+  // ? Group Title
+  "rich-text#TerminosTitle": {
+    "props": {
+      "blockClass": [
+        "Politics__Group-Title",
+        "Politics__Group-Title--Terminos"
+      ],
+      "text": "Terminos y condiciones"
+    }
+  },
+  // ! Terminos content
+  "disclosure-content#Terminos": {
+    "props": {
+      "blockClass": [
+        "Disclosure__content",
+        "Disclosure__content--Terminos"
+      ]
+    },
+    "children": ["tab-list.item#Terminos"]
+  },
+
+  //***************************************************************************
+  // * Item 1
+  //***************************************************************************
+  "tab-list.item#Terminos": {
+    "props": {
+      "blockClass": [
+        "TabItem",
+        "TabItem--Terminos"
+      ],
+      "tabId": "terminosycondicionesID",
+      "label": "Terminos y condiciones"
+    }
+  },
+  // ! Item content Terminos
+  // It is necessary to add this components into politics.jsonc at tab-content#Politics__Content
+  "tab-content.item#Terminos": {
+    "children": ["rich-text#Terminos",
+      "rich-text#Terminos--item1",
+      "rich-text#Terminos--item2",
+      "rich-text#Terminos--item3",
+      "rich-text#Terminos--item4",
+      "rich-text#Terminos--item5",
+      "rich-text#Terminos--item6",
+      "rich-text#Terminos--item7",
+      "rich-text#Terminos--item8",
+      "rich-text#Terminos--item9",
+      "rich-text#Terminos--item10"
+    ],
+    "props": {
+      "blockClass": [
+        "TabContent",
+        "TabContent--Terminos"
+      ],
+      "tabId": "terminosycondicionesID"
+    }
+  },
+  // ? Rich text Terminos
+  "rich-text#Terminos": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--Terminos"
+      ],
+      "text": "## Política de Términos y condiciones PIANTE"
+    }
+  },
+    // ? Rich text Terminos
+    "rich-text#Rembolso": {
+      "props": {
+        "blockClass": [
+          "Politics__Text",
+          "Politics__Text--Terminos"
+        ],
+        "text": "## Política de rembolso PIANTE"
+      }
+    },
+  "rich-text#Terminos--item1": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--Terminos--item1"
+      ],
+      "text": "- Términos y Condiciones generales \n - Bienvenido a la Página Web de PIANTE SAS. Al ingresar a este sitio usted acepta las condiciones de uso (explicadas a continuación), las notificaciones legales, la política de privacidad y todas las cláusulas de exención de responsabilidad y términos y condiciones que figuran en la Página Web.  \n - www.piante.co, en adelante La Página Web, es un sitio Web dedicado al comercio electrónico a través del cual se venden productos que se entregan exclusivamente en el territorio de la República de Colombia. \n - La Página Web es de propiedad de PIANTE S.A.S., sociedad comercial domiciliada y constituida de conformidad con las leyes de la República de Colombia, cuya actividad principal es la venta de mercancías al detal y al por mayor de flores y otros productos y/o servicios relacionados. \n - El presente documento expresa los términos y condiciones de uso aplicables al acceso y uso de los productos ofrecidos por PIANTE SAS, en La Página Web. \n - Por favor lea cuidadosamente el contenido de los siguientes textos."
+    }
+  },
+  "rich-text#Terminos--item2": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--Terminos--item1"
+      ],
+      "text": "- Aceptación de Términos y Condiciones \n  - Al ingresar, observar y/o utilizar La Página Web, El Usuario admite haber leído y entendido estos Términos de Uso y acepta acogerse a los mismos y cumplir con todas las leyes y los reglamentos aplicables, que hagan parte de la legislación colombiana. Además, cuando el usuario utilice cualquier servicio suministrado en La Página Web, por ejemplo chat, buzones de sugerencias, concursos, u otros, estará sujeto a las reglas, guías, políticas, términos y condiciones aplicables a dicho servicio o producto. \n - En caso de que El Usuario no esté de acuerdo con estos términos y Condiciones, debe abstenerse de usar La Página Web. Este sitio es controlado y operado por PIANTE desde sus oficinas ubicadas en la República de Colombia. PIANTE garantiza que el material de este sitio es apropiado y está disponible para su uso en Colombia pero no en otros países, estando prohibido su acceso desde territorios donde su contenido sea ilegal. \n - Aquellos que decidan ingresar a La Página Web desde otros países, lo harán bajo su propia iniciativa y es su responsabilidad el sujetarse a las leyes colombianas que sean aplicables. Cualquier reclamo en relación con el uso de este sitio y el material en él contenido queda bajo la jurisdicción colombiana y está regulado por las leyes de la República de Colombia \n - Estos términos y condiciones están sujetos a cambios sin previo aviso, con tan sólo la voluntad de PIANTE. A partir de la fecha de modificación, dicha modificación regirá todas las operaciones que se celebren entre PIANTE y El Usuario. \n - Cada vez que un Usuario utilice La Página Web, debe consultar las condiciones de uso, las notificaciones legales y la política de privacidad vigentes en ese momento, las cuales se aplican a las transacciones y al uso de La Página Web. \n - Si no está satisfecho con La Página Web, su contenido, las condiciones de uso o las notificaciones legales, El Usuario puede realizar su queja, reclamo o sugerencia, a través de la misma Página Web sin que ello signifique aceptación o responsabilidad alguna por parte de PIANTE de las mismas. \n - Se prohíbe usar La Página Web de forma inadecuada o indebida, suplantar la identidad de un Usuario, utilizar agentes de compra y en general se prohíbe toda actividad dolosa, fraudulenta, engañosa o injusta en La Página Web."
+    }
+  }
+  ,
+  "rich-text#Terminos--item3": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--Terminos--item1"
+      ],
+      "text": "- Fotografías y descripción del producto  \n - Todos los productos tendrán su descripción. Las fotografías de los productos se realizan con base en un trabajo periodístico y de fotografía real. Sin embargo, algunas imágenes publicadas pueden tener fines publicitarios y por lo tanto, no coincidir exactamente con los que serán entregados. Así mismo, el color y la forma del producto puede variar dependiendo de las calidades técnicas del monitor."
+    }
+  }
+  ,
+  "rich-text#Terminos--item4": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--Terminos--item1"
+      ],
+      "text": "- Exoneración y Garantías \n - El material contenido en La Página Web, incluyendo, textos, gráficos y vínculos (links), se suministran tal como son, sin que haya de por medio garantías de ningún tipo, ni garantías de comerciabilidad, adecuación para un propósito particular. PIANTE garantiza el uso, validez, y confiabilidad del material en este sitio, pero no de otro sitio web enlazado con este sitio. \n - PIANTE advierte a sus Usuarios que la información de La Página Web puede contener errores o inexactitudes, no estar completa o actualizada. Por ello, PIANTE se reserva el derecho de corregir cualquier error, omisión o inexactitud, cambiar o actualizar la misma en cualquier momento y sin previo aviso."
+    }
+  }
+  ,
+  "rich-text#Terminos--item5": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--Terminos--item1"
+      ],
+      "text": "- Cargos por envío e impuestos \n - El cliente será responsable de los cargos de envió, de los productos y/o servicios que adquiera en La Página Web, los cuales se discriminarán debidamente según la distancia."
+    }
+  }
+  ,
+  "rich-text#Terminos--item6": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--Terminos--item1"
+      ],
+      "text": "- Exención y limitación de responsabilidad  \n - Al utilizar La Página Web, el usuario y/o consumidor, acepta en forma expresa, voluntaria, y libre de todo apremio, que su uso se realiza bajo su exclusiva responsabilidad y riesgo \n - La Página Web se proporciona tal cual está y como está disponible \n - Ni PIANTE ni su matriz, controlantes, filiales o subsidiarias, así como tampoco sus funcionarios, directores, empleados, agentes, proveedores de contenidos, diseñadores, contratistas, distribuidores, vendedores, patrocinadores, y demás relacionados, (en adelante denominados conjuntamente, Relacionados) garantizan que el uso de La Página Web no sufrirá interrupciones ni contendrá errores. \n - PIANTE declara que el contenido de La Página Web pueda no ser aplicable, ni de uso apropiado en otros países fuera de la República de Colombia. \n - Ni PIANTE ni sus Relacionados serán responsables de ningún daño directo o indirecto, que se genere, ya sea por el uso o la falta de capacidad para usar La Página Web, incluidos de forma no exclusiva, los daños que surjan a raíz de su confianza en la información obtenida en La Página Web que ocasione errores, omisiones, interrupciones, eliminación o daño de archivos, virus, demoras en la operación o transmisión, o cualquier otro tipo de error de funcionamiento de La Página Web. \n - La limitación de responsabilidad precedente se aplicará a toda acción legal, aun cuando un representante autorizado de PIANTE haya sido informado o haya debido tener conocimiento de la posibilidad de dichos errores o daños."
+    }
+  }
+  ,
+  "rich-text#Terminos--item7": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--Terminos--item1"
+      ],
+      "text": "- Garantía y limitaciones de responsabilidad \n - Con respecto a cualquiera de nuestras garantías, nuestra única y exclusiva obligación será, a nuestra discreción, el rembolso del precio total pagado por el Usuario o al equivalente del producto que no haya cumplido con las especificaciones o garantías señaladas. o el cambio del producto entregado tan pronto como nos sea posible. \n - En todo caso, la responsabilidad de PIANTE, contractual, extracontractual o legal, con los usuarios, compradores o visitantes de La Página no excederá el precio efectivamente pagado por el comprador por el producto sin incluir los gastos de envío. \n - Toda reclamación debe realizarse en dos (2) días hábiles contados a partir de la entrega del producto. Una vez terminado este plazo PIANTE no se hará responsable. \n - Cada producto tiene su propia garantía y duración, la cual se verifica mediante la inclusión de las condiciones de uso. Cuando el Usuario no cumple con esas condiciones, perderá el derecho sobre sus derechos."
+    }
+  }
+  ,
+  "rich-text#Terminos--item8": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--Terminos--item1"
+      ],
+      "text": "- Derechos de propiedad intelectual de PIANTE S.A.S \n - La Página es de nuestra propiedad y es operada por nosotros. \n - © 2020, Todos los Derechos Reservados. Se refiere a todas las características, materiales, información, contenido, texto, diseño, gráficos, logotipos, iconos, imágenes, clips de audio y video, y software que aparecen en o son ofrecidos en nuestro Sitio Web, e incluye nuestro saludo, servicios de pedidos, Programa de Afiliados y cuentas de empresas, la posibilidad de solicitar productos y servicios y recibir boletines informativos y los correos electrónicos promocionales. \n - A menos que se especifique lo contrario, todo el contenido de La Página es propiedad exclusiva de PIANTE o sus proveedores o licenciantes. Todo el contenido del sitio está protegido por las leyes Colombianas e Internacionales que regulan la propiedad intelectual. \n - Todos los demás nombres comerciales, marcas registradas o marcas de servicio son propiedad de sus respectivos propietarios. El uso de cualquiera de nuestros nombres comerciales, marcas registradas o marcas de servicio sin nuestro consentimiento expreso por escrito está estrictamente prohibido. Con el fin de mantener el valor de estas marcas, es importante que se utilicen correctamente. Si usted tiene alguna pregunta, puede contactarnos a mpadilla@piante.co"
+    }
+  }
+  ,
+  "rich-text#Terminos--item9": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--Terminos--item1"
+      ],
+      "text": "- Cookies \n - Las cookies son pequeños archivos de datos que los portales web como www.piante.co o los correos electrónicos guardan en su buscador y opcionalmente en el disco duro. Las cookies nos permiten recordar la información sobre sus preferencias y sesión, y a usted le permite desplazarse dentro de las áreas de nuestros portales web sin volver a introducir sus datos. Esto hace posible crear una experiencia de compras más personalizada y cómoda. PIANTE usa un tercero para colocar cookies en su computador, para recopilar información que no sea personal e identificable. A pesar de que las cookies contienen un número único de usuario, no recopilan ni guardan ninguna información personal identificable. \n - Aunque usted puede configurar su navegador de Internet para que no acepte cookies, estas son necesarias para poder hacer compras por medio del portal de piante.co."
+    }
+  }
+  ,
+  "rich-text#Terminos--item10": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--Terminos--item1"
+      ],
+      "text": "- Consultas \n - Cualquier pregunta relacionada con el uso de los contenidos o con el establecimiento de links hacia el URL https://piante.co/ podrá dirigirse a PIANTE en Colombia al teléfono 3460700 o, a través de www.piante.co. Su uso, en contravención de lo aquí dispuesto, dará lugar a las acciones civiles y penales correspondientes. \n - PIANTE. tomará las medidas necesarias para modificar su solicitud. Debido a las líneas de tiempo de producción, correos y sistemas, es posible que se tome algún tiempo para procesar su solicitud. \n - Las siguientes pautas se ofrecen para su conveniencia: \n - 5 días hábiles para correos electrónicos. \n - 30 días hábiles para correo directo y teléfono. \n - Hasta que no entre en vigor el cambio que haya solicitado, es posible que siga recibiendo comunicaciones de publicidad de nuestra parte. Si envía su solicitud por correo regular, por favor conceda tiempo adicional para que recibamos y procesemos su solicitud. \n - Aunque haya optado por ser excluido de las comunicaciones de publicidad, es posible que siga recibiendo comunicaciones comerciales tales como confirmaciones de pedidos, notificaciones de retiros del mercado, y otras comunicaciones relacionadas con la organización. "
+    }
+  }
+}

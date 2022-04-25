@@ -1,0 +1,22 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+
+  // * Static message
+  "rich-text#top-text": {
+    "props": {
+      "blockClass": ["Header-top-text"],
+      "text": "Envió gratis por compras superiores a $150.000 - AplicanTyC*"
+    }
+  }
+}

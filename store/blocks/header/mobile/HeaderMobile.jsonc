@@ -1,0 +1,96 @@
+{
+  // * Header Mobile
+  "header-layout.mobile": {
+    "children": [
+      "rich-text#top-text", // /header.jsonc
+      "sticky-layout#1-mobile"
+    ]
+  },
+  "sticky-layout#1-mobile": {
+    "children": ["flex-layout.row#1-mobile"]
+  },
+
+  // * Row Header
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "flex-layout.col#spacer",
+      "disclosure-layout#simple",
+      "minicart.v2",
+      "login"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "disclosure-layout#simple": {
+    "props": {
+      "blockClass": "disclosure-search-mobile"
+    },
+    "children": ["disclosure-trigger#simple", "disclosure-content#simple"]
+  },
+  "disclosure-trigger#simple": {
+    "props": {
+      "blockClass": "disclosure-icon-search-mobile"
+    },
+    "children": ["image#ImageSearch"]
+  },
+  "disclosure-content#simple": {
+    "props": {
+      "blockClass": "disclosure-search-mobile"
+    },
+    "children": ["search-bar#mobile"]
+  },
+  "rich-text#question": {
+    "props": {
+      "text": "How can I change my shipping address?"
+    }
+  },
+  "rich-text#answer": {
+    "props": {
+      "text": "Call us at the number (212) 1234-1234"
+    }
+  },
+  // * Menu hamburger drawer
+  "drawer": {
+    "children": ["menu#drawer"]
+  },
+  "menu#drawer": {
+    "children": [
+      "disclosure-layout#Category", // ../menu/MenuMobile.jsonc
+      "menu-item#9", // ../menu/menu.jsonc
+      "menu-item#10", // ../menu/menu.jsonc
+      "menu-item#12", // ../menu/menu.jsonc
+      "menu-item#11" // ../menu/menu.jsonc
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  // * Logo
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://epartner.vtexcommercestable.com.br/arquivos/header-piante-logo-piante.png"
+    }
+  },
+
+  "search-bar#mobile": {
+    "props": {
+      "blockClass": "search-bar-mobil"
+    }
+  },
+
+  "image#ImageSearch": {
+    "props": {
+      "blockClass": ["Search__Image", ""],
+      "src": "https://pianteco.vteximg.com.br/arquivos/search-icon-piante.png"
+    }
+  }
+}

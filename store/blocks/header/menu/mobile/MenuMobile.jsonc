@@ -1,0 +1,53 @@
+{
+  // * Category Item Menu
+  "disclosure-layout#Category": {
+    "props": {
+      "blockClass": [
+        "Disclosure__Menu",
+        "Disclosure__Menu--Category"
+      ]
+    },
+    "children": [
+      "disclosure-trigger#CategoryItem",
+      "disclosure-content#CategoryItem"
+    ]
+  },
+
+  // * Category Item Title
+  "disclosure-trigger#CategoryItem": {
+    "props": {
+      "blockClass": [
+        "Disclosure__Trigger",
+        "Disclosure__Trigger--Category"
+      ]
+    },
+    "children": ["rich-text#Category"]
+  },
+  // ! Category text
+  "rich-text#Category": {
+    "props": {
+      "blockClass": ["Category__Title"],
+      "text": "Categorías"
+    }
+  },
+
+  // ? Attention content
+  "disclosure-content#CategoryItem": {
+    "props": {
+      "blockClass": [
+        "Disclosure__Content",
+        "Disclosure__Content--Category"
+      ]
+    },
+    "children": [
+      "menu-item#1", // ../menu.jsonc
+      "menu-item#2", // ../menu.jsonc
+      "menu-item#3", // ../menu.jsonc
+      "menu-item#4", // ../menu.jsonc
+      "menu-item#5", // ../menu.jsonc
+      "menu-item#6", // ../menu.jsonc
+      "menu-item#7",// ../menu.jsonc
+      "menu-item#8"// ../menu.jsonc
+    ]
+  }
+}

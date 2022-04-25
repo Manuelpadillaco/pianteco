@@ -1,0 +1,10 @@
+{
+  "newsletter": {
+    "props": {
+      "blockClass": ["Newsletter"],
+      "label": "20% DCTO",
+      "placeholder": "Correo electrónico",
+      "submit": "Suscribirme"
+    }
+  }
+}

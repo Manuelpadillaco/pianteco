@@ -1,0 +1,200 @@
+{
+  "store.home": {
+    "props": {
+      "blockClass": ["Home"]
+    },
+    "blocks": [
+      "flex-layout.row#TopSlide",
+      "rich-text#Title-1",
+      "rich-text#Description1",
+      "flex-layout.row#CategorySlide",
+      "rich-text#Title2",
+      "rich-text#Description2",
+      "flex-layout.row#Shelf-1",
+      "__fold__.experimentalLazyAssets", // ! Lazy Loading /
+      "flex-layout.row#Banners",
+      "rich-text#Title3",
+      "rich-text#Description3",
+      "flex-layout.row#Shelf-2",
+      "newsletter" // ./newsletter.jsonc
+    ]
+  },
+  // * Top Slide
+  "flex-layout.row#TopSlide": {
+    "props": {
+      "blockClass": ["Home__TopSlide"]
+    },
+    "children": ["flex-layout.col#TopSlide"]
+  },
+
+  // * Information Text
+  "flex-layout.row#Information": {
+    "props": {
+      "blockClass": ["Home__Information"]
+    },
+    "children": ["flex-layout.col#Information"]
+  },
+
+  // * Category Slide
+  "flex-layout.row#CategorySlide": {
+    "props": {
+      "blockClass": ["Home__CategorySlide"]
+    },
+    "children": ["flex-layout.col#CategorySlide"]
+  },
+
+  // *  Title Destacados - 1
+  "rich-text#Title-1": {
+    "props": {
+      "blockClass": [
+        "Home__Title",
+        "Title--destacados-new"
+      ],
+      "text": "DESCUBRE NUESTRAS CATEGORIAS"
+    }
+  },
+  "rich-text#Description1": {
+    "props": {
+      "blockClass": [
+        "Home__description",
+        "Description--categories-home"
+      ],
+      "text": "Plantas directamente de nuestro cultivo a tu hogar."
+    }
+  },
+  
+  // *  Title Destacados - 2
+  "rich-text#Title2": {
+    "props": {
+      "blockClass": [
+        "Home__Title",
+        "Title--destacados-new"
+      ],
+      "text": "ORQUÍDEAS CON FLORES"
+    }
+  },
+
+  "rich-text#Description2": {
+    "props": {
+      "blockClass": [
+        "Home__description",
+        "Description--categories-home"
+      ],
+      "text": "Orquídeas a domicilio para regalar o decorar."
+    }
+  },
+
+    // *  Title Destacados - 2
+    "rich-text#Title3": {
+      "props": {
+        "blockClass": [
+          "Home__Title",
+          "Title--destacados-new"
+        ],
+        "text": "PLANTAS PARA REFRESCAR"
+      }
+    },
+  
+    "rich-text#Description3": {
+      "props": {
+        "blockClass": [
+          "Home__description",
+          "Description--categories-home"
+        ],
+        "text": "Variedad de plantas purificadoras directo del cultivo."
+      }
+    },
+
+  // * Shelf Destacados - 1
+  "flex-layout.row#Shelf-1": {
+    "props": {
+      "blockClass": [
+        "Home__Shelf",
+        "Home__Shelf--1"
+      ]
+    },
+    "children": ["flex-layout.col#Shelf-1"]
+  },
+
+  // * Banners
+  "flex-layout.row#Banners": {
+    "props": {
+      "blockClass": [
+        "Home__Banners",
+        "Home__Banners--1"
+      ]
+    },
+    "children": ["flex-layout.col#Banners"]
+  },
+
+  // *  Title Products - 2
+  "rich-text#Title-2": {
+    "props": {
+      "blockClass": [
+        "Home__Title",
+        "Title--products"
+      ],
+      "text": "## PLANTAS PARA REFRESCAR "
+    }
+  },
+
+  // * Shelf Products - 2
+  "flex-layout.row#Shelf-2": {
+    "props": {
+      "blockClass": [
+        "Home__Shelf",
+        "Home__Shelf--2"
+      ]
+    },
+    "children": ["flex-layout.col#Shelf-2"]
+  },
+
+  // * Banners 2
+  "flex-layout.row#Banners2": {
+    "props": {
+      "blockClass": [
+        "Home__Banners",
+        "Home__Banners-2"
+      ]
+    },
+    "children": ["flex-layout.col#Banners2"]
+  },
+
+  // *  Title Products - 3
+  "rich-text#Title-3": {
+    "props": {
+      "blockClass": [
+        "Home__Title",
+        "Title--destacados"
+      ],
+      "text": "## Destacados"
+    }
+  },
+
+  // * Shelf Products - 3
+  "flex-layout.row#Shelf-3": {
+    "props": {
+      "blockClass": [
+        "Home__Shelf",
+        "Home__Shelf--3"
+      ]
+    },
+    "children": ["flex-layout.col#Shelf-3"]
+  },
+
+
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  }
+
+}

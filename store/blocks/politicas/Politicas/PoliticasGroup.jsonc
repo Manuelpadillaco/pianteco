@@ -1,0 +1,194 @@
+{
+  // * Politicas Section
+  "disclosure-layout#Politicas": {
+    "props": {
+      "blockClass": [
+        "Disclosure__group",
+        "Disclosure__group--Politicas"
+      ]
+    },
+    "children": [
+      "disclosure-trigger#Politicas",
+      "disclosure-content#Politicas"
+    ]
+  },
+  // ! Politicas Title Group
+  "disclosure-trigger#Politicas": {
+    "props": {
+      "blockClass": [
+        "Disclosure__Trigger-Politics",
+        "Disclosure__Trigger-Politics--Politicas"
+      ]
+    },
+    "children": ["rich-text#PoliticasTitle"]
+  },
+  // ? Group Title
+  "rich-text#PoliticasTitle": {
+    "props": {
+      "blockClass": [
+        "Politics__Group-Title",
+        "Politics__Group-Title--Politicas"
+      ],
+      "text": "Políticas de Privacidad"
+    }
+  },
+  // ! Politicas content
+  "disclosure-content#Politicas": {
+    "props": {
+      "blockClass": [
+        "Disclosure__content",
+        "Disclosure__content--Politicas"
+      ]
+    },
+    "children": ["tab-list.item#Politicas"]
+  },
+
+  //***************************************************************************
+  // * Item 1
+  //***************************************************************************
+  "tab-list.item#Politicas": {
+    "props": {
+      "blockClass": ["TabItem", "TabItem--Politicas"],
+      "tabId": "Politicas",
+      "label": "Manejo de datos "
+    }
+  },
+ // ! Item content Politicas
+  // It is necessary to add this components into politics.jsonc at tab-content#Politics__Content
+  "tab-content.item#Politicas": {
+    "children": ["rich-text#Politicas",
+      "rich-text#Politicas--item1",
+      "rich-text#Politicas--item2",
+      "rich-text#Politicas--item3",
+      "rich-text#Politicas--item4",
+      "rich-text#Politicas--item5",
+      "rich-text#Politicas--item6",
+      "rich-text#Politicas--item7",
+      "rich-text#Politicas--item8",
+      "rich-text#Politicas--item9"
+    ],
+    "props": {
+      "blockClass": [
+        "TabContent",
+        "TabContent--Politicas"
+      ],
+      "tabId": "Politicas"
+    }
+  },
+  // ? Rich text Politicas
+  "rich-text#Politicas": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--Politicas"
+      ],
+      "text": "## Política de Politicas PIANTE"
+    }
+  },
+    // ? Rich text Politicas
+    "rich-text#Rembolso": {
+      "props": {
+        "blockClass": [
+          "Politics__Text",
+          "Politics__Text--Politicas"
+        ],
+        "text": "## Política de rembolso PIANTE"
+      }
+    },
+  "rich-text#Politicas--item1": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--Politicas--item1"
+      ],
+      "text": "- PIANTE. respeta y hace sus mejores esfuerzos para proteger la privacidad de todos los usuarios de La Página, entendiendo que cumple con las leyes colombianas y que su obligación es de medio. Por tal motivo, cuando visita La Página, le ayudamos a mantener el control sobre sus datos personales. A continuación, describimos los lineamientos que utilizamos para proteger la información que el Usuario nos proporciona durante su visita a nuestro portal."
+    }
+  },
+  "rich-text#Politicas--item2": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--Politicas--item1"
+      ],
+      "text": "- Información Personal  \n - En algunas ventanas o momentos de la navegación por esta La Página se pide alguna información que permita mejorar su visita, atender la oferta de compra, o dar seguimiento a sus inquietudes. El uso, navegación o inscripción de datos es totalmente voluntario y opcional. Es posible que se pida su nombre, dirección de correo electrónico, número de teléfono, domicilio, tipo de empresa, información de su preferencia, tarjeta de crédito, cuenta bancaria y número de identificación, así como también otra información personal similar que se necesite para registrarlo o suscribirlo a nuestros servicios u ofertas. Si alguna vez llegamos a requerir información considerablemente diferente, se lo informaremos.  \n - Cuando el Usuario proporciona información personal a PIANTE, no la daremos o venderemos a ninguna compañía externa para su uso con fines de mercadotecnia u ofertas de servicios. Mantendremos la confidencialidad de la información personal y sólo se utilizará por parte de PIANTE para fomentar la relación con nosotros, para lo cual se obtiene el permiso por parte del Usuario. En el caso de boletines o listas de correspondencia, o cualquier actividad publicitaria o promocional, nuestra intención es enviar mensajes de correo electrónico sólo a clientes que creamos han elegido recibir estos mensajes. En cualquier momento, el Usuario tiene el derecho de optar por no recibir comunicación de PIANTE en el futuro, procediendo a la cancelación de su suscripción a estos servicios, a través de nuestro portal, o del portal que se informe. El registro de información de Usuarios, que es indispensable para la buena prestación de los servicios que se ofrecen, podrá ser empleado con fines de análisis de información, inteligencia de mercados, publicidad y mercadeo, envío de información, y mejoramiento de las condiciones del servicio. El Usuario autoriza expresamente a PIANTE para administrar la información que se ingrese en La Página, la cual podrá ser compartida con los Aliados Comerciales, con fines únicos relacionados con el objeto del negocio.  \n - La Página Web se reserva el derecho de rechazar cualquier solicitud de registro o de cancelar un registro previamente aceptado, en cualquier momento y por cualquier razón, sin que esté obligado a comunicar o exponer las razones de su decisión y sin que ello genere algún derecho a indemnización o resarcimiento.  \n - La Página se reserva el derecho de solicitar algún comprobante y/o dato adicional para efectos de corroborar los datos personales del Usuario, así como de suspender temporal o definitivamente a aquellos usuarios cuyos datos no hayan podido ser confirmados. Los menores de edad deben abstenerse de ofrecer información falsa para comprar artículos a través de la Página. Para evitar lo anterior, PIANTE S.A.S, se reserva el derecho de realizar las validaciones correspondientes para verificar la edad de los usuarios.  \n - El Usuario podrá actualizar, rectificar o suprimir en cualquier momento su información Personal previo envío de la solicitud por parte del Usuario y/o Usuario Comprador, la cual se tramitará dentro de un término de 5 días hábiles o podrá rectificar su información en cualquier momento a través de su cuenta personal, en todo momento se garantizan sus derechos como consumidor y usuario."
+    }
+  }
+  ,
+  "rich-text#Politicas--item3": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--Politicas--item1"
+      ],
+      "text": "- Tecnología Clickstream  \n - El buscador de Internet recoge automáticamente información de La Página que el Usuario consultó antes de visitar www.piante.co, el navegador que utilizó y cualquier término de búsqueda que haya ingresado en nuestro portal, entre otras cosas. Nuestro portal también podrá usar otras tecnologías para rastrear las páginas que visitan nuestros clientes para garantizarles una mejor y más segura experiencia de compra y para ayudarnos a entender cómo los visitantes usan nuestro portal.  \n -  Recopilamos información respecto de su interacción con nuestro Portal Web usando cookies o la tecnología clickstream (seguimiento de clics). Es posible que obtengamos información personal y general.   \n - Impedimento de uso PIANTE puede, a su exclusivo criterio, cancelar su cuenta o impedir que utilice el portal de PIANTE en cualquier momento. Usted es personalmente responsable de todo pedido que realice o de los cargos en los que incurra antes de que se le cancele el uso del portal. PIANTE se reserva el derecho de cambiar, suspender o discontinuar todo y cualquier elemento del portal de PIANTE en cualquier momento y sin aviso previo."
+    }
+  }
+  ,
+  "rich-text#Politicas--item4": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--Politicas--item1"
+      ],
+      "text": "- Responsabilidad del usuario  \n - Al ingresar a La Página, el Usuario adquiere el compromiso de suministrar información personal correcta y verdadera, así como proceder a la actualización de sus datos cada vez que se requiera. De igual forma, el Usuario se obliga a notificar oportunamente a sus correspondientes entidades del sector financiero o cooperativo, la pérdida o robo de su tarjeta de crédito o de los demás instrumentos facilitados por las mismas para realizar transacciones, tales como tarjetas débito, claves personales, etc., con el fin de que tales instrumentos sean inhabilitados por las mismas. Se prohíbe al Usuario poner en, o transmitir a, o desde este portal cualquier material ilegal, amenazador, calumniador, difamatorio, obsceno, escandaloso, pornográfico o profano, o cualquier otro material que pudiera dar lugar a cualquier responsabilidad civil o penal en los términos de la ley.  \n - Usted acepta no utilizar ningún dispositivo, software, rutina ni datos para obstruir o intentar obstruir el funcionamiento correcto del portal de PIANTE o toda actividad realizada en este portal. Además, acepta no utilizar ni intentar utilizar ningún motor, software, herramienta, agente, datos u otro dispositivo o mecanismo (incluidos, entre otros, exploradores, arañas, robots, personajes digitales o agentes inteligentes) para navegar o buscar en el portal de PIANTE que no sea el motor de búsqueda o los agentes de búsqueda brindados por PIANTE o los exploradores en general disponibles para el público."
+    }
+  }
+  ,
+  "rich-text#Politicas--item5": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--Politicas--item1"
+      ], "text": "- Información recopilada por PIANTE S.A.S  \n - Como parte de su interacción con PIANTE S.AS., es posible que se recopile información personal, como:  \n - Información de contacto, incluyendo nombre, dirección postal, número de teléfono y dirección de  e-mail.  \n -  Información de compra, incluyendo número de tarjeta de crédito, información de facturación o de envíos.  \n - También podremos recopilar información demográfica, incluyendo edad, intereses personales y preferencias de productos.  \n - Podemos llegar a pedirle su información personal cuando esté comprando o aprovechando los servicios que ofrecemos. Ejemplo de lo anterior, es posible que se pida y/o se recopile información personal cuando usted:  \n - Compre productos o servicios.  \n - Participe en un sorteo, promoción o encuesta.  \n - Se comunique con nosotros por preguntas o inquietudes Participe en otras actividades realizadas por o con PIANTE S.A.S. - Usos de su información personal  \n - Usamos la información personal que Usted nos suministra para propósitos que incluyen, pero no se limitan a:  \n -  Llenar pedidos de productos, servicios o información.  \n -  Rastrear y confirmar pedidos en línea.  \n -  Entregar o instalar productos.  \n -  Administrar nuestro programa de fidelización.  \n -  Brindar servicio al cliente.  \n -  Administrar sorteos, promociones o encuestas.  \n -  Ofrecer nuevos productos y servicios.  \n -  Mejorar la efectividad de nuestra Página Web, de nuestros esfuerzos de comercialización y nuestros servicios y ofertas.  \n -  Llevar a cabo investigaciones y análisis.  \n -  Enviar comunicaciones de comercialización.  \n -  Realizar otras actividades comerciales según sea necesario o según se describa en otras partes dentrode esta política.  \n -  Información personal proporcionada a PIANTE por terceros.  \n -  Información de o sobre amigos y familia. - Si Usted nos proporciona información de otras personas, o si otras personas nos dan información sobre usted, solamente utilizaremos dicha información para la razón específica para la que se suministró. Usted puede elegir:  \n - Dejar de recibir comunicaciones comerciales por e-mail, correo directo, teléfono y móvil.  \n - Actualizar y corregir su información personal  \n - PIANTE sigue estos principios de privacidad tanto en línea como fuera de ella al recopilar, usar, asegurar y compartir la información del Usuario."
+    }
+  }
+  ,
+  "rich-text#Politicas--item6": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--Politicas--item1"
+      ], 
+      "text": "- Compartir información personal  \n - PIANTE no vende ni alquila su información personal a terceros.  \n - Podemos tener la necesidad de compartir su información personal con terceros tales como nuestros agentes, proveedores de servicios y otros representantes que actúan en nuestro nombre, con fines limitados. Por ejemplo, podemos compartir información personal con terceros que realizan servicios en nombre nuestro.  \n - PIANTE no podrá negarse a entregar información en los siguientes casos: a) Información requerida por una entidad pública o administrativa en ejercicio de sus funciones legales o por orden judicial. b) Datos de naturaleza pública c) Casos de urgencia médica o sanitaria d) Tratamiento de información autorizado por la ley para fines históricos, estadísticos o científicos e) Datos relacionados con el Registro Civil de las Personas.  \n - Compartiremos cierta información personal cuando consideremos que tal divulgación sea razonablemente necesaria para proteger los derechos, la propiedad y la seguridad de otros y de nosotros mismos. Es posible que también transfiramos información personal en caso de una venta corporativa, fusión, adquisición, disolución o evento similar.  \n - Toda información que le identifique personalmente y que presente en un tablero de anuncios, blog, chat, comentario sobre un producto, u otro foro público en este portal, puede ser leída, recopilada o utilizada por otros usuarios de estos foros y podría ser usada para enviarle mensajes no solicitados. Le recomendamos que no dé su nombre, correo electrónico u otra información personal. Observe que, si elige hacerlo, es bajo su propio riesgo y acepta la total responsabilidad de dichos comentarios y las consecuencias que puedan surgir de publicar dicha información.  \n - En ocasiones, podremos asociarnos con un tercero para crear un portal que puede parecer como si estuviera en una página de PIANTE. Estos portales pueden compartir marca o bien, dar la apariencia y la sensación de estar en nuestro portal. Sin embargo, toda la información recopilada en estas páginas puede no estar cubierta por la política de privacidad de PIANTE Informaremos de estos portales y publicaremos la política de privacidad que sea aplicable a la información recopilada en estas páginas. "
+    }
+  }
+  ,
+  "rich-text#Politicas--item7": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--Politicas--item1"
+      ],  "text": "- Información para pagos  \n - Dentro de las alternativas que se contemplan en este Portal para la cancelación de los productos seleccionados por el Usuario, www.piante.co ofrece, en algunos casos, un vínculo (link) que comunica con los portales web de las respectivas entidades financieras, en las cuales se procede a realizar el pago, y por consiguiente, en tales eventos el manejo de la información personal será de responsabilidad exclusiva de la entidad financiera, según lo establecido en sus acuerdos con los usuarios. En los eventos en que no existe dicho vínculo, sino que la información sea proporcionada directamente a PIANTE a través de este portal, la responsabilidad por el manejo de la información personal será en los términos establecidos en este documento.      "
+    }
+  }
+  ,
+  "rich-text#Politicas--item8": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--Politicas--item1"
+      ],
+      "text": "-Exoneración de Responsabilidad  \n - Siempre que no se haya notificado oportunamente por parte del Usuario la existencia de la violación de su información personal, o cuando el Usuario no haya procedido a notificar a las correspondientes entidades financieras o cooperativas de la pérdida, uso indebido, sustracción o hurto de los instrumentos conferidos por éstas para realizar transacciones, o cuando se realice un uso indebido de sus datos de registro, PIANTE no asume ninguna responsabilidad por tales acciones."
+    }
+  }
+  ,
+  "rich-text#Politicas--item9": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--Politicas--item1"
+      ],
+      "text": " - Elecciones respecto a su información personal  \n - PIANTE se comunica con sus clientes a través de múltiples canales y medios para mantenerlos actualizado en temas como promociones, ofertas, contenido de la experiencia del cliente y productos o servicios nuevos. Una vez que usted proporciona su información personal, acepta que podemos ponernos en contacto con usted por correo directo, correo electrónico o teléfono.  \n - Podremos seguir comunicándonos por medio de estos canales a no ser que usted solicite dejar de recibir estas comunicaciones optando por ser excluido. Antes de enviarle publicidad móvil (por ejemplo, mensajes de texto), le pediremos su consentimiento expreso solicitándole su participación.  \n - Si ya no desea recibir estas comunicaciones o desea rectificar su información, puede hacerlo saber mediante cualquiera de los siguientes métodos que sean apropiados bajo las circunstancias:  \n - Siga las instrucciones en un correo electrónico o correo directo de publicidad que reciba de nosotros.  \n - Llame al 3460700 en la ciudad de Bogotá – Colombia con su solicitud e información de contacto actual.  \n - Envíe un correo electrónico con su solicitud e información de contacto actual a mpadilla@piante.co  \n - Para publicidad móvil, puede optar por ser excluido siguiendo las instrucciones en el administrador de su cuenta.  \n - Si envía una solicitud por correo electrónico o por carta, por favor asegúrese de incluir su nombre, dirección, número de teléfono y correo electrónico, al igual que los cambios específicos que quiere hacer. Esto asegurará que lo identifiquemos de manera correcta en nuestros sistemas y que procesemos su petición correctamente."
+    }
+  }
+  ,
+  "rich-text#Politicas--item10": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--Politicas--item1"
+      ],
+      "text": "5.¿Cómo sé que se ha realizado mi reembolso? \n - Vía correo electrónico enviaremos el soporte a su e-mail registrado al momento de la compra el soporte de su reembolso. Del reembolso se restarán las comisiones, tarifas o gastos de conversión de moneda de los que haya tenido que hacerse cargo Piante.co durante proceso comercial que haya surtido."
+    }
+  }
+}

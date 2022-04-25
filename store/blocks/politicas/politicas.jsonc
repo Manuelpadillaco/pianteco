@@ -1,0 +1,81 @@
+{
+  "store.custom#politics": {
+    "props": {
+      "blockClass": ["Politics"]
+    },
+    "children": [
+      "info-card#Politics",
+      "rich-text#Politics",
+      "tab-layout#Politics",
+      "newsletter" // ./newsletter.jsonc
+    ]
+  },
+
+  // * Image Search
+  "info-card#Politics": {
+    "props": {
+      "id": "Info-card-politics",
+      "blockClass": ["Politics__Image"],
+      "isFullModeStyle": true,
+      "imageUrl": "https://pianteco.vtexassets.com/arquivos/cymbidium-orchid-flower.png",
+      "mobileImageUrl": "https://pianteco.vtexassets.com/arquivos/cymbidium-orchid-flower-mobile.png"
+    }
+  },
+
+  // * Title politics
+  "rich-text#Politics": {
+    "props": {
+      "blockClass": [
+        "Politics__Title",
+        "Title--politics"
+      ],
+      "text": "# Políticas de privacidad"
+    }
+  },
+
+  // * Row politics
+  "tab-layout#Politics": {
+    "props": {
+      "blockClass": ["Politics__Container"]
+    },
+    "children": [
+      "tab-list#Politics__Menu",
+      "tab-content#Politics__Content"
+    ]
+  },
+
+  // * Column politics menu
+  "tab-list#Politics__Menu": {
+    "props": {
+      "blockClass": ["Politics__Menu"]
+    },
+    "children": [
+      "disclosure-layout-group#Politics"
+    ]
+  },
+  // ! Disclosure Layout Group Politics
+  "disclosure-layout-group#Politics": {
+    "props": {
+      "blockClass": ["Disclosure"]
+    },
+    "children": [
+      "disclosure-layout#terminosycondiciones", // ./faq/FaqGroup.jsonc
+      "disclosure-layout#Politicas", // ./Politicas/PoliticasGroup.jsonc
+      "disclosure-layout#EnvioYEntrega", // ./EnvioYEntrega/EnvioYEntregaGroup.jsonc
+      "disclosure-layout#Devoluciones" // ./devoluciones/DevolucionesGroup.jsonc
+    ]
+  },
+
+  // * Column politics content
+  "tab-content#Politics__Content": {
+    "props": {
+      "blockClass": ["Politics__Content"]
+    },
+    "children": [
+      "tab-content.item#Terminos", // ./faq/FaqGroup.jsonc
+      "tab-content.item#EnvioYEntrega", // ./EnvioYEntrega/EnvioYEntregaGroup.jsonc
+      "tab-content.item#Politicas", // ./Politicas/PoliticasGroup.jsonc
+      "tab-content.item#Devoluciones" // ./devoluciones/DevolucionesGroup.jsonc
+    ]
+  }
+}

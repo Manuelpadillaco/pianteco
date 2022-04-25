@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Alegreya';
+  src: url(/../../assets/fonts/Alegreya-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: 'Alegreya Sans';
+  src: url(/../../assets/fonts/AlegreyaSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Gothic";
+  font-style: normal;
+  font-weight: 600;
+  src: local("CenturyGothic-Bold.woff"), url("/assets/fonts/CenturyGothic-Bold.woff") format("woff");
+}
+

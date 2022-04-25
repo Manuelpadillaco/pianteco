@@ -1,0 +1,83 @@
+{
+    // * Privacidad Section
+    "disclosure-layout#Privacidad": {
+      "props": {
+        "blockClass": [
+          "Disclosure__group",
+          "Disclosure__group--Privacidad"
+        ]
+      },
+      "children": [
+        "disclosure-trigger#Privacidad",
+        "disclosure-content#Privacidad"
+      ]
+    },
+    // ! Privacidad Title Group
+    "disclosure-trigger#Privacidad": {
+      "props": {
+        "blockClass": [
+          "Disclosure__Trigger-Politics",
+          "Disclosure__Trigger-Politics--Privacidad"
+        ]
+      },
+      "children": ["rich-text#PrivacidadTitle"]
+    },
+    // ? Group Title
+    "rich-text#PrivacidadTitle": {
+      "props": {
+        "blockClass": [
+          "Politics__Group-Title",
+          "Politics__Group-Title--Privacidad"
+        ],
+        "text": "Políticas de Privacidad"
+      }
+    },
+    // ! Privacidad content
+    "disclosure-content#Privacidad": {
+      "props": {
+        "blockClass": [
+          "Disclosure__content",
+          "Disclosure__content--Privacidad"
+        ]
+      },
+      "children": ["tab-list.item#Privacidad"]
+    },
+  
+    //***************************************************************************
+    // * Item 1
+    //***************************************************************************
+    "tab-list.item#Privacidad": {
+      "props": {
+        "blockClass": [
+          "TabItem",
+          "TabItem--Privacidad"
+        ],
+        "tabId": "Privacidad",
+        "label": "Privacidad"
+      }
+    },
+    // ! Item content Privacidad
+    // It is necessary to add this components into politics.jsonc at tab-content#Politics__Content
+    "tab-content.item#Privacidad": {
+      "children": ["rich-text#Privacidad"],
+      "props": {
+        "blockClass": [
+          "TabContent",
+          "TabContent--Privacidad"
+        ],
+        "tabId": "Privacidad"
+      }
+    },
+    // ? Rich text Privacidad
+    "rich-text#Privacidad": {
+      "props": {
+        "blockClass": [
+          "Politics__Text",
+          "Politics__Text--Privacidad"
+        ],
+        "text": "## Politics en Privacidad ETC"
+      }
+    }
+    //***************************************************************************
+  }
+  

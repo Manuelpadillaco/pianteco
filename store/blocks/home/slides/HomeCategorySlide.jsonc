@@ -1,0 +1,125 @@
+{
+  "flex-layout.col#CategorySlide": {
+    "props": {
+      "blockClass": ["CategorySlide"]
+    },
+    "children": ["slider-layout#CategorySlide"]
+  },
+
+  // * Category Slider Container
+  "slider-layout#CategorySlide": {
+    "props": {
+      "blockClass": ["CategorySlide__Container"],
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "showPaginationDots": "never"
+    },
+    "children": [
+      "info-card#CategorySlide-item-1",
+      "info-card#CategorySlide-item-2",
+      "info-card#CategorySlide-item-3",
+      "info-card#CategorySlide-item-4",
+      "info-card#CategorySlide-item-5",
+      "info-card#CategorySlide-item-6"
+    ]
+  },
+
+  // * Category Slide Item 1
+  "info-card#CategorySlide-item-1": {
+    "props": {
+      "blockClass": [
+        "CategorySlide__Item",
+        "CategorySlide__Item--1"
+      ],
+      "id": "CategorySlide-item-1",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://pianteco.vtexassets.com/arquivos/pachiras-desk-piantecov2.png",
+      "callToActionText": "Pachiras",
+      "callToActionUrl": "/linea-verdi/pachiras"
+    }
+  },
+
+  // * Category Slide Item 2
+  "info-card#CategorySlide-item-2": {
+    "props": {
+      "blockClass": [
+        "CategorySlide__Item",
+        "CategorySlide__Item--2"
+      ],
+      "id": "CategorySlide-item-2",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://pianteco.vtexassets.com/arquivos/anturios-desk-piantecov2.png",
+      "callToActionText": "Anturios",
+      "callToActionUrl": "/Linea-Fiori/Anturios"
+    }
+  },
+
+  // * Category Slide Item 3
+  "info-card#CategorySlide-item-3": {
+    "props": {
+      "blockClass": [
+        "CategorySlide__Item",
+        "CategorySlide__Item--3"
+      ],
+      "id": "CategorySlide-item-3",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://pianteco.vtexassets.com/arquivos/suscripciones-desk-piantecov2.png",
+      "callToActionText": "Suscripciones",
+      "callToActionUrl": "/Suscripciones"
+    }
+  },
+
+  // * Category Slide Item 4
+  "info-card#CategorySlide-item-4": {
+    "props": {
+      "blockClass": [
+        "CategorySlide__Item",
+        "CategorySlide__Item--4"
+      ],
+      "id": "CategorySlide-item-4",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://pianteco.vtexassets.com/arquivos/combos-desk-piantecov2.png",
+      "callToActionText": "Combos",
+      "callToActionUrl": "/Combos"
+    }
+  },
+
+  // * Category Slide Item 5
+  "info-card#CategorySlide-item-5": {
+    "props": {
+      "blockClass": [
+        "CategorySlide__Item",
+        "CategorySlide__Item--5"
+      ],
+      "id": "CategorySlide-item-5",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://pianteco.vtexassets.com/arquivos/orquideas-desk-piantecov2.png",
+      "callToActionText": "Orquídeas",
+      "callToActionUrl": "/Linea-Fiori/Orquideas"
+    }
+  },
+  // * Category Slide Item 6
+  "info-card#CategorySlide-item-6": {
+    "props": {
+      "blockClass": [
+        "CategorySlide__Item",
+        "CategorySlide__Item--6"
+      ],
+      "id": "CategorySlide-item-6",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://pianteco.vtexassets.com/arquivos/purificadoras-desk-piantecov2.png",
+      "callToActionText": "Purificadoras",
+      "callToActionUrl": "/Linea-Verdi/purificadoras"
+    }
+  }
+}

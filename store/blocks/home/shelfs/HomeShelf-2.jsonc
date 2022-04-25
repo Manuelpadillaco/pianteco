@@ -1,0 +1,42 @@
+{
+  "flex-layout.col#Shelf-2": {
+    "props": {
+      "blockClass": ["Shelf", "Shelf--2"]
+    },
+    "children": [
+      "list-context.product-list#Shelf-2"
+    ]
+  },
+
+  // * Container
+  "list-context.product-list#Shelf-2": {
+    "props": {
+      "blockClass": [
+        "Shelf__container",
+        "Shelf__container--2"
+      ],
+      "orderBy": "OrderByTopSaleDESC",
+      "collection": "139"
+
+    },
+    "children": ["slider-layout#Shelf-2"],
+    "blocks": ["product-summary.shelf#HomeVitrinas"]
+  },
+
+  // * Slider Shelf
+  "slider-layout#Shelf-2": {
+    "props": {
+      "blockClass": [
+        "Shelf__Slider",
+        "Shelf__Slider--2"
+      ],
+      "showPaginationDots": "mobileOnly",
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true
+    }
+  }
+}

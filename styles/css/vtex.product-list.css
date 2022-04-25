@@ -1,0 +1,20 @@
+.productListUnavailableItemsMessage {
+  color: #324545;
+  font-family:  'Encode Sans', sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  border-bottom: 1px solid #324545;
+}
+.productListAvailableItemsMessage {
+  color: #324545;
+  font-family:  'Encode Sans', sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  border-bottom: 1px solid #324545;
+}
+.unitPriceMeasurementUnit,
+.unitPricePerUnitCurrency {
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+}

@@ -1,0 +1,242 @@
+{
+  // * Item Orquídeas
+  "menu-item#1": {
+    "props": {
+      "blockClass": ["MenuItem", "MenuItem--1"],
+      "id": "menu-item-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Linea-Fiori/Orquideas",
+        "noFollow": false,
+        "tagTitle": "Orquídeas",
+        "text": "Orquídeas"
+      }
+    }
+  },
+
+  // * Item Anturios
+  "menu-item#2": {
+    "props": {
+      "blockClass": ["MenuItem", "MenuItem--2"],
+      "id": "menu-item-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Linea-Fiori/Anturios",
+        "noFollow": false,
+        "tagTitle": "Anturios",
+        "text": "Anturios"
+      }
+    }
+  },
+
+  // * Item Purificadoras
+  "menu-item#3": {
+    "props": {
+      "blockClass": ["MenuItem", "MenuItem--3"],
+      "id": "menu-item-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Linea-Verdi/purificadoras",
+        "noFollow": false,
+        "tagTitle": "Purificadoras",
+        "text": "Purificadoras"
+      }
+    }
+  },
+
+  // * Item Pachiras
+  "menu-item#4": {
+    "props": {
+      "blockClass": ["MenuItem", "MenuItem--4"],
+      "id": "menu-item-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-verdi/pachiras",
+        "noFollow": false,
+        "tagTitle": "Pachiras",
+        "text": "Pachiras"
+      }
+    }
+  },
+
+  // * Item Cuidado Calzado
+  "menu-item#5": {
+    "props": {
+      "blockClass": ["MenuItem", "MenuItem--5"],
+      "id": "menu-item-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Combos/Combos-fiori",
+        "noFollow": false,
+        "tagTitle": "Combos Fiori",
+        "text": "Combos Fiori"
+      }
+    }
+  },
+
+  // * Item Combos
+  "menu-item#6": {
+    "props": {
+      "blockClass": [
+        "MenuItem",
+        "MenuItem--6"
+      ],
+      "id": "menu-item-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Combos/Combos-verdi",
+        "noFollow": false,
+        "tagTitle": "Combos Verdi",
+        "text": "Combos Verdi"
+      }
+    }
+  },
+
+  // * Item Suscripciones Fiori
+  "menu-item#7": {
+    "props": {
+      "blockClass": [
+        "MenuItem",
+        "MenuItem--7"
+      ],
+      "id": "menu-item-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Suscripciones/Suscripciones-Fiori",
+        "noFollow": false,
+        "tagTitle": "Suscripciones Fiori",
+        "text": "Suscripciones Fiori"
+      }
+    }
+  },
+
+ // * Item Suscripciones Fiori
+  "menu-item#8": {
+    "props": {
+      "blockClass": [
+        "MenuItem",
+        "MenuItem--8"
+      ],
+      "id": "menu-item-8",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Suscripciones/Suscripciones-Verdi",
+        "noFollow": false,
+        "tagTitle": "Suscripciones Verdi",
+        "text": "Suscripciones Verdi"
+      }
+    }
+  },
+
+  // * Item Combos
+  "menu-item#9": {
+    "props": {
+      "blockClass": [
+        "MenuItem",
+        "MenuItem--9",
+        "MenuItem__Tile"
+      ],
+      "id": "menu-item-9",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Combos",
+        "noFollow": false,
+        "tagTitle": "Combos",
+        "text": "Combos"
+      }
+    }
+  },
+
+  // * Item Suscripciones
+  "menu-item#10": {
+    "props": {
+      "blockClass": [
+        "MenuItem",
+        "MenuItem__Tile",
+        "MenuItem--10"
+      ],
+      "id": "menu-item-10",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Suscripciones",
+        "noFollow": false,
+        "tagTitle": "Suscripciones",
+        "text": "Suscripciones"
+      }
+    }
+  },
+
+  // * Item Ofertas
+  "menu-item#11": {
+    "props": {
+      "blockClass": [
+        "MenuItem",
+        "MenuItem__Tile",
+        "MenuItem--11"
+      ],
+      "id": "menu-item-11",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Ofertas",
+        "noFollow": false,
+        "tagTitle": "Ofertas",
+        "text": "Ofertas"
+      }
+    }
+  },
+
+  // * Item Ocasiones
+  "menu-item#12": {
+    "props": {
+      "blockClass": [
+        "MenuItem",
+        "MenuItem__Tile",
+        "MenuItem--12"
+      ],
+      "id": "menu-item-12",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Ocasiones",
+        "noFollow": false,
+        "tagTitle": "Ocasiones",
+        "text": "Ocasiones"
+      }
+    }
+  }
+}

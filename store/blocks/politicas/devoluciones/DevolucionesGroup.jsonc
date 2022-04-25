@@ -1,0 +1,201 @@
+{
+  // * Devoluciones Section
+  "disclosure-layout#Devoluciones": {
+    "props": {
+      "blockClass": [
+        "Disclosure__group",
+        "Disclosure__group--Devoluciones"
+      ]
+    },
+    "children": [
+      "disclosure-trigger#Devoluciones",
+      "disclosure-content#Devoluciones"
+    ]
+  },
+  // ! Devoluciones Title Group
+  "disclosure-trigger#Devoluciones": {
+    "props": {
+      "blockClass": [
+        "Disclosure__Trigger-Politics",
+        "Disclosure__Trigger-Politics--Devoluciones"
+      ]
+    },
+    "children": ["rich-text#DevolucionesTitle"]
+  },
+  // ? Group Title
+  "rich-text#DevolucionesTitle": {
+    "props": {
+      "blockClass": [
+        "Politics__Group-Title",
+        "Politics__Group-Title--Devoluciones"
+      ],
+      "text": "Devoluciones"
+    }
+  },
+  // ! Devoluciones content
+  "disclosure-content#Devoluciones": {
+    "props": {
+      "blockClass": [
+        "Disclosure__content",
+        "Disclosure__content--Devoluciones"
+      ]
+    },
+    "children": ["tab-list.item#Devoluciones"]
+  },
+
+  //***************************************************************************
+  // * Item 1
+  //***************************************************************************
+  "tab-list.item#Devoluciones": {
+    "props": {
+      "blockClass": [
+        "TabItem",
+        "TabItem--Devoluciones"
+      ],
+      "tabId": "devoluciones",
+      "label": "Devoluciones"
+    }
+  },
+  // ! Item content Devoluciones
+  // It is necessary to add this components into politics.jsonc at tab-content#Politics__Content
+  "tab-content.item#Devoluciones": {
+    "children": ["rich-text#Devoluciones",
+      "rich-text#Devoluciones--item1",
+      "rich-text#Devoluciones--item2",
+      "rich-text#Devoluciones--item3",
+      "rich-text#Devoluciones--item4",
+      "rich-text#Devoluciones--item5",
+      "rich-text#Rembolso",
+      "rich-text#Devoluciones--item6",
+      "rich-text#Devoluciones--item7",
+      "rich-text#Devoluciones--item8",
+      "rich-text#Devoluciones--item9",
+      "rich-text#Devoluciones--item10"
+    ],
+    "props": {
+      "blockClass": [
+        "TabContent",
+        "TabContent--Devoluciones"
+      ],
+      "tabId": "devoluciones"
+    }
+  },
+  // ? Rich text Devoluciones
+  "rich-text#Devoluciones": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--Devoluciones"
+      ],
+      "text": "## Política de devoluciones PIANTE"
+    }
+  },
+    // ? Rich text Devoluciones
+    "rich-text#Rembolso": {
+      "props": {
+        "blockClass": [
+          "Politics__Text",
+          "Politics__Text--Devoluciones"
+        ],
+        "text": "## Política de rembolso PIANTE"
+      }
+    },
+  "rich-text#Devoluciones--item1": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--Devoluciones--item1"
+      ],
+      "text": "1.¿Cómo devolver un producto? \n - Comuníquese con nosotros telefónicamente, vía WhatsApp 317 8935494 – 3460700 o correo electrónico: dsansoval@piante.co \n - Infórmenos su número de pedido o correo con el que realizo su compra para identificarlo.  \n - En el cuerpo del mensaje cuentos el motivo de la devolución para procesar su solicitud, revisarla y definir lo más pronto la solución adecuada. \n - En caso de que aplique, enviaremos un mensajero a recoger su producto y realizar el cambio, en caso de haberlo definido así."
+    }
+  },
+  "rich-text#Devoluciones--item2": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--Devoluciones--item1"
+      ],
+      "text": "2.¿Qué productos puedo devolver? \n - Todos los productos que compre en nuestra tienda se pueden devolver en estos casos: \n - Cuando el producto presenta algún daño físico, previo a la entrega y es informado en menos de 24 horas después de entregado el producto. \n - Cuando el producto recibido es errado. \n - Cuando el producto esté en condiciones deterioradas previa a la entrega."
+    }
+  }
+  ,
+  "rich-text#Devoluciones--item3": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--Devoluciones--item1"
+      ],
+      "text": "3.Costo de devolución \n - Devoluciones sin costo para el comprador cumpliendo con las políticas de devoluciones."
+    }
+  }
+  ,
+  "rich-text#Devoluciones--item4": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--Devoluciones--item1"
+      ],
+      "text": "4.¿Cuánto tiempo tarda la devolución? \n - Entre 1 y 2 días hábiles."
+    }
+  }
+  ,
+  "rich-text#Devoluciones--item5": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--Devoluciones--item1"
+      ],
+      "text": "5.¿Bajo qué condiciones debe estar el producto para devolverlo? \n - Debe estar en las condiciones que fue entregado, con sus respectivas etiquetas, capuchón y caja."
+    }
+  }
+  ,
+  "rich-text#Devoluciones--item6": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--Devoluciones--item1"
+      ],
+      "text": "1.Moneda: \n - Los pedidos se facturarán siempre en la moneda local de la tienda Pesos Colombianos o en Dólares Americanos, Nuestro sitio web piante.co ajusta diariamente sus precios en otras monedas a los tipos de cambio, pero estas conversiones son sólo aproximativas. \n\n Piante.co no se responsabilizará de ninguna diferencia por el cambio de divisas o de las tarifas que aplique cada institución financiera banco. Para ver el precio exacto de un artículo, consulta la opción de precio en otra moneda o consulta el conversor de cambio de moneda de su preferencia. \n"
+    }
+  }
+  ,
+  "rich-text#Devoluciones--item7": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--Devoluciones--item1"
+      ],
+      "text": "\n 2.¿Cómo solicitar un reembolso? \n - Comuníquese con nosotros telefónicamente o vía WhatsApp al 317 8935494 – 3460700 \n - Informemos su número de pedido o correo con el que realizó su compra para identificarlo y cuéntenos el motivo de la petición del rembolso. \n - Realizaremos la evaluación del caso respectivo, y en caso de que aplique, se convenirá con el cliente la forma de devolución."
+    }
+  }
+  ,
+  "rich-text#Devoluciones--item8": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--Devoluciones--item1"
+      ],
+      "text": "3.¿En qué casos se realiza reembolso de dinero? \n - Cuando su producto fue devuelto conforme a las políticas de devolución. \n - Cuando por error entro más de un pedido. \n - Cuando el producto no ha sido embalado ni ha sido despachado con mínimo 6 horas antes de la entrega y usted ya no desea el producto."
+    }
+  }
+  ,
+  "rich-text#Devoluciones--item9": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--Devoluciones--item1"
+      ],
+      "text": "4.¿Cuánto tiempo tarda el reembolso? \n - El reembolso, podrá tardar entre 3 y 5 días. En caso de haber pagado mediante tarjeta de crédito vía EPAYCO debe tener en cuenta que, aunque nosotros realizamos la devolución antes de 2 días, la franquicia de su tarjeta de crédito maneja tiempos diferentes con el banco respectivo. Para el caso de otros medios de pago, su dinero será reembolsado a una cuenta bancaria suministrada por usted mediante el mismo correo electrónico registrado en su compra que deberá enviarnos a la cuenta de correo desde la que recibió la aprobación de su pedido."
+    }
+  }
+  ,
+  "rich-text#Devoluciones--item10": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--Devoluciones--item1"
+      ],
+      "text": "5.¿Cómo sé que se ha realizado mi reembolso? \n - Vía correo electrónico enviaremos el soporte a su e-mail registrado al momento de la compra el soporte de su reembolso. Del reembolso se restarán las comisiones, tarifas o gastos de conversión de moneda de los que haya tenido que hacerse cargo Piante.co durante proceso comercial que haya surtido."
+    }
+  }
+}

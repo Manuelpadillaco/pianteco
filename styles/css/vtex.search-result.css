@@ -1,0 +1,478 @@
+/* ------------------------------- */
+/* //* Search Page */
+/* ------------------------------- */
+.filterItem--Search__Filter--selected :global(.vtex-checkbox__label) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.filterItem--Search__Filter--selected :global(.vtex-checkbox__label)::after {
+  content: "\00d7";
+  font-family: "Encode Sans", sans-serif;
+  font-size: 20px;
+}
+.galleryTitle--layout {
+  font-family: "Encode Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 0%;
+  color: #324545;
+}
+.orderByText {
+  display: none;
+}
+.orderByButton {
+  margin: 0;
+  padding: 5px 10px;
+  background-color: transparent;
+  border: 0;
+}
+.orderByButton::after {
+  content: "";
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/flecha-verde2-painte.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.orderByDropdown {
+  padding: 0;
+}
+.filterPopupArrowIcon {
+  display: none;
+}
+.filterPopupButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  height: auto;
+  border: 0;
+}
+.filterPopupButton::after {
+  content: "";
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  background-image: url("https://pianteco.vteximg.com.br/arquivos/filtros-icon-piante.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.filterPopupTitle {
+  padding: 5px;
+  text-transform: inherit;
+  font-size: 11px !important;
+  font-family: "Encode Sans", sans-serif;
+  font-style: normal;
+  line-height: 20px;
+  text-align: center;
+  color: #324545;
+}
+.totalProducts--layout {
+  font-family: "Encode Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 23px;
+  color: #808080;
+  border-bottom: 1px solid #d3d3d3;
+  width: 87% !important;
+}
+.totalProductsMessage {
+  font-family: "Encode Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 23px;
+  color: #808080;
+}
+.buttonShowMore--layout {
+  padding: 0 0 29px;
+}
+.buttonShowMore :global(.vtex-button) {
+  background-color: #324545;
+  border: 1px solid #324545;
+  border-radius: 100px;
+  transition: 0.3s;
+}
+.buttonShowMore :global(.vtex-button):hover {
+  background-color: #698d6f;
+  border-color: #698d6f;
+}
+.buttonShowMore :global(.vtex-button__label) {
+  font-size: 0;
+}
+.buttonShowMore :global(.vtex-button__label)::before {
+  content: "Ver más";
+  padding: 12px 25px !important;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+.sidebar {
+  top: 0rem;
+  height: 100vh;
+}
+.filterClearButtonWrapper {
+  padding-left: 5px;
+  padding-right: 10px;
+}
+.filterApplyButtonWrapper {
+  padding-left: 10px;
+  padding-right: 5px;
+}
+.filterApplyButtonWrapper :global(.vtex-button) {
+  color: white;
+  background-color: #324545;
+  border: 1px solid #324545;
+  border-radius: 100px;
+  font-family: "Encode Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  text-transform: inherit;
+}
+.filterClearButtonWrapper :global(.vtex-button) {
+  color: #324545;
+  font-family: "Encode Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0;
+  text-decoration: underline;
+}
+.filterClearButtonWrapper :global(.vtex-button)::before {
+  content: "Limpiar Filtros";
+  color: #324545;
+  font-family: "Encode Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  text-decoration: underline;
+  text-transform: initial;
+}
+
+.filterAccordionBreadcrumbs {
+  margin: 0 20px;
+  padding: 0px;
+  width: auto;
+  border: none;
+}
+.filterBreadcrumbsText--Search__Filter {
+  color: #324545;
+  font-family: "Encode Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 100%;
+}
+.accordionFilterContainer {
+  width: 100%;
+}
+.accordionFilterContainer--Search__Filter {
+  padding: 0 20px;
+}
+.filterAccordionItemBox--Search__Filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  border: none;
+  background: #f2f2f0;
+  border-radius: 5px;
+  width: 90%;
+  padding: 0 1rem;
+}
+.filterAccordionItemBox--Search__Filter::after {
+  content: "";
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/flecha-verde2-painte.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: rotate(270deg);
+}
+.accordionFilterContent--Search__Filter {
+  padding: 5px;
+}
+.accordionFilterItemTitle--Search__Filter {
+  text-transform: inherit;
+  color: #324545;
+  font-family: "Encode Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+}
+.accordionFilterItemIcon--Search__Filter {
+  display: none;
+}
+.accordionFilter .ReactCollapse--collapse .pl8 {
+  padding: 0 20px;
+}
+.accordionFilter .ReactCollapse--collapse:last-child .pl8 {
+  padding: 0 11px;
+}
+.accordionFilter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.accordionFilterOpen--Search__Filter {
+  padding: 1rem 0;
+}
+.accordionFilterOpen--Search__Filter .filterAccordionItemBox {
+  padding: 20px 0 0;
+  min-height: 0;
+  border-bottom: 0;
+}
+.filterAccordionItemBox :global(.vtex-checkbox__label) {
+  margin-left: 10px;
+  color: #808080;
+  font-size: 16px;
+  font-family: "Encode Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+.accordionFilterItemTag--Search__Filter {
+  margin-left: 35px;
+}
+.accordionFilterItemTag--Search__Filter :global(.vtex-tag) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  min-width: 28px;
+  min-height: 25px;
+  background-color: #324545;
+  border-radius: 10px;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 14px;
+  line-height: normal;
+  font-weight: 900;
+}
+
+.orderByText {
+  display: none;
+}
+
+.orderByDropdown {
+  display: flex;
+  align-items: center;
+}
+.orderByButton {
+  display: flex;
+  justify-content: center;
+}
+.filter__container--priceRange {
+  background: #f2f2f0;
+  border-radius: 5px;
+  width: 85%;
+  position: absolute;
+  left: 1.2rem;
+  margin: 1rem 0;
+  padding: 0 12px;
+}
+.filter__container--selectedFilters {
+  background: transparent;
+}
+.filterTemplateOverflow--Search__Filter {
+  padding: 0;
+}
+.orderByButton {
+  margin: 7px 0;
+  border: 1px solid #324545;
+  border-radius: 25px;
+}
+.orderBy--layout {
+  width: 100%;
+}
+
+/* ------------------------------- */
+/* //? Media queries */
+/* ------------------------------- */
+@media (min-width: 1200px) {
+  .buttonShowMore--layout {
+    margin: 2rem 0;
+  }
+  .filter__container--priceRange {
+    padding: 0 17px 1rem;
+  }
+  .gallery--grid
+    :global(.vtex-add-to-cart-button-0-x-buttonText--summary)::before {
+    font-size: 1rem;
+    left: 82%;
+  }
+  .gallery--grid :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    font-size: 1rem;
+  }
+  .filter__container--priceRange {
+    width: 100%;
+  }
+  .galleryItem--normal.galleryItem--grid {
+    max-width: 25% !important;
+    padding: 0;
+  }
+  .orderByDropdown::before {
+    content: "Ordenar por: ";
+    width: 200px;
+    font-family: "Encode Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 23px;
+    color: #808080;
+  }
+  .orderByOptionsContainer {
+    margin-top: 3.5rem;
+  }
+  .gallery {
+    padding: 0;
+  }
+  .totalProducts--layout {
+    padding: 0 15px;
+    text-align: start;
+    width: auto !important;
+    border: none;
+  }
+  .totalProductsMessage {
+    text-transform: lowercase;
+  }
+  .filterIcon--Search__Filter {
+    color: #324545;
+  }
+  .orderByText {
+    color: #808080;
+    font-family: "Encode Sans", sans-serif;
+    font-size: 0px;
+    font-weight: 400;
+    text-transform: inherit;
+  }
+
+  .filterPopupTitle {
+    padding: 5px;
+    text-transform: inherit;
+    font-size: 18px !important;
+    font-weight: 400;
+    font-family: "Encode Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #324545;
+    font-size: 89% !important;
+  }
+  .filterMessage--Search__Filter {
+    font-family: "Encode Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 100%;
+    color: #324545;
+  }
+  .filterSelected--Search__Filter .filterTitle--Search__Filter {
+    display: none;
+  }
+  .filterSelected--Search__Filter {
+    padding: 5px;
+  }
+  .filter__container--selectedFilters {
+    border: 0;
+  }
+  .filter__container--Search__Filter {
+    margin-bottom: 10px;
+    border: 0;
+    position: static;
+  }
+  .filter__container--Search__Filter--title {
+    border-bottom: 2px solid #d3d3d3;
+  }
+  .filterTitle--Search__Filter {
+    font-family: "Encode Sans", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: #324545;
+    font-weight: 600;
+  }
+  .filterAvailable--Search__Filter {
+    padding: 12px 10px;
+    background-color: #f2f2f0;
+  }
+  .filterItem--Search__Filter :global(.vtex-checkbox__label) {
+    padding-left: 10px;
+  }
+  .filterItem--Search__Filter--selected :global(.vtex-checkbox__label) {
+    color: #808080;
+    font-family: "Encode Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    background: #f2f2f0;
+    padding: 1rem;
+  }
+  .filterItem--Search__Filter--selected :global(.vtex-checkbox__container) {
+    display: none;
+  }
+  .filterContent--Search__Filter {
+    padding-top: 10px;
+  }
+  .filterItem--Search__Filter {
+    font-family: "Encode Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .filterContent--Search__Filter
+    .filterItem--Search__Filter
+    :global(.vtex-checkbox__label) {
+    color: #808080;
+  }
+  .filterContent--Search__Filter .filterItem--Search__Filter--selected {
+    font-family: "Encode Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .filterContent--Search__Filter
+    .filterItem--Search__Filter--selected
+    :global(.vtex-checkbox__label) {
+    color: #324545;
+    font-weight: 600;
+  }
+  .filterContent--Search__Filter
+    .filterItem--Search__Filter
+    :global(.vtex-checkbox__container) {
+    display: none;
+  }
+}
+/* ------------------------------- */
+
+.galleryLayoutOptionButton {
+  background-color: #f0f0f0;
+  color: #3f3f40;
+  padding: 0.375rem 0.75rem 0.375rem 0.75rem;
+}
+
+.galleryLayoutOptionButton--selected {
+  background-color: #3f3f40;
+  color: #ffffff;
+}
+
+.galleryLayoutSwitcher {
+  border-radius: 4px 4px 4px 4px;
+  justify-content: center;
+  overflow: hidden;
+  width: auto !important;
+  align-self: center;
+}
+
+.galleryItem--list {
+  border-bottom: 1px #e7e9ee solid;
+}

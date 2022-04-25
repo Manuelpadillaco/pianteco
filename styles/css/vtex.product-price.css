@@ -1,0 +1,158 @@
+/* ------------------------------- */
+/* //* Home */
+/* ------------------------------- */
+/* ! Vitrina */
+.sellingPrice {
+  padding-bottom: 20px;
+  padding-top: 10px;
+  color: #324545;
+  font-family: "Encode Sans", sans-serif;
+  font-weight: 600;
+  text-align: left;
+}
+.sellingPriceValue {
+  font-family: "Encode Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600 !important;
+  font-size: 21px !important ;
+  line-height: 41px;
+  color: #324545;
+}
+.currencyDecimal {
+  display: none;
+}
+
+.currencyFraction {
+  display: none;
+}
+/* ------------------------------- */
+/* //* product page */
+/* ------------------------------- */
+.sellingPrice {
+  padding: 0;
+}
+.listPriceValue {
+  text-align: left;
+  font-family: "Encode Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  text-decoration-line: line-through;
+  color: #808080;
+}
+.listPrice {
+  margin-bottom: 0;
+  color: #a7a7a7;
+  margin-right: 10px;
+}
+.savings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto !important;
+  background-color: #9b3268;
+  border-radius: 3px;
+}
+.savingsPercentage {
+  padding: 2px 5px;
+  color: white;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+/* ------------------------------- */
+/* //? Medias Query */
+/* ------------------------------- */
+@media (min-width: 1200px) {
+  /* ! Vitrina */
+  .sellingPriceValue {
+    font-size: 25px !important;
+  }
+  .currencyContainer--Producto {
+    font-size: 35px;
+  }
+}
+
+/* ------------------------------- */
+/* .listPrice {
+  color: #727273;
+  margin-bottom: 0.25rem;
+  font-size: 1rem;
+} */
+
+/* .sellingPrice {
+  color: #3f3f40;
+  font-size: 1.25rem;
+} */
+
+/* .sellingPriceValue {
+  font-size: 2.25rem;
+  font-weight: 600;
+} */
+
+.installments {
+  color: #727273;
+  margin-bottom: 1rem;
+}
+
+.savings {
+  font-weight: 500;
+  color: #ffffff;
+  padding: 0 1rem;
+}
+
+.sellingPriceValue--summary {
+  font-size: 1.25rem ;
+  font-weight: 600;
+  color: #2e2e2e;
+}
+
+.savings--summary {
+  background: #8bc34a;
+  border-radius: 1000px;
+  align-items: center;
+  display: flex;
+
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  vertical-align: baseline;
+  color: #ffffff;
+}
+
+.savings-discount--summary {
+  font-size: 0.875rem;
+  font-weight: 600;
+  vertical-align: baseline;
+  color: #ffffff;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.listPrice--summary {
+  margin-bottom: 0.25rem;
+  font-size: 0.875rem;
+}
+
+.installments--summary {
+  margin-bottom: 2rem;
+  font-size: 0.875rem;
+}
+
+.savings--summaryPercentage {
+  background: #324545;
+  border-radius: 1000px;
+  align-items: center;
+  display: flex;
+}
+
+.savingsPercentage--summaryPercentage {
+  font-size: 0.875rem;
+  font-weight: 600;
+  vertical-align: baseline;
+  color: #ffffff;
+  padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+}

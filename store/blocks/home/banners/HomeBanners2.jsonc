@@ -1,0 +1,69 @@
+{
+  "flex-layout.col#Banners2": {
+    "props": {
+      "blockClass": ["Banners", "Banners--bottom"]
+    },
+    "children": [
+      "flex-layout.col#BannersBottom--item-1-Container",
+      "info-card#BannersBottom--item-2"
+    ]
+  },
+
+  // * Info Card 1 Container
+  "flex-layout.col#BannersBottom--item-1-Container": {
+    "props": {
+      "blockClass": [
+        "BannersBottom--item-1-Container"
+      ]
+    },
+    "children": [
+      "rich-text#Title-moms",
+      "info-card#BannersBottom--item-1"
+    ]
+  },
+
+  // *  Title Moms
+  "rich-text#Title-moms": {
+    "props": {
+      "blockClass": ["Home__Title", "Title--mom"],
+      "text": "## ¡Tranquilidad de Madres!"
+    }
+  },
+
+  // * Info card 1
+  "info-card#BannersBottom--item-1": {
+    "props": {
+      "blockClass": [
+        "BannerItem__container",
+        "BannerBottom__item",
+        "BannerBottom__item--1"
+      ],
+      "id": "BannersBottom--item-1",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://beisbol.vteximg.com.br/arquivos/imagen-banner-tranquilidad-de-madres-desktop.png",
+      "mobileImageUrl": "https://beisbol.vteximg.com.br/arquivos/mobile-imagen-banner-tranquilidad-de-madres.png",
+      "callToActionText": "Ver producto",
+      "callToActionUrl": "#"
+    }
+  },
+
+  // * Info card 2
+  "info-card#BannersBottom--item-2": {
+    "props": {
+      "blockClass": [
+        "BannerItem__container",
+        "BannerBottom__item",
+        "BannerBottom__item--2"
+      ],
+      "id": "BannersBottom--item-2",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://beisbol.vteximg.com.br/arquivos/banner-nueva-presentacion-desktop.png",
+      "mobileImageUrl": "https://beisbol.vteximg.com.br/arquivos/mobile-banner-nueva-presentacion.png",
+      "headline": "¡Nueva",
+      "subhead": "presentación!",
+      "callToActionMode": "none"
+    }
+  }
+}

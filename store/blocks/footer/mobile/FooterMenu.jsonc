@@ -1,0 +1,90 @@
+{
+  "disclosure-layout-group#FooterGroup": {
+    "props": {
+      "blockClass": ["Disclosure"]
+    },
+    "children": [
+      "disclosure-layout#Politics",
+      "disclosure-layout#OtroEnlace"
+    ]
+  },
+
+  // * Politics Section
+  "disclosure-layout#Politics": {
+    "props": {
+      "blockClass": [
+        "Disclosure__group",
+        "Disclosure__group--Politics"
+      ]
+    },
+    "children": [
+      "disclosure-trigger#Politics",
+      "disclosure-content#Politics"
+    ]
+  },
+  // ! Politics Title Group
+  "disclosure-trigger#Politics": {
+    "props": {
+      "blockClass": [
+        "Disclosure__Trigger",
+        "Disclosure__Trigger--Politics"
+      ]
+    },
+    "children": [
+      "rich-text#TitlePolitics" // /footer.jsonc
+    ]
+  },
+  // ! Politics content
+  "disclosure-content#Politics": {
+    "props": {
+      "blockClass": [
+        "Disclosure__content",
+        "Disclosure__content--Politics"
+      ]
+    },
+    "children": [
+      "rich-text#Terms", // /footer.jsonc
+      "rich-text#PrivacyPolitics", // /footer.jsonc
+      "rich-text#Cookies", // /footer.jsonc
+      "rich-text#Corruption" // /footer.jsonc
+    ]
+  },
+
+  // * Politics Section
+  "disclosure-layout#OtroEnlace": {
+    "props": {
+      "blockClass": [
+        "Disclosure__group",
+        "Disclosure__group--otrosEnlaces"
+      ]
+    },
+    "children": [
+      "disclosure-trigger#otrosEnlaces",
+      "disclosure-content#otrosEnlaces"
+    ]
+  },
+  // ! otrosEnlaces Title Group
+  "disclosure-trigger#otrosEnlaces": {
+    "props": {
+      "blockClass": [
+        "Disclosure__Trigger",
+        "Disclosure__Trigger--otrosEnlaces"
+      ]
+    },
+    "children": [
+      "rich-text#OtroEnlace" // /footer.jsonc
+    ]
+  },
+  // ! otrosEnlaces content
+  "disclosure-content#otrosEnlaces": {
+    "props": {
+      "blockClass": [
+        "Disclosure__content",
+        "Disclosure__content--otrosEnlaces"
+      ]
+    },
+    "children": [
+      "rich-text#OtroEnlaces" // /footer.jsonc
+    ]
+  }
+}

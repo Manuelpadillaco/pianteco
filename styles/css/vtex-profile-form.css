@@ -1,0 +1,17 @@
+.profileSummary {
+  max-width: 16rem;
+  padding: 1rem;
+  background: #f2f2f0;
+  height: auto;
+  border-radius: 12px;
+  border: none !important;
+}
+
+@media (min-width: 1200px) {
+
+  .profileSummary {
+    min-width: 37rem;
+  }
+}
+
+

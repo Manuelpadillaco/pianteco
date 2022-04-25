@@ -1,0 +1,421 @@
+/* ------------------------------- */
+/* //* Order placed */
+/* ------------------------------- */
+.packageDeliveryTitle::before {
+  content: "Datos del usuario";
+  font-family:  'Encode Sans', sans-serif;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #324545;
+  margin-left: 2rem;
+  text-transform: inherit;
+}
+
+.packageDeliveryTitle::after {
+  content: "";
+  width: 22px;
+  height: 20px;
+  background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/house-icon.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 1rem;
+}
+.section--confirmation::before {
+  content: "Finalizar Compra";
+  font-family:  'Encode Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  color: #324545;
+}
+.confirmationIconWrapper {
+  display: none;
+}
+.confirmationTitle::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("https://beisbol.vteximg.com.br/arquivos/pedido-confirmado-icono-checkout.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.confirmationTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  border: 1px solid #3bb44b;
+  border-radius: 10px;
+  font-family:  'Encode Sans', sans-serif;
+  font-size: 0;
+  font-weight: 400;
+  color: #3bb44b;
+}
+.orderPlacedWrapper--order-placed {
+  padding: 4rem;
+  max-width: 103rem;
+  margin: 0 auto;
+}
+.confirmationMessage::after {
+  content: "Estamos gestionando tu pedido para enviarlo lo más pronto posible. Te notificaremos una vez se haya enviado y te daremos la guía de envío para que puedas hacer el rastreo";
+  font-family:  'Encode Sans', sans-serif Sans !important;
+  font-style: normal !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  line-height: 15px;
+  text-align: center;
+  color: #324545;
+  max-width: 34rem;
+}
+.confirmationMessage::before {
+  content: "¡Gracias por tu compra!";
+  font-family:  'Encode Sans', sans-serif Sans !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 40px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #324545;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+.confirmationMessage {
+  display: flex;
+  flex-direction: column;
+  font-family:  'Encode Sans', sans-serif;
+  font-size: 0;
+  font-weight: 400;
+  color: #000000;
+  background: #f2f0eb;
+  margin-top: 4rem;
+  background: #f2f0eb;
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+.section--notices {
+  display: none;
+}
+.customerInfoListEmail {
+  font-family:  'Encode Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #324545;
+  order: 1;
+}
+
+.customerInfoListDocument {
+  font-family:  'Encode Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #324545;
+  order: 2;
+}
+
+.customerInfoListName {
+  font-family:  'Encode Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #324545;
+  order: 3;
+}
+
+.customerInfoListPhone {
+  font-family:  'Encode Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #324545;
+  order: 4;
+}
+.noticesList {
+  background-color: #f2f0eb;
+  border-radius: 10px;
+}
+.noticeListItem {
+  color: #324545;
+  font-family:  'Encode Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  border-bottom: 1px solid #ededed;
+}
+.noticeListItem:last-child {
+  border-bottom: 0;
+}
+.orderNumber {
+  font-family:  'Encode Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: #324545;
+}
+.orderPlacedMainWrapper {
+  margin: 0;
+  width: 100%;
+}
+.orderDatetime {
+  font-family:  'Encode Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #324545;
+}
+
+.customerInfoListContainer {
+  display: flex;
+  flex-direction: column;
+  font-family:  'Encode Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  background-color: #f2f0eb;
+  border-radius: 10px;
+  width: 19rem;
+}
+.customerInfoListContainer::before {
+  content: "Datos del usuario";
+  font-family:  'Encode Sans', sans-serif;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #324545;
+  margin-left: 2rem;
+  text-transform: inherit;
+}
+.customerInfoListContainer::after {
+  content: "";
+  width: 22px;
+  height: 20px;
+  background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/user-icon.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 2px;
+  position: absolute;
+}
+.packageHeaderColumn {
+  max-width: 24rem;
+  padding: 1rem 1rem 0 1rem;
+  background: #f2f2f0;
+  height: 13.2rem;
+  border-radius: 12px;
+  border: none;
+  position: relative;
+  top: -18rem;
+  left: 21rem;
+}
+.productList {
+  width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 100% !important;
+  position: relative;
+  left: -8rem;  
+}
+.confirmationTitle::before {
+  content: "Su pedido ha sido aprobado";
+  font-size: 1rem;
+}
+.orderOptionsWrapper {
+  display: none;
+}
+.productListItem {
+  margin: 1rem;
+  background: #f2f2f0;
+  padding: 0;
+  border-radius: 12px;
+  width: 43rem;
+}
+.totalListWrapper {
+  display: none;
+}
+.orderPaymentItem {
+  display: none;
+}
+.cancelOrderButton :global(.vtex-button__label) {
+  font-family: 'Encode Sans', sans-serif;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--confirmationButtons)
+  :global(.vtex-button) {
+  border: 1px solid #324545;
+  border-radius: 100px;
+  background-color: #324545;
+  color: white;
+  font-family: 'Encode Sans', sans-serif;
+}
+.myOrdersButton :global(.vtex-button) {
+  border: 1px solid #324545;
+  border-radius: 100px;
+  background-color: #324545;
+  color: white;
+  font-family: 'Encode Sans', sans-serif;
+}
+.updateOrderButton :global(.vtex-button) {
+  border: 1px solid #324545;
+  border-radius: 100px;
+  background-color: #324545;
+  color: white;
+  font-family: 'Encode Sans', sans-serif;
+}
+.packageDeliveryTitle {
+  font-family:  'Encode Sans', sans-serif;
+  font-size: 0;
+  font-weight: 600;
+  color: #324545;
+  content: "Resumen";
+  text-transform: uppercase;
+}
+.packageShippingEstimate {
+  font-family:  'Encode Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #324545;
+}
+.packageSLA {
+  font-family:  'Encode Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #324545;
+}
+.addressContainer {
+  font-family:  'Encode Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #324545;
+  min-width: 14rem;
+}
+.productWrapper {
+  font-family:  'Encode Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #324545;
+  text-align: start;
+  padding: 1.5rem;
+}
+.productQuantity {
+  display: none;
+}
+.productName {
+  font-family:  'Encode Sans', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: #324545;
+  text-align: start;
+}
+.productImageWrapper {
+  box-shadow: 0px 4px 15px 0px #32454533;
+  border-radius: 10px;
+}
+.section--deliveryPackages {
+  border: 0;
+}
+.totalListItem--Items {
+  font-family:  'Encode Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #324545;
+}
+.totalListItemValue {
+  color: #324545;
+}
+.totalListItem--Shipping {
+  font-family:  'Encode Sans', sans-serif;
+  font-weight: 400;
+  color: #324545;
+}
+.totalListItem {
+  color: #324545;
+}
+.totalListItemLabel {
+  font-family: 'Encode Sans', sans-serif;
+}
+.totalListItemValue {
+  font-family: 'Encode Sans', sans-serif;
+}
+.orderPlacedHeader {
+  max-width: 90%;
+  margin: 1rem auto;
+}
+
+.orderPlacedMainWrapper {
+  max-width: 90%;
+  margin: 0 auto;
+}
+.packageAddressWrapper {padding: 0;margin: 0px 53px 0  0;}
+
+.packageHeader--delivery {margin: 0;height: 7rem;}
+
+/* ------------------------------- */
+/* //? Media Queries */
+/* ------------------------------- */
+@media (max-width: 600px) {
+
+  .orderPlacedHeader {
+    max-width: 60rem;
+    margin: 1rem auto;
+  }
+  
+  .orderSoldBy {
+    display: none;
+  }
+  .packageHeaderColumn {
+    left: 0;
+    position: static;
+    top: 0;
+  }
+  .customerInfoListContainer {
+    width: 100%;
+    max-width: inherit;
+    padding: 1rem;
+  }
+
+  .orderListItem--order-placed {
+    width: 100%;
+  }
+
+  .orderPlacedWrapper--order-placed {
+    padding: 27px;
+  }
+
+  .package--delivery {
+    margin: 0;
+  }
+
+  .productListItem {
+    width: 100%;
+  }
+}
+
+/* ------------------------------- */

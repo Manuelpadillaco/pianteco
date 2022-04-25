@@ -1,0 +1,67 @@
+/* ------------------------------- */
+/* //* Product page */
+/* ------------------------------- */
+.container :global(.vtex-breadcrumb-1-x-link) {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #808080;
+}
+.arrow {
+
+  color: #808080;
+}
+.homeLink::before {
+  content: 'Home';
+  display: block;
+  width: 43px;
+  height: 25px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: translateY(2px);
+  text-align: center;
+}
+.term {
+  font-family:  'Encode Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #324545;
+  margin-left: 2rem;
+}
+
+.term::before {
+  background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/migadepan-icon-painte.png)!important;
+  background-size: 100%!important;
+  background-repeat: no-repeat;
+  margin-top: 4px;
+  content: " ";
+  height: auto;
+  width: auto;
+  position: relative;
+  padding: 13px;
+  left: -1rem;
+  top: 7px;
+}
+.homeIcon {
+  display: none;
+}
+/* ------------------------------- */
+/* //* Search page */
+/* ------------------------------- */
+.arrow--Breadcrumb--Search {
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.link:hover {
+  font-weight: 550 !important;
+}
+/* ------------------------------- */

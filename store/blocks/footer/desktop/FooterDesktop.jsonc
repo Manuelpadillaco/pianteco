@@ -1,0 +1,257 @@
+{
+  "footer-layout.desktop": {
+    "props": {
+      "blockClass": ["Footer-Desktop"]
+    },
+    "children": [
+      "image#ButtonWhatsapp",// /footer.jsonc
+      "flex-layout.row#FooterDesktop",
+      "rich-text#TermsText" // /footer.jsonc
+    ]
+  },
+  // * Footer container
+  "flex-layout.row#FooterDesktop": {
+    "props": {
+      "blockClass": ["Footer-Desktop__container"]
+    },
+    "children": ["flex-layout.row#FooterDesktop-row-1"]
+  },
+  //row
+  "flex-layout.row#FooterDesktop-row-1": {
+    "props": {
+      "blockClass": ["Footer-Desktop__colum", "Footer-Desktop__colum--1"]
+    },
+    "children": [
+      "flex-layout.row#FooterDesktopLogo", // /footer.jsonc
+      "flex-layout.row#FooterDesktopColums" // /footer.jsonc
+    ]
+  },
+  "flex-layout.row#FooterDesktopColums": {
+    "props": {
+      "blockClass": ["Footer-Desktop_row", "Footer-Desktop_row--2"]
+    },
+    "children": [
+      "flex-layout.col#FooterDesktop-Column-1",
+      "flex-layout.col#FooterDesktop-Column-2",
+      "flex-layout.col#FooterDesktop-Column-5",
+      "flex-layout.col#FooterDesktop-Column-6"
+    ]
+  },
+  "flex-layout.row#FooterDesktopLogo": {
+    "props": {
+      "blockClass": ["Footer-Desktop_row", "Footer-Desktop_row--1"]
+    },
+    "children": [
+      "image#Logo", // /footer.jsonc
+      "flex-layout.col#FooterDesktop-Column-3"
+    ]
+  },
+  // * Footer Column 1
+  "flex-layout.col#FooterDesktop-Column-1": {
+    "props": {
+      "blockClass": ["Footer-Desktop__colum", "Footer-Desktop__colum--1"]
+    },
+    "children": [
+      "rich-text#OtroEnlace", // /footer.jsonc
+      "rich-text#OtroEnlaces" // /footer.jsonc
+    ]
+  },
+
+  // * Footer Column 2
+  "flex-layout.col#FooterDesktop-Column-2": {
+    "props": {
+      "blockClass": ["Footer-Desktop__colum", "Footer-Desktop__colum--2"]
+    },
+    "children": [
+      "rich-text#TitlePolitics", // /footer.jsonc
+      "rich-text#PrivacyPolitics", // /footer.jsonc
+      "rich-text#Devolutions", // /footer.jsonc
+      "rich-text#Terms", // /footer.jsonc
+      "rich-text#Shipping", // /footer.jsonc
+      "rich-text#industriaCommerce" // /footer.jsonc
+    ]
+  },
+  // * Footer Column 4
+  "flex-layout.col#FooterDesktop-Column-6": {
+    "props": {
+      "blockClass": ["Footer-Desktop__colum", "Footer-Desktop__colum--6"]
+    },
+    "children": [
+      "rich-text#TitleContact", // /footer.jsonc
+      "rich-text#TitleMail", // /footer.jsonc
+      "rich-text#Phone1", // /footer.jsonc
+      "rich-text#Phone2", // /footer.jsonc
+      "rich-text#Address" // /footer.jsonc
+    ]
+  },
+  // * Footer Column 3
+  "flex-layout.col#FooterDesktop-Column-3": {
+    "props": {
+      "blockClass": ["Footer-Desktop__colum", "Footer-Desktop__colum--3"]
+    },
+    "children": [
+      "flex-layout.col#FooterSocials" // /footer.jsonc
+    ]
+  },
+
+  // * Footer Column 4
+  "flex-layout.col#FooterDesktop-Column-4": {
+    "props": {
+      "blockClass": ["Footer-Desktop__colum", "Footer-Desktop__colum--4"]
+    },
+    "children": [
+      "flex-layout.col#FooterDesktop-Column-4-top",
+      "flex-layout.col#FooterDesktop-Column-4-bottom"
+    ]
+  },
+  // ! Footer Column 4 - Top
+  "flex-layout.col#FooterDesktop-Column-4-top": {
+    "props": {
+      "blockClass": [
+        "Footer-Desktop__colum",
+        "Footer-Desktop__subColum-4",
+        "Footer-Desktop__subColum-4--1"
+      ]
+    },
+    "children": [
+      "rich-text#TitleClient", // /footer.jsonc
+      "rich-text#NumberClient", // /footer.jsonc
+      "rich-text#Mail" // /footer.jsonc
+    ]
+  },
+  // ! Footer Column 4 - Bottom
+  "flex-layout.col#FooterDesktop-Column-4-bottom": {
+    "props": {
+      "blockClass": [
+        "Footer-Desktop__colum",
+        "Footer-Desktop__subColum-4",
+        "Footer-Desktop__subColum-4--2"
+      ]
+    },
+    "children": [
+      "rich-text#TitleSupport", // /footer.jsonc
+      "rich-text#Advice", // /footer.jsonc
+      "rich-text#Contact", // /footer.jsonc
+      "rich-text#Warranty" // /footer.jsonc
+    ]
+  },
+
+  // * Footer Column 5
+  "flex-layout.col#FooterDesktop-Column-5": {
+    "props": {
+      "blockClass": ["Footer-Desktop__colum", "Footer-Desktop__colum--5"]
+    },
+    "children": [
+      "flex-layout.col#FooterDesktop-Column-5-top",
+      "flex-layout.col#FooterDesktop-Column-5-middle",
+      "flex-layout.col#FooterDesktop-Column-5-bottom"
+    ]
+  },
+  // ! Footer Column 5 - Top
+  "flex-layout.col#FooterDesktop-Column-5-top": {
+    "props": {
+      "blockClass": [
+        "Footer-Desktop__colum",
+        "Footer-Desktop__subColum-5",
+        "Footer-Desktop__subColum-5--1"
+      ]
+    },
+    "children": [
+      "rich-text#TitlePayments" // /footer.jsonc
+    ]
+  },
+  // ! Footer Column 5 - Middle
+  "flex-layout.col#FooterDesktop-Column-5-middle": {
+    "props": {
+      "blockClass": [
+        "Footer-Desktop__colum",
+        "Footer-Desktop__subColum-5",
+        "Footer-Desktop__subColum-5--2"
+      ]
+    },
+    "children": [
+      "flex-layout.col#FooterPagos1-2"
+      // /footer.jsonc
+    ]
+  },
+  // ! Footer Column 5 - Bottom
+  "flex-layout.col#FooterDesktop-Column-5-bottom": {
+    "props": {
+      "blockClass": [
+        "Footer-Desktop__colum",
+        "Footer-Desktop__subColum-5",
+        "Footer-Desktop__subColum-5--3"
+      ]
+    },
+    "children": [
+      "rich-text#Development", // /footer.jsonc
+      "image#Development", // /footer.jsonc
+      "image#Technology" // /footer.jsonc
+    ]
+  },
+  // **************************************
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#Products",
+      "vtex.menu@2.x:menu#footer-clothing",
+      "vtex.menu@2.x:menu#footer-decoration",
+      "vtex.menu@2.x:menu#footer-bags",
+      "footer-spacer",
+      "social-networks"
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/vtexonline/"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/vtextruecloud/"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/vtexonline"
+        },
+        {
+          "name": "Youtube",
+          "url": "https://www.youtube.com/user/VTEXTV"
+        }
+      ]
+    }
+  },
+
+  "flex-layout.row#footer-2-desktop": {
+    "children": ["accepted-payment-methods"],
+    "props": {
+      "blockClass": "payment-methods"
+    }
+  },
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
+    }
+  },
+
+  "flex-layout.row#footer-3-desktop": {
+    "children": ["rich-text#footer"],
+    "props": {
+      "blockClass": "credits"
+    }
+  },
+ 
+  "rich-text#footer": {
+    "props": {
+      "text": "All stock and product photos are from photos.icons8.com",
+      "blockClass": "Footer__Text"
+    }
+  }
+}

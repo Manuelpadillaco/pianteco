@@ -1,0 +1,50 @@
+{
+  "flex-layout.col#Banners": {
+    "props": {
+      "blockClass": ["Banners", "Banners--top"]
+    },
+    "children": [
+      "info-card#BannersTop--item-1"
+    ]
+  },
+
+  // * Info card 1
+  "info-card#BannersTop--item-1": {
+    "props": {
+      "blockClass": [
+        "BannerItem__container",
+        "BannerTop__item",
+        "BannerTop__item--1"
+      ],
+      "id": "BannersTop--item-1",
+      "isFullModeStyle": true,
+      /* "textPosition": "left",*/
+      "callToActionLinkTarget" : "_self",
+      "imageUrl": "https://pianteco.vtexassets.com/arquivos/banner desk-pianteco.png",
+      "mobileImageUrl": "https://pianteco.vtexassets.com/arquivos/banner-secundario-mobile-piante.png",
+     /* "headline": "¡Cuidamos de ti por eso estrenamos",   */
+    /* "subhead": "Tienda Online!",*/
+     /* "callToActionText": "Envíos nacionales gratis",*/
+      "callToActionUrl": "#"
+    }
+  },
+
+  // * Info card 2
+  "info-card#BannersTop--item-2": {
+    "props": {
+      "blockClass": [
+        "BannerItem__container",
+        "BannerTop__item",
+        "BannerTop__item--2"
+      ],
+      "id": "BannersTop--item-2",
+      "isFullModeStyle": true,
+      /* "textPosition": "left",*/
+      "imageUrl": "https://beisbol.vteximg.com.br/arquivos/banner-perfuma-hogar.png",
+      "mobileImageUrl": "https://beisbol.vteximg.com.br/arquivos/banner-perfuma-hogar.png",
+      /*"headline": "Más aroma para tu economía",
+      "callToActionText": "Comprar producto",*/
+      "callToActionUrl": "#"
+    }
+  }
+}
