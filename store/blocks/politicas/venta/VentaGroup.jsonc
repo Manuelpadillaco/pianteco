@@ -1,0 +1,79 @@
+{
+  // * Venta Section
+  "disclosure-layout#Venta": {
+    "props": {
+      "blockClass": [
+        "Disclosure__group",
+        "Disclosure__group--Venta"
+      ]
+    },
+    "children": [
+      "disclosure-trigger#Venta",
+      "disclosure-content#Venta"
+    ]
+  },
+  // ! Venta Title Group
+  "disclosure-trigger#Venta": {
+    "props": {
+      "blockClass": [
+        "Disclosure__Trigger-Politics",
+        "Disclosure__Trigger-Politics--Venta"
+      ]
+    },
+    "children": ["rich-text#VentaTitle"]
+  },
+  // ? Group Title
+  "rich-text#VentaTitle": {
+    "props": {
+      "blockClass": [
+        "Politics__Group-Title",
+        "Politics__Group-Title--Venta"
+      ],
+      "text": "POLÍTICAS "
+    }
+  },
+  // ! Venta content
+  "disclosure-content#Venta": {
+    "props": {
+      "blockClass": [
+        "Disclosure__content",
+        "Disclosure__content--Venta"
+      ]
+    },
+    "children": ["tab-list.item#Venta"]
+  },
+
+  //***************************************************************************
+  // * Item 1
+  //***************************************************************************
+  "tab-list.item#Venta": {
+    "props": {
+      "blockClass": ["TabItem", "TabItem--Venta"],
+      "tabId": "venta",
+      "label": "POLÍTICAS DE PRIVACIDAD "
+    }
+  },
+  // ! Item content Venta
+  // It is necessary to add this components into politics.jsonc at tab-content#Politics__Content
+  "tab-content.item#Venta": {
+    "children": ["rich-text#Venta"],
+    "props": {
+      "blockClass": [
+        "TabContent",
+        "TabContent--Venta"
+      ],
+      "tabId": "venta"
+    }
+  },
+  // ? Rich text Venta
+  "rich-text#Venta": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--Venta"
+      ],
+      "text": "## Politics en Venta ETC"
+    }
+  }
+  //***************************************************************************
+}

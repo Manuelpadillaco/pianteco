@@ -18,14 +18,12 @@
   width: 100%;
   background: white;
 }
-
 .headerStickyRow--Menu-Bottom {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 /* ------------------------------- */
 /* //* Footer */
 /* ------------------------------- */
@@ -45,7 +43,6 @@
   filter: none;
   opacity: 1;
 }
-
 .imageElementLink--Footer__image {
   min-height: 60px;
   display: flex;
@@ -63,13 +60,11 @@
   justify-content: center;
   align-items: center;
 }
-
 .imageElement--Footer__image--company {
   width: 40%;
   filter: none;
   opacity: 1;
 }
-
 /* ------------------------------- */
 /* //* Home */
 /* ------------------------------- */
@@ -89,7 +84,6 @@
   width: 100%;
   height: 100%;
 }
-
 .infoCardSubhead--TopSlide__Item {
   margin-top: 0;
   color: #df209d;
@@ -101,7 +95,6 @@
   text-align: left;
   text-transform: uppercase;
 }
-
 .infoCardHeadline--TopSlide__Item {
   display: flex;
   flex-direction: column;
@@ -115,7 +108,6 @@
   text-align: left;
   text-transform: uppercase;
 }
-
 /*
 .infoCardTextContainer--TopSlide__Item::before {
   content: '';
@@ -130,7 +122,6 @@
 .infoCardCallActionContainer--TopSlide__Item {
   margin-bottom: 40px;
 }
-
 .infoCardCallActionContainer--TopSlide__Item :global(.vtex-button) {
   font-family: "Encode Sans", sans-serif;
   font-size: 20px;
@@ -142,17 +133,14 @@
   border-radius: 51px;
   transition: 0.3s;
 }
-
 .infoCardCallActionContainer--TopSlide__Item :global(.vtex-button):hover {
   background-color: #000b45;
   border-color: #000b45;
 }
-
 /* ! Category slide */
 .infoCardCallActionContainer--CategorySlide__Item {
   width: 100%;
 }
-
 .infoCardContainer--CategorySlide__Item {
   display: flex;
   flex-direction: column-reverse;
@@ -164,7 +152,6 @@
   margin: 0;
   text-decoration: none;
 }
-
 .infoCardImageContainer--CategorySlide__Item {
   position: relative;
   width: 100%;
@@ -175,7 +162,6 @@
   padding: 0;
   width: 100%;
 }
-
 .infoCardCallActionContainer--CategorySlide__Item :global(.vtex-button) {
   display: flex;
   color: #808080;
@@ -195,7 +181,6 @@
   color: #324545;
   font-weight: 600;
 }
-
 .infoCardCallActionContainer--CategorySlide__Item :global(.vtex-button__label) {
   padding: 0px;
   font-family: "Encode Sans", sans-serif;
@@ -206,7 +191,6 @@
   text-align: center;
   color: #324545;
 }
-
 .infoCardImage--CategorySlide__Item {
   width: 100%;
   height: auto;
@@ -233,7 +217,6 @@
   position: relative;
   width: 100%;
 }
-
 .infoCardImageContainer--CategorySlide__Item::after {
   content: "";
   position: absolute;
@@ -256,7 +239,6 @@
   padding: 0;
   width: 100%;
 }
-
 .infoCardCallActionContainer--CategorySlide__Item :global(.vtex-button) {
   display: flex;
   color: #0891d0;
@@ -276,7 +258,6 @@
   color: #28508c;
   font-weight: 600;
 }
-
 .infoCardCallActionContainer--CategorySlide__Item :global(.vtex-button__label) {
   padding: 0;
 }
@@ -289,7 +270,6 @@
   background-size: 100% !important;
   border: none;
 }
-
 .infoCardHeadline--BannerTop__item--1 {
   color: white;
   font-family: "Encode Sans", sans-serif;
@@ -299,7 +279,6 @@
   text-align: left;
   text-transform: uppercase;
 }
-
 .infoCardSubhead--BannerTop__item--1 {
   margin-top: 0;
   padding: 0 9px;
@@ -311,14 +290,12 @@
   font-weight: 600;
   text-align: left;
 }
-
 .infoCardCallActionContainer--BannerTop__item--1 :global(.vtex-button) {
   background-color: transparent;
   border-width: 1px;
   border-radius: 100px;
   transition: 0.3s;
 }
-
 /*.infoCardCallActionContainer--BannerTop__item--1
   :global(.vtex-button):hover {
   background-color: white;
@@ -351,7 +328,6 @@
   font-weight: 600;
   text-align: left;
 }
-
 .infoCardCallActionContainer--BannerTop__item--2 :global(.vtex-button) {
   background-color: white;
   border-color: white;
@@ -359,7 +335,6 @@
   border-radius: 100px;
   transition: 0.3s;
 }
-
 /*.infoCardCallActionContainer--BannerTop__item--2
   :global(.vtex-button):hover {
   background-color: #ededed;
@@ -380,7 +355,6 @@
   justify-content: center;
   align-items: center;
 }
-
 .infoCardContainer--BannerBottom__item--1 {
   display: flex;
   flex-direction: row-reverse;
@@ -388,19 +362,16 @@
   align-items: center;
   padding: 15px 0;
 }
-
 .infoCardCallActionContainer--BannerBottom__item--1 :global(.vtex-button) {
   background-color: #324545;
   border-width: 1px;
   border-radius: 100px;
   transition: 0.3s;
 }
-
 .infoCardCallActionContainer--BannerBottom__item--1
   :global(.vtex-button):hover {
   background-color: #000b45;
 }
-
 .infoCardCallActionContainer--BannerBottom__item--1
   :global(.vtex-button__label) {
   padding: 15px 20px !important;
@@ -411,14 +382,12 @@
   font-weight: 600;
   text-align: center;
 }
-
 .infoCardContainer--BannerBottom__item--2 {
   display: flex;
   align-items: flex-end;
   padding: 30px 10px;
   width: 100%;
 }
-
 .infoCardContainer--BannerBottom__item--2::before {
   content: "";
   width: 40%;
@@ -428,12 +397,10 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-
 .infoCardTextContainer--BannerBottom__item--2 {
   margin-right: 0;
   width: 60%;
 }
-
 .infoCardHeadline--BannerBottom__item--2 {
   margin-top: 0;
   padding: 5px 10px;
@@ -446,7 +413,6 @@
   text-align: left;
   text-transform: uppercase;
 }
-
 .infoCardSubhead--BannerBottom__item--2 {
   margin-top: 5px;
   padding: 5px 10px;
@@ -520,7 +486,6 @@
   text-align: start;
   width: 7rem;
 }
-
 .label--Newsletter::before {
   content: "RECÍBE";
   text-align: start;
@@ -534,7 +499,6 @@
   top: -18px;
   left: 16px;
 }
-
 .label--Newsletter .inputGroup {
   padding: 0 25px;
   color: #c5c5c5;
@@ -563,7 +527,6 @@
 .label--Newsletter .inputGroup::placeholder {
   color: #c5c5c5;
 }
-
 .inputGroup--Newsletter
   :global(.vtex-input)
   :global(.vtex-input-prefix__group) {
@@ -589,7 +552,8 @@
   margin: 10px;
   position: absolute;
   top: 34vw;
-  margin: 0 auto;
+  margin: 46px auto;
+  left: 1rem;
 }
 
 .inputGroup--Newsletter
@@ -599,7 +563,6 @@
   font-size: 20px;
   font-weight: 100;
 }
-
 .inputGroup .buttonContainer--Newsletter :global(.vtex-button) {
   background-color: #324545;
   border-width: 1px;
@@ -608,12 +571,10 @@
   transition: 0.3s;
   width: 50px;
 }
-
 .inputGroup .buttonContainer--Newsletter :global(.vtex-button):hover {
   background-color: #698d6f;
   border-color: #698d6f;
 }
-
 .inputGroup .buttonContainer--Newsletter :global(.vtex-button__label) {
   padding: 8px 26px !important;
   color: white;
@@ -625,7 +586,6 @@
   height: 40px;
   padding: 0;
 }
-
 .inputGroup .buttonContainer--Newsletter :global(.vtex-button__label)::before {
   box-sizing: border-box;
   position: absolute;
@@ -680,7 +640,6 @@
   line-height: 100%;
   color: #324545;
 }
-
 .productDescriptionTitle {
   font-family: "Encode Sans", sans-serif;
   font-style: normal;
@@ -704,7 +663,6 @@
   line-height: 20px;
   color: #808080;
 }
-
 .skuSelectorTextContainer {
   font-family: "Encode Sans", sans-serif;
   font-size: 25px;
@@ -712,7 +670,6 @@
   font-weight: 400;
   text-align: left;
 }
-
 .skuSelectorName {
   color: #808080;
   font-family: "Encode Sans", sans-serif;
@@ -737,7 +694,6 @@
   box-shadow: 0px 4px 10px 0px #00000026;
   border-radius: 5px;
 }
-
 .skuSelectorItem--selected .frameAround {
   top: -0.1rem;
   left: -0.1rem;
@@ -746,7 +702,6 @@
   border: 1.9px solid #324545;
   border-radius: 5px;
 }
-
 .productImageTag--main {
   background-color: white;
   border-radius: 5px;
@@ -761,7 +716,6 @@
   width: 90%;
   margin: 7px auto;
 }
-
 .searchBarContainer {
   position: absolute;
   top: 4rem;
@@ -770,7 +724,6 @@
   height: auto;
   width: 100% !important;
 }
-
 .shippingContainer :global(.vtex-dropdown__label) {
   font-family: "Encode Sans", sans-serif;
   font-style: normal;
@@ -806,7 +759,6 @@
   border-radius: 100px;
   border-width: 0;
 }
-
 .shippingContainer :global(.vtex-button__label) {
   color: white;
   font-family: "Encode Sans", sans-serif;
@@ -814,17 +766,14 @@
   font-size: 15px;
   text-align: center;
 }
-
 .productImage {
   margin: 10px 25px;
   border-radius: 5px;
 }
-
 .swiper-pagination {
   bottom: 5px;
   display: none;
 }
-
 .swiperCaret {
   display: flex;
   justify-content: center;
@@ -838,7 +787,6 @@
   box-shadow: 0px 0px 3px 0px #00000026;
   transition: 0.3s;
 }
-
 .swiperCaret:hover {
   color: #324545;
 }
@@ -850,7 +798,6 @@
 .swiperCaretNext {
   transform: translate(-31px, -35px);
 }
-
 .content {
   font-family: "Encode Sans", sans-serif;
   font-style: normal;
@@ -859,14 +806,12 @@
   line-height: 20px;
   color: #808080;
 }
-
 /* ------------------------------- */
 /* //* Search Page */
 /* ------------------------------- */
 .infoCardCallActionContainer--Search__Image {
   display: none;
 }
-
 .infoCardContainer--Search__Image {
   height: 240px;
 }
@@ -877,7 +822,6 @@
 .infoCardContainer--Politics__Image {
   height: 202px;
 }
-
 .infoCardCallActionContainer--Politics__Image {
   display: none;
 }
@@ -908,18 +852,15 @@
   .imageElementLink--About__Image-Social {
   width: 50%;
 }
-
 .imageElement--Footer__image--technology {
   width: 92px;
   height: 25px !important;
 }
-
 .imageElement--Footer__image--development {
   width: 114px;
   height: 3rem !important;
   margin: 0;
 }
-
 /* ------------------------------- */
 /* //? Medias Query */
 /* ------------------------------- */
@@ -942,7 +883,6 @@
 .autoCompleteOuterContainer :global(.vtex-input__suffix) {
   background: transparent;
 }
-
 .form--Newsletter {
   display: flex;
   justify-content: space-between;
@@ -956,7 +896,7 @@
 .buttonContainer--Newsletter {
   padding-top: 20px !important;
   position: static;
-  margin-top: 1.1rem;
+  margin-top: 4.1rem;
   margin-left: 64vw;
 }
 
@@ -977,17 +917,17 @@
 }
 .imageElementLink--ButtonWhatsapp {
   position: fixed;
-  top: 91vh;
-  max-width: 4.5rem;
-  left: 83vw;
+  top: 90vh;
+  max-width: 3.5rem;
+  left: 78vw;
 }
 .infoCardTextContainer--CategorySlide__Item {
   padding: 0;
   width: 91%;
   z-index: 1;
-  height: 19.3rem;
+  height: 14.3rem;
   position: absolute;
-  top: 0rem;
+  top: 2rem;
   display: flex;
 }
 @media (max-width: 375px) {
@@ -996,9 +936,10 @@
   }
 }
 @media (min-width: 1200px) {
+ 
   .infoCardTextContainer--CategorySlide__Item {
     height: 21rem;
-    top: 1rem;
+    top: 5rem;
   }
   .confirmationTitle--Newsletter {
     padding: 3rem 10rem 0;
@@ -1026,7 +967,6 @@
   .imageElement--Footer__image--tiktok {
     width: 23px !important;
   }
-
   .imageElement--Footer__image--facebook {
     width: 17px !important;
     height: 26px !important;
@@ -1041,7 +981,6 @@
     align-content: center;
     margin: 0 0.5rem 0 1rem;
   }
-
   .imageElement--About__Image--ImageUserDeskLogin {
     width: auto;
     height: 3.2rem;
@@ -1061,7 +1000,6 @@
     height: 103%;
     max-height: 21rem;
   }
-
   .infoCardContainer--About__Image {
     min-height: 0;
     width: 100%;
@@ -1095,22 +1033,18 @@
     background-image: url("https://pianteco.vteximg.com.br/arquivos/suscripciones-pianteco.png");
     background-size: 50% !important;
   }
-
   .infoCardImageContainer--CategorySlide__Item--4::after {
     background-image: url("https://pianteco.vteximg.com.br/arquivos/combos-pianteco.png");
     background-size: 10rem !important;
   }
-
   .infoCardImageContainer--CategorySlide__Item--5::after {
     background-image: url("https://pianteco.vteximg.com.br/arquivos/orquideas-pianteco.png");
     background-size: 54% !important;
   }
-
   .infoCardImageContainer--CategorySlide__Item--6::after {
     background-image: url("https://pianteco.vteximg.com.br/arquivos/purificadoras-pianteco.png");
     background-size: 54% !important;
   }
-
   .infoCardContainer--CategorySlide__Item:hover
     .infoCardImageContainer--CategorySlide__Item::after {
     opacity: 1;
@@ -1137,7 +1071,6 @@
     height: 50px;
     width: 100%;
   }
-
   .form--Newsletter {
     display: flex;
     justify-content: space-between;
@@ -1147,7 +1080,6 @@
     flex-direction: row;
     min-height: 13.7vw;
   }
-
   .productNameContainer {
     font-size: 35px;
   }
@@ -1156,7 +1088,6 @@
     height: auto !important;
     max-height: 40rem !important;
   }
-
   .infoCardCallActionContainer--CategorySlide__Item
     :global(.vtex-button__label) {
     font-size: 20px;
@@ -1189,7 +1120,6 @@
     .infoCardImageContainer--CategorySlide__Item::after {
     opacity: 1;
   }
-
   /* ! Header */
   .logoImage {
     width: 9rem;
@@ -1210,7 +1140,6 @@
     max-width: 65%;
     position: static;
   }
-
   .autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
     color: black;
     font-family: "Encode Sans", sans-serif;
@@ -1231,7 +1160,6 @@
     display: block;
     background-color: white;
   }
-
   .searchBarContainer :global(.vtex-input__suffix) {
     background-color: white;
   }
@@ -1256,18 +1184,15 @@
     max-height: 100% !important;
     max-width: fit-content;
   }
-
   .imageElement--Footer__image--development {
     margin: 0;
     width: 108%;
   }
-
   .imageElement--Footer__image--technology {
     width: 5rem;
     height: 24px !important;
     margin-left: 11px;
   }
-
   .imageElementLink--Footer__image--company {
     justify-content: flex-start;
     margin-left: 3rem;
@@ -1289,18 +1214,15 @@
     margin-bottom: 60px;
     margin-left: 252px;
   }
-
   .infoCardTextContainer--TopSlide__Item::before {
     position: absolute;
     left: -180px;
     top: -20px;
   }
-
   .infoCardSubhead--TopSlide__Item {
     font-size: 85px;
     line-height: 77.26px;
   }
-
   .infoCardTextContainer--TopSlide__Item--2 {
     width: 35%;
   }
@@ -1309,7 +1231,6 @@
   .infoCardContainer--CategorySlide__Item {
     width: 100%;
   }
-
   .infoCardImage--CategorySlide__Item {
     height: auto;
     max-height: 100rem !important;
@@ -1353,7 +1274,6 @@
     height: 280px;
     background-image: url("https://pianteco.vteximg.com.br/arquivos/imagen-banner-nueva-presentacion-desktop.png");
   }
-
   .infoCardHeadline--BannerTop__item--2::after {
     right: -45%;
   }
@@ -1404,7 +1324,6 @@
     text-align: start;
     left: 3rem;
   }
-
   .label--Newsletter::before {
     font-size: 2rem;
     text-align: center;
@@ -1491,7 +1410,6 @@
   max-height: 300px;
   margin-bottom: 20px;
 }
-
 /*
 .skuSelectorContainer {
   margin: 1rem 0;
@@ -1503,7 +1421,6 @@
   height: 100%;
   margin: 0;
 }
-
 .infoCardCallActionContainer--BannerTop__item--1 :global(.vtex-button) {
   width: 100%;
   position: absolute;
@@ -1512,14 +1429,12 @@
   height: 100%;
   border: none;
 }
-
 .infoCardTextContainer--BannerTop__item--2 {
   position: relative;
   width: 100%;
   height: 100%;
   margin: 0;
 }
-
 .infoCardCallActionContainer--BannerTop__item--2 :global(.vtex-button) {
   width: 100%;
   position: absolute;
@@ -1529,12 +1444,10 @@
   border: none;
   background-color: transparent;
 }
-
 .searchBarContainer {
   width: 30px;
   border: none;
 }
-
 .searchBarIcon--search {
   color: #324545;
 }
