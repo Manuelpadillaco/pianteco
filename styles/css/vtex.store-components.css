@@ -927,7 +927,7 @@
   z-index: 1;
   height: 14.3rem;
   position: absolute;
-  top: 2rem;
+  top: 8rem;
   display: flex;
 }
 @media (max-width: 375px) {
@@ -939,7 +939,7 @@
  
   .infoCardTextContainer--CategorySlide__Item {
     height: 21rem;
-    top: 5rem;
+    top: 8rem;
   }
   .confirmationTitle--Newsletter {
     padding: 3rem 10rem 0;
