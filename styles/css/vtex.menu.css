@@ -346,7 +346,7 @@
   font-weight: 500;
   border: none;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1026px) {
   .menuItem--MenuItem--11 {
     border: none;
     background: initial;

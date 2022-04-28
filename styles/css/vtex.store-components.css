@@ -429,7 +429,7 @@
 /* ! Newsletter */
 .newsletter--Newsletter {
   margin-top: 0;
-  background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/BANNER-PIANTE_-SUSCRIPCIÓN-ABAJO.jpg);
+  background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/Newsletter-2.png);
   background-size: 100%;
   background-repeat: no-repeat;
   object-fit: cover;
@@ -485,6 +485,7 @@
   top: -49%;
   text-align: start;
   width: 7rem;
+  display: none;
 }
 .label--Newsletter::before {
   content: "RECÍBE";
@@ -877,7 +878,7 @@
 .imageElement--TopSlide__Item {
   width: 100vw;
   max-height: 800px;
-  margin-top: -4rem;
+  margin-top: 0;
 }
 
 .autoCompleteOuterContainer :global(.vtex-input__suffix) {
@@ -932,11 +933,36 @@
 }
 @media (max-width: 375px) {
   .buttonContainer--Newsletter {
-    margin-top: 0.2rem;
+    margin-top: 3.2rem;
   }
 }
-@media (min-width: 1200px) {
- 
+
+@media (max-width: 350px) {
+  .buttonContainer--Newsletter {
+    margin-top: 1.9rem;
+  }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 500px) {
+  .buttonContainer--Newsletter {
+    margin-top: 4rem;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 1026px) {
+  .buttonContainer--Newsletter {
+    margin-top: 21.5rem;
+  }
+  .imageElement--TopSlide__Item {
+    max-height: fit-content;
+    margin: auto;
+  }
+  .inputGroup--Newsletter
+    :global(.vtex-input)
+    :global(.vtex-styleguide-9-x-input) {
+    top: 55vw;
+  }
+}
+@media (min-width: 1026px) {
   .infoCardTextContainer--CategorySlide__Item {
     height: 21rem;
     top: 8rem;
@@ -1289,7 +1315,7 @@
     left: 94vw;
   }
   .newsletter--Newsletter {
-    background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/BANNERS-PIANTE-_-SUSCRIPCIONES.jpg) !important;
+    background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/Newsletter-1.png) !important;
     height: auto;
     max-width: 100% !important;
     width: 100%;

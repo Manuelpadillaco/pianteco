@@ -245,16 +245,17 @@
   color: #808080;
   margin: 0;
 }
-:global(.vtex-account_menu-link)::before {
-  content: "";
-  position: absolute;
-  background: #d3d3d3;
-  height: 2px;
-  width: 90%;
-  margin-top: 3.5rem;
+@media (max-width: 700px) {
+  :global(.vtex-account_menu-link)::before {
+    content: "";
+    position: absolute;
+    background: #d3d3d3;
+    height: 2px;
+    width: 90%;
+    margin-top: 3.5rem;
+  }
 }
-
-@media (min-width: 1200px) {
+@media (min-width: 1026px) {
   :global(.vtex-account__page) :global(.vtex-pageHeader__title) {
     font-size: 50px;
   }

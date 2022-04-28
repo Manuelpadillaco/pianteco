@@ -298,7 +298,7 @@
 /* ------------------------------- */
 /* //? Media queries */
 /* ------------------------------- */
-@media (min-width: 1200px) {
+@media (min-width: 1026px) {
   .buttonShowMore--layout {
     margin: 2rem 0;
   }

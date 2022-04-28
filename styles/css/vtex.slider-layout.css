@@ -107,7 +107,7 @@
 /* ------------------------------- */
 /* //? Medias Query */
 /* ------------------------------- */
-@media (min-width: 1200px) {
+@media (min-width: 1026px) {
   .sliderTrack--CategorySlide__Container .slide--CategorySlide__Container:nth-child(odd) :global(.vtex-store-components-3-x-infoCardTextContainer) {
     top: 2rem;
 }

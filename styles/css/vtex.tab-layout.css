@@ -74,7 +74,7 @@
 /* ------------------------------- */
 /* //? Media Queries*/
 /* ------------------------------- */
-@media (min-width: 1200px) {
+@media (min-width: 1026px) {
   /* ! Politics page */
   
   .container--Politics__Container {

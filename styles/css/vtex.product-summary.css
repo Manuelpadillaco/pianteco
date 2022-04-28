@@ -49,7 +49,7 @@
 /* ------------------------------- */
 /* //? Medias Query */
 /* ------------------------------- */
-@media (min-width: 1200px) {
+@media (min-width: 1026px) {
   /* ! Vitrina */
   .brandName {
     font-size: 17px;

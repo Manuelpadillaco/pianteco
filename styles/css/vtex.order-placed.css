@@ -242,7 +242,6 @@
   margin: 0 auto;
   max-width: 100% !important;
   position: relative;
-  left: -8rem;  
 }
 .confirmationTitle::before {
   content: "Su pedido ha sido aprobado";
@@ -416,6 +415,11 @@
 
   .productListItem {
     width: 100%;
+  }
+}
+@media (min-width: 900px) {
+  .productList {
+    left: -8rem;  
   }
 }
 

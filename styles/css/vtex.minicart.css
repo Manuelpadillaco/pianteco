@@ -148,7 +148,7 @@
 /* ------------------------------- */
 /* //? Medias Query */
 /* ------------------------------- */
-@media (min-width: 1200px) {
+@media (min-width: 1026px) {
   .minicartProductListContainer :global(.vtex-flex-layout-0-x-flexRowContent) {
     margin: 1px 0;
   }

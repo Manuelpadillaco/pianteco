@@ -1,6 +1,10 @@
 /* ------------------------------- */
 /* //* Header */
 /* ------------------------------- */
+
+.stretchChildrenWidth {
+  width: 100% !important;
+}
 .vtex-flex-layout-0-x-flexColChild--Header-Desktop__container--left
   :global(.vtex-menu-2-x-styledLinkContainer):first-child {
   margin-left: 0;
@@ -26,37 +30,50 @@
 .flex {
   background: #f9faf5;
 }
-.flexRow--Home__Shelf--1 :global(.vtex-add-to-cart-button-0-x-buttonText--summary){ 
+.flexRow--Home__Shelf--1
+  :global(.vtex-add-to-cart-button-0-x-buttonText--summary) {
   padding: 0;
   font-size: 15px;
   min-width: 140%;
   line-height: 1;
 }
-.flexRow--Home__Shelf--1 :global(.vtex-product-summary-2-x-element--ProductShelfHome ) :global(.vtex-button__label){ 
+.flexRow--Home__Shelf--1
+  :global(.vtex-product-summary-2-x-element--ProductShelfHome)
+  :global(.vtex-button__label) {
   margin-left: 0rem;
 }
-.flexRow--Home__Shelf--1 :global(.vtex-add-to-cart-button-0-x-buttonText)::before{ 
+.flexRow--Home__Shelf--1
+  :global(.vtex-add-to-cart-button-0-x-buttonText)::before {
   top: 0px;
-    left: 82%;
+  left: 82%;
 }
 
-
-.flexRow--Home__Shelf--2 :global(.vtex-add-to-cart-button-0-x-buttonText--summary){ 
+.flexRow--Home__Shelf--2
+  :global(.vtex-add-to-cart-button-0-x-buttonText--summary) {
   padding: 0;
   font-size: 15px;
   min-width: 140%;
   line-height: 1;
 }
-.flexRow--Home__Shelf--2 :global(.vtex-product-summary-2-x-element--ProductShelfHome ) :global(.vtex-button__label){ 
+.flexRow--Home__Shelf--2
+  :global(.vtex-product-summary-2-x-element--ProductShelfHome)
+  :global(.vtex-button__label) {
   margin-left: 0rem;
 }
-.flexRow--Home__Shelf--2 :global(.vtex-add-to-cart-button-0-x-buttonText)::before{ 
+.flexRow--Home__Shelf--2
+  :global(.vtex-add-to-cart-button-0-x-buttonText)::before {
   top: 0px;
-    left: 82%;
+  left: 82%;
 }
 /* ------------------------------- */
 /* //* Footer */
 /* ------------------------------- */
+.flexRowContent--Footer-Payment-rows {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+  align-items: center;
+}
 .flexRow--Footer-Payment-row1 {
   padding: 0 1rem;
 }
@@ -68,6 +85,10 @@
 }
 .flexRowContent--Footer-Contac {
   padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
 }
 .flexCol--Footer-Promotional__Images {
   display: flex;
@@ -427,7 +448,7 @@
 .flexColChild--About__Subsection {
   padding: 3px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1026px) {
   .flexRowContent--Product .stretchChildrenWidth:first-child {
     width: auto !important;
     max-width: 60rem;

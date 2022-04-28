@@ -7,7 +7,7 @@
   border: none !important;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1026px) {
 
   .profileSummary {
     min-width: 37rem;

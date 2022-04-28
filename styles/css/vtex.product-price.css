@@ -65,7 +65,7 @@
 /* ------------------------------- */
 /* //? Medias Query */
 /* ------------------------------- */
-@media (min-width: 1200px) {
+@media (min-width: 1026px) {
   /* ! Vitrina */
   .sellingPriceValue {
     font-size: 25px !important;
