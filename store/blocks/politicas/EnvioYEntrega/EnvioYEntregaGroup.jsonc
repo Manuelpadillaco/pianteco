@@ -1,0 +1,181 @@
+{
+  // * EnvioYEntrega Section
+  "disclosure-layout#EnvioYEntrega": {
+    "props": {
+      "blockClass": ["Disclosure__group", "Disclosure__group--EnvioYEntrega"]
+    },
+    "children": ["disclosure-trigger#EnvioYEntrega", "disclosure-content#EnvioYEntrega"]
+  },
+  // ! EnvioYEntrega Title Group
+  "disclosure-trigger#EnvioYEntrega": {
+    "props": {
+      "blockClass": [
+        "Disclosure__Trigger-Politics",
+        "Disclosure__Trigger-Politics--EnvioYEntrega"
+      ]
+    },
+    "children": ["rich-text#EnvioYEntregaTitle"]
+  },
+  // ? Group Title
+  "rich-text#EnvioYEntregaTitle": {
+    "props": {
+      "blockClass": ["Politics__Group-Title", "Politics__Group-Title--EnvioYEntrega"],
+      "text": "Envio Y Entrega"
+    }
+  },
+  // ! EnvioYEntrega content
+  "disclosure-content#EnvioYEntrega": {
+    "props": {
+      "blockClass": ["Disclosure__content", "Disclosure__content--EnvioYEntrega"]
+    },
+    "children": ["tab-list.item#EnvioYEntrega"]
+  },
+
+  //***************************************************************************
+  // * Item 1
+  //***************************************************************************
+  "tab-list.item#EnvioYEntrega": {
+    "props": {
+      "blockClass": ["TabItem", "TabItem--EnvioYEntrega"],
+      "tabId": "EnvioYEntrega",
+      "label": "Envio Y Entrega"
+    }
+  },
+
+  // ! Item content EnvioYEntrega
+  // It is necessary to add this components into politics.jsonc at tab-content#Politics__Content
+  "tab-content.item#EnvioYEntrega": {
+    "children": ["rich-text#EnvioYEntrega",
+      "rich-text#EnvioYEntrega--item1",
+      "rich-text#EnvioYEntrega--item2",
+      "rich-text#EnvioYEntrega--item3",
+      "rich-text#EnvioYEntrega--item4",
+      "rich-text#EnvioYEntrega--item5"
+    ],
+    "props": {
+      "blockClass": [
+        "TabContent",
+        "TabContent--EnvioYEntrega"
+      ],
+      "tabId": "EnvioYEntrega"
+    }
+  },
+  // ? Rich text EnvioYEntrega
+  "rich-text#EnvioYEntrega": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--EnvioYEntrega"
+      ],
+      "text": "## Política de Envio y Entrega PIANTE"
+    }
+  },
+    // ? Rich text EnvioYEntrega
+    "rich-text#Rembolso": {
+      "props": {
+        "blockClass": [
+          "Politics__Text",
+          "Politics__Text--EnvioYEntrega"
+        ],
+        "text": "## Política de rembolso PIANTE"
+      }
+    },
+  "rich-text#EnvioYEntrega--item1": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--EnvioYEntrega--item1"
+      ],
+      "text": "- Envío y Entrega \n - PIANTE se compromete a realizar entregas únicamente dentro del territorio colombiano y en las zonas y lugares a los que tenga acceso, de acuerdo con su red de distribución, y por consiguiente podrá negarse a la aceptación de una oferta de compra cuando el domicilio registrado por el Usuario para realizar la entrega, no se encuentre dentro de las zonas geográficas habilitadas por PIANTE para tal efecto. \n - Los productos objeto de la compraventa serán entregados en el domicilio que el Usuario haga constar al realizar su oferta de compra, dentro de un plazo aproximado de tres (3) días hábiles, contados a partir de la fecha en que PIANTE. acepte la correspondiente oferta de compra, y siempre y cuando se hayan cumplido por anticipado los términos y condiciones de pago y no se presenten causas ajenas a la voluntad de PIANTE que pudieran retrasar la entrega, como cualquier evento de caso fortuito o fuerza mayor. \n - El Usuario reconoce que los plazos de entrega solicitados no son vinculantes, sólo estimaciones y que consecuentemente renuncian a cualquier reclamación contra PIANTE por cualquier retraso o entregas tempranas. \n - Toda entrega de los productos se considerará aceptada en el momento de entrega del producto al Usuario o el destinatario designado por el Usuario, o al domicilio indicado por el Usuario, por tanto toda persona quien reciba el producto en la dirección indicada por el Usuario, el destinatario designado por el Usuario, o al domicilio indicado por el Usuario se entiende autorizado para el recibo del producto, por lo cual no existe responsabilidad alguna de parte de PIANTE por el mal manejo, deterioro o no entrega del producto."
+    }
+  },
+  "rich-text#EnvioYEntrega--item2": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--EnvioYEntrega--item1"
+      ],
+      "text": "- PIANTE no es responsable de: \n - Los productos entregados a direcciones incorrectas proporcionadas por El Usuario. El cambio de dirección generará un costo adicional para su reenvió. Para realizar el reenvío del producto por cambio de dirección, el Usuario deberá contactarnos en un plazo máximo de un día hábil (1) para proceder al renvío. \n - Entregas fallidas derivadas de la no presencia del destinatario en el momento de la entrega en la dirección indicada. No obstante, se realizará una segunda visita a la dirección indicada por el usuario. Costos adicionales por este concepto pueden generarse y serán comunicados al usuario a la mayor brevedad posible.. Una vez, realizada la segunda visita y la entrega se tenga como fallida, los costos de reenvío serán por cuenta de Usuario, los cuales deben se cancelados con anterioridad a su despacho. Para realizar el reenvío del producto, el Usuario deberá contactarnos en un plazo máximo de un día hábil (1) para proceder al reenvío. \n - Disminución de la calidad del producto debido a una dirección de entrega incorrecta suministrada por el Usuario, o una nueva ruta solicitada. Los costos de redireccionamiento del envío serán por cuenta del usuario. \n - ¿Problemas de calidad del producto causados ? por un manejo inadecuado por parte del destinatario."
+    }
+  }
+  ,
+  "rich-text#EnvioYEntrega--item3": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--EnvioYEntrega--item1"
+      ],
+      "text": "- Restricción de pedidos      \n - PIANTE se reserva el derecho de rechazar ciertos pedidos sin necesidad de dar explicaciones."
+    }
+  }
+  ,
+  "rich-text#EnvioYEntrega--item4": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--EnvioYEntrega--item1"
+      ],
+      "text": "- Devoluciones y Reemplazo \n - \n - PIANTE procederá a realizar los cambios y a aceptar las devoluciones de los productos, de acuerdo con los parámetros de las garantías o de acuerdo con los términos de ley. \n - Por ser productos perecederos, PIANTE no garantiza niveles de maduración, tamaño, color o forma y por consiguiente no estará obligado a aceptar devoluciones o remplazos por tales causas. PIANTE no se responsabiliza por las diferencias que presente el producto entre el momento de su empaque, la entrega o la exposición del mismo, como consecuencia de su proceso natural. \n - El comprador tiene derecho a retractarse de su compra antes del envío del producto, evento en el cual se hará la devolución del dinero. Estas solicitudes deberán enviarse al equipo de servicio al cliente de PIANTE. \n - La solicitud de cambio o devolución la deberá hacer el Usuario a través de este sitio, por el lugar habilitado para contactarnos (contáctenos), o por escrito a nuestras direcciones. Siempre que la solicitud de cambio o devolución se presente por causas atribuibles a PIANTE., el crédito que se otorgará por el respectivo cambio o devolución ascenderá al valor total pagado por el Usuario o al equivalente del producto que no haya cumplido con las especificaciones o garantías señaladas."
+    }
+  }
+  ,
+  "rich-text#EnvioYEntrega--item5": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--EnvioYEntrega--item1"
+      ],
+      "text": "- Orden sobre Política de Cancelación \n - PIANTE no permite que las órdenes sean editadas o canceladas después de la aceptación de la orden de conformidad con nuestra política de aceptación del pedido o, si fuera anterior, dentro de cuarenta y ocho (48) horas siguientes a la fecha de ingreso de la orden o dentro de los siete (7) días antes de Navidad, Día de San Valentín, amor y amistad, Día del Padre o el Día de la Madre (debido a nuestro volumen muy elevado de pedidos en estos tiempos). No obstante lo anterior, los pedidos de productos en el sitio www.piante.co no pueden ser cancelados una vez que el pedido ha sido aceptado y despachado."
+    }
+  }
+  ,
+  "rich-text#EnvioYEntrega--item6": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--EnvioYEntrega--item1"
+      ],
+      "text": "1.Moneda: \n - Los pedidos se facturarán siempre en la moneda local de la tienda Pesos Colombianos o en Dólares Americanos, Nuestro sitio web piante.co ajusta diariamente sus precios en otras monedas a los tipos de cambio, pero estas conversiones son sólo aproximativas. \n\n Piante.co no se responsabilizará de ninguna diferencia por el cambio de divisas o de las tarifas que aplique cada institución financiera banco. Para ver el precio exacto de un artículo, consulta la opción de precio en otra moneda o consulta el conversor de cambio de moneda de su preferencia. \n"
+    }
+  }
+  ,
+  "rich-text#EnvioYEntrega--item7": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--EnvioYEntrega--item1"
+      ],
+      "text": "\n 2.¿Cómo solicitar un reembolso? \n - Comuníquese con nosotros telefónicamente o vía WhatsApp al 317 8935494 – 3460700 \n - Informemos su número de pedido o correo con el que realizó su compra para identificarlo y cuéntenos el motivo de la petición del rembolso. \n - Realizaremos la evaluación del caso respectivo, y en caso de que aplique, se convenirá con el cliente la forma de devolución."
+    }
+  }
+  ,
+  "rich-text#EnvioYEntrega--item8": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--EnvioYEntrega--item1"
+      ],
+      "text": "3.¿En qué casos se realiza reembolso de dinero? \n - Cuando su producto fue devuelto conforme a las políticas de devolución. \n - Cuando por error entro más de un pedido. \n - Cuando el producto no ha sido embalado ni ha sido despachado con mínimo 6 horas antes de la entrega y usted ya no desea el producto."
+    }
+  }
+  ,
+  "rich-text#EnvioYEntrega--item9": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--EnvioYEntrega--item1"
+      ],
+      "text": "4.¿Cuánto tiempo tarda el reembolso? \n - El reembolso, podrá tardar entre 3 y 5 días. En caso de haber pagado mediante tarjeta de crédito vía EPAYCO debe tener en cuenta que, aunque nosotros realizamos la devolución antes de 2 días, la franquicia de su tarjeta de crédito maneja tiempos diferentes con el banco respectivo. Para el caso de otros medios de pago, su dinero será reembolsado a una cuenta bancaria suministrada por usted mediante el mismo correo electrónico registrado en su compra que deberá enviarnos a la cuenta de correo desde la que recibió la aprobación de su pedido."
+    }
+  }
+  ,
+  "rich-text#EnvioYEntrega--item10": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--EnvioYEntrega--item1"
+      ],
+      "text": "5.¿Cómo sé que se ha realizado mi reembolso? \n - Vía correo electrónico enviaremos el soporte a su e-mail registrado al momento de la compra el soporte de su reembolso. Del reembolso se restarán las comisiones, tarifas o gastos de conversión de moneda de los que haya tenido que hacerse cargo Piante.co durante proceso comercial que haya surtido."
+    }
+  }
+}

@@ -1,0 +1,176 @@
+/* ------------------------------- */
+/* //* Header */
+/* ------------------------------- */
+.openIconContainer {
+  padding: 0 8px;
+}
+
+.cartIcon {
+  display: none;
+}
+.minicartContainer :global(.vtex-button) {
+  width: 25px;
+  height: 34px;
+  background-image: url("https://pianteco.vtexcommercestable.com.br/arquivos/cart-icon-piante.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.minicartContainer :global(.vtex-button):hover {
+  background-color: transparent;
+}
+.minicartQuantityBadge {
+  top: 50%;
+  left: 50%;
+  color: #324545;
+  background-color: transparent;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  transform: translate(40%, -50%);
+  margin: 0 5px;
+}
+/* ------------------------------- */
+/* //* MiniCart V2 Component */
+/* ------------------------------- */
+.overlay {
+  background-color: #00000070;
+}
+.minicartTitle {
+  font-size: 0;
+}
+.minicartTitle::before {
+  color: #324545;
+  content: "Carrito de compra";
+  font-family: "Encode Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: left;
+}
+.closeIconButton {
+  color: #324545;
+}
+.drawer :global(.vtex-product-list-0-x-productImage) {
+  background-color: white;
+  box-shadow: 0px 4px 15px 0px #0000001a;
+}
+
+.drawer :global(.vtex-product-list-0-x-productVariationsContainer) {
+  color: #808080;
+  font-weight: 400;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+.drawer :global(.vtex-dropdown__container) {
+  border: 1px solid #c8c8c8;
+  border-radius: 100px;
+}
+.drawer :global(.vtex-dropdown__button) {
+  color: #324545;
+}
+.drawer :global(.vtex-product-list-0-x-productBrandName) {
+  color: #808080;
+  font-weight: 400;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+.drawer :global(.vtex-product-list-0-x-removeButton) {
+  color: #324545 !important;
+}
+.drawer :global(.vtex-product-list-0-x-productPriceCurrency) {
+  color: #a7a7a7;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  text-align: left;
+}
+.drawer :global(.vtex-product-list-0-x-productPriceContainer) {
+  color: #324545;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 20px;
+  text-align: left;
+}
+.drawer :global(.vtex-product-list-0-x-price) {
+  font-weight: 600;
+}
+.minicartCheckoutButton :global(.vtex-button) {
+  background-color: #324545;
+  border-radius: 100px;
+  border-color: #324545;
+  transition: 0.3s;
+}
+.minicartCheckoutButton :global(.vtex-button):hover {
+  background-color: #698d6f;
+  border-color: #698d6f;
+}
+.minicartCheckoutButton :global(.vtex-button__label) {
+  font-size: 0;
+}
+.minicartCheckoutButton :global(.vtex-button__label)::before {
+  content: "Finalizar compra";
+  font-family: "Encode Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+.minicartEmptyStateContainer :global(.vtex-rich-text-0-x-paragraph) {
+  font-size: 0;
+}
+.minicartEmptyStateContainer :global(.vtex-rich-text-0-x-paragraph)::before {
+  content: "Tu carrito está vacio";
+  font-family: "Encode Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  color: #324545;
+}
+.drawer :global(.vtex-product-list-0-x-productName) {
+  color: #808080;
+  font-weight: 400;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  font-weight: 100;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  min-width: 10rem;
+}
+.minicartProductListContainer :global(.vtex-flex-layout-0-x-flexRow) {
+  max-width: 10rem;
+}
+/* ------------------------------- */
+/* //? Medias Query */
+/* ------------------------------- */
+@media (min-width: 1200px) {
+  .minicartProductListContainer :global(.vtex-flex-layout-0-x-flexRowContent) {
+    margin: 1px 0;
+  }
+  .minicartQuantityBadge {
+    margin: 0 0.7rem;
+  }
+  .minicartProductListContainer {
+    overflow-y: scroll;
+  }
+  .minicartProductListContainer :global(.vtex-flex-layout-0-x-flexRow) {
+    max-width: 13rem;
+  }
+  /* ! Header */
+  .openIconContainer {
+    padding: 0;
+  }
+  .minicartWrapperContainer {
+    justify-content: center;
+    padding: 0 3rem 0 0;
+  }
+  .drawer :global(.vtex-product-list-0-x-productName) {
+    min-width: 13rem;
+  }
+}
+/* ------------------------------- */

@@ -1,0 +1,82 @@
+{
+  // * Habeas Section
+  "disclosure-layout#Habeas": {
+    "props": {
+      "blockClass": [
+        "Disclosure__group",
+        "Disclosure__group--Habeas"
+      ]
+    },
+    "children": [
+      "disclosure-trigger#Habeas",
+      "disclosure-content#Habeas"
+    ]
+  },
+  // ! Habeas Title Group
+  "disclosure-trigger#Habeas": {
+    "props": {
+      "blockClass": [
+        "Disclosure__Trigger-Politics",
+        "Disclosure__Trigger-Politics--Habeas"
+      ]
+    },
+    "children": ["rich-text#HabeasTitle"]
+  },
+  // ? Group Title
+  "rich-text#HabeasTitle": {
+    "props": {
+      "blockClass": [
+        "Politics__Group-Title",
+        "Politics__Group-Title--Habeas"
+      ],
+      "text": "Habeas data"
+    }
+  },
+  // ! Habeas content
+  "disclosure-content#Habeas": {
+    "props": {
+      "blockClass": [
+        "Disclosure__content",
+        "Disclosure__content--Habeas"
+      ]
+    },
+    "children": ["tab-list.item#Habeas"]
+  },
+
+  //***************************************************************************
+  // * Item 1
+  //***************************************************************************
+  "tab-list.item#Habeas": {
+    "props": {
+      "blockClass": [
+        "TabItem",
+        "TabItem--Habeas"
+      ],
+      "tabId": "habeas",
+      "label": "Habeas"
+    }
+  },
+  // ! Item content Habeas
+  // It is necessary to add this components into politics.jsonc at tab-content#Politics__Content
+  "tab-content.item#Habeas": {
+    "children": ["rich-text#Habeas"],
+    "props": {
+      "blockClass": [
+        "TabContent",
+        "TabContent--Habeas"
+      ],
+      "tabId": "habeas"
+    }
+  },
+  // ? Rich text Habeas
+  "rich-text#Habeas": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--Habeas"
+      ],
+      "text": "## Politics en Habeas ETC"
+    }
+  }
+  //***************************************************************************
+}

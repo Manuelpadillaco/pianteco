@@ -1,0 +1,162 @@
+{
+  "flex-layout.col#TopSlide": {
+    "props": {
+      "blockClass": ["TopSlide"]
+    },
+    "children": ["slider-layout#TopSlide", "slider-layout#TopSlide-M"]
+  },
+
+  // * Slider Container
+  "slider-layout#TopSlide": {
+    "props": {
+      "blockClass": ["TopSlide__Container", "Desktop-Banner"],
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true
+    },
+    "children": [
+      "image#TopSlide-Desk-item-1"
+    ]
+  },
+  "slider-layout#TopSlide-M": {
+    "props": {
+      "blockClass": ["TopSlide__Container", "Mobile-Banner"],
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true
+    },
+    "children": [
+      "image#TopSlide-Mobile-item-1"
+    ]
+  },
+
+
+  // * Slide Item 1
+  "info-card#TopSlide-item-1": {
+    "props": {
+      "blockClass": [
+        "TopSlide__Item",
+        "TopSlide__Item--1"
+      ],
+      "id": "TopSlide-item-1",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://pianteco.vtexassets.com/arquivos/orquideas-desk-piante.png",
+      "mobileImageUrl": "https://pianteco.vtexassets.com/arquivos/BANNER-PRINCIPAL-_-MEDIDAS-659-1095 (1).jpg",
+      "headline": "Nuevo producto",
+      "subhead": "Suavidad y fragancia",
+      "callToActionText": "Comprar Ya", 
+      "callToActionUrl": "#",
+      "textAlignment": "center"
+    }
+  },
+
+  // * Slide Item 2
+  "info-card#TopSlide-item-2": {
+    "props": {
+      "blockClass": [
+        "TopSlide__Item",
+        "TopSlide__Item--2"
+      ],
+      "id": "TopSlide-item-2",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://pianteco.vtexassets.com/arquivos/orquideas-desk-piante.png",
+      "mobileImageUrl": "https://beisbol.vteximg.com.br/arquivos/banner-home-mobile-2.jpg",
+      "headline": "Suavidad y fragancia",
+      "subhead": "Nuevo producto",
+      "callToActionText": "Comprar Ya",
+      "callToActionUrl": "#",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#TopSlide-item-3": {
+    "props": {
+      "blockClass": [
+        "TopSlide__Item",
+        "TopSlide__Item--3"
+      ],
+      "id": "TopSlide-item-2",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://pianteco.vtexassets.com/arquivos/orquideas-desk-piante.png",
+      "mobileImageUrl": "https://beisbol.vteximg.com.br/arquivos/banner-home-mobile-3.jpg",
+      "callToActionUrl": "#",
+      "callToActionMode": "link",
+      "linkTarget": "_self",
+      "textAlignment": "center"
+    }
+  },
+
+//--------BANNERS SIN BOTON
+  "image#TopSlide-Desk-item-1": {
+    "props": {
+      "src": "https://pianteco.vtexassets.com/arquivos/BANNERS-PIANTE_-PRINCIPAL-.jpg",
+      "link": {"url":"/137?map=productClusterIds&order=&page=7"},
+      "blockClass": [
+        "TopSlide__Item",
+        "TopSlide__Item--3"
+      ]
+    }
+  },
+  "image#TopSlide-Desk-item-2": {
+    "props": {
+      "src": "https://pianteco.vtexassets.com/arquivos/banner-desk-2000-piantecoV2.jpg",
+      "link": {"url":"/137?map=productClusterIds&order=&page=7"},
+      "blockClass": [
+        "TopSlide__Item",
+        "TopSlide__Item--3"
+      ]
+    }
+  },
+  "image#TopSlide-Desk-item-3": {
+    "props": {
+      "src": "https://pianteco.vtexassets.com/arquivos/banner-desk-2000-piantecoV2.jpg",
+      "link": {"url":"/137?map=productClusterIds&order=&page=7"},
+      "blockClass": [
+        "TopSlide__Item",
+        "TopSlide__Item--3"
+      ]
+    }
+  },
+
+
+  "image#TopSlide-Mobile-item-1": {
+    "props": {
+      "src": "https://pianteco.vtexassets.com/arquivos/BANNER-PRINCIPAL-_-MEDIDAS-659-1095 (1).jpg",
+      "link": {"url":"/137?map=productClusterIds&order=&page=7"},
+      "blockClass": [
+        "TopSlide__Item",
+        "TopSlide__Item--3"
+      ]
+    }
+  },
+
+  "image#TopSlide-Mobile-item-2": {
+    "props": {
+      "src": "https://beisbol.vteximg.com.br/arquivos/banner-home-mobile-2.jpg",
+      "link": {"url":"/"},
+      "blockClass": [
+        "TopSlide__Item",
+        "TopSlide__Item--3"
+      ]
+    }
+  },
+
+  "image#TopSlide-Mobile-item-3": {
+    "props": {
+      "src": "https://beisbol.vteximg.com.br/arquivos/banner-home-mobile-3.jpg",
+      "link": {"url":"/"},
+      "blockClass": [
+        "TopSlide__Item",
+        "TopSlide__Item--3"
+      ]
+    }
+  }
+}

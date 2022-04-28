@@ -1,0 +1,684 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;600;800;900&display=swap");
+/* ------------------------------- */
+/* //* Header */
+/* ------------------------------- */
+
+.container--Header-top-text {
+  background-color: #324545;
+}
+.wrapper--Header-top-text {
+  width: 100%;
+}
+.paragraph--Header-top-text {
+  color: white;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  text-align: center;
+}
+.link--Header-top-text {
+  color: #324545;
+  text-decoration: none;
+}
+.link--Header-top-text:hover {
+  text-decoration: underline;
+}
+
+/* ------------------------------- */
+/* //* Menu */
+/* ------------------------------- */
+.paragraph--Category__Title {
+  margin: 0;
+  color: #324545;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+.container--Category__Title {
+  justify-content: space-between;
+  align-items: center;
+}
+.container--Category__Title::after {
+  content: "";
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/flecha-verde2-painte.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+:global(.vtex-disclosure-layout-1-x-trigger--Disclosure__Trigger--Category--visible)
+  .container--Category__Title::after {
+  transform: rotate(180deg);
+}
+
+/* ------------------------------- */
+/* //* Footer */
+/* ------------------------------- */
+.wrapper--FooterTitle {
+  width: 100%;
+}
+.paragraph--FooterTitle {
+  color: white;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  text-transform: inherit;
+}
+.paragraph--FooterTitle--institutional,
+.paragraph--FooterTitle--politics,
+.paragraph--FooterTitle--support,
+.paragraph--FooterTitle--client,
+.paragraph--FooterTitle--terms {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin: 8px 0px;
+  text-align: left;
+}
+.paragraph--FooterTitle--institutional::after,
+.paragraph--FooterTitle--politics::after,
+.paragraph--FooterTitle--support::after,
+.paragraph--FooterTitle--client::after,
+.paragraph--FooterTitle--terms::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  /* TODO: Change icons in footer with white label */
+  background-image: url("https://beisbol.vteximg.com.br/arquivos/flecha-abajo-footer.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.wrapper--Footer__Text {
+  width: 100%;
+}
+.paragraph--Footer__Text {
+  margin-top: 0;
+  margin-bottom: 6px;
+  color: white;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  text-align: left;
+  font-weight: 100;
+  text-align: center;
+  padding: 5px 0px;
+}
+.link--Footer__Text {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 18px;
+  text-align: left;
+  font-weight: 100;
+  font-size: "Encode Sans", sans-serif;
+}
+.link--Footer__Text:hover {
+  color: white;
+}
+.paragraph--FooterTitle--development {
+  margin-bottom: 0;
+}
+.paragraph--FooterTitle--technology {
+  margin-bottom: 0;
+}
+.wrapper--CopyRight {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #c4c4c4;
+  text-align: center;
+}
+.paragraph--CopyRight {
+  color: black;
+  margin: 10px;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  text-align: center;
+}
+/* ------------------------------- */
+/* //* Home */
+/* ------------------------------- */
+/* ! Home information  */
+.wrapper--Information__item {
+  width: 100%;
+}
+.paragraph--Information__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0;
+  width: 100%;
+  color: #324545;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.paragraph--Information__item::before {
+  content: "";
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.paragraph--Information__item--1::before {
+  background-image: url("https://beisbol.vteximg.com.br/arquivos/icono-garantia de-marca.png");
+}
+.paragraph--Information__item--2::before {
+  background-image: url("https://beisbol.vteximg.com.br/arquivos/icono-formas-de-pago.png");
+}
+.paragraph--Information__item--3::before {
+  background-image: url("https://beisbol.vteximg.com.br/arquivos/icono-envios-nacionales.png");
+}
+.paragraph--Information__item--4::before {
+  background-image: url("https://beisbol.vteximg.com.br/arquivos/icono-compra-garantizada.png");
+}
+
+/* ! Vitrina 1 */
+.heading--Home__Title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #324545;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+.paragraph--Title--destacados-new {
+  text-transform: uppercase;
+  font-family: "Encode Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(21px, 2.5vw, 2rem);
+  line-height: 42px;
+  color: #324545;
+  width: 100%;
+  padding: 0 1rem;
+}
+.paragraph--Home__description {
+  font-family: "Encode Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  color: #324545;
+  width: 90%;
+  margin: 0 0 0 2rem;
+}
+.container--Home__Title {
+  margin: 2rem 0 0 2rem;
+}
+.heading--Home__Title::before {
+  margin-right: 10px;
+  transform: rotate(180deg);
+}
+.heading--Home__Title::after {
+  margin-left: 10px;
+}
+
+/* ! Banners Bottom */
+.wrapper--Title--mom {
+  width: 100%;
+}
+.heading--Title--mom {
+  margin: 0;
+  margin-top: 40px;
+  padding: 20px 0;
+  width: 100%;
+  color: white;
+  background-color: #a056ff;
+}
+.heading--Title--mom::before,
+.heading--Title--mom::after {
+  display: none;
+}
+
+/* ------------------------------- */
+/* //* Product page*/
+/* ------------------------------- */
+.headingLevel2--Title--most-selling {
+  margin-top: 70px;
+}
+
+/* ------------------------------- */
+/* //* Politics page*/
+/* ------------------------------- */
+.headingLevel1--Politics__Title {
+  font-family: "Encode Sans", sans-serif;
+  font-size: 52px;
+  font-weight: 600;
+  color: #001689;
+  margin: 20px 0 50px;
+  text-transform: uppercase;
+}
+.container--Politics__Title {
+  padding: 0 15px;
+}
+.wrapper--Politics__Group-Title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+  padding: 0 25px;
+  width: 100%;
+  color: white;
+}
+.wrapper--Politics__Group-Title::after {
+  content: "";
+  width: 25px;
+  height: 25px;
+  /* TODO: Change store URL resource */
+  background-image: url("https://pianteco.vteximg.com.br/arquivos/arrow-icon-politics.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.paragraph--Politics__Group-Title {
+  margin: 12px 0;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.paragraph--Politics__Text {
+  margin: 0;
+}
+.container--Politics__Text {
+  color: #808080;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 18px;
+}
+
+/* ------------------------------- */
+/* //* About us page*/
+/* ------------------------------- */
+.paragraph--About__Title {
+  margin: 17px auto 0;
+  width: 90%;
+  color: #324545;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 49px;
+  text-transform: uppercase;
+}
+.paragraph--About__Text {
+  margin-bottom: 0;
+  color: #808080;
+  font-family: "Encode Sans", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+  margin: 2rem 0;
+}
+.headingLevel4--About__Text {
+  margin: 17px 0px 0;
+  color: #324545;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+}
+.wrapper--About__Title--Mision,
+.wrapper--About__Title--Vision {
+  width: 100%;
+}
+.paragraph--About__Title--Mision,
+.paragraph--About__Title--Vision {
+  margin: 0 auto 10px;
+  font-size: 40px;
+}
+.paragraph--About__Text--Mision,
+.paragraph--About__Text--Vision {
+  margin-top: 10px;
+  text-align: start;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--About__Section--Text)
+  .container--About__Text--Text {
+  padding: 40px;
+  width: 85%;
+  background-color: #324545;
+  border-radius: 10px;
+  transform: translateY(-50px);
+}
+.headingLevel4--About__Text--Text {
+  color: white;
+  text-transform: uppercase;
+}
+.paragraph--About__Text--Text {
+  color: white;
+}
+.container--About__Text--GotToBuy {
+  margin-top: 30px;
+}
+.wrapper--About__Text--GotToBuy {
+  width: 80%;
+}
+.link--About__Text--GotToBuy {
+  display: block;
+  padding: 15px;
+  width: 100%;
+  color: white;
+  background-color: #324545;
+  border-radius: 100px;
+  text-decoration: none;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.paragraph--About__Text--GotToBuy {
+  margin-top: 0;
+}
+.paragraph--Footer__Text {
+  display: flex;
+  justify-content: center;
+}
+.paragraph--Footer__Text--terms-2 {
+  padding: 9px 100px;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  background-color: #3a4e4e;
+  margin: 0;
+}
+.paragraph--Politics__Group-Title {
+  margin: 12px 0;
+  text-transform: uppercase;
+  font-family: "Encode Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #324545;
+}
+
+.headingLevel1--Politics__Title {
+  margin: 20px 0 50px;
+  text-transform: uppercase;
+  font-family: "Encode Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 100%;
+  color: #324545;
+  width: auto !important;
+}
+
+.container {
+  max-width: 100% !important;
+  margin: 0;
+}
+.headingLevel2--Politics__Text {
+  font-family: "Encode Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 27px;
+  color: #324545;
+}
+
+.container--FooterTitle--development {
+  margin: 0 !important;
+}
+.container--Header-top-text {
+  z-index: 2;
+}
+@media (min-width: 1200px) {
+  .paragraph--FooterTitle--development {
+    margin: 0 0 -7px;
+  }
+  .paragraph--Title--destacados-new {
+    margin: 0;
+  }
+  .container--Title--related::before {
+    content: "";
+    position: absolute;
+    top: -3rem;
+    width: 94vw;
+    border-top: 2px solid #d3d3d3;
+    height: 2rem;
+    right: 0px;
+    left: -2vw;
+  }
+
+  .container--Title--related {
+    position: relative;
+  }
+  .wrapper--Title--related {
+    margin-left: 5rem !important;
+  }
+  .container--Title--destacados-new {
+    max-width: 86% !important;
+    padding: 1rem 0 10px;
+  }
+
+  .link--Footer__Text:hover {
+    color: #eab68c;
+  }
+  .paragraph--Footer__Text:hover {
+    color: #eab68c;
+  }
+
+  .paragraph--Home__description {
+    margin: 0;
+    width: 100%;
+  }
+  .container--Title--destacados-new {
+    max-width: 86% !important;
+    padding: 2rem 0 10px;
+  }
+  .container--Description--categories-home {
+    max-width: 86% !important;
+    padding: 0rem 0 10px;
+  }
+  .container--Header-top-text {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .container {
+    max-width: 104rem;
+    margin: 0 auto;
+  }
+
+  /* ! Header */
+  .paragraph--Footer__Text {
+    font-size: 14px;
+    text-align: start;
+  }
+  .link--Footer__Text {
+    font-size: 14px;
+  }
+  .paragraph--Header-top-text {
+    margin: 5px;
+  }
+  .logoContainer--Header-Desktop__Logo {
+    padding: 0;
+  }
+  .logoImage--Header-Desktop__Logo {
+    width: 100%;
+  }
+  /* ! HOME */
+  .container--Home__Title {
+    margin: 2rem 5rem 10px;
+  }
+  /* ! Footer */
+  .paragraph--Footer__Text--terms-2 {
+    font-size: 16px;
+  }
+  .paragraph--FooterTitle--development {
+    text-align: left;
+    margin: 0 !important;
+  }
+  .paragraph--FooterTitle {
+    margin: 0 0 10px;
+  }
+  .paragraph--FooterTitle--institutional::after,
+  .paragraph--FooterTitle--politics::after,
+  .paragraph--FooterTitle--support::after,
+  .paragraph--FooterTitle--client::after {
+    display: none;
+  }
+
+  /* ! Home information  */
+  .paragraph--Information__item {
+    font-size: 17px;
+  }
+  .paragraph--Information__item::before {
+    margin-right: 15px;
+  }
+  .heading--Title--destacados-new {
+    margin-top: 60px;
+  }
+
+  /* ! Bottom Banners */
+  .heading--Title--mom {
+    margin-top: 0;
+  }
+  .container--Title--mom {
+    height: 100%;
+  }
+
+  /* ! CopyRight */
+  .wrapper--CopyRight {
+    background-color: white;
+  }
+
+  /* ! Product page */
+  .headingLevel2--Title--most-selling {
+    margin-top: 0;
+  }
+
+  /* ! Politics page */
+  .heading--Politics__Title {
+    width: 90%;
+  }
+  .container--Politics__Title {
+    padding: 0 100px;
+  }
+  .paragraph--About__Text--WhoWeAre {
+    color: #ffffff;
+  }
+
+  /* ! About page */
+  .paragraph--About__Title--WhoWeAre {
+    margin: 17px 0 0;
+    width: 100%;
+    color: white;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--About__Section--Text)
+    .container--About__Text--Text {
+    width: 100%;
+    transform: translate(-25px, 0px);
+    margin: 30px 0;
+  }
+}
+
+/* ------------------------------- */
+.container--deals {
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+}
+
+.container--shelfTitle {
+  color: #727273;
+  justify-content: center;
+  text-align: center;
+}
+
+.headingLevel2--shelfTitle {
+  font-weight: 200;
+}
+
+.container--deals .paragraph {
+  margin: 0;
+}
+
+.container--link {
+  justify-content: center;
+}
+
+.container--question {
+  justify-content: center;
+}
+
+.container--question .paragraph {
+  text-align: center;
+  max-width: 540px;
+  margin: 0 16px;
+  padding-top: 120px;
+  color: #03034e;
+}
+
+.container--question .strong {
+  font-size: 32px;
+  line-height: 2rem;
+  font-weight: 600;
+}
+
+.container--link .paragraph {
+  text-align: center;
+  max-width: 540px;
+  padding-top: 36px;
+  padding-bottom: 84px;
+  color: #03034e;
+}
+
+.container--link .strong {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.container--link .link {
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 300;
+  color: #03034e;
+}
+
+.container--title {
+  color: #03034e;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+@media only screen and (min-width: 640px) {
+  .container--question .strong {
+    font-size: 40px;
+    line-height: 3rem;
+  }
+
+  .container--about {
+    max-width: 85%;
+  }
+
+  .container--title {
+    color: #03034e;
+    font-size: 40px;
+    font-weight: 600;
+    max-width: 60%;
+  }
+
+  .container--title .paragraph {
+    line-height: 1.3em;
+  }
+}

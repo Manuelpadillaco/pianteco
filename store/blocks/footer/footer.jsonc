@@ -1,0 +1,594 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "image#ButtonWhatsapp": {
+    "props": {
+      "src": "https://pianteco.vtexassets.com/arquivos/logos_whatsapp.png",
+      "link": {
+        "url":"https://shorturl.at/hkyDN",
+        "newTab":true
+      },
+      "blockClass": [
+        "ButtonWhatsapp",
+        "ButtonWhatsapp--desktop"
+        
+      ]
+    }
+  },
+  // * Promotions section
+  // ! Title promotions
+  "rich-text#TitlePromotions": {
+    "props": {
+      "blockClass": ["FooterTitle", "FooterTitle--promotions"],
+      "text": "Fechas promocionales"
+    }
+  },
+
+  "rich-text#Devolutions": {
+    "props": {
+      "blockClass": ["Footer__Text", "Footer__Text--promotion"],
+      "text": "[Política de devoluciones y reembolsos](#)"
+    }
+  },
+
+  "rich-text#Shipping": {
+    "props": {
+      "blockClass": ["Footer__Text", "Footer__Text--promotion"],
+      "text": "[Envío y entrega](https://devpiante--pianteco.myvtex.com/politicas)"
+    }
+  },
+  "rich-text#industriaCommerce": {
+    "props": {
+      "blockClass": ["Footer__Text", "Footer__Text--promotion"],
+      "text": "[Superintendencia de industria y comercio](https://devpiante--pianteco.myvtex.com/politicas)"
+    }
+  },
+
+  // ! Promotion text 1
+  "rich-text#Promotion1": {
+    "props": {
+      "blockClass": ["Footer__Text", "Footer__Text--promotion"],
+      "text": "[Cyber Days](#)"
+    }
+  },
+  // ! Promotion text 2
+  "rich-text#Promotion2": {
+    "props": {
+      "blockClass": ["Footer__Text", "Footer__Text--promotion"],
+      "text": "[Black Friday](#)"
+    }
+  },
+
+  // * Socials section
+  // ! Title socials
+  "rich-text#TitleSocials": {
+    "props": {
+      "blockClass": ["FooterTitle", "FooterTitle--socials"],
+      "text": "Redes sociales"
+    }
+  },
+  // ! Socials images container
+  "flex-layout.col#FooterSocials": {
+    "props": {
+      "blockClass": ["Footer-social__Images"]
+    },
+    "children": [
+      "image#Facebook",
+      "image#TikTok",
+      "image#Instagram",
+      "image#Youtube"
+    ]
+  },
+
+  // * Socials section
+  // ! Title socials
+  "rich-text#TitlePagos": {
+    "props": {
+      "blockClass": ["FooterTitle", "FooterTitle--Pagos"],
+      "text": "Redes sociales"
+    }
+  },
+  // ! Socials images container
+  "flex-layout.col#FooterPagos1": {
+    "props": {
+      "blockClass": ["Footer-Promotional__Images"]
+    },
+    "children": [
+      "image#PlayU",
+      "image#Visa",
+      "image#MasterCard",
+      "image#American",
+      "image#Pse",
+      "image#Baloto",
+      "image#MercadoPago"
+    ]
+  },
+  "flex-layout.col#FooterPagos1-2": {
+    "props": {
+      "blockClass": ["Footer-Promotional__Images"]
+    },
+    "children": ["image#LogoAllPaymentDesk"]
+  },
+  // ! Socials images container
+  "flex-layout.col#FooterPagos2": {
+    "props": {
+      "blockClass": ["Footer-Promotional__Images"]
+    },
+    "children": [
+      "image#Bancolombia",
+      "image#Davivienda",
+      "image#Chase",
+      "image#Paypal"
+    ]
+  },
+  // ! Facebook Icon
+  "image#Facebook": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--facebook"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/fb-icon.png",
+      "link": {
+        "url": "https://www.facebook.com/piantecol",
+        "label": "Facebook",
+        "newTab": true
+      }
+    }
+  },
+  // ! Instagram Icon
+  "image#Instagram": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--instagram"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/ig-icon-piante.png",
+      "link": {
+        "url": "https://www.instagram.com/piantecol/",
+        "label": "Instagram",
+        "newTab": true
+      }
+    }
+  },
+  // ! Twitter Icon
+  "image#Twitter": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--Twitter"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/",
+      "link": {
+        "url": "#",
+        "label": "Twitter",
+        "newTab": true
+      }
+    }
+  },
+  // ! Youtube Icon
+  "image#Youtube": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--Youtube"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/yt-icon-piante.png",
+      "link": {
+        "url": "https://www.youtube.com/channel/UCJY7NH_F64ZZVWHSE_dxYIw",
+        "label": "Youtube",
+        "newTab": true
+      }
+    }
+  },
+  // ! TikTok Icon
+  "image#TikTok": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--tiktok"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/tiktok-icon-piante.png",
+      "link": {
+        "url": "https://www.tiktok.com/@piantecol",
+        "label": "Tiktok",
+        "newTab": true
+      }
+    }
+  },
+
+  // ! Linkedin Icon
+  "image#Linkedin": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--linkedin"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/linkedin-icon-piante.png",
+      "link": {
+        "url": "#",
+        "label": "Facebook",
+        "newTab": true
+      }
+    }
+  },
+  // * Payments Section
+  // ! Title Payments
+  "rich-text#TitlePayments": {
+    "props": {
+      "blockClass": ["FooterTitle", "FooterTitle--payments"],
+      "text": "Medios de pago"
+    }
+  },
+  // ! Payments image
+  "image#Payments": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--payments"],
+      "src": "https://pianteco.vteximg.com.br/arquivos/medios-pago-footer.png"
+    }
+  },
+  "image#PlayU": {
+    "props": {
+      "blockClass": ["Footer__imagePayment", "Footer__image--PayU"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/payuB-logo-piante.png",
+      "link": {
+        "url": "#",
+        "label": "PayU",
+        "newTab": true
+      }
+    }
+  },
+  "image#Visa": {
+    "props": {
+      "blockClass": ["Footer__imagePayment", "Footer__image--Visa"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/visaB-logo-piante.png",
+      "link": {
+        "url": "#",
+        "label": "Visa",
+        "newTab": true
+      }
+    }
+  },
+  "image#MasterCard": {
+    "props": {
+      "blockClass": ["Footer__imagePayment", "Footer__image--MasterCard"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/mastercardB-logo-piante.png",
+      "link": {
+        "url": "#",
+        "label": "MasterCard",
+        "newTab": true
+      }
+    }
+  },
+  "image#American": {
+    "props": {
+      "blockClass": ["Footer__imagePayment", "Footer__image--American"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/americanexpressB-logo-piante.png",
+      "link": {
+        "url": "#",
+        "label": "American",
+        "newTab": true
+      }
+    }
+  },
+  "image#Pse": {
+    "props": {
+      "blockClass": ["Footer__imagePayment", "Footer__image--Pse"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/pseB-logo-piante.png",
+      "link": {
+        "url": "#",
+        "label": "Pse",
+        "newTab": true
+      }
+    }
+  },
+  "image#Baloto": {
+    "props": {
+      "blockClass": ["Footer__imagePayment", "Footer__image--Baloto"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/balotoB-logo.png",
+      "link": {
+        "url": "#",
+        "label": "Baloto",
+        "newTab": true
+      }
+    }
+  },
+  "image#MercadoPago": {
+    "props": {
+      "blockClass": ["Footer__imagePayment", "Footer__image--MercadoPago"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/mercadopagoB-logo-piante.png",
+      "link": {
+        "url": "#",
+        "label": "MercadoPago",
+        "newTab": true
+      }
+    }
+  },
+  "image#Bancolombia": {
+    "props": {
+      "blockClass": ["Footer__imagePayment", "Footer__image--Bancolombia"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/bancolombiaB-logo-piante.png",
+      "link": {
+        "url": "#",
+        "label": "Bancolombia",
+        "newTab": true
+      }
+    }
+  },
+  "image#Davivienda": {
+    "props": {
+      "blockClass": ["Footer__imagePayment", "Footer__image--Davivienda"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/daviviendaB-logo-piante.png",
+      "link": {
+        "url": "#",
+        "label": "Davivienda",
+        "newTab": true
+      }
+    }
+  },
+  "image#Chase": {
+    "props": {
+      "blockClass": ["Footer__imagePayment", "Footer__image--Chase"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/chaseB-logo.png",
+      "link": {
+        "url": "#",
+        "label": "Chase",
+        "newTab": true
+      }
+    }
+  },
+  "image#Paypal": {
+    "props": {
+      "blockClass": ["Footer__imagePayment", "Footer__image--Paypal"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/paypalB-logo-piante.png",
+      "link": {
+        "url": "#",
+        "label": "Paypal",
+        "newTab": true
+      }
+    }
+  },
+  // * Development section
+  // ! Title Development
+  "rich-text#Development": {
+    "props": {
+      "blockClass": ["FooterTitle", "FooterTitle--development"],
+      "text": "Desarrollado por"
+    }
+  },
+  // ! Development image
+  "image#Development": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--development"],
+      "src": "https://pianteco.vteximg.com.br/arquivos/epartner-icono-footer.png",
+      "link": {
+        "url": "https://digitalepartner.com/",
+        "label": "ePartner",
+        "newTab": true
+      }
+    }
+  },
+
+  // ! Technology image
+  "image#Technology": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--technology"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/vtex-logo-piante.png",
+      "link": {
+        "url": "https://vtex.com/co-es",
+        "label": "VTEX",
+        "newTab": true
+      }
+    }
+  },
+  "rich-text#TitleContact": {
+    "props": {
+      "blockClass": ["FooterTitle", "FooterTitle--contact"],
+      "text": "Contacto"
+    }
+  },
+
+  "rich-text#TitleMail": {
+    "props": {
+      "blockClass": ["Footer__Text", "Footer__Text--mail"],
+      "text": "servicioalcliente@piante.co"
+    }
+  },
+
+  "rich-text#Phone1": {
+    "props": {
+      "blockClass": ["Footer__Text", "Footer__Text--phone"],
+      "text": "(601) 346 0700"
+    }
+  },
+  "rich-text#Phone2": {
+    "props": {
+      "blockClass": ["Footer__Text", "Footer__Text--phone"],
+      "text": "+57 317 893 5494"
+    }
+  },
+
+  "rich-text#Address": {
+    "props": {
+      "blockClass": ["Footer__Text", "Footer__Text--phone"],
+      "text": "Cll. 169 # 67-85 Local 24 Conjunto residencial Ikebana, San José de Bavaria, Bogota"
+    }
+  },
+
+  // * CopyRight Section
+  "rich-text#CopyRight": {
+    "props": {
+      "blockClass": ["CopyRight"],
+      "text": "Copyright Piante 2021"
+    }
+  },
+
+  // * Politics Section
+  // ! Title Politics
+  "rich-text#TitlePolitics": {
+    "props": {
+      "blockClass": ["FooterTitle", "FooterTitle--politics"],
+      "text": "Nuestras políticas"
+    }
+  },
+
+  // ! Devolution and refouns
+  "rich-text#Terms": {
+    "props": {
+      "blockClass": ["Footer__Text", "Footer__Text--terms"],
+      "text": "[Terminos y condiciones](https://devpiante--pianteco.myvtex.com/politicas)"
+    }
+  },
+  // ! Privacy politics
+  "rich-text#PrivacyPolitics": {
+    "props": {
+      "blockClass": ["Footer__Text", "Footer__Text--privacy-politics"],
+      "text": "[Política de Privacidad ](https://devpiante--pianteco.myvtex.com/politicas)"
+    }
+  },
+  // ! Cookies politics
+  "rich-text#Cookies": {
+    "props": {
+      "blockClass": ["Footer__Text", "Footer__Text--cookies"],
+      "text": "[Política de Cookies](https://devpiante--pianteco.myvtex.com/politicas)"
+    }
+  },
+  // ! Anti-Corruption politics
+  "rich-text#Corruption": {
+    "props": {
+      "blockClass": ["Footer__Text", "Footer__Text--corruption"],
+      "text": "[Política Anticorrupción](https://devpiante--pianteco.myvtex.com/politicas)"
+    }
+  },
+
+  // * Institutional Section
+  // ! Title Institutional
+  "rich-text#TitleInstitutional": {
+    "props": {
+      "blockClass": ["FooterTitle", "FooterTitle--institutional"],
+      "text": "¿Quienes somos?"
+    }
+  },
+  // ! Company
+  "rich-text#Company": {
+    "props": {
+      "blockClass": ["Footer__Text", "Footer__Text--company"],
+      "text": "[Sobre la empresa](#)"
+    }
+  },
+  // ! History
+  "rich-text#History": {
+    "props": {
+      "blockClass": ["Footer__Text", "Footer__Text--history"],
+      "text": "[Historia](#)"
+    }
+  },
+  // ! Works
+  "rich-text#Works": {
+    "props": {
+      "blockClass": ["Footer__Text", "Footer__Text--works"],
+      "text": "[Trabaja con nosotros](#)"
+    }
+  },
+
+  // * Client attention Section
+  // ! Title Client
+  "rich-text#TitleClient": {
+    "props": {
+      "blockClass": ["FooterTitle", "FooterTitle--client"],
+      "text": "Servicio al Cliente"
+    }
+  },
+  // ! Number Client
+  "rich-text#NumberClient": {
+    "props": {
+      "blockClass": ["Footer__Text", "Footer__Text--number"],
+      "text": "[018000 180382](#)"
+    }
+  },
+  // ! Attention Mail
+  "rich-text#Mail": {
+    "props": {
+      "blockClass": ["Footer__Text", "Footer__Text--mail"],
+      "text": "[servicioalcliente@pianteco.com](mailto:servicioalcliente@pianteco.com)"
+    }
+  },
+
+  // * Support Client Section
+  // ! Title Client
+  "rich-text#TitleSupport": {
+    "props": {
+      "blockClass": ["FooterTitle", "FooterTitle--support"],
+      "text": "Soporte y Servicio"
+    }
+  },
+  // ! Advice
+  "rich-text#Advice": {
+    "props": {
+      "blockClass": ["Footer__Text", "Footer__Text--advice"],
+      "text": "[Asesoramiento](#)"
+    }
+  },
+  // ! Contact
+  "rich-text#Contact": {
+    "props": {
+      "blockClass": ["Footer__Text", "Footer__Text--contact"],
+      "text": "[Contáctanos](#)"
+    }
+  },
+  // ! Warranty
+  "rich-text#Warranty": {
+    "props": {
+      "blockClass": ["Footer__Text", "Footer__Text--warranty"],
+      "text": "[Política de Garantía](#)"
+    }
+  },
+  "rich-text#OtroEnlaces": {
+    "props": {
+      "text": "[¿Quienes somos?](https://devpiante--pianteco.myvtex.com/sobre-nosotros)",
+      "blockClass": "Footer__Text"
+    }
+  },
+  "rich-text#OtroEnlace": {
+    "props": {
+      "text": "Nosotros",
+      "blockClass": ["FooterTitle--politics", "FooterTitle"]
+    }
+  },
+  // * Terms  Section
+  // ! Title Terms
+  "rich-text#TitleTerms": {
+    "props": {
+      "blockClass": ["FooterTitle", "FooterTitle--terms"],
+      "text": "Términos y condiciones"
+    }
+  },
+  // ! Terms Text
+  "rich-text#TermsText": {
+    "props": {
+      "blockClass": ["Footer__Text", "Footer__Text--terms-2"],
+      "text": "© Piante 2022 | Comparte todo lo que sientes"
+    }
+  },
+
+  // ! Company image
+  "image#Logo": {
+    "props": {
+      "blockClass": ["Footer__imageCO", "Footer__image--company"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/footer-piante-logo-piante.png",
+      "link": {
+        "url": "/",
+        "label": "Piante",
+        "newTab": false
+      }
+    }
+  },
+
+  // ! Company image
+  "image#LogoAllPaymentMobile": {
+    "props": {
+      "blockClass": ["Footer__imageCO", "Footer__image--allpaymentsMobile"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/medios-pago-mobile.png",
+      "link": {
+        "url": "/",
+        "label": "Piante",
+        "newTab": false
+      }
+    }
+  },
+  // ! Company image
+  "image#LogoAllPaymentDesk": {
+    "props": {
+      "blockClass": ["Footer__imageCO", "Footer__image--allpaymentsMobile"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/pagos-desk-pianteco.png",
+      "link": {
+        "url": "/",
+        "label": "Piante",
+        "newTab": false
+      }
+    }
+  }
+}

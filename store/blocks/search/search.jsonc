@@ -1,0 +1,239 @@
+{
+  "store.search": {
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "default",
+        "maxItemsPerPage": 12,
+        "orderByField": "OrderByReleaseDateDESC"
+      }
+    }
+  },
+  // ! Result for Brands
+  "store.search#brand": {
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "default",
+        "maxItemsPerPage": 12,
+        "orderByField": "OrderByReleaseDateDESC"
+      }
+    }
+  },
+  // ! Result for Departments
+  "store.search#department": {
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "default",
+        "maxItemsPerPage": 12,
+        "orderByField": "OrderByReleaseDateDESC"
+      }
+    }
+  },
+  // ! Result for Categories
+  "store.search#category": {
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "default",
+        "maxItemsPerPage": 12,
+        "orderByField": "OrderByReleaseDateDESC"
+      }
+    }
+  },
+  // ! Result for Subcategories
+  "store.search#subcategory": {
+    "blocks": ["search-result-layout"],
+    "props": {
+      "blockClass": "search-category",
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "default",
+        "maxItemsPerPage": 12,
+        "orderByField": "OrderByReleaseDateDESC"
+      }
+    }
+  },
+
+  // * Search layout general
+  "search-result-layout": {
+    "blocks": [
+      "search-result-layout.desktop", // ./Desktop/searchDesktop.jsonc
+      "search-result-layout.mobile", // ./Mobile/searchMobile.jsonc
+      "search-not-found-layout"
+    ]
+  },
+
+  // * Breadcrumb row
+  "flex-layout.row#SearchBreadcrumb": {
+    "children": ["breadcrumb.search"],
+    "props": {
+      "blockClass": [
+        "Search__Row",
+        "Search__Row--Breadcrumb"
+      ],
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  // ! Breadcrumb
+  "breadcrumb.search": {
+    "props": {
+      "blockClass": [
+        "Breadcrumb",
+        "Breadcrumb--Search"
+      ],
+      "showOnMobile": true
+    }
+  },
+
+  // * Fetch Previous
+  "flex-layout.row#FetchPrevious": {
+    "props": {
+      "marginBottom": 3
+    },
+    "children": ["search-fetch-previous"]
+  },
+  "search-fetch-previous": {
+    "props": {
+      "htmlElementForButton": "a"
+    }
+  },
+
+  // * Fetch More
+  "flex-layout.row#FetchMore": {
+    "props": {
+      "marginTop": 3
+    },
+    "children": ["search-fetch-more"]
+  },
+  "search-fetch-more": {
+    "props": {
+      "htmlElementForButton": "a"
+    }
+  },
+
+  // * Search Title
+  "flex-layout.row#SearchTitle": {
+    "props": {
+      "blockClass": [
+        "Search__Row",
+        "Search__Row--Title"
+      ]
+    },
+    "children": ["search-title.v2"]
+  },
+
+  // * Search Content result
+  "search-content": {
+    "blocks": ["gallery", "not-found"]
+  },
+  // ! Shelf gallery
+  "gallery": {
+    "props": {
+      "layouts": [
+        {
+          "name": "grid",
+          "component": "GridSummary",
+          "itemsPerRow": {
+            "desktop": 4,
+            "tablet": 2,
+            "mobile": 2
+          }
+        },
+        {
+          "name": "list",
+          "component": "ListSummary",
+          "itemsPerRow": 1
+        }
+      ],
+      // "ListSummary": "product-summary.shelf#listLayout",
+      "ListSummary": "product-summary.shelf#HomeVitrinas",
+      "GridSummary": "product-summary.shelf#HomeVitrinas"
+      // "GridSummary": "product-summary.shelf"
+    }
+  },
+
+  // * Image Search
+  "info-card#Search": {
+    "props": {
+      "id": "Info-card-search",
+      "blockClass": ["Search__Image"],
+      "isFullModeStyle": true,
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "mobileImageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png"
+    }
+  },
+
+  // -*********************************************************
+
+  // * ************************
+  // * Search layout Not Found
+  // * ************************
+  "search-not-found-layout": {
+    "children": [
+      "flex-layout.row#SearchBreadcrumb",
+      "flex-layout.row#notfound"
+    ]
+  },
+  "flex-layout.row#notfound": {
+    "children": ["not-found"],
+    "props": {
+      "fullWidth": true
+    }
+  },
+
+  "gallery-layout-switcher": {
+    "children": [
+      /*
+       * For accessability to work properly,
+       * It's important to define the options in the same order as the layouts
+       */
+      "gallery-layout-option#grid",
+      "gallery-layout-option#list"
+    ]
+  },
+  "gallery-layout-option#grid": {
+    "props": {
+      "name": "grid"
+    },
+    "children": [
+      "icon-grid",
+      "responsive-layout.desktop#textOptionGrid"
+    ]
+  },
+  "gallery-layout-option#list": {
+    "props": {
+      "name": "list"
+    },
+    "children": [
+      "icon-inline-grid",
+      "responsive-layout.desktop#textOptionList"
+    ]
+  },
+  "responsive-layout.desktop#textOptionGrid": {
+    "children": ["rich-text#option-grid"]
+  },
+  "responsive-layout.desktop#textOptionList": {
+    "children": ["rich-text#option-list"]
+  },
+  "rich-text#option-grid": {
+    "props": {
+      "text": "Grid",
+      "textColor": "c-auto",
+      "blockClass": "layout-option"
+    }
+  },
+  "rich-text#option-list": {
+    "props": {
+      "text": "List",
+      "textColor": "c-auto",
+      "blockClass": "layout-option"
+    }
+  }
+}

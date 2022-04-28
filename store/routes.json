@@ -1,0 +1,17 @@
+{
+  "store.custom#politics": {
+    "path": "/politicas"
+  },
+  "store.custom#about": {
+    "path": "/sobre-nosotros"
+  },
+  "store.custom#about-us": {
+    "path": "/about-us"
+  },
+  "store.custom#faq": {
+    "path": "/faq"
+  },
+  "store.custom#contact-us": {
+    "path": "/contact-us"
+  }
+}

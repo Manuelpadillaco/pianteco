@@ -1,0 +1,61 @@
+{
+  "flex-layout.col#Information": {
+    "props": {
+      "blockClass": ["Information__Container"]
+    },
+    "children": [
+      "rich-text#Information-item-1",
+      "rich-text#Information-item-2",
+      "rich-text#Information-item-3",
+      "rich-text#Information-item-4"
+    ]
+  },
+  // * Item 1
+  "rich-text#Information-item-1": {
+    "props": {
+      "blockClass": [
+        "Information__item",
+        "Information__item--1"
+      ],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Garantia De Marca"
+    }
+  },
+  // * Item 2
+  "rich-text#Information-item-2": {
+    "props": {
+      "blockClass": [
+        "Information__item",
+        "Information__item--2"
+      ],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Formas De Pago"
+    }
+  },
+  // * Item 3
+  "rich-text#Information-item-3": {
+    "props": {
+      "blockClass": [
+        "Information__item",
+        "Information__item--3"
+      ],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Envios Nacionales"
+    }
+  },
+  // * Item 4
+  "rich-text#Information-item-4": {
+    "props": {
+      "blockClass": [
+        "Information__item",
+        "Information__item--4"
+      ],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Compra Garantizada"
+    }
+  }
+}

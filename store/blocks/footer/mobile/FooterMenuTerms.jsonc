@@ -1,0 +1,46 @@
+{
+  "disclosure-layout-group#FooterTerms": {
+    "props": {
+      "blockClass": ["Disclosure"]
+    },
+    "children": ["disclosure-layout#Terms"]
+  },
+
+  // * Attention Section
+  "disclosure-layout#Terms": {
+    "props": {
+      "blockClass": [
+        "Disclosure__group",
+        "Disclosure__group--Terms"
+      ]
+    },
+    "children": [
+      "disclosure-trigger#Terms",
+      "disclosure-content#Terms"
+    ]
+  },
+  // ! Terms Title Group
+  "disclosure-trigger#Terms": {
+    "props": {
+      "blockClass": [
+        "Disclosure__Trigger",
+        "Disclosure__Trigger--Terms"
+      ]
+    },
+    "children": [
+      "rich-text#TitleTerms" // /footer.jsonc
+    ]
+  },
+  // ! Terms content
+  "disclosure-content#Terms": {
+    "props": {
+      "blockClass": [
+        "Disclosure__content",
+        "Disclosure__content--Terms"
+      ]
+    },
+    "children": [
+      "rich-text#TermsText" // /footer.jsonc
+    ]
+  }
+}

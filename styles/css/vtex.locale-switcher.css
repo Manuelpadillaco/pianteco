@@ -1,0 +1,23 @@
+/* ------------------------------- */
+/* //* Header */
+/* ------------------------------- */
+.button {
+  width: 25px;
+  height: 25px;
+  color: #28508C;
+  background-image: url('https://beisbol.vteximg.com.br/arquivos/icono-language.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.buttonText {
+  display: none;
+}
+.globeIcon {
+  display: none;
+}
+.container {
+  width: 3rem;
+}
+
+/* ------------------------------- */

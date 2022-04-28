@@ -1,0 +1,53 @@
+{
+  // * Category menu
+  "menu-item#CategoryMenu": {
+    "props": {
+      "blockClass": [
+        "MenuItem",
+        "MenuItem__Category"
+      ],
+      "id": "menu-item-category-menu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Categorías",
+        "text": "Categorías"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#CategoryMenu"
+    ]
+  },
+  // ! Submenu
+  "vtex.menu@2.x:submenu#CategoryMenu": {
+    "props": {
+      "blockClass": ["SubMenu__Group"],
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#CategoryMenu"
+    ]
+  },
+  // ! Menu
+  "vtex.menu@2.x:menu#CategoryMenu": {
+    "props": {
+      "blockClass": ["Menu__Group"],
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#1", // ../menu.jsonc
+      "menu-item#2", // ../menu.jsonc
+      "menu-item#3", // ../menu.jsonc
+      "menu-item#4", // ../menu.jsonc
+      "menu-item#5",// ../menu.jsonc
+      "menu-item#6", // ../menu.jsonc
+      "menu-item#7" // ../menu.jsonc
+    //  "menu-item#8" // ../menu.jsonc
+
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  // * FAQ Section
+  "disclosure-layout#Faq": {
+    "props": {
+      "blockClass": ["Disclosure__group", "Disclosure__group--Faq"]
+    },
+    "children": ["disclosure-trigger#Faq", "disclosure-content#Faq"]
+  },
+  // ! FAQ Title Group
+  "disclosure-trigger#Faq": {
+    "props": {
+      "blockClass": [
+        "Disclosure__Trigger-Politics",
+        "Disclosure__Trigger-Politics--Faq"
+      ]
+    },
+    "children": ["rich-text#FaqTitle"]
+  },
+  // ? Group Title
+  "rich-text#FaqTitle": {
+    "props": {
+      "blockClass": ["Politics__Group-Title", "Politics__Group-Title--Faq"],
+      "text": "FAQ"
+    }
+  },
+  // ! FAQ content
+  "disclosure-content#Faq": {
+    "props": {
+      "blockClass": ["Disclosure__content", "Disclosure__content--Faq"]
+    },
+    "children": ["tab-list.item#Faq"]
+  },
+
+  //***************************************************************************
+  // * Item 1
+  //***************************************************************************
+  "tab-list.item#Faq": {
+    "props": {
+      "blockClass": ["TabItem", "TabItem--Faq"],
+      "tabId": "faq",
+      "label": "FAQ",
+      "defaultActiveTab": true
+    }
+  },
+  // ! Item content Faq
+  // It is necessary to add this components into politics.jsonc at tab-content#Politics__Content
+  "tab-content.item#Faq": {
+    "children": ["rich-text#Faq","rich-text#Faq"],
+    "props": {
+      "blockClass": ["TabContent", "TabContent--Faq"],
+      "tabId": "faq"
+    }
+  },
+  // ? Rich text Faq
+  "rich-text#titleFaq": {
+    "props": {
+      "blockClass": ["Politics__Text", "Politics__Text--Faq"],
+      "text": "Preguntas"
+    }
+  },
+  // ? Rich text Faq
+  "rich-text#Faq": {
+    "props": {
+      "blockClass": ["Politics__Text", "Politics__Text--Faq"],
+      "text": "Preguntas"
+    }
+  },
+  "rich-text#Faq1": {
+    "props": {
+      "blockClass": ["Politics__Text", "Politics__Text--Faq"],
+      "text": "Preguntas"
+    }
+  }
+  //***************************************************************************
+}

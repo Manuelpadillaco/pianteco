@@ -1,0 +1,12 @@
+/* ------------------------------- */
+/* //* Header */
+/* ------------------------------- */
+
+/* ------------------------------- */
+@media (min-width: 1200px) {
+.wrapper--sticky-header {
+  position: absolute !important;
+  top: 28px;
+  width: 100%;
+}
+}

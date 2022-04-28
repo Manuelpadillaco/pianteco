@@ -1,0 +1,419 @@
+{
+  "store.custom#about": {
+    "props": {
+      "blockClass": ["About"]
+    },
+    "children": [
+      "info-card#About",
+      "flex-layout.row#AboutContainer",
+      "newsletter" // ./newsletter.jsonc
+    ]
+  },
+
+  // * Image Search
+  "info-card#About": {
+    "props": {
+      "id": "Info-card-about",
+      "blockClass": ["About__Image"],
+      "isFullModeStyle": true,
+      "imageUrl": "https://pianteco.vteximg.com.br/arquivos/banner-desk-completo-piante.png",
+      "mobileImageUrl": "https://pianteco.vteximg.com.br/arquivos/banner-mobile1sobre-nosotros.png"
+    }
+  },
+
+  // * Row container
+  "flex-layout.row#AboutContainer": {
+    "props": {
+      "blockClass": ["About__Container"]
+    },
+    "children": [
+      "flex-layout.row#Purpose",
+      "flex-layout.row#WhoWeAre",
+      "flex-layout.row#Contact"
+    ]
+  },
+
+  // * Who we are Section
+  "flex-layout.row#WhoWeAre": {
+    "props": {
+      "blockClass": ["About__Section", "About__Section--WhoWeAre"]
+    },
+    "children": ["flex-layout.col#subWhoWeAre1", "flex-layout.col#subWhoWeAre"]
+  },
+  "flex-layout.col#subWhoWeAre": {
+    "props": {
+      "blockClass": ["About__Section", "About__Section--subWhoWeAre"]
+    },
+    "children": ["rich-text#EmpaqueTitle", "rich-text#EmpaqueText"]
+  },
+  "flex-layout.col#subWhoWeAre1": {
+    "props": {
+      "blockClass": ["About__Subsection", "About__Section--subWhoWeAre1"]
+    },
+    "children": [
+      "flex-layout.row#subWhoWeAre1-row",
+      "flex-layout.row#subWhoWeAre2-row"
+    ]
+  },
+  "flex-layout.row#subWhoWeAre1-row": {
+    "props": {
+      "blockClass": ["About__Subsection", "About__Section--subWhoWeAre"]
+    },
+    "children": ["image#ImageWhoCultivos"]
+  },
+  "flex-layout.row#subWhoWeAre2-row": {
+    "props": {
+      "blockClass": ["About__Subsection", "About__Section--subWhoWeAre"]
+    },
+    "children": ["flex-layout.col#subWhoWeAre2"]
+  },
+  "flex-layout.col#subWhoWeAre2": {
+    "props": {
+      "blockClass": ["About__Subsection", "About__Subsection--subWhoWeAre"]
+    },
+    "children": [
+      "image#ImageWhoCultivos1",
+      "image#ImageWhoCultivos2",
+      "image#ImageWhoCultivos3",
+      "image#ImageWhoCultivos4"
+    ]
+  },
+  // ? Calidad Image
+  "image#ImageWhoCultivos": {
+    "props": {
+      "blockClass": ["About__Image", "About__Image--ImageWhoCultivos"],
+      "src": "https://pianteco.vteximg.com.br/arquivos/cultivos-desk-piante.png"
+    }
+  },
+  // ? ImageWhoCultivos4 Image
+  "image#ImageWhoCultivos1": {
+    "props": {
+      "blockClass": ["About__ImageWho", "About__Image--ImageWhoCultivos1"],
+      "src": "https://pianteco.vteximg.com.br/arquivos/cultivos1-desk-piante.png"
+    }
+  },
+  // ? ImageWhoCultivos4 Image
+  "image#ImageWhoCultivos2": {
+    "props": {
+      "blockClass": ["About__ImageWho", "About__Image--ImageWhoCultivos2"],
+      "src": "https://pianteco.vteximg.com.br/arquivos/cultivos2-desk-piante.png"
+    }
+  },
+  // ? ImageWhoCultivos4 Image
+  "image#ImageWhoCultivos3": {
+    "props": {
+      "blockClass": ["About__ImageWho", "About__Image--ImageWhoCultivos3"],
+      "src": "https://pianteco.vteximg.com.br/arquivos/cultivos3-desk-piante.png"
+    }
+  },
+  // ? ImageWhoCultivos4 Image
+  "image#ImageWhoCultivos4": {
+    "props": {
+      "blockClass": ["About__ImageWho", "About__Image--ImageWhoCultivos4"],
+      "src": "https://pianteco.vteximg.com.br/arquivos/cultivos4-desk-piante.png"
+    }
+  },
+
+  // ! Title
+  "rich-text#EmpaqueTitle": {
+    "props": {
+      "blockClass": ["About__Title", "About__Title--WhoWeAre"],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Nuestro empaque"
+    }
+  },
+
+  // ! Text
+  "rich-text#EmpaqueText": {
+    "props": {
+      "blockClass": ["About__Text", "About__Text--WhoWeAre"],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "¡Nuestro empaque ha ganado el premio nacional a la innovación al viverismo! \n  Hemos diseñado un empaque que garantiza la protección de las plantas en todos los puntos de la cadena de distribución, así llegarán perfectas hasta su destino       "
+    }
+  },
+
+  // * Purpose Section
+  "flex-layout.row#Purpose": {
+    "props": {
+      "blockClass": ["About__Section", "About__Section--Purpose"]
+    },
+    "children": [
+      "flex-layout.col#PurposeCalidad",
+      "flex-layout.col#Purposesolucion",
+      "flex-layout.col#PurposeInnovacion"
+    ]
+  },
+  // ! Calidad Section
+  "flex-layout.col#PurposeCalidad": {
+    "props": {
+      "blockClass": ["About__Purpose", "About__Purpose--Calidad"]
+    },
+    "children": [
+      "rich-text#PurposeCalidadTitle",
+      "rich-text#PurposeCalidadText",
+      "image#PurposeCalidadImage"
+    ]
+  },
+  // ? Calidad title
+  "rich-text#PurposeCalidadTitle": {
+    "props": {
+      "blockClass": ["About__Title", "About__Title--Calidad"],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "CALIDAD"
+    }
+  },
+  // ? Calidad Image
+  "image#PurposeCalidadImage": {
+    "props": {
+      "blockClass": ["About__Image", "About__Image--Calidad"],
+      "src": "https://pianteco.vteximg.com.br/arquivos/calidad-dsk-piante.png"
+    }
+  },
+  // ? Calidad text
+  "rich-text#PurposeCalidadText": {
+    "props": {
+      "blockClass": ["About__Text", "About__Text--Calidad"],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Nuestros productos se caracterizan por contar con la mejor selección genética, cultivados con estrictos protocolos de producción que garantizan plantas de alta calidad y durabilidad"
+    }
+  },
+
+  // ! PurposeInnovacion Section
+  "flex-layout.col#PurposeInnovacion": {
+    "props": {
+      "blockClass": ["About__Purpose", "About__Purpose--Innovacion"]
+    },
+    "children": [
+      "rich-text#PurposeInnovacionTitle",
+      "rich-text#PurposeInnovacionText",
+      "image#PurposeInnovacionImage"
+    ]
+  },
+  // ? Calidad title
+  "rich-text#PurposeInnovacionTitle": {
+    "props": {
+      "blockClass": ["About__Title", "About__Title--Innovacion"],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "SERIVICIO"
+    }
+  },
+  // ? Calidad Image
+  "image#PurposeInnovacionImage": {
+    "props": {
+      "blockClass": ["About__Image", "About__Image--Innovacion"],
+      "src": "https://pianteco.vteximg.com.br/arquivos/innovacion-desk-piante.png"
+    }
+  },
+  // ? Calidad text
+  "rich-text#PurposeInnovacionText": {
+    "props": {
+      "blockClass": ["About__Text", "About__Text--Innovacion"],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Todo un departamento dedicado a la atención de nuestros clientes, dando respuestas que contribuyan al mejoramiento de la experiencia de venta y post-venta."
+    }
+  },
+  // ! solucion Section
+  "flex-layout.col#Purposesolucion": {
+    "props": {
+      "blockClass": ["About__Purpose", "About__Purpose--solucion"]
+    },
+    "children": [
+      "rich-text#PurposesolucionTitle",
+      "rich-text#PurposesolucionText",
+      "image#PurposesolucionImage"
+    ]
+  },
+  // ? solucion title
+  "rich-text#PurposesolucionTitle": {
+    "props": {
+      "blockClass": ["About__Title", "About__Title--solucion"],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "INNOVACIÓN"
+    }
+  },
+  // ? solucion Image
+  "image#PurposesolucionImage": {
+    "props": {
+      "blockClass": ["About__Image", "About__Image--solucion"],
+      "src": "https://pianteco.vteximg.com.br/arquivos/solucion-desk-piante.png"
+    }
+  },
+  // ? solucion text
+  "rich-text#PurposesolucionText": {
+    "props": {
+      "blockClass": ["About__Text", "About__Text--solucion"],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Nuestros procesos están enfocados en el mejoramiento de la industria. Constantemente incluimos nuevas soluciones en nuestro portafolio respondiendo oportunamente a las necesidades de nuestros clientes."
+    }
+  },
+
+  // * Text Section
+  "flex-layout.row#Text": {
+    "props": {
+      "blockClass": ["About__Section", "About__Section--Text"]
+    },
+    "children": ["image#TextImage", "rich-text#TextText"]
+  },
+  // ! Image
+  "image#TextImage": {
+    "props": {
+      "blockClass": ["About__Image", "About__Image--Text"],
+      "src": "https://pianteco.vteximg.com.br/arquivos/banner-desk-completo-piante.png"
+    }
+  },
+  // ! Text
+  "rich-text#TextText": {
+    "props": {
+      "blockClass": ["About__Text", "About__Text--Text"],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "#### Ejemplo titulo\nLorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500."
+    }
+  },
+
+  // * Contact Section
+  "flex-layout.row#Contact": {
+    "props": {
+      "blockClass": ["About__Section", "About__Section--Contact"]
+    },
+    "children": ["flex-layout.row#Socials", "rich-text#GotToBuy"]
+  },
+  // ! Socials container
+  "flex-layout.row#Socials": {
+    "props": {
+      "blockClass": ["About__Socials"]
+    },
+    "children": [
+      "image#FacebookGreen",
+      "image#TikTokGreen",
+      "image#InstagramGreen",
+      "image#YoutubeGreen"
+    ]
+  },
+  // ? Facebook Icon
+  "image#AboutFacebook": {
+    "props": {
+      "blockClass": ["About__Image-Social", "About__Image-Social--Facebook"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/iconsSocial-Piante-Green1.png",
+      "link": {
+        "url": "#",
+        "label": "Facebook",
+        "newTab": true
+      }
+    }
+  },
+  // ? Instagram Icon
+  "image#AboutInstagram": {
+    "props": {
+      "blockClass": ["About__Image-Social", "About__Image-Social--Instagram"],
+      "src": "https://beisbol.vteximg.com.br/arquivos/iconsSocial-Piante-Green2.png",
+      "link": {
+        "url": "#",
+        "label": "Instagram",
+        "newTab": true
+      }
+    }
+  },
+  // ? Youtube Icon
+  "image#AboutYoutube": {
+    "props": {
+      "blockClass": ["About__Image-Social", "About__Image-Social--Youtube"],
+      "src": "https://beisbol.vteximg.com.br/arquivos/youtube-icon-about.png",
+      "link": {
+        "url": "#",
+        "label": "Youtube",
+        "newTab": true
+      }
+    }
+  },
+  // ! Facebook Icon
+  "image#FacebookGreen": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--facebook"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/iconsSocial-Piante-Green1.png",
+      "link": {
+        "url": "https://www.facebook.com/piantecol",
+        "label": "Facebook",
+        "newTab": true
+      }
+    }
+  },
+  // ! Instagram Icon
+  "image#InstagramGreen": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--instagram"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/iconsSocial-Piante-Green2.png",
+      "link": {
+        "url": "https://www.instagram.com/piantecol/",
+        "label": "Instagram",
+        "newTab": true
+      }
+    }
+  },
+  // ! Twitter Icon
+  "image#Twitter": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--Twitter"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/",
+      "link": {
+        "url": "#",
+        "label": "Twitter",
+        "newTab": true
+      }
+    }
+  },
+  // ! Youtube Icon
+  "image#YoutubeGreen": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--Youtube"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/iconsSocial-Piante-Green5.png",
+      "link": {
+        "url": "https://www.youtube.com/channel/UCJY7NH_F64ZZVWHSE_dxYIw",
+        "label": "Youtube",
+        "newTab": true
+      }
+    }
+  },
+  // ! TikTok Icon
+  "image#TikTokGreen": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--tiktok"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/iconsSocial-Piante-Green3.png",
+      "link": {
+        "url": "https://www.tiktok.com/@piantecol",
+        "label": "Tiktok",
+        "newTab": true
+      }
+    }
+  },
+
+  // ! Linkedin Icon
+  "image#Linkedin": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--linkedin"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/linkedin-icon-piante.png",
+      "link": {
+        "url": "#",
+        "label": "Facebook",
+        "newTab": true
+      }
+    }
+  },
+  // ! Text
+  "rich-text#GotToBuy": {
+    "props": {
+      "blockClass": ["About__Text", "About__Text--GotToBuy"],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Ir a comprar](#)"
+    }
+  }
+}

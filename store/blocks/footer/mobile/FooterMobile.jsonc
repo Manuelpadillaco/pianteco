@@ -1,0 +1,229 @@
+{
+  // * Footer Mobile
+  "footer-layout.mobile": {
+    "children": [
+      "image#ButtonWhatsapp",// /footer.jsonc
+      "flex-layout.row#CompanyLogo",
+      "flex-layout.row#FooterGroups",
+      "flex-layout.row#FooterContac",
+      "flex-layout.row#FooterSocials",
+      "flex-layout.row#FooterPaymentMethods",
+      "flex-layout.row#FooterInformation",
+      "rich-text#TermsText" // /footer.jsonc
+
+    ]
+  },
+
+  // ! Logo company section
+  "flex-layout.row#CompanyLogo": {
+    "props": {
+      "blockClass": ["Footer-Logo"]
+    },
+    "children": [
+      "image#Logo" // /footer.jsonc
+    ]
+  },
+
+  // ! Promotional section
+  "flex-layout.row#FooterPromotional": {
+    "props": {
+      "blockClass": ["Footer-Promotional"]
+    },
+    "children": [
+      "rich-text#TitlePromotions", // /footer.jsonc
+      "rich-text#Promotion1", // /footer.jsonc
+      "rich-text#Promotion2" // /footer.jsonc
+    ]
+  },
+
+  // ! Info Section
+  "flex-layout.row#FooterContac": {
+    "props": {
+      "blockClass": ["Footer-Contac"]
+    },
+    "children": [
+      "rich-text#TitleContact", // /footer.jsonc
+      "rich-text#TitleMail", // /footer.jsonc
+      "rich-text#Phone1", // /footer.jsonc
+      "rich-text#Phone2", // /footer.jsonc
+      "rich-text#Address" // /footer.jsonc
+    ]
+  },
+
+
+  // ! Socials Section
+  "flex-layout.row#FooterSocials": {
+    "props": {
+      "blockClass": ["Footer-Socials"]
+    },
+    "children": [
+      "flex-layout.col#FooterSocials" // /footer.jsonc
+    ]
+  },
+
+  // ! Groups Section
+  "flex-layout.row#FooterGroups": {
+    "props": {
+      "blockClass": ["Footer-Groups"]
+    },
+    "children": ["flex-layout.col#FooterGroups"]
+  },
+  "flex-layout.col#FooterGroups": {
+    "props": {
+      "blockClass": ["Footer-Groups__container"]
+    },
+    "children": [
+      "disclosure-layout-group#FooterGroup" // /FooterMenu.jsonc
+    ]
+  },
+
+  // ! Payments Section
+  "flex-layout.row#FooterPaymentMethods": {
+    "props": {
+      "blockClass": ["Footer-Payment-rows"]
+    },
+    "children": [
+      "rich-text#TitlePayments", // /footer.jsoncimage#LogoAllPayment
+      "image#LogoAllPaymentMobile"
+    ]
+  },
+  "flex-layout.row#FooterPaymentMethods1": {
+    "props": {
+      "blockClass": ["Footer-Payment-row", "Footer-Payment-row1"]
+    },
+    "children": [
+      "image#PlayU",
+      "image#Visa",
+      "image#MasterCard",
+      "image#American"
+    ]
+  },
+  "flex-layout.row#FooterPaymentMethods2": {
+    "props": {
+      "blockClass": ["Footer-Payment-row", "Footer-Payment-row2"]
+    },
+    "children": [
+      "image#Pse",
+      "image#Baloto",
+      "image#MercadoPago",
+      "image#Bancolombia"
+
+    ]
+  },
+  "flex-layout.row#FooterPaymentMethods3": {
+    "props": {
+      "blockClass": ["Footer-Payment-row", "Footer-Payment-row3"]
+    },
+    "children": [
+      "image#Davivienda",
+      "image#Chase",
+      "image#Paypal"
+    ]
+  },
+
+  // ! Development Section
+  "flex-layout.row#FooterInformation": {
+    "props": {
+      "blockClass": ["Footer-development"]
+    },
+    "children": [
+      "rich-text#Development", // /footer.jsonc
+      "flex-layout.col#FooterInformation--left"
+    ]
+  },
+  // * Section left
+  "flex-layout.col#FooterInformation--left": {
+    "props": {
+      "blockClass": [
+        "Footer-development__container",
+        "Footer-development__container--left"
+      ]
+    },
+    "children": [
+      "image#Development", // /footer.jsonc
+      "image#Technology" // /footer.jsonc
+
+    ]
+  },
+  // * Section right
+  "flex-layout.col#FooterInformation--right": {
+    "props": {
+      "blockClass": [
+        "Footer-development__container",
+        "Footer-development__container--right"
+      ]
+    },
+    "children": [
+      "rich-text#Technology",
+      "image#Technology" // /footer.jsonc
+    ]
+  },
+  // * Title Technology
+  "rich-text#Technology": {
+    "props": {
+      "blockClass": [
+        "FooterTitle",
+        "FooterTitle--technology"
+      ],
+      "text": "Tecnología"
+    }
+  },
+
+  // ! Terms Section
+  "flex-layout.row#FooterTerms": {
+    "props": {
+      "blockClass": ["Footer-Terms"]
+    },
+    "children": ["flex-layout.col#FooterTerms"]
+  },
+  "flex-layout.col#FooterTerms": {
+    "props": {
+      "blockClass": ["Footer-Terms__container"]
+    },
+    "children": [
+      "disclosure-layout-group#FooterTerms" // /FooterMenuTerms.jsonc
+    ]
+  },
+  /*******************************/
+  "flex-layout.row#1-footer-mobile": {
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4
+    },
+    "children": [
+      "vtex.menu@2.x:menu#footer-mobile"
+    ]
+  },
+
+  "flex-layout.row#2-footer-mobile": {
+    "children": [
+      "flex-layout.col#footer-1-mobile"
+    ],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
+
+  "flex-layout.col#footer-1-mobile": {
+    "children": [
+      "accepted-payment-methods",
+      "social-networks",
+      "rich-text#footer-mobile"
+    ],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "rowGap": 4
+    }
+  },
+
+  "rich-text#footer-mobile": {
+    "props": {
+      "text": "All stock and product photos are from photos.icons8.com",
+      "blockClass": "footer"
+    }
+  }
+}

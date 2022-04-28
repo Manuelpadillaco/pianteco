@@ -1,0 +1,89 @@
+{
+  // * Compra Section
+  "disclosure-layout#Compra": {
+    "props": {
+      "blockClass": ["Disclosure__group", "Disclosure__group--Compra"]
+    },
+    "children": ["disclosure-trigger#Compra", "disclosure-content#Compra"]
+  },
+  // ! Compra Title Group
+  "disclosure-trigger#Compra": {
+    "props": {
+      "blockClass": [
+        "Disclosure__Trigger-Politics",
+        "Disclosure__Trigger-Politics--Compra"
+      ]
+    },
+    "children": ["rich-text#CompraTitle"]
+  },
+  // ? Group Title
+  "rich-text#CompraTitle": {
+    "props": {
+      "blockClass": ["Politics__Group-Title", "Politics__Group-Title--Compra"],
+      "text": "Compra"
+    }
+  },
+  // ! Compra content
+  "disclosure-content#Compra": {
+    "props": {
+      "blockClass": ["Disclosure__content", "Disclosure__content--Compra"]
+    },
+    "children": ["tab-list.item#Compra", "tab-list.item#Envios"]
+  },
+
+  //***************************************************************************
+  // * Item 1
+  //***************************************************************************
+  "tab-list.item#Compra": {
+    "props": {
+      "blockClass": ["TabItem", "TabItem--Compra"],
+      "tabId": "compra",
+      "label": "Compra"
+    }
+  },
+  // ! Item content Compra
+  // It is necessary to add this components into politics.jsonc at tab-content#Politics__Content
+  "tab-content.item#Compra": {
+    "children": ["rich-text#Compra"],
+    "props": {
+      "blockClass": ["TabContent", "TabContent--Compra"],
+      "tabId": "compra"
+    }
+  },
+  // ? Rich text Compra
+  "rich-text#Compra": {
+    "props": {
+      "blockClass": ["Politics__Text", "Politics__Text--Compra"],
+      "text": "## Politics en Compra ETC"
+    }
+  },
+  //***************************************************************************
+
+  //***************************************************************************
+  // * Item 2
+  //***************************************************************************
+  "tab-list.item#Envios": {
+    "props": {
+      "blockClass": ["TabItem", "TabItem--Envios"],
+      "tabId": "Envios",
+      "label": "Envios"
+    }
+  },
+  // ! Item content Compra
+  // It is necessary to add this components into politics.jsonc at tab-content#Politics__Content
+  "tab-content.item#Envios": {
+    "children": ["rich-text#Envios"],
+    "props": {
+      "blockClass": ["TabContent", "TabContent--Envios"],
+      "tabId": "Envios"
+    }
+  },
+  // ? Rich text Compra
+  "rich-text#Envios": {
+    "props": {
+      "blockClass": ["Politics__Text", "Politics__Text--Envios"],
+      "text": "## Politics en Envios ETC"
+    }
+  }
+  //***************************************************************************
+}
