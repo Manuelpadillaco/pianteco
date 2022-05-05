@@ -930,6 +930,24 @@
   bottom: -10px;
   display: flex;
 }
+.imageElement--Footer__image {
+}
+
+.imageElement--Footer__image--instagram {
+  width: 2rem;
+}
+
+.imageElement--Footer__image--tiktok {
+  width: 2rem;
+}
+
+.imageElement--Footer__image--Youtube {
+  width: 2rem;
+}
+
+.imageElement--Footer__image--facebook {
+  width: 1rem;
+}
 @media (max-width: 375px) {
   .buttonContainer--Newsletter {
     margin-top: 3.2rem;

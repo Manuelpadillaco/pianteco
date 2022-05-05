@@ -230,6 +230,9 @@
   padding: 0.5rem 0;
   display: flex;
   align-content: center;
+  display: flex;
+  flex-direction: column;
+
 }
 .accordionFilterOpen--Search__Filter .filterAccordionItemBox {
   padding: 0;
@@ -256,7 +259,7 @@
   min-height: 25px;
   background-color: #324545;
   border-radius: 10px;
-  font-family: Encode Sans,sans-serif;
+  font-family: Encode Sans, sans-serif;
   font-size: 14px;
   line-height: normal;
   font-weight: 400;
@@ -283,6 +286,7 @@
   margin: 1rem 0;
   padding: 0 12px;
 }
+
 .filter__container--selectedFilters {
   background: transparent;
 }
@@ -297,7 +301,17 @@
 .orderBy--layout {
   width: 100%;
 }
-
+.accordionFilterContainer--Search__Filter--gama-de-precios {
+  display: none;
+}
+.gallery--grid
+  :global(.vtex-add-to-cart-button-0-x-buttonText--summary)::before {
+  font-size: 1rem;
+  left: 73% !important;
+}
+.gallery--grid :global(.vtex-add-to-cart-button-0-x-buttonText) {
+  margin-left: -1rem !important;
+}
 /* ------------------------------- */
 /* //? Media queries */
 /* ------------------------------- */
@@ -311,10 +325,10 @@
   .gallery--grid
     :global(.vtex-add-to-cart-button-0-x-buttonText--summary)::before {
     font-size: 1rem;
-    left: 82%;
+    left: 82% !important;
   }
   .gallery--grid :global(.vtex-add-to-cart-button-0-x-buttonText) {
-    font-size: 1rem;
+    margin-left: -1rem !important;
   }
   .filter__container--priceRange {
     width: 100%;

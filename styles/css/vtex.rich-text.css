@@ -451,11 +451,12 @@
     content: "";
     position: absolute;
     top: -3rem;
-    width: 94vw;
+    width: 90vw;
     border-top: 2px solid #d3d3d3;
     height: 2rem;
     right: 0px;
-    left: -2vw;
+    left: -5%;
+    display: none;
   }
 
   .container--Title--related {

@@ -56,7 +56,7 @@
 :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
   transition: background 0.3s ease;
   will-change: padding, background;
-  background: rgba(245, 245, 245, 0.6);
+  background: rgba(245, 245, 245, 0.0);
 }
 
 /* main header desktop has a bigger padding when not stuck */

@@ -45,7 +45,12 @@
 .flexRow--Home__Shelf--1
   :global(.vtex-add-to-cart-button-0-x-buttonText)::before {
   top: 0px;
-  left: 82%;
+  left: 74%;
+}
+.flexRow--Home__Shelf--2
+  :global(.vtex-add-to-cart-button-0-x-buttonText)::before {
+  top: 0px;
+  left: 74%;
 }
 
 .flexRow--Home__Shelf--2
