@@ -22,7 +22,8 @@
     width: 100%;
     display: flex;
     justify-content: initial;
-    padding-left: 6%;
+    padding-left: 4%;
+
   }
   /* ! Header */
   .headerRowContainer--Header__Container {

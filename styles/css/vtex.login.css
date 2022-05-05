@@ -14,11 +14,14 @@
 }
 .buttonLink :global(.vtex-button) {
   border-radius: 100px;
+  
 }
 .buttonLink :global(.vtex-button__label) {
   justify-content: flex-start;
   padding: 0;
-  margin: 0 1rem;
+  margin: 0;
+  margin-right: 1rem;
+
 }
 .container :global(.relative) {
   width: 100%;
@@ -169,16 +172,17 @@
   content: "";
   width: 25px;
   height: 34px;
-  background-image: url("https://pianteco.vtexcommercestable.com.br/arquivos/user-icon-piante.png");
+  background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/user-icon-piante.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  margin-top: 7px;
+  margin-top: 0;
+  margin: 1rem 0px;
+  margin-top: 25px;
 }
 .contentForm {
-  width: 86%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 100%;
+  margin-top: 2rem;
+  padding: 0;
 }
 .loginOptionsContainer {
   display: flex;
@@ -210,7 +214,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 7rem;
+    height: auto;
     padding: 2rem;
     min-width: auto;
   }
@@ -257,10 +261,12 @@
   }
   .content--emailAndPassword {
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     padding: 3rem 10px 10rem;
     max-width: 63rem;
-    margin-top: 7rem;
+    margin-top: 6rem;
+    max-height: none;
+    display: flex;
   }
   .container::before {
     content: "|";

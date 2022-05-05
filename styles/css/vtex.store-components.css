@@ -29,8 +29,7 @@
 /* ------------------------------- */
 .imageElement--Footer__image {
   transition: 0.3s;
-  width: 36px;
-  max-height: 39px !important;
+  width: auto;
 }
 
 .imageElement--Footer__image:hover {
@@ -859,7 +858,7 @@
 }
 .imageElement--Footer__image--development {
   width: 114px;
-  height: 3rem !important;
+  height: fit-content;
   margin: 0;
 }
 /* ------------------------------- */
@@ -964,7 +963,7 @@
 }
 @media (min-width: 1026px) {
   .infoCardTextContainer--CategorySlide__Item {
-    height: 21rem;
+    height: 18rem;
     top: 8rem;
   }
   .confirmationTitle--Newsletter {

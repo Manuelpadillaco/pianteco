@@ -38,16 +38,16 @@
 
 .term::before {
   background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/migadepan-icon-painte.png)!important;
-  background-size: 100%!important;
+  background-size: 82%!important;
   background-repeat: no-repeat;
   margin-top: 4px;
   content: " ";
-  height: auto;
+  height: 1rem;
   width: auto;
   position: relative;
   padding: 13px;
   left: -1rem;
-  top: 7px;
+  top: 12px;
 }
 .homeIcon {
   display: none;

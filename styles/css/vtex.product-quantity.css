@@ -22,13 +22,13 @@
   height: 45px;
   color: #324545;
   background-color: transparent;
-  border: 1px solid #c8c8c8;
-  font-family: "Encode Sans", sans-serif;
+  font-family: Encode Sans, sans-serif;
   font-size: 25px;
   font-weight: 400;
-  border-left: none;
+  border: 1px solid #c8c8c8;
   border-right: none;
-  width: 1rem;
+  border-left: none;
+  width: 2rem;
 }
 .quantitySelectorStepper :global(.vtex-numeric-stepper__plus-button) {
   border-radius: 1px 20px 20px;

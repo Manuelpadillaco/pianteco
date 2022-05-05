@@ -62,8 +62,8 @@
 }
 .flexRow--Home__Shelf--2
   :global(.vtex-add-to-cart-button-0-x-buttonText)::before {
-  top: 0px;
-  left: 82%;
+  top: 0;
+  left: 70%;
 }
 /* ------------------------------- */
 /* //* Footer */
@@ -544,7 +544,7 @@
     flex-direction: column;
   }
   .flexRow--Home__CategorySlide {
-    max-width: 104rem;
+    max-width: 96rem;
     margin: 0 auto;
   }
   .flexRowContent--Product__BuyButton {

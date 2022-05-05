@@ -38,8 +38,28 @@
   background: transparent;
   border: none;
   outline: none;
-  padding-top: 9px;
+  padding-top: 4px;
 }
+.trigger--disclosure-icon-search-mobile--visible::before {
+  content: "X";
+  font-size: 2rem;
+  top: 1rem;
+  position: absolute;
+  font-family: "Encode Sans";
+  font-weight: 600;
+  color: #324545;
+  background: white;
+  margin-left: 0;
+}
+.content--disclosure-search-mobile--visible {
+  z-index: 50;
+}
+
+.trigger--visible {
+  z-index: 50;
+}
+
+
 .trigger--Disclosure__Trigger-Politics--visible
   :global(.vtex-rich-text-0-x-wrapper--Politics__Group-Title)::after {
   transform: rotate(180deg);

@@ -108,16 +108,18 @@
 /* //? Medias Query */
 /* ------------------------------- */
 @media (min-width: 1026px) {
-  .sliderTrack--CategorySlide__Container .slide--CategorySlide__Container:nth-child(odd) :global(.vtex-store-components-3-x-infoCardTextContainer) {
-    top: 2rem;
-}
+  .sliderTrack--CategorySlide__Container
+    .slide--CategorySlide__Container:nth-child(odd)
+    :global(.vtex-store-components-3-x-infoCardTextContainer) {
+      top: 5rem;
+  }
   /* ! Category Slide */
   .slide--CategorySlide__Container {
     height: auto;
     max-height: 100rem !important;
     width: 90%;
     max-height: 21rem;
-    object-fit: initial!important;
+    object-fit: initial !important;
     max-width: 16rem;
   }
   .sliderTrack--Shelf__Slider .slide--Shelf__Slider--visible {
@@ -131,9 +133,9 @@
   }
   .sliderTrack--CategorySlide__Container
     .slide--CategorySlide__Container:nth-child(odd) {
-      align-self: flex-end;
-      margin-top: 5rem;
-      margin-bottom: 1rem;
+    align-self: flex-end;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
   }
 
   .sliderLeftArrow--CategorySlide__Container {
@@ -145,7 +147,7 @@
   /* ! Vitrina */
   .sliderLayoutContainer--Shelf__Slider {
     padding: 0 100px;
-    max-width: 104rem;
+    max-width: 96rem;
     margin: 0 auto;
   }
   .sliderLeftArrow--Shelf__Slider {

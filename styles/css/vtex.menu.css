@@ -28,10 +28,12 @@
 }
 
 .styledLinkContent--MenuItem__Tile {
-  padding: 19px 20px;
-  border: none;
-  border-bottom: 1px solid #324545;
-  border-radius: 0;
+  border-bottom: none;
+  margin: 0;
+  color: #324545;
+  font-family: Encode Sans, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .styledLinkContainer:first-child {
@@ -42,11 +44,23 @@
   display: flex;
   align-items: center;
 }
-
+.styledLinkContainer--MenuItem--9 {
+  margin: 0;
+  padding: 10px 20px;
+  border: none;
+  border-bottom: 1px solid #324545;
+  border-radius: 0;
+}
 /* ------------------------------- */
 /* //? Media queries */
 /* ------------------------------- */
 @media (min-width: 1150px) {
+  .styledLinkContent--MenuItem--2::before {
+    width: 22px;
+    background-position: center;
+    height: 3rem;
+  }
+  
   .styledLinkContent--MenuItem__Category:hover {
     background-color: initial !important;
     padding: initial !important;
@@ -65,6 +79,10 @@
   }
   .styledLinkContent--MenuItem--11 {
     font-size: 16px;
+    color: #fff !important;
+    font-weight: 500;
+    border: none !important;
+  
   }
   .styledLinkContent--MenuItem__Tile {
     margin: 19px 6px;
@@ -157,6 +175,7 @@
   background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/anturio-icon-piante.png);
   background-size: 100%;
   background-repeat: no-repeat;
+  width: 1rem;
 }
 
 .styledLinkContent--MenuItem--3::before {
@@ -278,6 +297,7 @@
   .styledLinkContainer--MenuItem:hover
   .styledLinkContent--MenuItem--2::before {
   background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/anturios-icon2-painte.png) !important;
+  width: 1rem;
 }
 .menuContainer--Menu__Group
   .styledLinkContainer--MenuItem:hover
@@ -347,6 +367,12 @@
   border: none;
 }
 @media (min-width: 1026px) {
+  
+.menuContainer--Menu__Group
+.styledLinkContainer--MenuItem {
+border-radius: 5px;
+}
+
   .menuItem--MenuItem--11 {
     border: none;
     background: initial;

@@ -462,7 +462,7 @@
     position: relative;
   }
   .wrapper--Title--related {
-    margin-left: 5rem !important;
+    margin-left: 7rem!important;
   }
   .container--Title--destacados-new {
     max-width: 86% !important;
@@ -486,7 +486,8 @@
   }
   .container--Description--categories-home {
     max-width: 86% !important;
-    padding: 0rem 0 10px;
+    padding: 0 0 10px;
+    margin: 0 17rem 0 !important;
   }
   .container--Header-top-text {
     width: 100% !important;
@@ -517,7 +518,8 @@
   }
   /* ! HOME */
   .container--Home__Title {
-    margin: 2rem 5rem 10px;
+    max-width: 96rem !important;
+
   }
   /* ! Footer */
   .paragraph--Footer__Text--terms-2 {
