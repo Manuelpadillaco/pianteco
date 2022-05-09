@@ -917,9 +917,11 @@
 }
 .imageElementLink--ButtonWhatsapp {
   position: fixed;
-  top: 90vh;
+  right: 25px;
+  bottom: 20px;
+  width: 70px;
+  z-index: 100;
   max-width: 3.5rem;
-  left: 78vw;
 }
 .infoCardTextContainer--CategorySlide__Item {
   padding: 0;
@@ -1326,11 +1328,6 @@
     padding: 0 !important;
   }
 
-  .imageElementLink--ButtonWhatsapp--desktop {
-    max-width: 4rem;
-    top: 91vh;
-    left: 94vw;
-  }
   .newsletter--Newsletter {
     background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/Newsletter-1.png) !important;
     height: auto;

@@ -43,7 +43,7 @@
 .trigger--disclosure-icon-search-mobile--visible::before {
   content: "X";
   font-size: 2rem;
-  top: 1rem;
+  top: 2rem;
   position: absolute;
   font-family: "Encode Sans";
   font-weight: 600;

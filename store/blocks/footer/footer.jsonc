@@ -35,13 +35,13 @@
   "rich-text#Shipping": {
     "props": {
       "blockClass": ["Footer__Text", "Footer__Text--promotion"],
-      "text": "[Envío y entrega](https://devpiante--pianteco.myvtex.com/politicas)"
+      "text": "[Envío y entrega](/politicas)"
     }
   },
   "rich-text#industriaCommerce": {
     "props": {
       "blockClass": ["Footer__Text", "Footer__Text--promotion"],
-      "text": "[Superintendencia de industria y comercio](https://devpiante--pianteco.myvtex.com/politicas)"
+      "text": "[Superintendencia de industria y comercio](/politicas)"
     }
   },
 
@@ -419,28 +419,28 @@
   "rich-text#Terms": {
     "props": {
       "blockClass": ["Footer__Text", "Footer__Text--terms"],
-      "text": "[Terminos y condiciones](https://devpiante--pianteco.myvtex.com/politicas)"
+      "text": "[Terminos y condiciones](/politicas)"
     }
   },
   // ! Privacy politics
   "rich-text#PrivacyPolitics": {
     "props": {
       "blockClass": ["Footer__Text", "Footer__Text--privacy-politics"],
-      "text": "[Política de Privacidad ](https://devpiante--pianteco.myvtex.com/politicas)"
+      "text": "[Política de Privacidad ](/politicas)"
     }
   },
   // ! Cookies politics
   "rich-text#Cookies": {
     "props": {
       "blockClass": ["Footer__Text", "Footer__Text--cookies"],
-      "text": "[Política de Cookies](https://devpiante--pianteco.myvtex.com/politicas)"
+      "text": "[Política de Cookies](/politicas)"
     }
   },
   // ! Anti-Corruption politics
   "rich-text#Corruption": {
     "props": {
       "blockClass": ["Footer__Text", "Footer__Text--corruption"],
-      "text": "[Política Anticorrupción](https://devpiante--pianteco.myvtex.com/politicas)"
+      "text": "[Política Anticorrupción](/politicas)"
     }
   },
 
@@ -528,7 +528,7 @@
   },
   "rich-text#OtroEnlaces": {
     "props": {
-      "text": "[¿Quienes somos?](https://devpiante--pianteco.myvtex.com/sobre-nosotros)",
+      "text": "[¿Quienes somos?](/sobre-nosotros)",
       "blockClass": "Footer__Text"
     }
   },

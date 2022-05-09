@@ -28,10 +28,7 @@
       // "flex-layout.col#switcherMobile"
     ],
     "props": {
-      "blockClass": [
-        "Search__Row",
-        "Search__Row--Info"
-      ],
+      "blockClass": ["Search__Row", "Search__Row--Info"],
       "preserveLayoutOnMobile": true,
       "colSizing": "auto",
       "colJustify": "around"
@@ -41,10 +38,7 @@
   "flex-layout.col#OrderByMobile": {
     "children": ["order-by.v2"],
     "props": {
-      "blockClass": [
-        "Search__Column",
-        "Search__Column--OrderBy"
-      ]
+      "blockClass": ["Search__Column", "Search__Column--OrderBy"]
       // "blockClass": "orderByMobileCol"
     }
   },
@@ -52,10 +46,7 @@
   "flex-layout.col#filterMobile": {
     "children": ["filter-navigator.v3"],
     "props": {
-      "blockClass": [
-        "Search__Column",
-        "Search__Column--Filter"
-      ]
+      "blockClass": ["Search__Column", "Search__Column--Filter"]
       // "blockClass": "filterMobileCol"
     }
   },
@@ -70,16 +61,14 @@
       "closeOnOutsideClick": true,
       "updateOnFilterSelectionOnMobile": "preventRouteChange",
       "showClearByFilter": false
-    }
+    },
+    "blocks": ["sidebar-close-button"]
   },
   // ! Column switcher
   "flex-layout.col#switcherMobile": {
     "children": ["gallery-layout-switcher"],
     "props": {
-      "blockClass": [
-        "Search__Column",
-        "Search__Column--Switcher"
-      ],
+      "blockClass": ["Search__Column", "Search__Column--Switcher"],
       "verticalAlign": "middle"
     }
   },
@@ -88,10 +77,7 @@
   "flex-layout.row#ProductCountMobile": {
     "children": ["total-products.v2"],
     "props": {
-      "blockClass": [
-        "Search__Row",
-        "Search__Row--Count"
-      ]
+      "blockClass": ["Search__Row", "Search__Row--Count"]
       // "blockClass": "productCountMobileRow"
     }
   },
@@ -102,10 +88,7 @@
       "search-content" // ../search.jsonc
     ],
     "props": {
-      "blockClass": [
-        "Search__Row",
-        "Search__Row--Content"
-      ],
+      "blockClass": ["Search__Row", "Search__Row--Content"],
       "preserveLayoutOnMobile": true
     }
   }

@@ -218,6 +218,16 @@
     padding: 2rem;
     min-width: auto;
   }
+  .portalWrapper   .contentForm {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 0;
+    min-width: auto;
+    margin: 0;
+  }
   .contentAlwaysWithOptions {
     display: flex;
     align-items: center;

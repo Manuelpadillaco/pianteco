@@ -232,7 +232,6 @@
   align-content: center;
   display: flex;
   flex-direction: column;
-
 }
 .accordionFilterOpen--Search__Filter .filterAccordionItemBox {
   padding: 0;
@@ -316,11 +315,14 @@
 /* //? Media queries */
 /* ------------------------------- */
 @media (min-width: 1026px) {
+  .filter__container--priceRange .filterTemplateOverflow--Search__Filter {
+    padding: 1rem;
+  }
   .buttonShowMore--layout {
     margin: 2rem 0;
   }
   .filter__container--priceRange {
-    padding: 0 17px 1rem;
+    padding: 0 0 1rem;
   }
   .gallery--grid
     :global(.vtex-add-to-cart-button-0-x-buttonText--summary)::before {

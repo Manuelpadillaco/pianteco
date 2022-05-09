@@ -327,7 +327,7 @@
   justify-content: center;
 }
 .flexRow--Search__Row--Breadcrumb {
-  padding: 15px 15px 0;
+  padding: 0px 15px 0;
 }
 .flexRowContent--Search__Row--Result-Desktop {
   display: grid;
@@ -757,7 +757,8 @@
     padding: 0rem 5% 0rem;
   }
   .flexRow--Search__Row--Breadcrumb {
-    padding: 20px 5% 0;
+    padding: 0 3rem;
+    margin-top: 6rem;
   }
 
   /* ! About page */
