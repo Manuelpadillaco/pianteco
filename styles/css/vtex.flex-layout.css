@@ -10,7 +10,8 @@
   margin-left: 0;
 }
 .flexRowContent--main-header-mobile {
-  background-color: white;
+  background-color: white !important;
+  height: 5rem;
 }
 .flexRowContent--main-header-mobile
   :global(.vtex-store-drawer-0-x-openIconContainer) {
@@ -164,7 +165,7 @@
 }
 
 .flexRow--Footer-Socials {
-  margin: 3rem 0;
+  margin: 1rem 0;
 }
 
 /* ------------------------------- */

@@ -34,6 +34,19 @@
   opacity: 1!important;
   background-color: transparent;
 }
+.overlay--visible::before {
+  content: "x";
+  content: "X";
+  font-size: 30px;
+  position: absolute;
+  font-family: "Encode Sans",sans-serif;
+  font-weight: 600;
+  color: #324545;
+  background: white;
+  margin-left: 3px;
+  top: 4rem;
+  left: 1.05rem;
+}
 .overlay--visible::after {
   content: "x";
   background-size: 100%;

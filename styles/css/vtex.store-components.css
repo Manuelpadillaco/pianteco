@@ -513,15 +513,12 @@
 }
 
 .form--Newsletter .inputGroup {
-  padding-top: 0;
-  align-items: center;
-  margin-top: 4.5rem;
-  position: relative;
-  margin-right: 2rem;
-  padding: 0;
-  height: 6rem;
-  width: 100%;
-  margin: 0 auto;
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 48vw;
+  width: 90%;
 }
 
 .label--Newsletter .inputGroup::placeholder {
@@ -531,30 +528,10 @@
   :global(.vtex-input)
   :global(.vtex-input-prefix__group) {
   border: none;
-  height: 60px;
-  margin-top: 3rem;
+  height: 50px;
 }
 
-.inputGroup--Newsletter
-  :global(.vtex-input)
-  :global(.vtex-styleguide-9-x-input) {
-  color: #c5c5c5;
-  background-color: white;
-  font-family: "Encode Sans", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 100;
-  text-align: left;
-  border-radius: 9px;
-  padding: 20px;
-  height: 50px;
-  width: 90vw;
-  margin: 10px;
-  position: absolute;
-  top: 34vw;
-  margin: 46px auto;
-  left: 1rem;
-}
+
 
 .inputGroup--Newsletter
   :global(.vtex-input)
@@ -563,6 +540,16 @@
   font-size: 20px;
   font-weight: 100;
 }
+
+.buttonContainer--Newsletter {
+  width: auto;
+  height: 3rem;
+  padding: 0;
+  position: relative;
+  margin-top: 4px;
+  margin-left: -57px;
+}
+
 .inputGroup .buttonContainer--Newsletter :global(.vtex-button) {
   background-color: #324545;
   border-width: 1px;
@@ -893,13 +880,6 @@
   align-items: center;
 }
 
-.buttonContainer--Newsletter {
-  padding-top: 20px !important;
-  position: static;
-  margin-top: 4.1rem;
-  margin-left: 64vw;
-}
-
 .imageElement--Footer__image--allpaymentsMobile {
   width: 100%;
 }
@@ -950,27 +930,8 @@
 .imageElement--Footer__image--facebook {
   width: 1rem;
 }
-@media (max-width: 375px) {
-  .buttonContainer--Newsletter {
-    margin-top: 3.2rem;
-  }
-}
 
-@media (max-width: 350px) {
-  .buttonContainer--Newsletter {
-    margin-top: 1.9rem;
-  }
-}
-
-@media only screen and (min-width: 350px) and (max-width: 500px) {
-  .buttonContainer--Newsletter {
-    margin-top: 4rem;
-  }
-}
 @media only screen and (min-width: 600px) and (max-width: 1026px) {
-  .buttonContainer--Newsletter {
-    margin-top: 21.5rem;
-  }
   .imageElement--TopSlide__Item {
     max-height: fit-content;
     margin: auto;
@@ -982,6 +943,12 @@
   }
 }
 @media (min-width: 1026px) {
+
+
+  .form--Newsletter .inputGroup {
+    margin-top: 0;
+    width: auto;
+  }
   .infoCardTextContainer--CategorySlide__Item {
     height: 18rem;
     top: 8rem;
@@ -994,13 +961,7 @@
     padding: 0 4rem;
     justify-content: flex-end;
   }
-  .buttonContainer--Newsletter {
-    padding-top: 20px !important;
-    position: absolute;
-    top: 3.7rem;
-    left: 36.6vw;
-    margin: 0;
-  }
+
   .imageElement--Footer__image--Youtube {
     width: 28px !important;
   }
@@ -1217,7 +1178,6 @@
     height: 50px;
     top: 0;
     position: static;
-    left: -48vw;
     margin-top: 0;
   }
 
@@ -1339,12 +1299,6 @@
     flex-direction: row;
   }
 
-  .buttonContainer--Newsletter {
-    position: relative;
-    left: 11.6vw;
-    top: -4.7rem;
-  }
-
   .label--Newsletter {
     max-width: 47rem;
     padding-top: 0;
@@ -1423,13 +1377,9 @@
   font-size: 26px;
 } */
 
-.inputGroup {
-  display: flex;
-  color: #fff;
-}
 
 .inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
-  background-color: transparent;
+  background-color: white;
   color: #fff;
   border: none;
 }
