@@ -439,7 +439,6 @@
 }
 
 .infoCardContainer--BannerTop__item--1 {
-  background-image: url(https://pianteco.vtexassets.com/arquivos/BANNER-SECUNDARIO-_-MEDIDAS-1118-X-1582.jpg) !important;
   width: 93%;
   height: 134vw;
 }
@@ -912,9 +911,6 @@
   bottom: -10px;
   display: flex;
 }
-.imageElement--Footer__image {
-}
-
 .imageElement--Footer__image--instagram {
   width: 2rem;
 }
@@ -1044,11 +1040,9 @@
     background-size: 10rem !important;
   }
   .infoCardImageContainer--CategorySlide__Item--5::after {
-    background-image: url("https://pianteco.vteximg.com.br/arquivos/orquideas-pianteco.png");
     background-size: 54% !important;
   }
   .infoCardImageContainer--CategorySlide__Item--6::after {
-    background-image: url("https://pianteco.vteximg.com.br/arquivos/purificadoras-pianteco.png");
     background-size: 54% !important;
   }
   .infoCardContainer--CategorySlide__Item:hover
@@ -1057,7 +1051,6 @@
   }
 
   .infoCardContainer--BannerTop__item--1 {
-    background-image: url(https://pianteco.vtexassets.com/arquivos/BANNERS-PIANTE-RECOMENDADO.jpg) !important;
     width: 93%;
     height: 27vw;
   }

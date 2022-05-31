@@ -26,7 +26,12 @@
     },
     "children": ["breadcrumb"]
   },
-
+  
+  "breadcrumb": {
+    "props": {
+      "showOnMobile": true
+    }
+  },
   // * Product section
   "flex-layout.row#product-main": {
     "props": {

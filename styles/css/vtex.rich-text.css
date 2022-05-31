@@ -486,9 +486,8 @@
     padding: 2rem 0 10px;
   }
   .container--Description--categories-home {
-    max-width: 86% !important;
-    padding: 0 0 10px;
-    margin: 0 17rem 0 !important;
+    max-width: 96rem!important;
+    padding-left: 5vw !important;
   }
   .container--Header-top-text {
     width: 100% !important;

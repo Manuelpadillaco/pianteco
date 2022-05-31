@@ -18,13 +18,9 @@
       ],
       "id": "BannersTop--item-1",
       "isFullModeStyle": true,
-      /* "textPosition": "left",*/
       "callToActionLinkTarget" : "_self",
-      "imageUrl": "https://pianteco.vtexassets.com/arquivos/banner desk-pianteco.png",
       "mobileImageUrl": "https://pianteco.vtexassets.com/arquivos/banner-secundario-mobile-piante.png",
-     /* "headline": "¡Cuidamos de ti por eso estrenamos",   */
-    /* "subhead": "Tienda Online!",*/
-     /* "callToActionText": "Envíos nacionales gratis",*/
+      "imageUrl": "https://pianteco.vtexassets.com/arquivos/banner desk-pianteco.png",
       "callToActionUrl": "#"
     }
   },

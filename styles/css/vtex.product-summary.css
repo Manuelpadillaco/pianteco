@@ -39,7 +39,6 @@
 }
 .element--ProductShelfHome :global(.vtex-button__label) {
   padding: 8px 0 !important;
-  margin-left: -1rem!important;
 }
 .image {
   width: 100%;
@@ -52,8 +51,8 @@
 @media (min-width: 1026px) {
   .element--ProductShelfHome :global(.vtex-button__label) {
     padding: 8px 0 !important;
-    margin-left: 0rem!important;
   }
+
   /* ! Vitrina */
   .brandName {
     font-size: 17px;

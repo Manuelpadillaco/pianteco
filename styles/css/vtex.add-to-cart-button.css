@@ -42,6 +42,9 @@
 /* //? Medias Query */
 /* ------------------------------- */
 @media (min-width: 1026px) {
+  .buttonDataContainer--summary {
+    margin: 0 25px 0 0;
+  }
   /* ! Vitrina */
 
   /* .buttonText--summary {
@@ -61,8 +64,8 @@
   }
   .buttonText--summary::before {
     /* top: -9px; */
-    left: 79% !important;
-    top: -6px !important;
+    left: 72%!important;
+    top: -8px !important;
   }
 }
 /* ------------------------------- */
