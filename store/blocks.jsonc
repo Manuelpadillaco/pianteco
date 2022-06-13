@@ -20,7 +20,7 @@
   },
 
   "store.login": {
-    "blocks": ["login-content#default"]
+    "blocks": ["login-content#default", "flex-layout.row#socialredes" ]      
   },
 
   "login-content#default": {
@@ -28,6 +28,83 @@
       "isInitialScreenOptionOnly": false,
       "defaultOption": 1,
       "showPasswordVerificationIntoTooltip": true
+    }
+  },
+  "flex-layout.row#socialredes": {
+    "props": {
+      "blockClass": ["Footer-Socials"]
+    },
+    "children": [
+      "flex-layout.col#redes" // /footer.jsonc
+    ]
+  },
+  "flex-layout.col#redes": {
+    "props": {
+      "blockClass": ["Footer-social__Images","ocultarDesk"]
+    },
+    "children": [
+      "image#Facebook1",
+      "image#TikTok1",
+      "image#Instagram1",
+      "image#Youtube1"
+    ]
+  },"image#Facebook1": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--facebook"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/facebookicon.png",
+      "link": {
+        "url": "https://www.facebook.com/piantecol",
+        "label": "Facebook",
+        "newTab": true
+      }
+    }
+  },
+  // ! Instagram Icon
+  "image#Instagram1": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--instagram"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/instagramicon.png",
+      "link": {
+        "url": "https://www.instagram.com/piantecol/",
+        "label": "Instagram",
+        "newTab": true
+      }
+    }
+  },
+  // ! Twitter Icon
+  "image#Twitter1": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--Twitter"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/",
+      "link": {
+        "url": "#",
+        "label": "Twitter",
+        "newTab": true
+      }
+    }
+  },
+  // ! Youtube Icon
+  "image#Youtube1": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--Youtube"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/youtubeicon.png",
+      "link": {
+        "url": "https://www.youtube.com/channel/UCJY7NH_F64ZZVWHSE_dxYIw",
+        "label": "Youtube",
+        "newTab": true
+      }
+    }
+  },
+  // ! TikTok Icon
+  "image#TikTok1": {
+    "props": {
+      "blockClass": ["Footer__image", "Footer__image--tiktok"],
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/tiktokicon.png",
+      "link": {
+        "url": "https://www.tiktok.com/@piantecol",
+        "label": "Tiktok",
+        "newTab": true
+      }
     }
   },
 

@@ -59,7 +59,8 @@
       "blockClass": ["Disclosure"]
     },
     "children": [
-      "disclosure-layout#terminosycondiciones", // ./faq/FaqGroup.jsonc
+      "disclosure-layout#Faq",// ./faq/FaqGroup.jsonc
+      "disclosure-layout#terminosycondiciones", // ./terminosycondciones/terminosycondicionesGroup.jsonc
       "disclosure-layout#Politicas", // ./Politicas/PoliticasGroup.jsonc
       "disclosure-layout#EnvioYEntrega", // ./EnvioYEntrega/EnvioYEntregaGroup.jsonc
       "disclosure-layout#Devoluciones" // ./devoluciones/DevolucionesGroup.jsonc
@@ -72,10 +73,12 @@
       "blockClass": ["Politics__Content"]
     },
     "children": [
-      "tab-content.item#Terminos", // ./faq/FaqGroup.jsonc
+      "tab-content.item#Faq", //./faq/FaqGroup.jsonc
+      "tab-content.item#Terminos", // ./terminosycondciones/terminosycondicionesGroup.jsonc
       "tab-content.item#EnvioYEntrega", // ./EnvioYEntrega/EnvioYEntregaGroup.jsonc
       "tab-content.item#Politicas", // ./Politicas/PoliticasGroup.jsonc
-      "tab-content.item#Devoluciones" // ./devoluciones/DevolucionesGroup.jsonc
+      "tab-content.item#Devoluciones", // ./devoluciones/DevolucionesGroup.jsonc
+      "tab-content.item#Reembolso"
     ]
   }
 }

@@ -33,7 +33,7 @@
     "props": {
       "isInitialScreenOptionOnly": false,
       "logInButtonBehavior":"link"
-    }
+    } 
   },
   "image#Facebook": {
     "props": {

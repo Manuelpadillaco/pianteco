@@ -433,7 +433,7 @@
   background-repeat: no-repeat;
   object-fit: cover;
   width: auto;
-  height: 83vw;
+  /* height: 83vw; */
   margin: inherit !important;
   background-color: #5c6f5e !important;
 }
@@ -515,7 +515,7 @@
   display: flex;
   align-content: center;
   flex-direction: row;
-  justify-content: center;
+  /* justify-content: center; */
   margin-top: 48vw;
   width: 90%;
 }
@@ -545,8 +545,8 @@
   height: 3rem;
   padding: 0;
   position: relative;
-  margin-top: 4px;
-  margin-left: -57px;
+  margin-top: 1px;
+  margin-left: -51px;
 }
 
 .inputGroup .buttonContainer--Newsletter :global(.vtex-button) {
@@ -556,6 +556,7 @@
   border-radius: 9px;
   transition: 0.3s;
   width: 50px;
+  height: 48px;
 }
 .inputGroup .buttonContainer--Newsletter :global(.vtex-button):hover {
   background-color: #698d6f;
@@ -575,13 +576,13 @@
 .inputGroup .buttonContainer--Newsletter :global(.vtex-button__label)::before {
   box-sizing: border-box;
   position: absolute;
-  left: 19px;
-  top: 9px;
+  left: 21px;
+  top: 25%;
   content: "";
   color: white;
   content: "";
   width: 12px;
-  height: 26px;
+  height: 50%;
   background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/arrow.png);
   background-size: 100%;
   background-repeat: no-repeat;
@@ -970,7 +971,7 @@
     width: 23px !important;
   }
   .imageElement--Footer__image--facebook {
-    width: 17px !important;
+    width: 14px !important;
     height: 26px !important;
   }
 
@@ -1434,5 +1435,6 @@
 .searchBarIcon--search {
   color: #324545;
 }
+
 
 /* Estilos banner secundarios home*/

@@ -45,8 +45,8 @@
       "menu-item#4", // ../menu.jsonc
       "menu-item#5",// ../menu.jsonc
       "menu-item#6", // ../menu.jsonc
-      "menu-item#7" // ../menu.jsonc
-    //  "menu-item#8" // ../menu.jsonc
+      "menu-item#7", // ../menu.jsonc
+      "menu-item#8" // ../menu.jsonc
 
     ]
   }

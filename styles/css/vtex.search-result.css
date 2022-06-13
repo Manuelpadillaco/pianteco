@@ -7,9 +7,15 @@
   align-items: center;
 }
 .filterItem--Search__Filter--selected :global(.vtex-checkbox__label)::after {
-  content: "\00d7";
-  font-family: "Encode Sans", sans-serif;
-  font-size: 20px;
+    color: #fff;
+    content: "\2713";
+    font-family: Encode Sans,sans-serif;
+    font-size: 10px;
+    background: #354545;
+    padding: 0;
+    width: 14px;
+    border-radius: 3px;
+    text-align: center;
 }
 .galleryTitle--layout {
   font-family: "Encode Sans", sans-serif;
@@ -176,6 +182,7 @@
 }
 .accordionFilterContainer--Search__Filter {
   padding: 0 20px;
+  margin-bottom: 10px;
 }
 .filterAccordionItemBox--Search__Filter {
   display: flex;

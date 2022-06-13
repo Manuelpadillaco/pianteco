@@ -38,13 +38,28 @@
 
 .styledLinkContainer:first-child {
   margin: 0;
-  padding: 0px 7px;
+  padding: 0px 7px 0 0;
 }
 .styledLinkContent--MenuItem.styledLinkContent--MenuItem__Category {
   display: flex;
   align-items: center;
 }
 .styledLinkContent--MenuItem--9 {
+  margin: 0;
+  padding: 10px 20px;
+  border: none;
+  border-bottom: 1px solid #324545;
+  border-radius: 0;
+}
+
+.styledLinkContent--MenuItem--10 {
+  margin: 0;
+  padding: 10px 20px;
+  border: none;
+  border-bottom: 1px solid #324545;
+  border-radius: 0;
+}
+.styledLinkContent--MenuItem--12 {
   margin: 0;
   padding: 10px 20px;
   border: none;
@@ -127,7 +142,7 @@
   .menuItem--MenuItem__Category--isClosed:first-child {
     padding: 7px 0;
     border-radius: 6px;
-    margin: 1px 10px;
+    margin: 1px 10px 0 0;
   }
   .styledLinkContent--MenuItem__Tile::before {
     content: url(https://pianteco.vtexcommercestable.com.br/arquivos/divisor-llamados-desk-piante.png);
@@ -175,7 +190,7 @@
   margin-right: 15px;
   margin-left: 7px;
   background-image: url(https://pianteco.vtexcommercestable.com.br/arquivos/anturio-icon-piante.png);
-  background-size: 100%;
+  background-size: 93%;
   background-repeat: no-repeat;
   width: 1rem;
 }

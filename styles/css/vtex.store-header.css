@@ -25,10 +25,10 @@
     padding-left: 4%;
 
   }
-  /* ! Header */
-  .headerRowContainer--Header__Container {
+  /* ! Header **/
+  /* .headerRowContainer--Header__Container {
     padding: 0 1rem;
-  }
+  } */
 }
 .headerRowBackground--Menu-Bottom {
   background: #fafafa00;

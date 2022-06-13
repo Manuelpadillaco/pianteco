@@ -40,6 +40,7 @@
 }
 :global(.vtex-button__label) {
   padding: 0;
+  margin: 0 8px 0;
 }
 /* ------------------------------- */
 /* //* Login Page  */
@@ -55,7 +56,7 @@
 }
 .loginOptionsContainer .formTitle::before {
   font-family: "Encode Sans", sans-serif;
-  font-size: 19px;
+  font-size: 16px;
   font-weight: 600;
   color: #000000;
   content: "Escoge una opción para iniciar sesión";
@@ -96,7 +97,7 @@
 }
 .button :global(.vtex-button) {
   min-height: 3rem;
-  margin: 0.5rem 0px;
+  margin: 0.5rem 0 26px;
   border: 1px solid #324545;
 }
 .dontHaveAccount:hover {
@@ -184,8 +185,25 @@
 }
 .loginOptionsContainer {
   display: flex;
-  align-items: center;
   justify-content: center;
+  height: 30rem;
+  padding-top:62px;
+}
+@media screen and (max-width : 600px) {
+  .loginOptionsContainer {
+    display: flex;
+    justify-content: center;
+    height: 18rem;
+    padding-top:0;
+  }
+  .content--emailAndPassword {
+    margin-top: 1rem;
+  }
+  .contentForm {
+    width: 87%;
+    margin-top: 2rem;
+    padding: 0;
+  }
 }
 .oauthProvider {
   color: #324545;
@@ -278,7 +296,7 @@
   }
   .container::before {
     content: "|";
-    margin: 0 1rem;
+    margin: 0 0 0 1rem;
   }
 }
 /* ------------------------------- */
