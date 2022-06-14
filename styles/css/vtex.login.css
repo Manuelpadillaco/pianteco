@@ -17,7 +17,7 @@
   
 }
 .buttonLink :global(.vtex-button__label) {
-  padding: 0;
+  padding: 0 ;
   margin:0 8px 0;
 
 }
@@ -39,7 +39,7 @@
   display: none;
 }
 :global(.vtex-button__label) {
-  padding: 0;
+  padding: 0 !important;
   margin: 0 8px 0;
 }
 /* ------------------------------- */
@@ -268,6 +268,10 @@
     display: flex;
     flex-direction: column;
   }
+  .accountOptions > * {
+    margin: 0 !important;
+}
+
   .accessCodeOptionBtn :global(.vtex-button) {
     width: 24rem;
   }

@@ -18,7 +18,9 @@
       "infinite": true
     },
     "children": [
-      "image#TopSlide-Desk-item-1"
+      "image#TopSlide-Desk-item-1",
+      "image#TopSlide-Desk-item-2",
+      "image#TopSlide-Desk-item-3"
     ]
   },
   "slider-layout#TopSlide-M": {
@@ -32,7 +34,9 @@
       "infinite": true
     },
     "children": [
-      "image#TopSlide-Mobile-item-1"
+      "image#TopSlide-Mobile-item-1",
+      "image#TopSlide-Mobile-item-2",
+      "image#TopSlide-Mobile-item-3"
     ]
   },
 
@@ -67,8 +71,8 @@
       "id": "TopSlide-item-2",
       "isFullModeStyle": true,
       "textPosition": "left",
-      "imageUrl": "https://pianteco.vtexassets.com/arquivos/orquideas-desk-piante.png",
-      "mobileImageUrl": "https://beisbol.vteximg.com.br/arquivos/banner-home-mobile-2.jpg",
+      "imageUrl": "https://pianteco.vtexassets.com/assets/vtex.file-manager-graphql/images/b18d02c4-5875-4390-823b-1ac8009db6cd___ebf5a8f9a6f2921798f325555c35d686.png",
+      "mobileImageUrl": "https://pianteco.vtexassets.com/assets/vtex.file-manager-graphql/images/9bd54194-d7be-40ba-b2cd-3ed2c1994a47___7651f049ae01b530ff185ff70f0dbdc5.png",
       "headline": "Suavidad y fragancia",
       "subhead": "Nuevo producto",
       "callToActionText": "Comprar Ya",
@@ -85,8 +89,8 @@
       "id": "TopSlide-item-2",
       "isFullModeStyle": true,
       "textPosition": "left",
-      "imageUrl": "https://pianteco.vtexassets.com/arquivos/orquideas-desk-piante.png",
-      "mobileImageUrl": "https://beisbol.vteximg.com.br/arquivos/banner-home-mobile-3.jpg",
+      "imageUrl": "https://pianteco.vtexassets.com/assets/vtex.file-manager-graphql/images/b18d02c4-5875-4390-823b-1ac8009db6cd___ebf5a8f9a6f2921798f325555c35d686.png",
+      "mobileImageUrl": "https://pianteco.vtexassets.com/assets/vtex.file-manager-graphql/images/9bd54194-d7be-40ba-b2cd-3ed2c1994a47___7651f049ae01b530ff185ff70f0dbdc5.png",
       "callToActionUrl": "#",
       "callToActionMode": "link",
       "linkTarget": "_self",
@@ -97,7 +101,7 @@
 //--------BANNERS SIN BOTON
   "image#TopSlide-Desk-item-1": {
     "props": {
-      "src": "https://pianteco.vtexassets.com/arquivos/BANNERS-PIANTE_-PRINCIPAL-.jpg",
+      "src": "https://pianteco.vtexassets.com/assets/vtex.file-manager-graphql/images/b18d02c4-5875-4390-823b-1ac8009db6cd___ebf5a8f9a6f2921798f325555c35d686.png",
       "link": {"url":"/137?map=productClusterIds&order=&page=7"},
       "blockClass": [
         "TopSlide__Item",
@@ -107,7 +111,7 @@
   },
   "image#TopSlide-Desk-item-2": {
     "props": {
-      "src": "https://pianteco.vtexassets.com/arquivos/banner-desk-2000-piantecoV2.jpg",
+      "src": "https://pianteco.vtexassets.com/assets/vtex.file-manager-graphql/images/b18d02c4-5875-4390-823b-1ac8009db6cd___ebf5a8f9a6f2921798f325555c35d686.png",
       "link": {"url":"/137?map=productClusterIds&order=&page=7"},
       "blockClass": [
         "TopSlide__Item",
@@ -117,7 +121,7 @@
   },
   "image#TopSlide-Desk-item-3": {
     "props": {
-      "src": "https://pianteco.vtexassets.com/arquivos/banner-desk-2000-piantecoV2.jpg",
+      "src": "https://pianteco.vtexassets.com/assets/vtex.file-manager-graphql/images/b18d02c4-5875-4390-823b-1ac8009db6cd___ebf5a8f9a6f2921798f325555c35d686.png",
       "link": {"url":"/137?map=productClusterIds&order=&page=7"},
       "blockClass": [
         "TopSlide__Item",
@@ -129,7 +133,7 @@
 
   "image#TopSlide-Mobile-item-1": {
     "props": {
-      "src": "https://pianteco.vtexassets.com/arquivos/BANNER-PRINCIPAL-_-MEDIDAS-659-1095 (1).jpg",
+      "src": "https://pianteco.vtexassets.com/assets/vtex.file-manager-graphql/images/9bd54194-d7be-40ba-b2cd-3ed2c1994a47___7651f049ae01b530ff185ff70f0dbdc5.png",
       "link": {"url":"/137?map=productClusterIds&order=&page=7"},
       "blockClass": [
         "TopSlide__Item",
@@ -140,7 +144,7 @@
 
   "image#TopSlide-Mobile-item-2": {
     "props": {
-      "src": "https://beisbol.vteximg.com.br/arquivos/banner-home-mobile-2.jpg",
+      "src": "https://pianteco.vtexassets.com/assets/vtex.file-manager-graphql/images/9bd54194-d7be-40ba-b2cd-3ed2c1994a47___7651f049ae01b530ff185ff70f0dbdc5.png",
       "link": {"url":"/"},
       "blockClass": [
         "TopSlide__Item",
@@ -151,7 +155,7 @@
 
   "image#TopSlide-Mobile-item-3": {
     "props": {
-      "src": "https://beisbol.vteximg.com.br/arquivos/banner-home-mobile-3.jpg",
+      "src": "https://pianteco.vtexassets.com/assets/vtex.file-manager-graphql/images/9bd54194-d7be-40ba-b2cd-3ed2c1994a47___7651f049ae01b530ff185ff70f0dbdc5.png",
       "link": {"url":"/"},
       "blockClass": [
         "TopSlide__Item",

@@ -56,14 +56,14 @@
   margin: 0;
   padding: 10px 20px;
   border: none;
-  border-bottom: 1px solid #324545;
+  /*  border-bottom: 1px solid #324545; */
   border-radius: 0;
 }
 .styledLinkContent--MenuItem--12 {
   margin: 0;
   padding: 10px 20px;
   border: none;
-  border-bottom: 1px solid #324545;
+ /*  border-bottom: 1px solid #324545; */
   border-radius: 0;
 }
 /* ------------------------------- */
