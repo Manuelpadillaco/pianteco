@@ -133,9 +133,8 @@
 }
 .inputContainer :global(.vtex-styleguide-9-x-input) {
   font-family: "Encode Sans", sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 400;
-  color: #dcdcdc;
 }
 .sendButton :global(.vtex-button) {
   background-color: #324545;

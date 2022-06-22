@@ -40,7 +40,7 @@
   },
   "flex-layout.col#redes": {
     "props": {
-      "blockClass": ["Footer-social__Images","ocultarDesk"]
+      "blockClass": ["social__login"]
     },
     "children": [
       "image#Facebook1",
@@ -50,7 +50,7 @@
     ]
   },"image#Facebook1": {
     "props": {
-      "blockClass": ["Footer__image", "Footer__image--facebook"],
+      "blockClass": ["login__image", "Footer__image--facebook"],
       "src": "https://pianteco.vtexcommercestable.com.br/arquivos/facebookicon.png",
       "link": {
         "url": "https://www.facebook.com/piantecol",
@@ -62,7 +62,7 @@
   // ! Instagram Icon
   "image#Instagram1": {
     "props": {
-      "blockClass": ["Footer__image", "Footer__image--instagram"],
+      "blockClass": ["login__image", "Footer__image--instagram"],
       "src": "https://pianteco.vtexcommercestable.com.br/arquivos/instagramicon.png",
       "link": {
         "url": "https://www.instagram.com/piantecol/",
@@ -74,7 +74,7 @@
   // ! Twitter Icon
   "image#Twitter1": {
     "props": {
-      "blockClass": ["Footer__image", "Footer__image--Twitter"],
+      "blockClass": ["login__image", "Footer__image--Twitter"],
       "src": "https://pianteco.vtexcommercestable.com.br/arquivos/",
       "link": {
         "url": "#",
@@ -86,7 +86,7 @@
   // ! Youtube Icon
   "image#Youtube1": {
     "props": {
-      "blockClass": ["Footer__image", "Footer__image--Youtube"],
+      "blockClass": ["login__image", "Footer__image--Youtube"],
       "src": "https://pianteco.vtexcommercestable.com.br/arquivos/youtubeicon.png",
       "link": {
         "url": "https://www.youtube.com/channel/UCJY7NH_F64ZZVWHSE_dxYIw",
@@ -98,7 +98,7 @@
   // ! TikTok Icon
   "image#TikTok1": {
     "props": {
-      "blockClass": ["Footer__image", "Footer__image--tiktok"],
+      "blockClass": ["login__image", "Footer__image--tiktok"],
       "src": "https://pianteco.vtexcommercestable.com.br/arquivos/tiktokicon.png",
       "link": {
         "url": "https://www.tiktok.com/@piantecol",

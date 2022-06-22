@@ -528,6 +528,7 @@
   :global(.vtex-input-prefix__group) {
   border: none;
   height: 50px;
+  margin-bottom: 50px;
 }
 
 
@@ -626,6 +627,7 @@
   font-size: 20px;
   line-height: 100%;
   color: #324545;
+  padding: 0 15px;
 }
 .productDescriptionTitle {
   font-family: "Encode Sans", sans-serif;
@@ -1024,7 +1026,7 @@
   }
 
   .infoCardImageContainer--CategorySlide__Item--1::after {
-    background-image: url("https://pianteco.vteximg.com.br/arquivos/pachiras-pianteco.png");
+    background-image: url("https://pianteco.vteximg.com.br/arquivos/orquideas-pianteco.png");
     background-size: 50% !important;
   }
 
@@ -1033,7 +1035,7 @@
   }
 
   .infoCardImageContainer--CategorySlide__Item--3::after {
-    background-image: url("https://pianteco.vteximg.com.br/arquivos/suscripciones-pianteco.png");
+    background-image: url("https://pianteco.vteximg.com.br/arquivos/pachiras-pianteco.png");
     background-size: 50% !important;
   }
   .infoCardImageContainer--CategorySlide__Item--4::after {

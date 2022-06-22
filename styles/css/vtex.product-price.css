@@ -9,6 +9,7 @@
   font-family: "Encode Sans", sans-serif;
   font-weight: 600;
   text-align: left;
+  padding: 0 10px !important;
 }
 .sellingPriceValue {
   font-family: "Encode Sans", sans-serif;

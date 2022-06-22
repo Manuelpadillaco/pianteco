@@ -12,6 +12,9 @@
   padding: 14px;
   margin: 0;
 }
+.nameWrapper{
+  padding: 0 15px;
+}
 
 .element--ProductShelfHome .brandName {
   text-align: left;

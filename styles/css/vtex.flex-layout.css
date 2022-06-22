@@ -599,7 +599,7 @@
   }
   /* ! Footer */
   .flexCol--Footer-social__Images {
-    margin-right: 0;
+    margin-right: 30px;
     height: auto;
     display: flex;
     align-items: center;
@@ -641,7 +641,18 @@
     margin: 0;
     display: flex;
     align-items: center;
+    width: 45px;
+    justify-content: center;
   }  
+  .flexColChild--Footer-social__Images:hover {
+    width: 45px;
+    height: 45px !important;
+    border-radius: 35px;
+    background: #2c2c2c;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
 
   .stretchChildrenWidth {
     width: 100% !important;
@@ -900,7 +911,26 @@
 }
  /* oculta iconos de redes login en desktop */
  @media screen and (min-width: 1026px){
-  .flexCol--ocultarDesk{
-    display:none !important;
+  .flexCol--social__login{
+    display:flex;
+    width: 25% !important;
+    margin-left: 30%;
+    margin-top: -15%;
+    position: relative;
+  }
+  .flexCol--social__login{
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
   }
   }
+@media(max-width:1024px){
+  .flexCol--social__login{
+    display:flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+}

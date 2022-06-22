@@ -16,7 +16,7 @@
 }
 :global(.vtex-disclosure-layout-1-x-content--Disclosure__Content--Category)
   .menuItem--MenuItem:last-child {
-  border-bottom: none;
+    border-bottom: 1px solid #324545;
 }
 .styledLinkContent--MenuItem {
   font-family: "Encode Sans", sans-serif;
