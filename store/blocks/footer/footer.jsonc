@@ -6,14 +6,10 @@
     "props": {
       "src": "https://pianteco.vtexassets.com/arquivos/logos_whatsapp.png",
       "link": {
-        "url":"https://shorturl.at/hkyDN",
-        "newTab":true
+        "url": "https://shorturl.at/hkyDN",
+        "newTab": true
       },
-      "blockClass": [
-        "ButtonWhatsapp",
-        "ButtonWhatsapp--desktop"
-        
-      ]
+      "blockClass": ["ButtonWhatsapp", "ButtonWhatsapp--desktop"]
     }
   },
   // * Promotions section
@@ -80,7 +76,6 @@
       "image#Youtube"
     ]
   },
-  
 
   // * Socials section
   // ! Title socials
@@ -420,7 +415,7 @@
   "rich-text#Terms": {
     "props": {
       "blockClass": ["Footer__Text", "Footer__Text--terms"],
-      "text": "[Terminos y condiciones](/politicas)"
+      "text": "[Términos y condiciones](/politicas)"
     }
   },
   // ! Privacy politics
@@ -450,7 +445,7 @@
   "rich-text#TitleInstitutional": {
     "props": {
       "blockClass": ["FooterTitle", "FooterTitle--institutional"],
-      "text": "¿Quienes somos?"
+      "text": "¿Quiénes somos?"
     }
   },
   // ! Company
@@ -529,7 +524,7 @@
   },
   "rich-text#OtroEnlaces": {
     "props": {
-      "text": "[¿Quienes somos?](/sobre-nosotros)",
+      "text": "[¿Quiénes somos?](/sobre-nosotros)",
       "blockClass": "Footer__Text"
     }
   },

@@ -7,15 +7,16 @@
   align-items: center;
 }
 .filterItem--Search__Filter--selected :global(.vtex-checkbox__label)::after {
-    color: #fff;
-    content: "\2713";
-    font-family: Encode Sans,sans-serif;
-    font-size: 10px;
-    background: #354545;
-    padding: 0;
-    width: 14px;
-    border-radius: 3px;
-    text-align: center;
+  color: #fff;
+  content: "\2713";
+  font-family: Encode Sans, sans-serif;
+  font-size: 10px;
+  background: #354545;
+  padding: 0;
+  width: 14px;
+  border-radius: 3px;
+  text-align: center;
+  margin-right: 5px;
 }
 .galleryTitle--layout {
   font-family: "Encode Sans", sans-serif;
@@ -417,6 +418,7 @@
     margin-bottom: 10px;
     border: 0;
     position: static;
+    
   }
   .filter__container--Search__Filter--title {
     border-bottom: 2px solid #d3d3d3;
@@ -444,12 +446,16 @@
     cursor: pointer;
     background: #f2f2f0;
     padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
   }
   .filterItem--Search__Filter--selected :global(.vtex-checkbox__container) {
     display: none;
   }
   .filterContent--Search__Filter {
-    padding-top: 10px;
+    padding: 10px 10px;
+    background: #f2f2f0;
   }
   .filterItem--Search__Filter {
     font-family: "Encode Sans", sans-serif;
@@ -469,13 +475,16 @@
   .filterContent--Search__Filter
     .filterItem--Search__Filter--selected
     :global(.vtex-checkbox__label) {
-    color: #324545;
-    font-weight: 600;
+    color: #808080;
+    font-family: "Encode Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
   }
+
   .filterContent--Search__Filter
     .filterItem--Search__Filter
     :global(.vtex-checkbox__container) {
-    display: none;
   }
 }
 /* ------------------------------- */

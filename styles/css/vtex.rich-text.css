@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;600;800;900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Manrope:wght@300;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Manrope:wght@300;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 /* ------------------------------- */
 /* //* Header */
 /* ------------------------------- */
@@ -320,6 +320,7 @@
   line-height: 49px;
   text-transform: uppercase;
 }
+
 .paragraph--About__Text {
   margin-bottom: 0;
   color: #808080;
@@ -427,13 +428,12 @@
   margin: 0;
 }
 .headingLevel2--Politics__Text {
-  font-family: "Alegreya",serif;
+  font-family: "Alegreya", serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 27px;
   color: #324545;
-  
 }
 
 .container--FooterTitle--development {
@@ -442,6 +442,28 @@
 .container--Header-top-text {
   z-index: 2;
 }
+
+.paragraph--About__Title--WhoWeAre {
+  margin: 17px 10px 0;
+  width: 100%;
+  color: white !important;
+  font-size: 30px;
+  font-family: "Encode Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+
+}
+
+.paragraph--About__Text--WhoWeAre {
+  padding: 0px 35px;
+  text-align: center;
+  color: #fff;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 25px;
+}
+
 @media (min-width: 1026px) {
   .paragraph--FooterTitle--development {
     margin: 0 0 -7px;
@@ -465,7 +487,7 @@
     position: relative;
   }
   .wrapper--Title--related {
-    margin-left: 7rem!important;
+    margin-left: 7rem !important;
   }
   .container--Title--destacados-new {
     max-width: 86% !important;
@@ -488,7 +510,7 @@
     padding: 2rem 0 10px;
   }
   .container--Description--categories-home {
-    max-width: 96rem!important;
+    max-width: 96rem !important;
     padding-left: 5vw !important;
   }
   .container--Header-top-text {
@@ -521,7 +543,6 @@
   /* ! HOME */
   .container--Home__Title {
     max-width: 96rem !important;
-
   }
   /* ! Footer */
   .paragraph--Footer__Text--terms-2 {
@@ -574,6 +595,19 @@
   .heading--Politics__Title {
     width: 90%;
   }
+
+  .container--Politics__Group-Title {
+    margin: 0px;
+  }
+
+  .paragraph--Cambios__Tab {
+    margin: 0px 10px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "Alegreya", serif;
+    color: #324545;
+  }
+
   .container--Politics__Title {
     padding: 0 100px;
   }
@@ -582,11 +616,28 @@
   }
 
   /* ! About page */
+
+  .paragraph--About__Text--WhoWeAre {
+    text-align: center;
+    padding: 10px 120px;
+    color: #fff;
+    font-family: "Encode Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
   .paragraph--About__Title--WhoWeAre {
     margin: 17px 0 0;
     width: 100%;
-    color: white;
+    color: white !important;
+    font-size: 36px;
+    font-family: "Encode Sans", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+  
   }
+
   :global(.vtex-flex-layout-0-x-flexRowContent--About__Section--Text)
     .container--About__Text--Text {
     width: 100%;
@@ -686,17 +737,16 @@
     line-height: 1.3em;
   }
 }
-.listItem--Politics__Text{
-  font-family: 'Alegreya', serif;
+.listItem--Politics__Text {
+  font-family: "Alegreya", serif;
 }
-.heading--Politics__Text{
+.heading--Politics__Text {
   text-transform: uppercase;
 }
 .heading--Politics__Text--Faq--item1,
 .heading--Politics__Text--EnvioYEntrega--item1,
 .heading--Politics__Text--Terminos--item1,
 .heading--Politics__Text--Devoluciones--item1,
-.heading--Politics__Text--Politicas--item1
-{
+.heading--Politics__Text--Politicas--item1 {
   text-transform: capitalize;
 }

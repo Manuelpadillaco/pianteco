@@ -38,11 +38,11 @@
     "props": {
       "blockClass": ["About__Section", "About__Section--WhoWeAre"]
     },
-    "children": ["flex-layout.col#subWhoWeAre1", "flex-layout.col#subWhoWeAre"]
+    "children": ["flex-layout.col#subWhoWeAre", "flex-layout.col#subWhoWeAre1"]
   },
   "flex-layout.col#subWhoWeAre": {
     "props": {
-      "blockClass": ["About__Section", "About__Section--subWhoWeAre"]
+      "blockClass": "whoWeAreCol"
     },
     "children": ["rich-text#EmpaqueTitle", "rich-text#EmpaqueText"]
   },
@@ -117,7 +117,7 @@
   // ! Title
   "rich-text#EmpaqueTitle": {
     "props": {
-      "blockClass": ["About__Title", "About__Title--WhoWeAre"],
+      "blockClass": "About__Title--WhoWeAre",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "Nuestro empaque"
@@ -127,7 +127,7 @@
   // ! Text
   "rich-text#EmpaqueText": {
     "props": {
-      "blockClass": ["About__Text", "About__Text--WhoWeAre"],
+      "blockClass": ["About__Text--WhoWeAre"],
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "¡Nuestro empaque ha ganado el premio nacional a la innovación al viverismo! \n  Hemos diseñado un empaque que garantiza la protección de las plantas en todos los puntos de la cadena de distribución, así llegarán perfectas hasta su destino       "
@@ -151,9 +151,9 @@
       "blockClass": ["About__Purpose", "About__Purpose--Calidad"]
     },
     "children": [
+      "image#PurposeCalidadImage",
       "rich-text#PurposeCalidadTitle",
-      "rich-text#PurposeCalidadText",
-      "image#PurposeCalidadImage"
+      "rich-text#PurposeCalidadText"
     ]
   },
   // ? Calidad title
@@ -188,9 +188,9 @@
       "blockClass": ["About__Purpose", "About__Purpose--Innovacion"]
     },
     "children": [
+      "image#PurposeInnovacionImage",
       "rich-text#PurposeInnovacionTitle",
-      "rich-text#PurposeInnovacionText",
-      "image#PurposeInnovacionImage"
+      "rich-text#PurposeInnovacionText"
     ]
   },
   // ? Calidad title
@@ -199,7 +199,7 @@
       "blockClass": ["About__Title", "About__Title--Innovacion"],
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "SERIVICIO"
+      "text": "SERVICIO"
     }
   },
   // ? Calidad Image
@@ -224,9 +224,9 @@
       "blockClass": ["About__Purpose", "About__Purpose--solucion"]
     },
     "children": [
+      "image#PurposesolucionImage",
       "rich-text#PurposesolucionTitle",
-      "rich-text#PurposesolucionText",
-      "image#PurposesolucionImage"
+      "rich-text#PurposesolucionText"
     ]
   },
   // ? solucion title
@@ -284,10 +284,10 @@
     "props": {
       "blockClass": ["About__Section", "About__Section--Contact"]
     },
-    "children": ["flex-layout.row#Socials", "rich-text#GotToBuy"]
+    "children": ["flex-layout.col#Socials", "rich-text#GotToBuy"]
   },
   // ! Socials container
-  "flex-layout.row#Socials": {
+  "flex-layout.col#Socials": {
     "props": {
       "blockClass": ["About__Socials"]
     },
@@ -337,7 +337,7 @@
   // ! Facebook Icon
   "image#FacebookGreen": {
     "props": {
-      "blockClass": ["Footer__image", "Footer__image--facebook"],
+      "blockClass": ["Footer__image__green", "Footer__image--facebook--green"],
       "src": "https://pianteco.vtexcommercestable.com.br/arquivos/iconsSocial-Piante-Green1.png",
       "link": {
         "url": "https://www.facebook.com/piantecol",
@@ -349,7 +349,7 @@
   // ! Instagram Icon
   "image#InstagramGreen": {
     "props": {
-      "blockClass": ["Footer__image", "Footer__image--instagram"],
+      "blockClass": ["Footer__image__green", "Footer__image--instagram"],
       "src": "https://pianteco.vtexcommercestable.com.br/arquivos/iconsSocial-Piante-Green2.png",
       "link": {
         "url": "https://www.instagram.com/piantecol/",
@@ -373,7 +373,7 @@
   // ! Youtube Icon
   "image#YoutubeGreen": {
     "props": {
-      "blockClass": ["Footer__image", "Footer__image--Youtube"],
+      "blockClass": ["Footer__image__green", "Footer__image--Youtube"],
       "src": "https://pianteco.vtexcommercestable.com.br/arquivos/iconsSocial-Piante-Green5.png",
       "link": {
         "url": "https://www.youtube.com/channel/UCJY7NH_F64ZZVWHSE_dxYIw",
@@ -385,7 +385,7 @@
   // ! TikTok Icon
   "image#TikTokGreen": {
     "props": {
-      "blockClass": ["Footer__image", "Footer__image--tiktok"],
+      "blockClass": ["Footer__image__green", "Footer__image--tiktok"],
       "src": "https://pianteco.vtexcommercestable.com.br/arquivos/iconsSocial-Piante-Green3.png",
       "link": {
         "url": "https://www.tiktok.com/@piantecol",

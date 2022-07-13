@@ -49,6 +49,17 @@
   justify-content: center;
   align-content: center;
 }
+.imageElementLink--Footer__image__green {
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.imageElement--Footer__image--facebook--green {
+  max-width: 22px;
+}
 
 .imageElement--Footer__image--facebook {
   max-width: 22px;
@@ -531,8 +542,6 @@
   margin-bottom: 50px;
 }
 
-
-
 .inputGroup--Newsletter
   :global(.vtex-input)
   :global(.vtex-styleguide-9-x-input)::placeholder {
@@ -823,6 +832,10 @@
 }
 
 .infoCardContainer--About__Image {
+  background-image: url(https://pianteco.vteximg.com.br/arquivos/banner-mobile1sobre-nosotros.png) !important;
+}
+
+.infoCardContainer--About__Image {
   height: 500px;
 }
 
@@ -942,8 +955,6 @@
   }
 }
 @media (min-width: 1026px) {
-
-
   .form--Newsletter .inputGroup {
     margin-top: 0;
     width: auto;
@@ -1373,7 +1384,6 @@
   font-size: 26px;
 } */
 
-
 .inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
   background-color: white;
   color: #fff;
@@ -1437,6 +1447,5 @@
 .searchBarIcon--search {
   color: #324545;
 }
-
 
 /* Estilos banner secundarios home*/

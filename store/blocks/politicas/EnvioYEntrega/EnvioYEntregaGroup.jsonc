@@ -14,7 +14,7 @@
         "Disclosure__Trigger-Politics--EnvioYEntrega"
       ]
     },
-    "children": ["rich-text#EnvioYEntregaTitle"]
+    "children": ["rich-text#EnvioYEntregaTitle",  "disclosure-state-indicator"]
   },
   // ? Group Title
   "rich-text#EnvioYEntregaTitle": {

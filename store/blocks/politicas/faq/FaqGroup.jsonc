@@ -14,24 +14,19 @@
         "Disclosure__Trigger-Politics--Faq"
       ]
     },
-    "children": ["rich-text#FaqTitle"]
+    "children": ["rich-text#FaqTitle", "disclosure-state-indicator"]
   },
   // ? Group Title
   "rich-text#FaqTitle": {
     "props": {
-      "blockClass": [
-        "Politics__Group-Title", 
-        "Politics__Group-Title--Faq"],
+      "blockClass": ["Politics__Group-Title", "Politics__Group-Title--Faq"],
       "text": "FAQ"
     }
   },
   // ! FAQ content
   "disclosure-content#Faq": {
     "props": {
-      "blockClass": [
-        "Disclosure__content", 
-        "Disclosure__content--Faq"
-      ]
+      "blockClass": ["Disclosure__content", "Disclosure__content--Faq"]
     },
     "children": ["tab-list.item#Faq"]
   },
@@ -41,84 +36,62 @@
   //***************************************************************************
   "tab-list.item#Faq": {
     "props": {
-      "blockClass": [
-        "TabItem", 
-        "TabItem--Faq"],
+      "blockClass": ["TabItem", "TabItem--Faq"],
       "tabId": "faq",
-      "label": "FAQ", 
+      "label": "FAQ",
       "defaultActiveTab": true
     }
   },
   // ! Item content Faq
   // It is necessary to add this components into politics.jsonc at tab-content#Politics__Content
   "tab-content.item#Faq": {
-    "children": ["rich-text#titleFaq",
+    "children": [
+      "rich-text#titleFaq",
       "rich-text#Faq--item1",
       "rich-text#Faq--item2",
       "rich-text#Faq--item3",
       "rich-text#Faq--item4"
     ],
     "props": {
-      "blockClass": [
-        "TabContent", 
-        "TabContent--Faq"
-      ],
+      "blockClass": ["TabContent", "TabContent--Faq"],
       "tabId": "faq"
     }
   },
   // ? Rich text Faq
   "rich-text#titleFaq": {
     "props": {
-      "blockClass": [
-        "Politics__Text", 
-        "Politics__Text--Faq"
-      ],
+      "blockClass": ["Politics__Text", "Politics__Text--Faq"],
       "text": "## Preguntas"
     }
   },
   // ? Rich text Faq
   "rich-text#Faq": {
     "props": {
-      "blockClass": [
-        "Politics__Text", 
-        "Politics__Text--Faq"
-      ],
+      "blockClass": ["Politics__Text", "Politics__Text--Faq"],
       "text": "# Preguntas"
     }
   },
   "rich-text#Faq--item1": {
     "props": {
-      "blockClass": [
-        "Politics__Text", 
-        "Politics__Text--Faq--item1"
-      ],
+      "blockClass": ["Politics__Text", "Politics__Text--Faq--item1"],
       "text": "- ## ¿Qué hago si mi producto no llega como lo esperaba? \n Puedes realizar tu cambio en un plazo de 7 días calendario, enviando un correo electrónico a info@epartner.com o llamando a la línea nacional 01 8000 111 111"
     }
   },
   "rich-text#Faq--item2": {
     "props": {
-      "blockClass": [
-        "Politics__Text", 
-        "Politics__Text--Faq--item1"
-      ],
+      "blockClass": ["Politics__Text", "Politics__Text--Faq--item1"],
       "text": "- ## ¿Cuanto tiempo tengo para solicitar un cambio? \n Tienes 7 días calendario para enviar la solicitud de cambio y 30 días para acercarte a una de nuestras tiendas más cercanas y realizar la devolución del mismo si son productos disponibles en tienda."
     }
   },
   "rich-text#Faq--item3": {
     "props": {
-      "blockClass": [
-        "Politics__Text", 
-        "Politics__Text--Faq--item1"
-      ],
+      "blockClass": ["Politics__Text", "Politics__Text--Faq--item1"],
       "text": "- ## ¿Puedo realizar un cambio en cualquier tienda del pais? \n Si ya realizaste el envío del correo a info@epartner.com y llega la confirmación, tienes 10 días para acercarte a una de nuestras tiendas dispuestas a nivel nacional."
     }
   },
   "rich-text#Faq--item4": {
     "props": {
-      "blockClass": [
-        "Politics__Text", 
-        "Politics__Text--Faq--item1"
-      ],
+      "blockClass": ["Politics__Text", "Politics__Text--Faq--item1"],
       "text": "- ## ¿Me puedo retractar de mi compra? \n De acuerdo con el derecho de retracto consagrado por la ley 1480 art. 47, puedes hacerlo en un plazo máximo de 5 días hábiles contados a partir de la entrega del producto."
     }
   }

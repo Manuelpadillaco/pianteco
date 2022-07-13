@@ -9,6 +9,8 @@
   border: 1px solid white;
   border-radius: 9px;
   outline: none;
+  
+  
 }
 .trigger--Disclosure__Trigger--visible
   :global(.vtex-rich-text-0-x-paragraph--FooterTitle--client)::after,
@@ -27,12 +29,15 @@
 /* //* Politics Page */
 /* ------------------------------- */
 .trigger--Disclosure__Trigger-Politics {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   width: 100%;
   border: none;
   cursor: pointer;
   background: #F2F2F0;
   border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .trigger--disclosure-icon-search-mobile {
   background: transparent;
@@ -57,6 +62,7 @@
 
 .trigger--visible {
   z-index: 50;
+  margin-bottom: 0px;
 }
 
 
@@ -65,8 +71,11 @@
   transform: rotate(180deg);
 }
 .content--Disclosure__content {
-  padding: 0 30px;
+  padding: 0 20px;
   width: 100%;
+  background-color: #F2F2F0;
+  margin-bottom: 20px;
+  
 }
 
 /* ------------------------------- */
