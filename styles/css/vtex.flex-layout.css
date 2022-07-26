@@ -286,6 +286,13 @@
 .flexRowContent--Product {
   padding-top: 10px;
 }
+@media (min-width: 835px) and (max-width: 836px) {
+  .flexRowContent--Product {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .flexRow--Search__Row--Content {
   padding: 20px 0;
 }

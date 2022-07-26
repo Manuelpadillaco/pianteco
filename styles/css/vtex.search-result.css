@@ -322,6 +322,25 @@
 /* ------------------------------- */
 /* //? Media queries */
 /* ------------------------------- */
+
+@media (min-width: 280px) {
+  .gallery--grid :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    margin-left: -2rem !important;
+    font-size: 0.7rem;
+  }
+  .gallery--grid
+    :global(.vtex-add-to-cart-button-0-x-buttonText--summary)::before {
+    font-size: 0.7rem;
+    left: 75% !important;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 767px) {
+  .gallery--grid :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    margin-left: -2rem !important;
+  }
+}
+
 @media (min-width: 1026px) {
   .filter__container--priceRange .filterTemplateOverflow--Search__Filter {
     padding: 1rem;
@@ -339,6 +358,7 @@
   }
   .gallery--grid :global(.vtex-add-to-cart-button-0-x-buttonText) {
     margin-left: -1rem !important;
+    font-size: 0.9rem;
   }
   .filter__container--priceRange {
     width: 100%;
@@ -418,7 +438,6 @@
     margin-bottom: 10px;
     border: 0;
     position: static;
-    
   }
   .filter__container--Search__Filter--title {
     border-bottom: 2px solid #d3d3d3;

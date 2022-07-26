@@ -75,6 +75,7 @@
   filter: none;
   opacity: 1;
 }
+
 /* ------------------------------- */
 /* //* Home */
 /* ------------------------------- */
@@ -952,6 +953,13 @@
     :global(.vtex-input)
     :global(.vtex-styleguide-9-x-input) {
     top: 55vw;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1025px) {
+  .imageElementLink--Footer__image--allpaymentsMobile {
+    padding: 0 1.9rem;
+    width: 80% !important;
   }
 }
 @media (min-width: 1026px) {
