@@ -96,7 +96,7 @@
       "image#MasterCard",
       "image#American",
       "image#Pse",
-      "image#Baloto",
+      // "image#Baloto", Se retira baloto porque no es un medio de pago
       "image#MercadoPago"
     ]
   },
@@ -261,17 +261,18 @@
       }
     }
   },
-  "image#Baloto": {
-    "props": {
-      "blockClass": ["Footer__imagePayment", "Footer__image--Baloto"],
-      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/balotoB-logo.png",
-      "link": {
-        "url": "#",
-        "label": "Baloto",
-        "newTab": true
-      }
-    }
-  },
+  // Se retira Baloto ya que no es un medio de pago
+  // "image#Baloto": {
+  //   "props": {
+  //     "blockClass": ["Footer__imagePayment", "Footer__image--Baloto"],
+  //     "src": "https://pianteco.vtexcommercestable.com.br/arquivos/balotoB-logo.png",
+  //     "link": {
+  //       "url": "#",
+  //       "label": "Baloto",
+  //       "newTab": true
+  //     }
+  //   }
+  // },
   "image#MercadoPago": {
     "props": {
       "blockClass": ["Footer__imagePayment", "Footer__image--MercadoPago"],
