@@ -580,7 +580,7 @@
   "image#LogoAllPaymentDesk": {
     "props": {
       "blockClass": ["Footer__imageCO", "Footer__image--allpaymentsMobile"],
-      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/pagos-desk-pianteco.png",
+      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/medios-pago-desk.png",
       "link": {
         "url": "/",
         "label": "Piante",
