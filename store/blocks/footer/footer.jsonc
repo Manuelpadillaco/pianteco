@@ -568,7 +568,8 @@
   "image#LogoAllPaymentMobile": {
     "props": {
       "blockClass": ["Footer__imageCO", "Footer__image--allpaymentsMobile"],
-      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/medios-pago-mobile.png",
+      // "src": "https://pianteco.vtexcommercestable.com.br/arquivos/medios-pago-mobile.png",
+      "src": "https://pianteco.vteximg.com.br/arquivos/medios-pago-mobile1.png",
       "link": {
         "url": "/",
         "label": "Piante",
@@ -580,7 +581,8 @@
   "image#LogoAllPaymentDesk": {
     "props": {
       "blockClass": ["Footer__imageCO", "Footer__image--allpaymentsMobile"],
-      "src": "https://pianteco.vtexcommercestable.com.br/arquivos/medios-pago-desk.png",
+      // "src": "https://pianteco.vtexcommercestable.com.br/arquivos/medios-pago-desk.png",
+      "src": "https://pianteco.vteximg.com.br/arquivos/medios-pago-desk.png",
       "link": {
         "url": "/",
         "label": "Piante",
