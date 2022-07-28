@@ -1,7 +1,7 @@
 {
   "sticky-layout#buy-button": {
     "props": {
-      "position": "bottom"
+      "position": "BOTTOM"
     },
     "children": ["flex-layout.row#buy-button"]
   },
