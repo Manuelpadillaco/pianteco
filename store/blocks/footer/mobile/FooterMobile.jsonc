@@ -104,7 +104,7 @@
     },
     "children": [
       "image#Pse",
-      "image#Baloto",
+      // Se Retira Baloto del footer  ya no es medio de pago. "image#Baloto",
       "image#MercadoPago",
       "image#Bancolombia"
 
