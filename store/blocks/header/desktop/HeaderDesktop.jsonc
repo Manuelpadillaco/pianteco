@@ -1,7 +1,7 @@
 {
   // * Header Desktop
   "header-layout.desktop": {
-    "children": ["rich-text#top-text", "sticky-layout#4-desktop"]
+    "children": ["rich-text#top-text-1", "sticky-layout#4-desktop"]
   },
   "sticky-layout#4-desktop": {
     "props": {

@@ -13,10 +13,10 @@
   },
 
   // * Static message
-  "rich-text#top-text": {
+  "rich-text#top-text-1": {
     "props": {
       "blockClass": ["Header-top-text"],
-      "text": "Envió gratis por compras superiores a $150.000 - AplicanTyC*"
+      "text": "Programa tu entrega para amor y amistad con ENVÍO GRATIS usando el código: **PIANTECOL**"
     }
   }
 }

@@ -2,7 +2,7 @@
   // * Header Mobile
   "header-layout.mobile": {
     "children": [
-      "rich-text#top-text", // /header.jsonc
+      "rich-text#top-text-1", // /header.jsonc
       "sticky-layout#1-mobile"
     ]
   },
