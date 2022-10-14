@@ -36,10 +36,6 @@
   border-radius: 100px;
   transition: 0.3s;
 }
-.element--ProductShelfHome :global(.vtex-button):hover {
-  background-color: #698d6f;
-  border-color: #698d6f;
-}
 .element--ProductShelfHome :global(.vtex-button__label) {
   padding: 8px 0 !important;
 }
