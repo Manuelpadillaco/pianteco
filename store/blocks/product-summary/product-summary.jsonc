@@ -11,7 +11,8 @@
       "product-summary-name",
       "flex-layout.row#ProductShelfHome",
       "product-selling-price",
-      "add-to-cart-button#ProductShelfHome"
+      "add-to-cart-button#ProductShelfHome",
+      "flex-layout.row#ProductShelfHome2"
     ]
   },
 
@@ -35,7 +36,22 @@
       "text": "Agregar al carrito"
     }
   },
-
+  "flex-layout.row#ProductShelfHome2":{
+    "children":[
+      "add-to-cart-button#ProductShelfHome2"
+    ],
+    "props":{
+      "blockClass":"botonSecond"
+    }
+  },
+  "add-to-cart-button#ProductShelfHome2": {
+    "props": {
+      "blockClass": ["summary", "secondbutom"],
+      "text": "Comprar ahora",
+      "isOneClickBuy": true,
+      "customOneClickBuyLink":"/checkout/#/email"
+    }
+  },
   "product-summary.shelf": {
     "children": [
       "stack-layout#prodsum",

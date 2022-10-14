@@ -990,3 +990,21 @@
     justify-content: space-around;
   }
 }
+.flexRowContent--botonSecond :global(.vtex-button){
+    margin-top: 5px !important;
+    background-color: #698d6f !important;
+    border-color: #698d6f !important;
+    border-radius: 100px;
+    transition: 0.3s;
+}
+.flexRowContent--botonSecond :global(.vtex-button):hover{
+  margin-top: 5px !important;
+  background-color: #3C5E5B !important;
+  border-color: #3C5E5B !important;
+  border-radius: 100px;
+  transition: 0.3s;
+}
+
+.flexRowContent.flexRowContent--botonSecond .stretchChildrenWidth {
+  width: 100% !important;
+}
