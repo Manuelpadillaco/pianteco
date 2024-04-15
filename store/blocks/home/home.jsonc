@@ -16,6 +16,7 @@
       "rich-text#Title3",
       "rich-text#Description3",
       "flex-layout.row#Shelf-2",
+      "rich-text#Description4",
       "newsletter" // ./newsletter.jsonc
     ]
   },
@@ -194,6 +195,15 @@
       "callToActionUrl": "/sale/d",
       "blockClass": "info-card-home",
       "textAlignment": "center"
+    }
+  },
+  "rich-text#Description4": {
+    "props": {
+      "blockClass": [
+        "Home__description2",
+        "Description--categories-home"
+      ],
+      "text": "Plantas directamente de nuestro cultivo a tu hogar cambi HP."
     }
   }
 

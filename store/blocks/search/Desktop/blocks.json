@@ -1,0 +1,85 @@
+{   "rich-text#tituloAccess": {
+        "props": {
+            "blockClass": [
+                "encabezadoAccess"
+            ],
+            "text": "Titulo"
+        }
+    },
+    "menu-item#access1": {
+        "props": {
+            "id": "contentAccess",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "external",
+            "href": "http://correo.socoda.com.co/portalproveedores/Login.aspx",
+            "noFollow": false,
+            "tagTitle": "Menu 1",
+            "text": "Menu 1"
+            }
+        }
+    },
+
+  "menu-item#access2": {
+    "props": {
+      "id": "contentAccess",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/quienes-somos",
+        "noFollow": false,
+        "tagTitle": "Menu 2",
+        "text": "Menu 2"
+      }
+    }
+  },
+  "menu-item#access3": {
+    "props": {
+      "id": "contentAccess",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/quienes-somos",
+        "noFollow": false,
+        "tagTitle": "Menu 3",
+        "text": "Menu 3"
+      }
+    }
+  },
+  "menu-item#access4": {
+    "props": {
+      "id": "contentAccess",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/quienes-somos",
+        "noFollow": false,
+        "tagTitle": "Menu 4",
+        "text": "Menu 4"
+      }
+    }
+  },
+  "menu-item#access5": {
+    "props": {
+      "id": "contentAccess",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/quienes-somos",
+        "noFollow": false,
+        "tagTitle": "Menu 5",
+        "text": "Menu 5"
+      }
+    }
+  }
+}

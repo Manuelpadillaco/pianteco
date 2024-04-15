@@ -9,6 +9,28 @@
   :global(.vtex-menu-2-x-styledLinkContainer):first-child {
   margin-left: 0;
 }
+.flexRowContent--QuickAccessMenu__Row{
+  font-family: "Encode Sans", sans-serif;
+  font-size: 18px;
+  color: #324545;
+  justify-content: center;
+  width: 70%;
+  padding: 20px;
+}
+.flexColChild--QuickAccessMenu__Column:hover{
+  text-decoration: underline;
+  color: #3b7a7a; /* Cambiamos el color cuando el cursor está sobre el enlace */
+}
+.flexRow--QuickAccessMenu__Row{
+  text-align: -webkit-center;
+}
+.flexCol--QuickAccessMenu__Column{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.flexColChild--QuickAccessMenu__Column{
+  padding-top: 20px;
+}
 .flexRowContent--main-header-mobile {
   background-color: white !important;
   height: 5rem;

@@ -221,7 +221,64 @@
   line-height: 18px;
   color: #324545;
   width: 90%;
-  margin: 0 0 0 2rem;
+
+}
+.container--Home__description2{
+  font-family: "Encode Sans", sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  color: #324545;
+  width: 90%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.link--Home__description2{
+  color: #324545;
+}
+.container--descriptionFinal{
+  font-family: "Encode Sans", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: #324545;
+  width: 90%;
+  background-color: #f2f2f0;
+  padding: 20px;
+}
+
+.link--descriptionFinal{
+  color: #324545;
+}
+.container--enlaces {
+  font-family: "Encode Sans", sans-serif;
+  font-size: 18px;
+  color: #324545;
+  text-align: center;
+  justify-content: center;
+  width: 70%;
+  padding: 20px;
+}
+
+.link--enlaces {
+  color: #324545;
+  transition: color 0.3s ease; /* Agregamos una transición suave para el cambio de color */
+}
+
+.link--enlaces:hover {
+  font-weight: bold; /* Cambiamos a negrita cuando el cursor está sobre el enlace */
+  color: #3b7a7a; /* Cambiamos el color cuando el cursor está sobre el enlace */
+}
+
+.paragraph--encabezadoAccess{
+  font-family: "Encode Sans", sans-serif;
+  font-size: 18px;
+  color: #324545;
+}
+.container--titulosDes{
+  font-family: "Encode Sans", sans-serif;
+  font-size: 22px;
+  text-align: center;
+  color: #324545;
+  width: 70%;
 }
 .container--Home__Title {
   margin: 2rem 0 0 2rem;

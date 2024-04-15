@@ -3,8 +3,12 @@
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#SearchBreadcrumb", // ../search.jsonc
+      "rich-text#tituloDes",
       "flex-layout.row#SearchTitle", // ../search.jsonc
       "flex-layout.row#result",
+      "rich-text#Description",
+      "flex-layout.row#quick-access-menu", // Agregamos el nuevo bloque para el menú de accesos rápidos
+      "rich-text#enlaces",
       "newsletter" // ../../newsletter.jsonc
     ],
     "props": {
@@ -13,7 +17,30 @@
       "defaultGalleryLayout": "grid"
     }
   },
-
+  "rich-text#tituloDes": {
+      "props": {
+          "blockClass": [
+              "titulosDes"
+          ],
+          "text": ""
+      }
+  },
+  "rich-text#Description": {
+    "props": {
+      "blockClass": [
+        "descriptionFinal"
+      ],
+      "text": "Descripción 2 final aquí"
+    }
+  },
+  "rich-text#enlaces": {
+    "props": {
+      "blockClass": [
+        "enlaces"
+      ],
+      "text": "Enlaces aquí final aquí"
+    }
+  },
   // * Row Result
   "flex-layout.row#result": {
     "children": ["flex-layout.col#filter", "flex-layout.col#content"],
@@ -98,6 +125,69 @@
     },
     "children": [
       "search-content" // ../search.jsonc
+    ]
+  },
+
+  // ? Quick access menu
+  "flex-layout.col#quick-access-menu": {
+    "props": {
+      "blockClass": ["QuickAccessMenu"],
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#quick-access-menu" // Agregamos un row para organizar el menú de accesos rápidos en 4 columnas
+    ]
+  },
+
+  "flex-layout.row#quick-access-menu": {
+    "children": [
+      "flex-layout.col#quick-access-1",
+      "flex-layout.col#quick-access-2",
+      "flex-layout.col#quick-access-3",
+      "flex-layout.col#quick-access-4"
+    ],
+    "props": {
+      "blockClass": ["QuickAccessMenu__Row"],
+      "preventHorizontalStretch": true
+    }
+  },
+
+  "flex-layout.col#quick-access-1": {
+    "props": {
+      "width": "25%",
+      "blockClass": ["QuickAccessMenu__Column"]
+    },
+    "children": [
+      "rich-text#tituloAccess", "menu-item#access1","menu-item#access2","menu-item#access3","menu-item#access4","menu-item#access5"
+    ]
+  },
+  "flex-layout.col#quick-access-2": {
+    "props": {
+      "width": "25%",
+      "blockClass": ["QuickAccessMenu__Column"]
+    },
+    "children": [
+      "rich-text#tituloAccess", "menu-item#access1","menu-item#access2","menu-item#access3","menu-item#access4","menu-item#access5"   
+    ]
+  },
+
+  "flex-layout.col#quick-access-3": {
+    "props": {
+      "width": "25%",
+      "blockClass": ["QuickAccessMenu__Column"]
+    },
+    "children": [
+      "rich-text#tituloAccess", "menu-item#access1","menu-item#access2","menu-item#access3","menu-item#access4","menu-item#access5"
+    ]
+  },
+
+  "flex-layout.col#quick-access-4": {
+    "props": {
+      "width": "25%",
+      "blockClass": ["QuickAccessMenu__Column"]
+    },
+    "children": [
+      "rich-text#tituloAccess", "menu-item#access1","menu-item#access2","menu-item#access3","menu-item#access4","menu-item#access5"
     ]
   }
 }
