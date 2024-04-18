@@ -1,0 +1,37 @@
+{
+    "store.custom#special-days": {
+        "blocks": [
+            "responsive-layout.desktop#especialDays",
+            "responsive-layout.mobile#especialDays",
+            "search-result-layout.customQuery#special-days"
+        ]
+    },
+    "responsive-layout.desktop#especialDays": {
+        "title": "Banner Desktop",
+        "children": [
+            "image#banner-principal-especialDays"
+        ]
+    },
+    "responsive-layout.mobile#especialDays": {
+        "title": "Banner Mobile",
+        "children": [
+            "image#banner-principal-especialDays-mobile"
+        ]
+    },
+    "search-result-layout.customQuery#special-days": {
+        "props": {
+            "querySchema": {
+            "hideUnavailableItems": true,
+            "maxItemsPerPage": 50,
+            "queryField": "",
+            "mapField": "productClusterIds",
+            "skusFilter": "ALL_AVAILABLE"
+            }
+        },
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    }
+}

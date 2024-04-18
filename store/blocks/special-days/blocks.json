@@ -1,0 +1,18 @@
+{
+    "image#banner-principal-especialDays": {
+        "props": {
+            "src": "",
+            "maxHeight": "auto",
+            "maxWidth": "100%",
+            "blockClass": "banner-principal"
+        }
+    },
+    "image#banner-principal-especialDays-mobile": {
+        "props": {
+            "src": "",
+            "maxHeight": "auto",
+            "maxWidth": "100%",
+            "blockClass": "banner-principal-mobile"
+        }
+    }
+}

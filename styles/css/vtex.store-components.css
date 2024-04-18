@@ -11,7 +11,14 @@
 .logoImage {
   width: 120px;
 }
-
+.imageElement--banner-principal{
+  width: 100%;
+  padding-top: 78px;
+}
+.imageElement--banner-principal-mobile{
+  width: 100%;
+  padding-top: -78px;
+}
 .searchBarContainer :global(.vtex-styleguide-9-x-input) {
   font-family: "Encode Sans", sans-serif;
   display: block;
